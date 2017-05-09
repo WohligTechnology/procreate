@@ -1,5 +1,5 @@
 // Link all the JS Docs here
-var myApp = angular.module('myApp', [
+var myApp = angular.module('myApplication', [
     'ui.router',
     'pascalprecht.translate',
     'angulartics',
