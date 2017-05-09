@@ -11,26 +11,26 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         // ];
 
    $scope.inspireImg = [{
-        img: 'frontend/img/homepage/home2.jpg'
+        img: 'frontend/img/homepage/home3.jpg'
     
     }, {
-        img: 'frontend/img/homepage/home2.jpg'
+        img: 'frontend/img/homepage/home3.jpg'
  
     },
     {
-        img: 'frontend/img/homepage/home2.jpg'
+        img: 'frontend/img/homepage/home3.jpg'
 
     },
     {
-        img: 'frontend/img/homepage/home2.jpg'
+        img: 'frontend/img/homepage/home3.jpg'
       
     },
     {
-        img: 'frontend/img/homepage/home2.jpg'
+        img: 'frontend/img/homepage/home3.jpg'
      
     },
     {
-        img: 'frontend/img/homepage/home2.jpg',
+        img: 'frontend/img/homepage/home3.jpg',
         titlehome2: 'THE TWO-DOLLAR BILL',
         title2: 'BY CHRISTIAN GREWE'
     }

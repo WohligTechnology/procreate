@@ -69,9 +69,14 @@ body {
 // }
 h4 {
     color: white;
-     font-family: gothambook;
+    font-family: 'gothambook';
+    //   font-family: gothamMedium;
 }
 
+
+textarea {
+    resize: none;
+}
 h1 {
     color: $brand-darkbrown;
     font-family: gothamMedium;
@@ -92,7 +97,9 @@ h3{
 .mt30 {
     margin-top: 30px;
 }
-
+.pdd47{
+    padding: 47px;
+}
 .mb30 {
     margin-bottom: 30px;
 }
@@ -100,7 +107,9 @@ h3{
 .mt70 {
     margin-top: 70px;
 }
-
+.mt3{
+   margin-top: 3px;
+}
 .mb70 {
     margin-bottom: 70px;
 }
@@ -115,8 +124,18 @@ h3{
     margin-top: 60px;
 }
 .padd25{
-    padding: 25px;
+    padding: 0px 25px;
 }
+.mt15{
+    margin-top: 15px;
+}
+.mb15{
+    margin-bottom: 15px;
+}
+.paddl{
+    padding-left: 40px;
+}
+
 
 nav li:hover .dropdown-menu {
     display: block;
@@ -140,9 +159,16 @@ footer {
     // p {
     //     margin: 0;
     // }
+   a{
+          color:white;
+   }
+    h2{
+        font-size: 35px;
+    }
 
     h5{
-        font-weight: 700;
+        font-weight: 600;
+        font-size: 20px;
     }
 
     ul{
@@ -153,16 +179,20 @@ footer {
 
   li{
       font-family: gothamLight;
-      font-size: 12px;
+    //   font-size: 15px;
   }
   p{
       font-family: gotham-el;
+    //   font-size: 14px;
   }
- a{
+ .text-decoration{
       font-family: gotham-el;
  
        text-decoration: underline;
      color:white;
+ }
+ .robot{
+     margin-top: -4px;
  }
 a:hover{
         color:white;
@@ -227,13 +257,18 @@ a:hover{
     }
     
     .w100 {
-        width: 100%;
+        width: 94%;
         border-radius: 4px;
         height: 110px;
     }
+    .w94{
+        width: 94%;
+    }
     .btn-blue {
-        background-color: $brand-btnblue;
-        border-radius: 3px;
+    background-color: $brand-btnblue;
+    font-size: 11px;
+    border-radius: 0;
+    padding: 6px 15px;
     }
     .btn-blue:hover{
                   background-color: $brand-btnblue;
@@ -317,19 +352,29 @@ a:hover{
 header {
     transition: all 300ms ease;
     .w200 {
-        width: 45%;
+        width: 85%;
         // margin-left: 35px;
+        padding-top: 18px;
+    }
+    .mb20{
+        margin-bottom: 20px;
     }
     .img-a {
         height: 70px;
         margin-left: 80px;
     }
+   
     .navbar-nav {
         a {
-            color: $brand-lightblack !important;
+            color: #424242 !important;
             top: 18px;
             font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
         }
+    }
+    .navbar{
+        background-color: white;
     }
 }
 
@@ -345,7 +390,9 @@ p {
     color: white;
     font-family: gothambook;
 }
-
+ .navbar-brand{
+        margin-left: -23px !important;
+    }
 
 // homepage start
 
@@ -448,15 +495,19 @@ p {
 .text-color {
     a{
             color: $brand-black;
+           
+            font-size: 15px;
+            font-weight: 600;
     }
     p{
-        text-align: justify;
-        padding: 25px;
-        font-size: 10px;
+        padding: 20px;
+        font-size: 14px;
+        color: $brand-lightblack;
     }
     h4{
         
         font-family: gothambook;
+        font-size: 20px;
     }
     .color-darkblue{
 color:$brand-darkblue;
@@ -493,14 +544,17 @@ padding-left: 26px;
 }
 
 
-
 .bg-yellow {
     background-color: $brand-yellow;
-    h1 {
-        // margin-left: 233px;
-    }
+.capabilities-cont{
     h4 {
         color: $brand-darkbrown;
+        font-family: gothamBold;
+        margin-bottom: 0;
+
+    }
+    ul{
+        padding-bottom: 20px;
     }
     li {
         color: $brand-brown;
@@ -509,12 +563,23 @@ padding-left: 26px;
     }
     a{
         color:$brand-brown;
+        font-family: gothamBold;
+        font-weight: 600;
+        padding-left: 40px;
+        font-size: 14px;
         
     }
 }
 
+}
+
 .bg-blue {
     background-color: $brand-blue;
+    padding: 40px 0;
+    h4{
+        font-size: 23px;
+        margin-top: 0;
+    }
     h1 {
         color: white;
     }
@@ -522,14 +587,15 @@ padding-left: 26px;
         background-color: $brand-blue;
     }
     p {
-        font-size: 12px;
+        font-size: 14px;
         padding: 10px 100px;
-        text-align: justify;
+        margin-bottom: 0;
     }
     h3 {
         color: white;
         margin-left: 100px;
-        
+        font-size: 20px;
+        margin-top: 0;
     }
     h1 {
         margin-top: 30px;
@@ -616,4 +682,12 @@ right: -6px;
     display: none;
 }
 }
+}
+.paddb15{
+    padding-bottom: 15px;
+}
+.border-bottom{
+    border-bottom: 2px solid #d3d5d6;
+    height: 90px;
+    margin:0 10px;
 }
