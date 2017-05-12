@@ -27,7 +27,13 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             url: "/form",
             templateUrl: tempateURL,
             controller: 'FormCtrl'
-        });
+        })
+         .state('approach', {
+            url: "/approach",
+            templateUrl: tempateURL,
+            controller: 'ApproachCtrl'
+        })
+        
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);
 });

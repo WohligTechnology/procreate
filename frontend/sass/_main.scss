@@ -21,6 +21,9 @@ $brand-darkgreen:#00d2aa;
 $brand-smartgreen:#8cd26e;
 $brand-btnblue:#85d2e5;
 $brand-lightblack:#707070;
+$brand-pink:#e46fbf;
+$brand-red:#fe7349;
+$brand-lightpink:#ed7095;
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 /* Bootstrap Variables Goes Here */
@@ -132,7 +135,6 @@ h3 {
 // .mt60 {
 //     margin-top: 60px;
 // }
-
 .padd25 {
     padding: 0px 25px;
 }
@@ -147,6 +149,14 @@ h3 {
 
 .paddl {
     padding-left: 40px;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
 }
 
 nav li:hover .dropdown-menu {
@@ -292,7 +302,7 @@ footer {
     .mar15 {
         margin: 15px 0px;
     }
-    .mt27{
+    .mt27 {
         margin-top: 27px;
     }
 }
@@ -481,11 +491,9 @@ p {
     .flex-control-paging li a.flex-active {
         background: blue !important;
     }
-
-   .w125{
-       width: 125px;
+    .w125 {
+        width: 125px;
     }
- 
 }
 
 .circle {
@@ -552,7 +560,7 @@ p {
 
 .bg-yellow {
     background-color: $brand-yellow;
-    .padd0{
+    .padd0 {
         padding: 0px;
     }
     .capabilities-cont {
@@ -652,14 +660,11 @@ p {
         right: -6px;
         top: -3px;
     }
-
-    .mar-top-bot{
+    .mar-top-bot {
         margin-top: 20px;
         margin-bottom: 12px;
     }
 }
-
-
 
 .icon-slider {
     .relative {
@@ -689,4 +694,151 @@ p {
 
 .paddb15 {
     padding-bottom: 15px;
+}
+
+// home page end
+// approach page start
+.top50 {
+    top: 25%;
+    left: 15%;
+}
+
+.human {
+    img {
+        width: 100%;
+        position: relative;
+    }
+    h1 {
+        color: white;
+        font-size: 50px;
+    }
+    h3 {
+        padding-top: 30%;
+        color: white;
+    }
+}
+
+.brand-matter {
+    img {
+        width: 100%;
+    }
+    .barnd-para {
+        h4 {
+            // padding: 11% 33% 11% 0;
+            padding: 24% 0;
+            color: gray;
+            font-size: 27px;
+        }
+    }
+    .brand-text {
+        h1 {
+            font-size: 50px;
+            padding-left: 10%;
+            padding-top: 7%;
+            color:gray;
+        }
+    }
+}
+
+.brain {
+    .top25{
+        margin-top: 25%;
+    }
+    h4 {
+        //    padding: 24% 0;
+        color: black;
+        font-size: 27px;
+        color:gray;
+    }
+    h1{
+        color:gray;
+    }
+    .margin-tb {
+        margin: 10% 0;
+        width: 90%;
+        padding-left: 11%;
+        img {
+            width: 100%;
+        }
+    }
+    .design-text {
+        h1{
+            color:white;
+        }
+        img {
+            width: 100%;
+        }
+        .top0 {
+            top: 0;
+            transform: translate(50%, 50%);
+        }
+    }
+}
+
+.design {
+    .white-sec {
+        margin: 4% 0;
+        h1 {
+            font-size: 70px;
+            color:$brand-pink;
+        }
+    }
+    .display-flex {
+        display: inline-block;
+        width: 30%;
+        img {
+            width: 100%;
+        }
+    }
+    .grad{
+          display: inline-block;
+        width: 33%;
+           height: 450px;
+           vertical-align: top;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #fb6d75 , #e4a96f); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #fb6d75, #e4a96f); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #fb6d75, #e4a96f); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #fb6d75 , #e4a96f); /* Standard syntax (must be last) */
+    }
+    .grad2{
+        display: inline-block;
+ width: 33%;
+           height: 450px;
+             vertical-align: top;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #e56f86 , #f19871); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #e56f86, #f19871); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #e56f86, #f19871); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #e56f86 , #f19871); /* Standard syntax (must be last) */
+    }
+    .grad3{
+          display: inline-block;
+ width: 33%;
+           height: 450px;
+             vertical-align: top;
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left, #d86df9 , #fe7347); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d86df9, #fe7347); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d86df9, #fe7347); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d86df9 , #fe7347); /* Standard syntax (must be last) */
+    }
+    .text-size{
+
+        h1{
+            font-size: 60px;
+            color:white;
+        }
+        h2{
+            font-size: 40px;
+            color:white;
+        }
+        p{
+            font-size: 20px;
+            color:white;
+        }
+    }
+    // .mar-l{
+    //     margin-left: 10%;
+    // }
 }
