@@ -9308,9 +9308,6 @@ h3 {
 .fbold {
   font-family: gothamBold; }
 
-.mt60 {
-  margin-top: 60px; }
-
 .padd25 {
   padding: 0px 25px; }
 
@@ -9414,6 +9411,8 @@ footer {
     font-size: 12px; }
   footer .mar15 {
     margin: 15px 0px; }
+  footer .mt27 {
+    margin-top: 27px; }
 
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
@@ -9550,6 +9549,9 @@ p {
 .icon-slider .flex-control-paging li a.flex-active {
   background: blue !important; }
 
+.icon-slider .w125 {
+  width: 125px; }
+
 .circle .w20 {
   width: 19%;
   height: auto;
@@ -9607,6 +9609,8 @@ p {
 
 .bg-yellow {
   background-color: #fec622; }
+  .bg-yellow .padd0 {
+    padding: 0px; }
   .bg-yellow .capabilities-cont h4 {
     color: #5f2f0f;
     font-family: gothamBold;
@@ -9620,7 +9624,6 @@ p {
     color: #683818;
     font-family: gothamBold;
     font-weight: 600;
-    padding-left: 40px;
     font-size: 14px; }
 
 .bg-blue {
@@ -9658,7 +9661,7 @@ p {
   .bg-blue .flex-direction-nav .flex-nav-next {
     display: none; }
   .bg-blue .flex-direction-nav a {
-    top: 26%;
+    top: 9%;
     width: 8%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -9679,9 +9682,9 @@ p {
     border-radius: 50%;
     right: -6px;
     top: -3px; }
-
-.w125 {
-  width: 100px; }
+  .bg-blue .mar-top-bot {
+    margin-top: 20px;
+    margin-bottom: 12px; }
 
 .icon-slider .relative {
   position: relative; }

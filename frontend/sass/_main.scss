@@ -129,9 +129,9 @@ h3 {
     font-family: gothamBold;
 }
 
-.mt60 {
-    margin-top: 60px;
-}
+// .mt60 {
+//     margin-top: 60px;
+// }
 
 .padd25 {
     padding: 0px 25px;
@@ -291,6 +291,9 @@ footer {
     }
     .mar15 {
         margin: 15px 0px;
+    }
+    .mt27{
+        margin-top: 27px;
     }
 }
 
@@ -478,6 +481,10 @@ p {
     .flex-control-paging li a.flex-active {
         background: blue !important;
     }
+
+   .w125{
+       width: 125px;
+    }
  
 }
 
@@ -545,6 +552,9 @@ p {
 
 .bg-yellow {
     background-color: $brand-yellow;
+    .padd0{
+        padding: 0px;
+    }
     .capabilities-cont {
         h4 {
             color: $brand-darkbrown;
@@ -562,7 +572,7 @@ p {
             color: $brand-brown;
             font-family: gothamBold;
             font-weight: 600;
-            padding-left: 40px;
+            // padding-left: 40px;
             font-size: 14px;
         }
     }
@@ -616,7 +626,7 @@ p {
             display: none;
         }
         a {
-            top: 26%;
+            top: 9%;
             width: 8%;
             background-repeat: no-repeat;
             background-position: center center;
@@ -642,11 +652,14 @@ p {
         right: -6px;
         top: -3px;
     }
+
+    .mar-top-bot{
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
 }
 
-.w125 {
-    width: 100px;
-}
+
 
 .icon-slider {
     .relative {
