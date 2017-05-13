@@ -9152,27 +9152,28 @@ button.close {
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
-h4 {
-  color: white;
-  font-family: 'gothambook'; }
+body,
+h4,
+h5,
+p {
+  font-family: gothambook; }
 
-textarea {
-  resize: none; }
+h4,
+h5, h6,
+p {
+  color: white; }
 
 h1 {
-  color: #5f2f0f;
-  font-family: gothamMedium; }
-
-p {
-  font-family: gothambook;
-  color: white; }
-
-h5 {
-  font-family: gothambook;
-  color: white; }
+  color: #5f2f0f; }
 
 h3 {
   font-family: gothamBold; }
+
+.fbold {
+  font-family: gothamBold; }
+
+textarea {
+  resize: none; }
 
 .mt30 {
   margin-top: 30px; }
@@ -9195,9 +9196,6 @@ h3 {
 .ml40 {
   margin-left: 40px; }
 
-.fbold {
-  font-family: gothamBold; }
-
 .padd25 {
   padding: 0px 25px; }
 
@@ -9215,6 +9213,12 @@ h3 {
 
 .relative {
   position: relative; }
+
+.padding0 {
+  padding: 0; }
+
+.margin0 {
+  margin: 0; }
 
 nav li:hover .dropdown-menu {
   display: block; }
@@ -9295,8 +9299,8 @@ footer {
     font-size: 11px;
     border-radius: 0;
     padding: 6px 15px; }
-  footer .btn-blue:hover {
-    background-color: #85d2e5; }
+    footer .btn-blue:hover {
+      background-color: #85d2e5; }
   footer .circle-img4 {
     width: 70%; }
   footer .block-inline {
@@ -9724,6 +9728,175 @@ p {
 .design .text-size p {
   font-size: 20px;
   color: white; }
+
+.about h2 {
+  font-size: 36px; }
+
+.about h3 {
+  font-size: 26px; }
+
+.about h4 {
+  font-size: 20px; }
+
+.about h5 {
+  font-size: 18px; }
+
+.about h6 {
+  font-size: 16px; }
+
+.about p {
+  font-size: 15px; }
+
+.about h4, .about h6 {
+  color: #333; }
+
+.team-details h3 {
+  padding: 50px 0; }
+
+.team-full p {
+  font-size: 30px; }
+
+.team-full h4 {
+  margin-bottom: 5px; }
+
+.trust p, .team-full p {
+  color: #7b7b7b; }
+
+.trust h3, .team-details h3 {
+  color: #e50d58; }
+
+.main-person {
+  margin-bottom: 40px; }
+
+.employee-names {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 999; }
+  .employee-names h4 {
+    color: #fff; }
+
+.employee-detail {
+  background: #e60774;
+  background: linear-gradient(-90deg, #e31141, #e60774);
+  padding: 15px 50px;
+  min-height: 600px;
+  position: relative; }
+  .employee-detail:after {
+    content: "";
+    border-bottom: 20px solid #e3123e;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: 30px;
+    right: -30px;
+    z-index: 999;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg); }
+  .employee-detail p {
+    margin: 14px 0; }
+  .employee-detail h6 {
+    color: #fff; }
+
+.second-person .employee-detail:after {
+  position: absolute;
+  top: 30px;
+  right: inherit;
+  left: -30px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  border-bottom: 20px solid #e60774; }
+
+.bgrey {
+  background-color: #e4e4e4;
+  padding: 50px 0 60px; }
+
+.imgs,
+.clients {
+  width: 250px;
+  height: 250px;
+  background: url(../img/10.png) no-repeat top center;
+  background-size: cover;
+  margin: 0 auto; }
+
+.img1 {
+  background-image: url("../img/about/rajesh.jpg"); }
+
+.img2 {
+  background-image: url("../img/about/imran.jpg"); }
+
+.img3 {
+  background-image: url("../img/about/nitin.jpg"); }
+
+.img4 {
+  background-image: url("../img/about/sunil.jpg"); }
+
+.imgs {
+  position: relative;
+  border-bottom: 15px solid #e60774; }
+  .imgs:after {
+    content: "";
+    border-bottom: 20px solid #e60774;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 10px; }
+  .imgs:hover .employee-names {
+    display: block; }
+  .imgs:hover .overlaying {
+    background-color: rgba(230, 7, 116, 0.71);
+    background: linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65));
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+
+.clients {
+  width: 180px;
+  height: 100px;
+  border-right: 3px solid #ccc;
+  box-sizing: border-box;
+  background-size: contain; }
+
+.client1 {
+  background-image: url("../img/32.png"); }
+
+.row1 {
+  margin-top: 50px; }
+  .row1 .row .col-md-2:nth-of-type(6) .clients {
+    border: none !important; }
+
+.figures {
+  background: url("../img/about/cheif.jpg") no-repeat center;
+  background-size: cover !important;
+  min-height: 600px; }
+
+.fig1 {
+  background: url("../img/about/director.jpg") no-repeat center; }
+
+.clientele {
+  position: relative;
+  transition: all ease 600ms;
+  cursor: pointer; }
+  .clientele .overlays {
+    background-color: rgba(228, 228, 228, 0.54);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
+  .clientele:hover .overlays {
+    background-color: rgba(228, 228, 228, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; }
 
 #fancybox-loading,
 .fancybox-close,

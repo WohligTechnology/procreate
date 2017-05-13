@@ -28,6 +28,12 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: tempateURL,
             controller: 'FormCtrl'
         })
+
+          .state('about', {
+            url: "/about",
+            templateUrl: tempateURL,
+            controller: 'AboutCtrl'
+        })
          .state('approach', {
             url: "/approach",
             templateUrl: tempateURL,

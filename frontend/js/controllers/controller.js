@@ -199,6 +199,13 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         };
     })
 
+        .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
+        $scope.template = TemplateService.getHTML("content/about.html");
+        TemplateService.title = "About"; //This is the Title of the Website
+        $scope.navigation = NavigationService.getNavigation();
+    })
+
+
     //Example API Controller
     .controller('DemoAPICtrl', function ($scope, TemplateService, apiService, NavigationService, $timeout) {
         apiService.getDemo($scope.formData, function (data) {

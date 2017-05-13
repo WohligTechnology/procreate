@@ -5,25 +5,26 @@ $brand-success: #84ce3c !default;
 $brand-warning: #ffec39 !default;
 $brand-danger: #fc483f !default;
 $brand-info: #000072 !default;
-$brand-black:#424242;
-$brand-green:#39b548;
-$brand-brown:#683818;
-$brand-darkbrown:#5f2f0f;
-$brand-yellow:#fec622;
-$brand-lightergreen:#8cffff;
-$brand-blue:#00928d;
-$brand-gray:#3c3c3c;
-$brand-lightblue:#4dbed9;
-$brand-darkblue:#0082d2;
-$brand-lightgreen:#00aae1;
-$brand-skyblue:#00d7e1;
-$brand-darkgreen:#00d2aa;
-$brand-smartgreen:#8cd26e;
-$brand-btnblue:#85d2e5;
-$brand-lightblack:#707070;
-$brand-pink:#e46fbf;
-$brand-red:#fe7349;
-$brand-lightpink:#ed7095;
+$brand-black:#424242 !default;
+$brand-green:#39b548 !default;
+$brand-brown:#683818 !default;
+$brand-darkbrown:#5f2f0f !default;
+$brand-yellow:#fec622 !default;
+$brand-lightergreen:#8cffff !default;
+$brand-blue:#00928d !default;
+$brand-gray:#3c3c3c !default;
+$brand-grey:#e4e4e4 !default;
+$brand-lightblue:#4dbed9 !default;
+$brand-darkblue:#0082d2 !default;
+$brand-lightgreen:#00aae1 !default;
+$brand-skyblue:#00d7e1 !default;
+$brand-darkgreen:#00d2aa !default;
+$brand-smartgreen:#8cd26e !default;
+$brand-btnblue:#85d2e5 !default;
+$brand-lightblack:#707070 !default;
+$brand-pink:#e46fbf !default;
+$brand-red:#fe7349 !default;
+$brand-lightpink:#ed7095 !default;
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 /* Bootstrap Variables Goes Here */
@@ -54,50 +55,33 @@ $brand-lightpink:#ed7095;
 }
 
 @import "other/font-fix";
-body {
-    // padding-top: 70px;
+body,
+h4,
+h5,
+p {
+    font-family: gothambook;
 }
 
-// img.loading {
-//     text-align: center;
-//     opacity: 1;
-//     width: 32px !important;
-//     height: auto;
-// }
-// img {
-//     opacity: 0;
-//     transition: all 300ms ease;
-// }
-// img.doneLoading {
-//     opacity: 1;
-// }
-h4 {
+h4,
+h5,h6,
+p {
     color: white;
-    font-family: 'gothambook';
-    //   font-family: gothamMedium;
-}
-
-textarea {
-    resize: none;
 }
 
 h1 {
     color: $brand-darkbrown;
-    font-family: gothamMedium;
-}
-
-p {
-    font-family: gothambook;
-    color: white;
-}
-
-h5 {
-    font-family: gothambook;
-    color: white;
 }
 
 h3 {
     font-family: gothamBold;
+}
+
+.fbold {
+    font-family: gothamBold;
+}
+
+textarea {
+    resize: none;
 }
 
 .mt30 {
@@ -128,13 +112,6 @@ h3 {
     margin-left: 40px;
 }
 
-.fbold {
-    font-family: gothamBold;
-}
-
-// .mt60 {
-//     margin-top: 60px;
-// }
 .padd25 {
     padding: 0px 25px;
 }
@@ -159,6 +136,13 @@ h3 {
     position: relative;
 }
 
+.padding0 {
+    padding: 0;
+}
+.margin0{
+    margin: 0;
+}
+
 nav li:hover .dropdown-menu {
     display: block;
 }
@@ -175,12 +159,7 @@ a,
 }
 
 footer {
-    // font-size: 12px;
     background-color: $brand-black;
-    // padding: 10px 0;
-    // p {
-    //     margin: 0;
-    // }
     a {
         color: white;
     }
@@ -198,11 +177,9 @@ footer {
     }
     li {
         font-family: gothamLight;
-        //   font-size: 15px;
     }
     p {
         font-family: gotham-el;
-        //   font-size: 14px;
     }
     .text-decoration {
         font-family: gotham-el;
@@ -219,8 +196,8 @@ footer {
     .bg-white {
         ul {
             li {
-                width: 130px;
-                height: 150px;
+                @include size(130px,
+                150px);
                 display: inline-block;
                 margin: 0px;
                 padding: 0px;
@@ -239,9 +216,6 @@ footer {
             font-family: gothamBold;
         }
     }
-    // .text-right{
-    //     float:right;
-    // }
     .contact {
         float: right;
     }
@@ -262,7 +236,6 @@ footer {
         color: white;
     }
     .form-control {
-        // width: 98%;
         height: 28px;
         border-radius: 3px;
     }
@@ -271,21 +244,17 @@ footer {
         width: 19%;
     }
     .w100 {
-        // width: 94%;
         border-radius: 4px;
         height: 110px;
     }
-    // .w94{
-    //     width: 94%;
-    // }
     .btn-blue {
         background-color: $brand-btnblue;
         font-size: 11px;
         border-radius: 0;
         padding: 6px 15px;
-    }
-    .btn-blue:hover {
-        background-color: $brand-btnblue;
+        &:hover {
+            background-color: $brand-btnblue;
+        }
     }
     .circle-img4 {
         width: 70%;
@@ -370,7 +339,6 @@ header {
     transition: all 300ms ease;
     .w200 {
         width: 85%;
-        // margin-left: 35px;
         padding-top: 18px;
     }
     .mb20 {
@@ -580,7 +548,6 @@ p {
             color: $brand-brown;
             font-family: gothamBold;
             font-weight: 600;
-            // padding-left: 40px;
             font-size: 14px;
         }
     }
@@ -682,13 +649,9 @@ p {
         }
     }
     .overlay {
-        //  background-color:rgba(184, 255, 255, 0.62);
         background-color: rgba(140, 255, 255, 0.71);
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+        @include position(absolute,
+        0 0 0 0);
     }
 }
 
@@ -735,23 +698,23 @@ p {
             font-size: 50px;
             padding-left: 10%;
             padding-top: 7%;
-            color:gray;
+            color: gray;
         }
     }
 }
 
 .brain {
-    .top25{
+    .top25 {
         margin-top: 25%;
     }
     h4 {
         //    padding: 24% 0;
         color: black;
         font-size: 27px;
-        color:gray;
+        color: gray;
     }
-    h1{
-        color:gray;
+    h1 {
+        color: gray;
     }
     .margin-tb {
         margin: 10% 0;
@@ -762,8 +725,8 @@ p {
         }
     }
     .design-text {
-        h1{
-            color:white;
+        h1 {
+            color: white;
         }
         img {
             width: 100%;
@@ -780,7 +743,7 @@ p {
         margin: 4% 0;
         h1 {
             font-size: 70px;
-            color:$brand-pink;
+            color: $brand-pink;
         }
     }
     .display-flex {
@@ -790,55 +753,346 @@ p {
             width: 100%;
         }
     }
-    .grad{
-          display: inline-block;
-        width: 33%;
-           height: 450px;
-           vertical-align: top;
-    background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left, #fb6d75 , #e4a96f); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #fb6d75, #e4a96f); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #fb6d75, #e4a96f); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #fb6d75 , #e4a96f); /* Standard syntax (must be last) */
-    }
-    .grad2{
+    .grad {
         display: inline-block;
- width: 33%;
-           height: 450px;
-             vertical-align: top;
-    background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left, #e56f86 , #f19871); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #e56f86, #f19871); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #e56f86, #f19871); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #e56f86 , #f19871); /* Standard syntax (must be last) */
+        width: 33%;
+        height: 450px;
+        vertical-align: top;
+        background: red;
+        /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #fb6d75, #e4a96f);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #fb6d75, #e4a96f);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #fb6d75, #e4a96f);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #fb6d75, #e4a96f);
+        /* Standard syntax (must be last) */
     }
-    .grad3{
-          display: inline-block;
- width: 33%;
-           height: 450px;
-             vertical-align: top;
-    background: red; /* For browsers that do not support gradients */    
-    background: -webkit-linear-gradient(left, #d86df9 , #fe7347); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #d86df9, #fe7347); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #d86df9, #fe7347); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #d86df9 , #fe7347); /* Standard syntax (must be last) */
+    .grad2 {
+        display: inline-block;
+        width: 33%;
+        height: 450px;
+        vertical-align: top;
+        background: red;
+        /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #e56f86, #f19871);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #e56f86, #f19871);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #e56f86, #f19871);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #e56f86, #f19871);
+        /* Standard syntax (must be last) */
     }
-    .text-size{
-
-        h1{
+    .grad3 {
+        display: inline-block;
+        width: 33%;
+        height: 450px;
+        vertical-align: top;
+        background: red;
+        /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #d86df9, #fe7347);
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #d86df9, #fe7347);
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #d86df9, #fe7347);
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #d86df9, #fe7347);
+        /* Standard syntax (must be last) */
+    }
+    .text-size {
+        h1 {
             font-size: 60px;
-            color:white;
+            color: white;
         }
-        h2{
+        h2 {
             font-size: 40px;
-            color:white;
+            color: white;
         }
-        p{
+        p {
             font-size: 20px;
-            color:white;
+            color: white;
         }
     }
-    // .mar-l{
-    //     margin-left: 10%;
-    // }
 }
+
+//ruchira//
+//about us//
+.about {
+    h2 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 15px;
+    }
+    h4,h6 {
+        color: #333;
+    }
+}
+
+.team-details {
+    h3{
+ padding: 50px 0;
+    }
+   
+}
+
+.team-full{
+    p{
+        font-size: 30px;
+    }
+    h4{
+        margin-bottom: 5px;
+    }
+}
+
+.trust,.team-full{
+    p{
+      color: #7b7b7b;    
+    }
+}
+
+.trust,.team-details{
+    h3{
+ color: #e50d58;
+    }
+   
+}
+
+.main-person {
+    margin-bottom: 40px;
+}
+
+.employee-names{
+    display: none;
+    @include position(absolute,50% null null 50%);
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    h4{
+ color: #fff;
+    }
+   
+}
+
+
+.employee-detail {
+    background: #e60774;
+    background: linear-gradient(-90deg, #e31141, #e60774);
+    padding: 15px 50px;
+    min-height: 600px;
+    position: relative;
+    &:after {
+        content: "";
+        border-bottom: 20px solid #e3123e;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        @include position(absolute,
+        30px -30px null null);
+        z-index: 999;
+        transform: rotate(90deg);
+    }
+    p{
+        margin: 14px 0;
+    }
+    h6{
+        color: #fff;
+    }
+}
+
+.second-person{
+    .employee-detail{
+        &:after{
+             @include position(absolute,
+        30px  inherit null -30px);
+         transform: rotate(-90deg);
+             border-bottom: 20px solid #e60774;
+        }
+    }
+}
+
+.bgrey {
+    background-color: $brand-grey;
+    padding: 50px 0 60px;
+}
+
+.imgs,
+.clients {
+    @include size(250px,
+    250px);
+    background: url(../img/10.png) no-repeat top center;
+    background-size: cover;
+    margin: 0 auto;
+}
+.img1{
+     background-image: url("../img/about/rajesh.jpg");
+}
+
+.img2 {
+    background-image: url("../img/about/imran.jpg");
+}
+
+.img3 {
+    background-image: url("../img/about/nitin.jpg");
+}
+
+.img4 {
+    background-image: url("../img/about/sunil.jpg");
+}
+
+.imgs{
+    position: relative;
+    border-bottom: 15px solid #e60774;
+    &:after{
+        content: "";
+        border-bottom: 20px solid #e60774;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        @include position(absolute,
+        null  null 0 10px);
+    }
+    &:hover{
+        .employee-names{
+            display: block;
+        }
+
+        .overlaying{
+ background-color: rgba(230, 7, 116, 0.71);
+    background: linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65));
+        @include position(absolute,
+        0 0 0 0);
+        }
+    }
+}
+
+.clients {
+    @include size(180px,
+    100px);
+    border-right: 3px solid #ccc;
+    box-sizing: border-box;
+    background-size: contain;
+}
+
+.client1{
+     background-image: url("../img/32.png");
+}
+
+
+// .client2 {
+//     background-image: url("../img/about/itc.png");
+// }
+
+// .client3 {
+//     background-image: url("../img/about/parle.png");
+// }
+
+// .client4 {
+//     background-image: url("../img/about/marico.png");
+// }
+
+// .client5 {
+//     background-image: url("../img/about/sign.png");
+// }
+
+// .client6 {
+//     background-image: url("../img/about/kansai.png");
+// }
+
+// .client7 {
+//     background-image: url("../img/about/dabur.png");
+// }
+// .client8 {
+//     background-image: url("../img/about/goma.png");
+// }
+
+// .client9 {
+//     background-image: url("../img/about/mega.png");
+// }
+
+// .client10 {
+//     background-image: url("../img/about/upl.png");
+// }
+
+// .client11 {
+//     background-image: url("../img/about/hersheys.png");
+// }
+
+// .client12 {
+//     background-image: url("../img/about/ss.png");
+// }
+
+// .client13 {
+//     background-image: url("../img/about/vlcc.png");
+// }
+
+// .client14 {
+//     background-image: url("../img/about/mapro.png");
+// }
+
+// .client15 {
+//     background-image: url("../img/about/nabil.png");
+// }
+
+// .client16 {
+//     background-image: url("../img/about/sarda.png");
+// }
+
+// .client17 {
+//     background-image: url("../img/about/seths.png");
+// }
+
+// .client18 {
+//     background-image: url("../img/about/lotus.png");
+// }
+
+.row1 {
+    margin-top: 50px;
+    .row {
+        .col-md-2:nth-of-type(6) {
+            .clients {
+                border: none !important;
+            }
+        }
+    }
+}
+.figures{
+    //  @include size(250px,
+    // 250px);
+    background: url("../img/about/cheif.jpg") no-repeat center;
+   background-size: cover !important;
+    min-height: 600px;
+}
+.fig1{
+    background: url("../img/about/director.jpg") no-repeat center; 
+}
+.clientele{
+    position: relative;
+    transition: all ease 600ms;
+    cursor:pointer;
+    .overlays{
+       background-color: rgba(228, 228, 228, 0.54);
+        @include position(absolute,0 0 0 0);
+    }
+    &:hover{
+        .overlays{
+       background-color: rgba(228, 228, 228, 0);
+        @include position(absolute,0 0 0 0);
+    } 
+    }
+}
+
+
+//about us//
+//ruchira//
