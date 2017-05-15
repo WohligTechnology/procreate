@@ -1004,6 +1004,14 @@ p {
     box-sizing: border-box;
     background-size: contain;
     background-image: none !important;
+    img{
+ margin: 0 auto;
+ opacity: 0.5;
+ &:hover{
+     opacity: 1;
+ }
+    }
+   
 }
 
 // .client5 {
