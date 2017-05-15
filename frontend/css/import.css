@@ -9750,6 +9750,29 @@ p {
 .about h4, .about h6 {
   color: #333; }
 
+.row-flex {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  display: -webkit-box;
+  display: flex;
+  width: 100%; }
+
+.col-flex {
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-display: block;
+  -moz-display: block;
+  -ms-display: block;
+  display: block;
+  width: 50%; }
+
+.border-right {
+  border-right: 2px solid #ccc; }
+
 .team-details h3 {
   padding: 50px 0; }
 
@@ -9769,6 +9792,9 @@ p {
   margin-bottom: 40px; }
 
 .employee-names {
+  -webkit-display: none;
+  -moz-display: none;
+  -ms-display: none;
   display: none;
   position: absolute;
   top: 50%;
@@ -9846,6 +9872,9 @@ p {
     bottom: 0;
     left: 10px; }
   .imgs:hover .employee-names {
+    -webkit-display: block;
+    -moz-display: block;
+    -ms-display: block;
     display: block; }
   .imgs:hover .overlaying {
     background-color: rgba(230, 7, 116, 0.71);
@@ -9859,12 +9888,8 @@ p {
 .clients {
   width: 180px;
   height: 100px;
-  border-right: 3px solid #ccc;
   box-sizing: border-box;
   background-size: contain; }
-
-.client1 {
-  background-image: url("../img/32.png"); }
 
 .row1 {
   margin-top: 50px; }

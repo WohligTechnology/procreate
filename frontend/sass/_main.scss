@@ -843,6 +843,28 @@ p {
     }
 }
 
+@mixin display($display) {
+    -webkit-display: $display;
+    -moz-display: $display;
+    -ms-display: $display;
+    display: $display;
+}
+
+.row-flex {
+    @include display(flex);
+    width: 100%;
+}
+
+.col-flex {
+    @include flex(1);
+    @include display(block);
+    width: 50%;
+}
+
+.border-right{
+    border-right: 2px solid #ccc;
+}
+
 .team-details {
     h3{
  padding: 50px 0;
@@ -877,14 +899,13 @@ p {
 }
 
 .employee-names{
-    display: none;
+    @include display(none);
     @include position(absolute,50% null null 50%);
     transform: translate(-50%,-50%);
     z-index: 999;
     h4{
  color: #fff;
     }
-   
 }
 
 
@@ -965,7 +986,7 @@ p {
     }
     &:hover{
         .employee-names{
-            display: block;
+             @include display(block);
         }
 
         .overlaying{
@@ -980,27 +1001,9 @@ p {
 .clients {
     @include size(180px,
     100px);
-    border-right: 3px solid #ccc;
     box-sizing: border-box;
     background-size: contain;
 }
-
-.client1{
-     background-image: url("../img/32.png");
-}
-
-
-// .client2 {
-//     background-image: url("../img/about/itc.png");
-// }
-
-// .client3 {
-//     background-image: url("../img/about/parle.png");
-// }
-
-// .client4 {
-//     background-image: url("../img/about/marico.png");
-// }
 
 // .client5 {
 //     background-image: url("../img/about/sign.png");
@@ -1068,15 +1071,15 @@ p {
     }
 }
 .figures{
-    //  @include size(250px,
-    // 250px);
     background: url("../img/about/cheif.jpg") no-repeat center;
    background-size: cover !important;
     min-height: 600px;
 }
+
 .fig1{
     background: url("../img/about/director.jpg") no-repeat center; 
 }
+
 .clientele{
     position: relative;
     transition: all ease 600ms;
