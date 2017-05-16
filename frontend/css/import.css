@@ -9772,8 +9772,7 @@ p {
 
 .brain .design-text .top0 {
   top: 0;
-  -webkit-transform: translate(50%, 50%);
-          transform: translate(50%, 50%); }
+  transform: translate(50%, 50%); }
 
 .design .white-sec {
   margin: 4% 0; }
@@ -9794,8 +9793,11 @@ p {
   vertical-align: top;
   background: red;
   /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #fb6d75, #e4a96f);
   /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #fb6d75, #e4a96f);
   /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #fb6d75, #e4a96f);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #fb6d75, #e4a96f);
   /* Standard syntax (must be last) */ }
@@ -9807,8 +9809,11 @@ p {
   vertical-align: top;
   background: red;
   /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #e56f86, #f19871);
   /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #e56f86, #f19871);
   /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #e56f86, #f19871);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #e56f86, #f19871);
   /* Standard syntax (must be last) */ }
@@ -9820,8 +9825,11 @@ p {
   vertical-align: top;
   background: red;
   /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #d86df9, #fe7347);
   /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #d86df9, #fe7347);
   /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #d86df9, #fe7347);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #d86df9, #fe7347);
   /* Standard syntax (must be last) */ }
@@ -9863,13 +9871,14 @@ p {
   -webkit-display: flex;
   -moz-display: flex;
   -ms-display: flex;
-  display: -webkit-box;
   display: flex;
   width: 100%; }
 
 .col-flex {
   -webkit-box-flex: 1;
+  -moz-box-flex: 1;
   box-flex: 1;
+  -webkit-flex: 1;
   -moz-flex: 1;
   -ms-flex: 1;
   flex: 1;
@@ -9909,8 +9918,7 @@ p {
   position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 999; }
   .employee-names h4 {
     color: #fff; }
@@ -9930,8 +9938,7 @@ p {
     top: 30px;
     right: -30px;
     z-index: 999;
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg); }
+    transform: rotate(90deg); }
   .employee-detail p {
     margin: 14px 0; }
   .employee-detail h6 {
@@ -9942,8 +9949,7 @@ p {
   top: 30px;
   right: inherit;
   left: -30px;
-  -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+  transform: rotate(-90deg);
   border-bottom: 20px solid #e60774; }
 
 .bgrey {
