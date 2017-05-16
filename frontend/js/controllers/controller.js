@@ -1,4 +1,4 @@
-myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
+myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout,$rootScope) {
         $scope.template = TemplateService.getHTML("content/home.html");
         TemplateService.title = "Home"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
@@ -9,6 +9,21 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         //     'http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg',
         //     'http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg'
         // ];
+
+//         $scope.initMap = function() {
+//            var uluru = {lat: -25.363, lng: 131.044};
+//         var map = new google.maps.Map(document.getElementById('map'), {
+//           zoom: 15,
+//           center: uluru
+//         });
+//         var marker = new google.maps.Marker({
+//           position: uluru,
+//           map: map
+//         });
+//  };
+
+//  google.maps.event.addDomListener(window, 'load', $scope.initMap);  
+
 
    $scope.inspireImg = [{
         img: 'frontend/img/homepage/home3.jpg'
@@ -184,6 +199,20 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         };
     })
 
+        .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
+        $scope.template = TemplateService.getHTML("content/about.html");
+        TemplateService.title = "About"; //This is the Title of the Website
+         TemplateService.header = "views/template/header1.html"; //This is the Title of the Website
+        $scope.navigation = NavigationService.getNavigation();
+    })
+
+     .controller('OfferingCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
+        $scope.template = TemplateService.getHTML("content/offering.html");
+        TemplateService.title = "Offering"; //This is the Title of the Website
+        $scope.navigation = NavigationService.getNavigation();
+    })
+
+    
     //Example API Controller
     .controller('DemoAPICtrl', function ($scope, TemplateService, apiService, NavigationService, $timeout) {
         apiService.getDemo($scope.formData, function (data) {
