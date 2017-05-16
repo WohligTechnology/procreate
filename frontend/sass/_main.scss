@@ -1,7 +1,7 @@
 /* Bootstrap Variables Goes Here */
 
 $brand-primary: #0d9dff !default;
-$brand-success: #84ce3c !default;
+$brand-success: #6ce202 !default;
 $brand-warning: #ffec39 !default;
 $brand-danger: #fc483f !default;
 $brand-info: #000072 !default;
@@ -867,7 +867,7 @@ p {
 
 .team-details {
     h3{
- padding: 50px 0;
+        @include padding(50px null);
     }
    
 }
@@ -912,7 +912,7 @@ p {
 .employee-detail {
     background: #e60774;
     background: linear-gradient(-90deg, #e31141, #e60774);
-    padding: 15px 50px;
+    @include padding(15px 50px);
     min-height: 600px;
     position: relative;
     &:after {
@@ -953,7 +953,7 @@ p {
 .clients {
     @include size(250px,
     250px);
-    background: url(../img/10.png) no-repeat top center;
+    background: url("../img/10.png") no-repeat top center;
     background-size: cover;
     margin: 0 auto;
 }
@@ -1105,6 +1105,79 @@ p {
     }
 }
 
+.advisor{
+        padding: 10px 50px;
+}
 
 //about us//
+
+//offering//
+.offers{
+    .top-bot{
+         width: 30%;
+        @include position(absolute,35% 10% null null);
+    }
+      p{
+        font-size: 18px;
+    letter-spacing: 1px;
+    text-align: justify;
+    } 
+}
+.offerings{
+    p,li{
+        color: #646464;
+    }
+    p{ 
+   @include padding(25px null);
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+    .offering-text{
+        h3{
+            color: $brand-success;
+        }
+        ul{
+            @include padding(0px);
+            margin-bottom: 20px;
+            li{
+                 font-size: 18px;
+                 letter-spacing: 2px;
+                 list-style-type: none;
+    &:before{
+        content: "\f178";
+        color: #6ce202;
+        font-family: "FontAwesome";
+    }
+            }
+        }
+    }
+
+    .rows1{
+        .offering-text{
+padding: 20px 50px 0 0;
+        }
+
+    }
+
+.rows2{
+    .offering-text{
+ padding: 20px 0px 0 50px;
+    }
+   
+}
+    .butn-green{
+          padding: 10px 0;
+        .btn{
+   background-color: $brand-success;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+        }
+    }
+}
+
+
+//offering
 //ruchira//
