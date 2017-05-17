@@ -143,6 +143,24 @@ textarea {
     margin: 0;
 }
 
+  .grad {
+    
+
+      height: 370px;
+      
+       
+        background: red;
+        /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(left, #d76bfd, rgba(255, 67, 33, 0.83));
+        /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(right, #d76dfd, rgba(255, 67, 33, 0.83));
+        /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(right, #d76dfd, rgba(255, 67, 33, 0.83));
+        /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to right, #d76dfd, rgba(255, 67, 33, 0.83));
+            // box-shadow: 10px 10px 5px #e56f86;
+        /* Standard syntax (must be last) */
+    }
 nav li:hover .dropdown-menu {
     display: block;
 }
@@ -661,41 +679,114 @@ p {
 
 // home page end
 // approach page start
+
+.approach{
+   
+  h1{
+         font-size: 50px;
+         
+  }
+  h2{
+      font-size: 50px;
+  }
+h3{
+    font-size: 30px;
+      font-family: 'gothambook';
+}
+h4{
+      font-size: 24px;
+  }
+ h5{
+     font-size: 24px;
+ }
+}
+
+
 .top50 {
     top: 25%;
     left: 15%;
 }
+
+
 
 .human {
     img {
         width: 100%;
         position: relative;
     }
-    h1 {
-        color: white;
-        font-size: 50px;
-    }
-    h3 {
-        padding-top: 30%;
-        color: white;
-    }
+  span{
+          font-family: 'gothamMedium';
+  }
+  h3{
+      margin-top:30%;
+       font-family: 'gothambook';
+       color:white;
+
+  }
+  
 }
 
 .brand-matter {
+
+h3{
+    color:gray;
+}
+span{
+   font-family:  'gothamBold';
+}
+
+    .bg-img{
+          background-image: url("../img/approach/9.jpg");
+              background-size: cover;
+              background-position: 329px -509px;;
+              height:370px;
+              width: 100%;
+              background-repeat: no-repeat;
+         
+       h3{
+           font-size: 31px;
+           color:white;
+            font-family: 'gothambook';
+            margin-top: 40%;
+       }
+      span{
+           font-size: 70px;
+            font-family:  'gothamBold';
+            color:white;
+       }
+       h2{
+           padding-top:14%;
+           padding-left:12%;
+       }
+    }
+   
+
+    .overlay{
+        //   background-color: #ff4321;
+   background-color: rgba(255, 67, 33, 0.78);
+        @include position(absolute,
+        0 0 0 0);
+    }
+    .w50{
+        width: 69%;
+        height: 100%;
+    }
     img {
         width: 100%;
+        height: 400px;
+margin-left: 30px;
     }
     .barnd-para {
         h4 {
             // padding: 11% 33% 11% 0;
             padding: 24% 0;
             color: gray;
-            font-size: 27px;
+         
         }
     }
     .brand-text {
         h1 {
-            font-size: 50px;
+         
             padding-left: 10%;
             padding-top: 7%;
             color: gray;
@@ -704,6 +795,14 @@ p {
 }
 
 .brain {
+    h5{
+        color:gray;
+    }
+    h3{
+          color:gray;
+           font-family: 'gothamBold';
+           font-size: 40px;
+    }
     .top25 {
         margin-top: 25%;
     }
@@ -716,6 +815,7 @@ p {
     h1 {
         color: gray;
     }
+   
     .margin-tb {
         margin: 10% 0;
         width: 90%;
@@ -731,19 +831,28 @@ p {
         img {
             width: 100%;
         }
-        .top0 {
-            top: 0;
-            transform: translate(50%, 50%);
+        .padd-t6{
+            padding-top: 6%;
+        }
+        span{
+            font-family: 'gothamBold';
+        }
+        h2{
+            font-size: 43px;
         }
     }
 }
 
 .design {
+    h1{
+  font-family: 'gothamBold';
+    }
     .white-sec {
         margin: 4% 0;
         h1 {
             font-size: 70px;
             color: $brand-pink;
+          
         }
     }
     .display-flex {
@@ -753,11 +862,13 @@ p {
             width: 100%;
         }
     }
+    
     .grad {
-        display: inline-block;
-        width: 33%;
-        height: 450px;
-        vertical-align: top;
+    
+
+      height: 510px;
+      
+       
         background: red;
         /* For browsers that do not support gradients */
         background: -webkit-linear-gradient(left, #fb6d75, #e4a96f);
@@ -767,13 +878,15 @@ p {
         background: -moz-linear-gradient(right, #fb6d75, #e4a96f);
         /* For Firefox 3.6 to 15 */
         background: linear-gradient(to right, #fb6d75, #e4a96f);
+            // box-shadow: 10px 10px 5px #e56f86;
         /* Standard syntax (must be last) */
     }
     .grad2 {
-        display: inline-block;
-        width: 33%;
-        height: 450px;
-        vertical-align: top;
+     
+  
+     
+     
+      height: 510px;
         background: red;
         /* For browsers that do not support gradients */
         background: -webkit-linear-gradient(left, #e56f86, #f19871);
@@ -784,39 +897,52 @@ p {
         /* For Firefox 3.6 to 15 */
         background: linear-gradient(to right, #e56f86, #f19871);
         /* Standard syntax (must be last) */
+            box-shadow:  10px 1px 21px  #b1566c inset;
     }
     .grad3 {
-        display: inline-block;
-        width: 33%;
-        height: 450px;
-        vertical-align: top;
+    
+  
+     
+      height: 510px;
         background: red;
         /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(left, #d86df9, #fe7347);
+        background: -webkit-linear-gradient(left, #e56f86, #fe7347);
         /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(right, #d86df9, #fe7347);
+        background: -o-linear-gradient(right, #e56f86, #fe7347);
         /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(right, #d86df9, #fe7347);
+        background: -moz-linear-gradient(right, #e56f86, #fe7347);
         /* For Firefox 3.6 to 15 */
-        background: linear-gradient(to right, #d86df9, #fe7347);
+        background: linear-gradient(to right, #e56f86, #fe7347);
+
         /* Standard syntax (must be last) */
+     box-shadow:  10px 1px 21px  #b1566c inset;
     }
     .text-size {
+        .padding{
+        padding: 30px 0px 30px 100px; 
+    }
         h1 {
-            font-size: 60px;
+          margin-top: 34px;
             color: white;
+            font-size: 50px;
+           
         }
         h2 {
-            font-size: 40px;
+       
             color: white;
+                font-family: 'gothamMedium';
+                padding: 5px 0px;
+                  font-size: 33px;
         }
         p {
-            font-size: 20px;
+     
             color: white;
+              
+                font-size: 22px;
+                font-weight: 700;
         }
     }
 }
-
 //ruchira//
 //about us//
 .about {
