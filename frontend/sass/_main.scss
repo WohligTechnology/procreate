@@ -63,7 +63,8 @@ p {
 }
 
 h4,
-h5,h6,
+h5,
+h6,
 p {
     color: white;
 }
@@ -139,28 +140,26 @@ textarea {
 .padding0 {
     padding: 0;
 }
-.margin0{
+
+.margin0 {
     margin: 0;
 }
 
-  .grad {
-    
+.grad {
+    height: 370px;
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #d76bfd, rgba(255, 67, 33, 0.83));
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d76dfd, rgba(255, 67, 33, 0.83));
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d76dfd, rgba(255, 67, 33, 0.83));
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d76dfd, rgba(255, 67, 33, 0.83));
+    // box-shadow: 10px 10px 5px #e56f86;
+    /* Standard syntax (must be last) */
+}
 
-      height: 370px;
-      
-       
-        background: red;
-        /* For browsers that do not support gradients */
-        background: -webkit-linear-gradient(left, #d76bfd, rgba(255, 67, 33, 0.83));
-        /* For Safari 5.1 to 6.0 */
-        background: -o-linear-gradient(right, #d76dfd, rgba(255, 67, 33, 0.83));
-        /* For Opera 11.1 to 12.0 */
-        background: -moz-linear-gradient(right, #d76dfd, rgba(255, 67, 33, 0.83));
-        /* For Firefox 3.6 to 15 */
-        background: linear-gradient(to right, #d76dfd, rgba(255, 67, 33, 0.83));
-            // box-shadow: 10px 10px 5px #e56f86;
-        /* Standard syntax (must be last) */
-    }
 nav li:hover .dropdown-menu {
     display: block;
 }
@@ -679,114 +678,101 @@ p {
 
 // home page end
 // approach page start
-
-.approach{
-   
-  h1{
-         font-size: 50px;
-         
-  }
-  h2{
-      font-size: 50px;
-  }
-h3{
-    font-size: 30px;
-      font-family: 'gothambook';
+.approach {
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    h3 {
+        font-size: 30px;
+        font-family: 'gothambook';
+    }
+    h4 {
+        font-size: 24px;
+    }
+    h5 {
+        font-size: 24px;
+    }
 }
-h4{
-      font-size: 24px;
-  }
- h5{
-     font-size: 24px;
- }
-}
-
 
 .top50 {
     top: 25%;
     left: 15%;
 }
 
-
-
 .human {
+    margin-top: 90px;
     img {
         width: 100%;
         position: relative;
     }
-  span{
-          font-family: 'gothamMedium';
-  }
-  h3{
-      margin-top:30%;
-       font-family: 'gothambook';
-       color:white;
-
-  }
-  
+    span {
+        font-family: 'gothamMedium';
+    }
+    h3 {
+        margin-top: 30%;
+        font-family: 'gothambook';
+        color: white;
+    }
 }
 
 .brand-matter {
-
-h3{
-    color:gray;
-}
-span{
-   font-family:  'gothamBold';
-}
-
-    .bg-img{
-          background-image: url("../img/approach/9.jpg");
-              background-size: cover;
-              background-position: 329px -509px;;
-              height:370px;
-              width: 100%;
-              background-repeat: no-repeat;
-         
-       h3{
-           font-size: 31px;
-           color:white;
+    h3 {
+        color: gray;
+    }
+    span {
+        font-family: 'gothamBold';
+    }
+    .bg-img {
+        background-image: url("../img/approach/9.jpg");
+        background-size: cover;
+        background-position: 329px -509px;
+        ;
+        height: 370px;
+        width: 100%;
+        background-repeat: no-repeat;
+        h3 {
+            font-size: 31px;
+            color: white;
             font-family: 'gothambook';
             margin-top: 40%;
-       }
-      span{
-           font-size: 70px;
-            font-family:  'gothamBold';
-            color:white;
-       }
-       h2{
-           padding-top:14%;
-           padding-left:12%;
-       }
+        }
+        span {
+            font-size: 70px;
+            font-family: 'gothamBold';
+            color: white;
+        }
+        h2 {
+            padding-top: 14%;
+            padding-left: 12%;
+        }
     }
-   
-
-    .overlay{
+    .overlay {
         //   background-color: #ff4321;
-   background-color: rgba(255, 67, 33, 0.78);
+        background-color: rgba(255, 67, 33, 0.78);
         @include position(absolute,
         0 0 0 0);
     }
-    .w50{
+    .w50 {
         width: 69%;
         height: 100%;
     }
     img {
         width: 100%;
         height: 400px;
-margin-left: 30px;
+        margin-left: 30px;
     }
     .barnd-para {
         h4 {
             // padding: 11% 33% 11% 0;
             padding: 24% 0;
             color: gray;
-         
         }
     }
     .brand-text {
         h1 {
-         
             padding-left: 10%;
             padding-top: 7%;
             color: gray;
@@ -795,13 +781,13 @@ margin-left: 30px;
 }
 
 .brain {
-    h5{
-        color:gray;
+    h5 {
+        color: gray;
     }
-    h3{
-          color:gray;
-           font-family: 'gothamBold';
-           font-size: 40px;
+    h3 {
+        color: gray;
+        font-family: 'gothamBold';
+        font-size: 40px;
     }
     .top25 {
         margin-top: 25%;
@@ -815,7 +801,6 @@ margin-left: 30px;
     h1 {
         color: gray;
     }
-   
     .margin-tb {
         margin: 10% 0;
         width: 90%;
@@ -831,28 +816,27 @@ margin-left: 30px;
         img {
             width: 100%;
         }
-        .padd-t6{
+        .padd-t6 {
             padding-top: 6%;
         }
-        span{
+        span {
             font-family: 'gothamBold';
         }
-        h2{
+        h2 {
             font-size: 43px;
         }
     }
 }
 
 .design {
-    h1{
-  font-family: 'gothamBold';
+    h1 {
+        font-family: 'gothamBold';
     }
     .white-sec {
         margin: 4% 0;
         h1 {
             font-size: 70px;
             color: $brand-pink;
-          
         }
     }
     .display-flex {
@@ -862,13 +846,8 @@ margin-left: 30px;
             width: 100%;
         }
     }
-    
     .grad {
-    
-
-      height: 510px;
-      
-       
+        height: 510px;
         background: red;
         /* For browsers that do not support gradients */
         background: -webkit-linear-gradient(left, #fb6d75, #e4a96f);
@@ -878,15 +857,11 @@ margin-left: 30px;
         background: -moz-linear-gradient(right, #fb6d75, #e4a96f);
         /* For Firefox 3.6 to 15 */
         background: linear-gradient(to right, #fb6d75, #e4a96f);
-            // box-shadow: 10px 10px 5px #e56f86;
+        // box-shadow: 10px 10px 5px #e56f86;
         /* Standard syntax (must be last) */
     }
     .grad2 {
-     
-  
-     
-     
-      height: 510px;
+        height: 510px;
         background: red;
         /* For browsers that do not support gradients */
         background: -webkit-linear-gradient(left, #e56f86, #f19871);
@@ -897,13 +872,10 @@ margin-left: 30px;
         /* For Firefox 3.6 to 15 */
         background: linear-gradient(to right, #e56f86, #f19871);
         /* Standard syntax (must be last) */
-            box-shadow:  10px 1px 21px  #b1566c inset;
+        box-shadow: 10px 1px 21px #b1566c inset;
     }
     .grad3 {
-    
-  
-     
-      height: 510px;
+        height: 510px;
         background: red;
         /* For browsers that do not support gradients */
         background: -webkit-linear-gradient(left, #e56f86, #fe7347);
@@ -913,36 +885,32 @@ margin-left: 30px;
         background: -moz-linear-gradient(right, #e56f86, #fe7347);
         /* For Firefox 3.6 to 15 */
         background: linear-gradient(to right, #e56f86, #fe7347);
-
         /* Standard syntax (must be last) */
-     box-shadow:  10px 1px 21px  #b1566c inset;
+        box-shadow: 10px 1px 21px #b1566c inset;
     }
     .text-size {
-        .padding{
-        padding: 30px 0px 30px 100px; 
-    }
+        .padding {
+            padding: 30px 0px 30px 100px;
+        }
         h1 {
-          margin-top: 34px;
+            margin-top: 34px;
             color: white;
             font-size: 50px;
-           
         }
         h2 {
-       
             color: white;
-                font-family: 'gothamMedium';
-                padding: 5px 0px;
-                  font-size: 33px;
+            font-family: 'gothamMedium';
+            padding: 5px 0px;
+            font-size: 33px;
         }
         p {
-     
             color: white;
-              
-                font-size: 22px;
-                font-weight: 700;
+            font-size: 22px;
+            font-weight: 700;
         }
     }
 }
+
 //ruchira//
 //about us//
 .about {
@@ -964,7 +932,8 @@ margin-left: 30px;
     p {
         font-size: 15px;
     }
-    h4,h6 {
+    h4,
+    h6 {
         color: #333;
     }
 }
@@ -987,53 +956,53 @@ margin-left: 30px;
     width: 50%;
 }
 
-.border-right{
+.border-right {
     border-right: 2px solid #ccc;
 }
 
 .team-details {
-    h3{
+    h3 {
         @include padding(50px null);
     }
-   
 }
 
-.team-full{
-    p{
+.team-full {
+    p {
         font-size: 30px;
     }
-    h4{
+    h4 {
         margin-bottom: 5px;
     }
 }
 
-.trust,.team-full{
-    p{
-      color: #7b7b7b;    
+.trust,
+.team-full {
+    p {
+        color: #7b7b7b;
     }
 }
 
-.trust,.team-details{
-    h3{
- color: #e50d58;
+.trust,
+.team-details {
+    h3 {
+        color: #e50d58;
     }
-   
 }
 
 .main-person {
     margin-bottom: 40px;
 }
 
-.employee-names{
+.employee-names {
     @include display(none);
-    @include position(absolute,50% null null 50%);
-    transform: translate(-50%,-50%);
+    @include position(absolute,
+    50% null null 50%);
+    transform: translate(-50%, -50%);
     z-index: 999;
-    h4{
- color: #fff;
+    h4 {
+        color: #fff;
     }
 }
-
 
 .employee-detail {
     background: #e60774;
@@ -1051,21 +1020,21 @@ margin-left: 30px;
         z-index: 999;
         transform: rotate(90deg);
     }
-    p{
+    p {
         margin: 14px 0;
     }
-    h6{
+    h6 {
         color: #fff;
     }
 }
 
-.second-person{
-    .employee-detail{
-        &:after{
-             @include position(absolute,
-        30px  inherit null -30px);
-         transform: rotate(-90deg);
-             border-bottom: 20px solid #e60774;
+.second-person {
+    .employee-detail {
+        &:after {
+            @include position(absolute,
+            30px inherit null -30px);
+            transform: rotate(-90deg);
+            border-bottom: 20px solid #e60774;
         }
     }
 }
@@ -1083,8 +1052,9 @@ margin-left: 30px;
     background-size: cover;
     margin: 0 auto;
 }
-.img1{
-     background-image: url("../img/about/rajesh.jpg");
+
+.img1 {
+    background-image: url("../img/about/rajesh.jpg");
 }
 
 .img2 {
@@ -1099,27 +1069,26 @@ margin-left: 30px;
     background-image: url("../img/about/sunil.jpg");
 }
 
-.imgs{
+.imgs {
     position: relative;
     border-bottom: 15px solid #e60774;
-    &:after{
+    &:after {
         content: "";
         border-bottom: 20px solid #e60774;
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
         @include position(absolute,
-        null  null 0 10px);
+        null null 0 10px);
     }
-    &:hover{
-        .employee-names{
-             @include display(block);
+    &:hover {
+        .employee-names {
+            @include display(block);
         }
-
-        .overlaying{
- background-color: rgba(230, 7, 116, 0.71);
-    background: linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65));
-        @include position(absolute,
-        0 0 0 0);
+        .overlaying {
+            background-color: rgba(230, 7, 116, 0.71);
+            background: linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65));
+            @include position(absolute,
+            0 0 0 0);
         }
     }
 }
@@ -1130,71 +1099,57 @@ margin-left: 30px;
     box-sizing: border-box;
     background-size: contain;
     background-image: none !important;
-    img{
- margin: 0 auto;
- opacity: 0.5;
- &:hover{
-     opacity: 1;
- }
+    img {
+        margin: 0 auto;
+        opacity: 0.5;
+        &:hover {
+            opacity: 1;
+        }
     }
-   
 }
 
 // .client5 {
 //     background-image: url("../img/about/sign.png");
 // }
-
 // .client6 {
 //     background-image: url("../img/about/kansai.png");
 // }
-
 // .client7 {
 //     background-image: url("../img/about/dabur.png");
 // }
 // .client8 {
 //     background-image: url("../img/about/goma.png");
 // }
-
 // .client9 {
 //     background-image: url("../img/about/mega.png");
 // }
-
 // .client10 {
 //     background-image: url("../img/about/upl.png");
 // }
-
 // .client11 {
 //     background-image: url("../img/about/hersheys.png");
 // }
-
 // .client12 {
 //     background-image: url("../img/about/ss.png");
 // }
-
 // .client13 {
 //     background-image: url("../img/about/vlcc.png");
 // }
-
 // .client14 {
 //     background-image: url("../img/about/mapro.png");
 // }
-
 // .client15 {
 //     background-image: url("../img/about/nabil.png");
 // }
-
 // .client16 {
 //     background-image: url("../img/about/sarda.png");
 // }
-
 // .client17 {
 //     background-image: url("../img/about/seths.png");
 // }
-
 // .client18 {
 //     background-image: url("../img/about/lotus.png");
 // }
-
 .row1 {
     margin-top: 50px;
     .row {
@@ -1205,105 +1160,188 @@ margin-left: 30px;
         }
     }
 }
-.figures{
+
+.figures {
     background: url("../img/about/cheif.jpg") no-repeat center;
-   background-size: cover !important;
+    background-size: cover !important;
     min-height: 600px;
 }
 
-.fig1{
-    background: url("../img/about/director.jpg") no-repeat center; 
+.fig1 {
+    background: url("../img/about/director.jpg") no-repeat center;
 }
 
-.clientele{
+.clientele {
     position: relative;
     transition: all ease 600ms;
-    cursor:pointer;
-    .overlays{
-       background-color: rgba(228, 228, 228, 0.54);
-        @include position(absolute,0 0 0 0);
+    cursor: pointer;
+    .overlays {
+        background-color: rgba(228, 228, 228, 0.54);
+        @include position(absolute,
+        0 0 0 0);
     }
-    &:hover{
-        .overlays{
-       background-color: rgba(228, 228, 228, 0);
-        @include position(absolute,0 0 0 0);
-    } 
+    &:hover {
+        .overlays {
+            background-color: rgba(228, 228, 228, 0);
+            @include position(absolute,
+            0 0 0 0);
+        }
     }
 }
 
-.advisor{
-        padding: 10px 50px;
+.advisor {
+    padding: 10px 50px;
 }
 
 //about us//
-
 //offering//
-.offers{
-    .top-bot{
-         width: 30%;
-        @include position(absolute,35% 10% null null);
+.offers {
+    .top-bot {
+        width: 30%;
+        @include position(absolute,
+        35% 10% null null);
     }
-      p{
+    p {
         font-size: 18px;
-    letter-spacing: 1px;
-    text-align: justify;
-    } 
+        letter-spacing: 1px;
+        text-align: justify;
+    }
 }
-.offerings{
-    p,li{
+
+.offerings {
+    p,
+    li {
         color: #646464;
     }
-    p{ 
-   @include padding(25px null);
-    font-size: 18px;
-    letter-spacing: 1px;
-    margin: 0;
-}
-    .offering-text{
-        h3{
+    p {
+        @include padding(25px null);
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin: 0;
+    }
+    .offering-text {
+        h3 {
             color: $brand-success;
         }
-        ul{
+        ul {
             @include padding(0px);
             margin-bottom: 20px;
-            li{
-                 font-size: 18px;
-                 letter-spacing: 2px;
-                 list-style-type: none;
-    &:before{
-        content: "\f178";
-        color: #6ce202;
-        font-family: "FontAwesome";
-    }
+            li {
+                font-size: 18px;
+                letter-spacing: 2px;
+                list-style-type: none;
+                &:before {
+                    content: "\f178";
+                    color: #6ce202;
+                    font-family: "FontAwesome";
+                }
             }
         }
     }
-
-    .rows1{
-        .offering-text{
-padding: 20px 50px 0 0;
+    .rows1 {
+        .offering-text {
+            padding: 20px 50px 0 0;
         }
-
     }
-
-.rows2{
-    .offering-text{
- padding: 20px 0px 0 50px;
+    .rows2 {
+        .offering-text {
+            padding: 20px 0px 0 50px;
+        }
+        
     }
-   
-}
-    .butn-green{
-          padding: 10px 0;
-        .btn{
-   background-color: $brand-success;
-    border-radius: 20px;
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px;
+    .butn-green {
+        padding: 10px 0;
+        .btn {
+            background-color: $brand-success;
+            border-radius: 20px;
+            padding: 10px 20px;
+            border: none;
+            font-size: 16px;
         }
     }
 }
+ .offering-img{
+            img{
+               
+    filter: grayscale(100%);
+            }
 
-
+            img:hover{
+                filter: grayscale(0%);
+            }
+        }
 //offering
 //ruchira//
+//portfolio start
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.rowflex {
+    display: flex;
+}
+
+.w-33 {
+    width: 33%;
+}
+
+.w-34 {
+    width: 34%;
+}
+
+.h-67 {
+    height: 67%;
+}
+
+.biscuit {
+    margin-top: 90px;
+    .colflex {
+        width: 67%;
+    }
+    .colflex2 {
+        width: 33%;
+        img {
+            height: 100%;
+        }
+    }
+    .beelicious {
+        height: 509px;
+    }
+}
+
+.milk {
+    img {
+        height: 100%;
+    }
+    .h-60 {
+        height: 60%;
+    }
+    .h-33 {
+        height: 33%;
+    }
+    .h-34 {
+        height: 34%;
+    }
+    .h-66 {
+        height: 66%;
+    }
+}
+
+.fulltoss {
+    img {
+        height: 100%;
+    }
+}
+//end portfolio

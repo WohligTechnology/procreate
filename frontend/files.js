@@ -45,6 +45,7 @@ module.exports = [
 
   'frontend/js/controllers/controller.js',
    'frontend/js/controllers/approach.js',
+   'frontend/js/controllers/portfolio.js',
   'frontend/js/controllers/header-controller.js',
   'frontend/js/controllers/language-controller.js',
   

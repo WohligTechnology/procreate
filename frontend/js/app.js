@@ -29,25 +29,33 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             controller: 'FormCtrl'
         })
 
-          .state('about', {
-            url: "/about",
-            templateUrl: tempateURL,
-            controller: 'AboutCtrl'
-        })
+    .state('about', {
+        url: "/about",
+        templateUrl: tempateURL,
+        controller: 'AboutCtrl'
+    })
 
-           .state('offering', {
-            url: "/offering",
-            templateUrl: tempateURL,
-            controller: 'OfferingCtrl'
-        })
+    .state('offering', {
+        url: "/offering",
+        templateUrl: tempateURL,
+        controller: 'OfferingCtrl'
+    })
 
 
-         .state('approach', {
-            url: "/approach",
-            templateUrl: tempateURL,
-            controller: 'ApproachCtrl'
-        })
-        
+    .state('approach', {
+        url: "/approach",
+        templateUrl: tempateURL,
+        controller: 'ApproachCtrl'
+    })
+
+
+    .state('portfolio', {
+        url: "/portfolio",
+        templateUrl: tempateURL,
+        controller: 'PortfolioCtrl'
+    })
+
+
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);
 });
