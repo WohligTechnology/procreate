@@ -482,8 +482,13 @@ p {
 }
 
 .circle {
+    .fs21{
+        font-size: 21px !important;
+    }
     .w20 {
-        width: 19%;
+       
+        // width: 19%;
+        width: 24%;
         height: auto;
         display: inline-block;
         position: relative;
@@ -509,23 +514,28 @@ p {
         }
         .color-darkblue {
             color: $brand-darkblue;
-            padding-left: 26px;
+            // padding-left: 26px;
+            padding-left: 6px;
         }
         .color-lightgreen {
             color: $brand-lightgreen;
-            padding-left: 23px;
+            // padding-left: 23px;
+            padding-left: 6px;
         }
         .color-skyblue {
             color: $brand-skyblue;
-            padding-left: 24px;
+            // padding-left: 24px;
+            padding-left: 6px;
         }
         .color-darkgreen {
             color: $brand-darkgreen;
-            padding-left: 22px;
+            // padding-left: 22px;
+            padding-left: 6px;
         }
         .smart-green {
             color: $brand-smartgreen;
-            padding-left: 20px;
+            // padding-left: 20px;
+            padding-left: 6px;
         }
     }
     .circle-img {
@@ -1068,7 +1078,18 @@ p {
 .img4 {
     background-image: url("../img/about/sunil.jpg");
 }
-
+.img5{
+        background-image: url("../img/about/rajesh.jpg");
+}
+.img6{
+     background-image: url("../img/about/parthivii.jpg");
+}
+.img7{
+      background-image: url("../img/about/abhishek.jpg");
+}
+.img8{
+    background-image: url("../img/about/sandhya.jpg");
+}
 .imgs {
     position: relative;
     border-bottom: 15px solid #e60774;
@@ -1101,9 +1122,11 @@ p {
     background-image: none !important;
     img {
         margin: 0 auto;
-        opacity: 0.5;
+        // opacity: 0.5;
+        filter:grayscale(100%);
         &:hover {
-            opacity: 1;
+            // opacity: 1;
+             filter:grayscale(0%);
         }
     }
 }
@@ -1162,14 +1185,20 @@ p {
 }
 
 .figures {
-    background: url("../img/about/cheif.jpg") no-repeat center;
-    background-size: cover !important;
+    // background: url("../img/about/cheif.jpg") no-repeat center;
+    // background-size: cover !important;
+   img{
     min-height: 600px;
+       filter: grayscale(100%);
+   }
+    img:hover{
+                filter: grayscale(0%);
+            }
 }
 
-.fig1 {
-    background: url("../img/about/director.jpg") no-repeat center;
-}
+// .fig1 {
+//     background: url("../img/about/director.jpg") no-repeat center;
+// }
 
 .clientele {
     position: relative;

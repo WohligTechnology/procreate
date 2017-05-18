@@ -9464,8 +9464,11 @@ p {
 .icon-slider .w125 {
   width: 125px; }
 
+.circle .fs21 {
+  font-size: 21px !important; }
+
 .circle .w20 {
-  width: 19%;
+  width: 24%;
   height: auto;
   display: inline-block;
   position: relative;
@@ -9489,23 +9492,23 @@ p {
 
 .circle .text-color .color-darkblue {
   color: #0082d2;
-  padding-left: 26px; }
+  padding-left: 6px; }
 
 .circle .text-color .color-lightgreen {
   color: #00aae1;
-  padding-left: 23px; }
+  padding-left: 6px; }
 
 .circle .text-color .color-skyblue {
   color: #00d7e1;
-  padding-left: 24px; }
+  padding-left: 6px; }
 
 .circle .text-color .color-darkgreen {
   color: #00d2aa;
-  padding-left: 22px; }
+  padding-left: 6px; }
 
 .circle .text-color .smart-green {
   color: #8cd26e;
-  padding-left: 20px; }
+  padding-left: 6px; }
 
 .circle .circle-img {
   width: 100%; }
@@ -9944,6 +9947,18 @@ p {
 .img4 {
   background-image: url("../img/about/sunil.jpg"); }
 
+.img5 {
+  background-image: url("../img/about/rajesh.jpg"); }
+
+.img6 {
+  background-image: url("../img/about/parthivii.jpg"); }
+
+.img7 {
+  background-image: url("../img/about/abhishek.jpg"); }
+
+.img8 {
+  background-image: url("../img/about/sandhya.jpg"); }
+
 .imgs {
   position: relative;
   border-bottom: 15px solid #e60774; }
@@ -9977,22 +9992,25 @@ p {
   background-image: none !important; }
   .clients img {
     margin: 0 auto;
-    opacity: 0.5; }
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%); }
     .clients img:hover {
-      opacity: 1; }
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%); }
 
 .row1 {
   margin-top: 50px; }
   .row1 .row .col-md-2:nth-of-type(6) .clients {
     border: none !important; }
 
-.figures {
-  background: url("../img/about/cheif.jpg") no-repeat center;
-  background-size: cover !important;
-  min-height: 600px; }
+.figures img {
+  min-height: 600px;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%); }
 
-.fig1 {
-  background: url("../img/about/director.jpg") no-repeat center; }
+.figures img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%); }
 
 .clientele {
   position: relative;
