@@ -66066,25 +66066,33 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             controller: 'FormCtrl'
         })
 
-          .state('about', {
-            url: "/about",
-            templateUrl: tempateURL,
-            controller: 'AboutCtrl'
-        })
+    .state('about', {
+        url: "/about",
+        templateUrl: tempateURL,
+        controller: 'AboutCtrl'
+    })
 
-           .state('offering', {
-            url: "/offering",
-            templateUrl: tempateURL,
-            controller: 'OfferingCtrl'
-        })
+    .state('offering', {
+        url: "/offering",
+        templateUrl: tempateURL,
+        controller: 'OfferingCtrl'
+    })
 
 
-         .state('approach', {
-            url: "/approach",
-            templateUrl: tempateURL,
-            controller: 'ApproachCtrl'
-        })
-        
+    .state('approach', {
+        url: "/approach",
+        templateUrl: tempateURL,
+        controller: 'ApproachCtrl'
+    })
+
+
+    .state('portfolio', {
+        url: "/portfolio",
+        templateUrl: tempateURL,
+        controller: 'PortfolioCtrl'
+    })
+
+
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);
 });
@@ -66499,6 +66507,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
      .controller('OfferingCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
         $scope.template = TemplateService.getHTML("content/offering.html");
         TemplateService.title = "Offering"; //This is the Title of the Website
+           TemplateService.header = "views/template/header2.html";
         $scope.navigation = NavigationService.getNavigation();
     })
 
@@ -66512,6 +66521,17 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 myApp.controller('ApproachCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
         $scope.template = TemplateService.getHTML("content/approach.html");
         TemplateService.title = "Approach"; //This is the Title of the Website
+          TemplateService.header = "views/template/header2.html"; 
+        $scope.navigation = NavigationService.getNavigation();
+        $scope.formSubmitted = false;
+        $scope.submitForm = function (data) {
+            console.log(data);
+            $scope.formSubmitted = true;
+        };
+    })
+myApp.controller('PortfolioCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
+        $scope.template = TemplateService.getHTML("content/portfolio.html");
+        TemplateService.title = "Portfolio"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
         $scope.formSubmitted = false;
         $scope.submitForm = function (data) {
