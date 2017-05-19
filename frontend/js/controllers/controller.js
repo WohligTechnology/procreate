@@ -209,6 +209,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
      .controller('OfferingCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
         $scope.template = TemplateService.getHTML("content/offering.html");
         TemplateService.title = "Offering"; //This is the Title of the Website
+           TemplateService.header = "views/template/header2.html";
         $scope.navigation = NavigationService.getNavigation();
     })
 
