@@ -10239,19 +10239,10 @@ p {
 
 .biscuit {
   margin-top: 90px; }
-  .biscuit img {
-    height: 100%; }
   .biscuit .colflex {
     width: 67%; }
   .biscuit .colflex2 {
     width: 33%; }
-    .biscuit .colflex2 img {
-      height: 100%; }
-  .biscuit .beelicious {
-    height: 100%; }
-
-.milk img {
-  height: 100%; }
 
 .milk .h-60 {
   height: 60%; }
@@ -10264,9 +10255,6 @@ p {
 
 .milk .h-66 {
   height: 66%; }
-
-.fulltoss img {
-  height: 100%; }
 
 .header1-bg {
   background-color: red; }
