@@ -9408,7 +9408,7 @@ p {
   font-family: gothambook; }
 
 .navbar-brand {
-  margin-left: -23px !important; }
+  margin-left: -42px !important; }
 
 .li-color {
   background-color: #39b548; }
@@ -10061,10 +10061,10 @@ p {
   right: 20%; }
 
 .offers p {
+  padding: 0px 18px 0 0;
   font-size: 18px;
   letter-spacing: 1px;
-  text-align: justify;
-  padding: 0px 18px; }
+  text-align: justify; }
 
 .offerings p,
 .offerings li {
@@ -10098,14 +10098,12 @@ p {
 .offerings .rows2 .offering-text {
   padding: 20px 0px 0 50px; }
 
-.offerings .butn-green {
-  padding: 10px 0; }
-  .offerings .butn-green .btn {
-    background-color: #6ce202;
-    border-radius: 20px;
-    padding: 10px 20px;
-    border: none;
-    font-size: 16px; }
+.offerings .butn-green .btn {
+  background-color: #6ce202;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px; }
 
 .offering-img img {
   -webkit-filter: grayscale(100%);

@@ -403,7 +403,7 @@ p {
 }
 
 .navbar-brand {
-    margin-left: -23px !important;
+    margin-left: -42px !important;
 }
 
 // homepage start
@@ -1272,11 +1272,11 @@ p {
         35% 20% null null);
     }
     p {
+         padding: 0px 18px 0 0;
         font-size: 18px;
         letter-spacing: 1px;
-        text-align: justify;
-           
-    padding: 0px 18px;
+        text-align: justify;  
+  
     }
 }
 
@@ -1321,7 +1321,7 @@ p {
         }
     }
     .butn-green {
-        padding: 10px 0;
+        // padding: 10px 0;
         .btn {
             background-color: $brand-success;
             border-radius: 20px;
