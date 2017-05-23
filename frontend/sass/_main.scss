@@ -1041,9 +1041,16 @@ p {
     z-index: 999;
     h4 {
         color: #fff;
+          
+        
     }
 }
-
+.employee-name{
+    h4{
+        //   font-family: 'gothamMedium';
+        font-weight: 600;
+    }
+}
 .employee-detail {
     background: #e60774;
     background: linear-gradient(-90deg, #e31141, #e60774);
@@ -1086,8 +1093,8 @@ p {
 
 .imgs,
 .clients {
-    @include size(250px,
-    250px);
+    @include size(280px,
+    280px);
     background: url("../img/10.png") no-repeat top center;
     background-size: cover;
     margin: 0 auto;
@@ -1223,7 +1230,7 @@ p {
     // background: url("../img/about/cheif.jpg") no-repeat center;
     // background-size: cover !important;
     img {
-        min-height: 600px;
+        // min-height: 600px;
         filter: grayscale(100%);
     }
     img:hover {

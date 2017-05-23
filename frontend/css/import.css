@@ -9910,6 +9910,9 @@ p {
   .employee-names h4 {
     color: #fff; }
 
+.employee-name h4 {
+  font-weight: 600; }
+
 .employee-detail {
   background: #e60774;
   background: linear-gradient(-90deg, #e31141, #e60774);
@@ -9947,8 +9950,8 @@ p {
 
 .imgs,
 .clients {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   background: url("../img/10.png") no-repeat top center;
   background-size: cover;
   margin: 0 auto; }
@@ -10022,7 +10025,6 @@ p {
     border: none !important; }
 
 .figures img {
-  min-height: 600px;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%); }
 
@@ -10204,8 +10206,4 @@ p {
   background-image: url(../img/next.png); }
 
 .fancybox-nav.fancybox-prev span {
-<<<<<<< HEAD
   background-image: url(../img/prev.png); }
-=======
-  background-image: url(../img/prev.png); }
->>>>>>> 50c0b649b7b33a8993eb617fff067aa96543a7ab
