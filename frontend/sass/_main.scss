@@ -90,7 +90,7 @@ textarea {
 }
 
 .pdd47 {
-    padding: 47px;
+  padding: 47px 0 47px 87px;
 }
 
 .mb30 {
@@ -109,10 +109,16 @@ textarea {
     margin-bottom: 70px;
 }
 
+.ml{
+     margin-left: -14px;
+}
+
 .ml40 {
     margin-left: 40px;
 }
-
+.ml-25{
+    margin-left: -25px;
+}
 .padd25 {
     padding: 0px 25px;
 }
@@ -275,6 +281,9 @@ footer {
         padding: 6px 15px;
         &:hover {
             background-color: $brand-btnblue;
+        }
+        &:focus{
+            outline: 0;
         }
     }
     .circle-img4 {
@@ -484,7 +493,7 @@ p {
         background: white !important;
     }
     .flex-control-paging li a.flex-active {
-        background: blue !important;
+       background: #00928d !important;
     }
     .w125 {
         width: 125px;
@@ -685,7 +694,7 @@ p {
         }
     }
     .overlay {
-        background-color: rgba(140, 255, 255, 0.71);
+        background-color: rgba(140, 255, 255, 0.3);
         @include position(absolute,
         0 0 0 0);
     }
@@ -742,6 +751,7 @@ p {
     }
     .mar-t21 {
         margin-top: 21%;
+       
     }
 }
 
@@ -995,6 +1005,18 @@ p {
     @include display(block);
     width: 50%;
 }
+.rows-flex {
+    @include display(flex);
+    width: 100%;
+}
+
+.cols-flex {
+    @include flex(1);
+    display: inline-block;
+    width: 23%;
+    vertical-align: top;
+}
+
 
 .border-right {
     border-right: 2px solid #ccc;
@@ -1159,6 +1181,9 @@ p {
 .clients {
     @include size(180px,
     100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     background-size: contain;
     background-image: none !important;
@@ -1269,10 +1294,13 @@ p {
     .top-bot {
         width: 30%;
         @include position(absolute,
-        35% 20% null null);
+        25% 20% null null);
+        p{
+             font-size: 16px;
+        }
     }
     p {
-         padding: 0px 18px 0 0;
+        padding: 0px 18px 0 0;
         font-size: 18px;
         letter-spacing: 1px;
         text-align: justify;  
@@ -1328,6 +1356,9 @@ p {
             padding: 10px 20px;
             border: none;
             font-size: 16px;
+            &:focus{
+                outline: 0;
+            }
         }
     }
 }
@@ -1415,5 +1446,31 @@ p {
             font-family: 'gothamMedium';
             font-size: 13px;
         }
+    }
+}
+//ruchi//
+.carousels{
+    .flex-control-nav{
+ z-index: 99;
+    }
+   
+}
+.image-circles{
+    img{
+ margin: 0 auto;
+    }
+   
+}
+
+.talk,.talks{
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.talks{
+    a{
+         text-decoration: none;
     }
 }

@@ -9180,7 +9180,7 @@ textarea {
   margin-top: 30px; }
 
 .pdd47 {
-  padding: 47px; }
+  padding: 47px 0 47px 87px; }
 
 .mb30 {
   margin-bottom: 30px; }
@@ -9194,8 +9194,14 @@ textarea {
 .mb70 {
   margin-bottom: 70px; }
 
+.ml {
+  margin-left: -14px; }
+
 .ml40 {
   margin-left: 40px; }
+
+.ml-25 {
+  margin-left: -25px; }
 
 .padd25 {
   padding: 0px 25px; }
@@ -9315,6 +9321,8 @@ footer {
     padding: 6px 15px; }
     footer .btn-blue:hover {
       background-color: #85d2e5; }
+    footer .btn-blue:focus {
+      outline: 0; }
   footer .circle-img4 {
     width: 70%; }
   footer .block-inline {
@@ -9465,7 +9473,7 @@ p {
   background: white !important; }
 
 .icon-slider .flex-control-paging li a.flex-active {
-  background: blue !important; }
+  background: #00928d !important; }
 
 .icon-slider .w125 {
   width: 125px; }
@@ -9617,7 +9625,7 @@ p {
     display: none; }
 
 .icon-slider .overlay {
-  background-color: rgba(140, 255, 255, 0.71);
+  background-color: rgba(140, 255, 255, 0.3);
   position: absolute;
   top: 0;
   right: 0;
@@ -9872,6 +9880,24 @@ p {
   display: block;
   width: 50%; }
 
+.rows-flex {
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  display: -webkit-box;
+  display: flex;
+  width: 100%; }
+
+.cols-flex {
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  display: inline-block;
+  width: 23%;
+  vertical-align: top; }
+
 .border-right {
   border-right: 2px solid #ccc; }
 
@@ -10008,6 +10034,15 @@ p {
 .clients {
   width: 180px;
   height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   box-sizing: border-box;
   background-size: contain;
   background-image: none !important; }
@@ -10057,8 +10092,10 @@ p {
 .offers .top-bot {
   width: 30%;
   position: absolute;
-  top: 35%;
+  top: 25%;
   right: 20%; }
+  .offers .top-bot p {
+    font-size: 16px; }
 
 .offers p {
   padding: 0px 18px 0 0;
@@ -10104,6 +10141,8 @@ p {
   padding: 10px 20px;
   border: none;
   font-size: 16px; }
+  .offerings .butn-green .btn:focus {
+    outline: 0; }
 
 .offering-img img {
   -webkit-filter: grayscale(100%);
@@ -10165,6 +10204,18 @@ p {
   color: white !important;
   font-family: 'gothamMedium';
   font-size: 13px; }
+
+.carousels .flex-control-nav {
+  z-index: 99; }
+
+.image-circles img {
+  margin: 0 auto; }
+
+.talk a:hover, .talks a:hover {
+  text-decoration: none; }
+
+.talks a {
+  text-decoration: none; }
 
 #fancybox-loading,
 .fancybox-close,

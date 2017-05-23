@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row">
                 <div class="mt15">
-                    <div class="col-md-2 paddb15">
+                    <div class="col-md-2 paddb15 ml">
                         <h4>WE PROVIDE </h4>
                         <h4>AWESOME</h4>
                         <h4>HUMANNISED </h4>
@@ -38,10 +38,11 @@
 </section>
 <section class="circle">
     <div class="container">
-        <div class="row">
+        <div class="image-circles">
+            <img src="img/approach/circles.png" class="img-responsive" alt="circles">
             <div class="text-color pdd47">
                 <div class="w20">
-                    <img src="img/homepage/35.png" alt="" class="circle-img mar-left img-responsive">
+                    <!--<img src="img/homepage/35.png" alt="" class="circle-img mar-left img-responsive">-->
                     <div class="border-bottom">
                         <h4 class="color-darkblue fs21">Mainstream Successes</h4>
                     </div>
@@ -50,7 +51,7 @@
                     </p>
                 </div>
                 <div class="w20">
-                    <img src="img/homepage/34.png" alt="" class="circle-img mar-left1 img-responsive">
+                    <!--<img src="img/homepage/34.png" alt="" class="circle-img mar-left1 img-responsive">-->
                     <div class="border-bottom">
                         <h4 class="color-lightgreen fs21"> Brand Turnaround Specialists</h4>
                     </div>
@@ -59,7 +60,7 @@
                     </p>
                 </div>
                 <div class="w20">
-                    <img src="img/homepage/36.png" alt="" class="circle-img mar-left2 img-responsive">
+                    <!--<img src="img/homepage/36.png" alt="" class="circle-img mar-left2 img-responsive">-->
                     <div class="border-bottom">
                         <h4 class="color-skyblue fs21">Disruption Through Design</h4>
                     </div>
@@ -67,7 +68,7 @@
                         your competitors zig. we zag! </p>
                 </div>
                 <div class="w20">
-                    <img src="img/homepage/33.png " alt="" class="circle-img mar-left3 img-responsive">
+                    <!--<img src="img/homepage/33.png " alt="" class="circle-img mar-left3 img-responsive">-->
                     <div class="border-bottom">
                         <h4 class="color-darkgreen fs21">Humanized Approach Brand Design </h4>
                     </div>
@@ -97,7 +98,8 @@
         <div class="container">
             <div class="capabilities-cont">
                 <div class="mt30 ">
-                    <h1>Capabilities</h1>
+                    <div class="row">
+                          <h1>Capabilities</h1>
                     <div>
                         <div class="col-md-4 padd0 mb30">
                             <h4 class="">BRANDING</h4>
@@ -150,6 +152,8 @@
                             <li>Publication Design</li>
                         </ul>
                     </div>
+                    </div>
+                  
                 </div>
             </div>
         </div>
@@ -158,9 +162,9 @@
 <section class="icon-slider">
     <div class="relative">
         <div class="container">
-            <div class=" mb70 ">
+            <div class=" mb70 carousels">
                 <flex-slider class="carousel" flex-slide="img in homeImg track by $index" animation="slide" animation-loop="false" as-nav-for="#slider"
-                    slide-show="false">
+                    slide-show="true">
                     <li>
                         <div class="client-imgholder">
                             <div class="row" ng-repeat="row in img track by $index">
@@ -184,7 +188,7 @@
     <div class="bg-blue">
         <div class="container">
             <div class="col-md-2">
-                <div class="mt30">
+                <div class="mt30 ml-25">
                     <h4>WHAT OUR </h4>
                     <h4> CLIENTS SAY</h4>
                     <h4 class="fbold">ABOUT US</h4>
@@ -212,9 +216,9 @@
 <section>
     <div class="container-fluid">
         <div class="row">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.658974103091!2d72.84633311437807!3d19.166399454106546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b65aa4713fe7%3A0xd9a79b6f8bc7124e!2sSumit+Samarth+Arcade!5e0!3m2!1sen!2sin!4v1493706338849"
-                width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <!--<div id="map" style="width:100%;height:300px;"></div>-->
+            <!--<iframe style="pointer-events:none" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3768.658974103091!2d72.84633311437807!3d19.166399454106546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b65aa4713fe7%3A0xd9a79b6f8bc7124e!2sSumit+Samarth+Arcade!5e0!3m2!1sen!2sin!4v1493706338849"
+                width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+            <div id="map" style="width:100%;height:300px;"></div>
         </div>
 
     </div>
