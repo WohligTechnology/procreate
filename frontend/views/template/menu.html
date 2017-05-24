@@ -1,7 +1,42 @@
-   <ul class="nav navbar-nav color-black mt3">
-        <li><a href="#" class="color-black"  ui-sref="about" >ABOUT US</a></li>
-        <li><a href="#" ui-sref="portfolio">WORK </a></li>
-         <li><a href="#" ui-sref="approach">APPROACH </a></li>
-          <li><a href="#" ui-sref="offering"> OFFERING</a></li>
-          <li><a href="#"> CONTACT</a></li>
-      </ul>
+<!--<ul class="nav navbar-nav color-black mt3">
+    <li>
+        <a class="color-black" ui-sref="about"> <span>ABOUT US</span></a>
+    </li>
+    <li>
+        <a ui-sref="portfolio">
+            <span>
+                WORK
+            </span> </a>
+    </li>
+    <li>
+        <a ui-sref="approach">
+            <span>
+                 APPROACH
+             </span> </a>
+    </li>
+    <li>
+        <a ui-sref="offering">
+            <span>
+OFFERING
+              </span>
+        </a>
+    </li>
+    <li>
+        <a> <span>
+              CONTACT
+              </span></a>
+    </li>
+</ul>-->
+
+<ul class="nav navbar-nav color-black mt3">
+  <li ng-repeat="menu in navigation" ui-sref-active="active">
+    <a ui-sref="{{menu.anchor}}" ng-if="menu.anchor"><span>{{menu.name}}</span></a>
+    <a href="{{menu.link}}" ng-if="menu.link">{{menu.name}}</a>
+    <ul class="dropdown-menu" ng-if="menu.subnav!='';">
+      <li ng-repeat="submenu in menu.subnav" ui-sref-active="active">
+        <a ui-serf="{{submenu.anchor}}" ng-if="submenu.anchor">{{submenu.name}}</a>
+        <a herf="{{submenu.link}}" ng-if="submenu.link">{{submenu.name}}</a>
+      </li>
+    </ul>
+  </li>
+</ul>

@@ -89,7 +89,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             },
             {
-                img: 'frontend/img/homepage/82.png'
+                img: 'frontend/img/homepage/92.png'
 
             },
             {
@@ -137,7 +137,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             },
             {
-                img: 'frontend/img/homepage/82.png'
+                img: 'frontend/img/homepage/92.png'
 
             },
             {
