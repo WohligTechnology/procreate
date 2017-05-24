@@ -400,6 +400,7 @@ footer {
         width: 100%;
         display: block;
     }
+     header {
     .navbar-default .navbar-nav>.active>a,
     .navbar-default .navbar-nav>.active>a:hover,
     .navbar-default .navbar-nav>.active>a:focus,
@@ -410,6 +411,8 @@ footer {
             border-bottom: 4px solid white;
         }
     }
+     }
+
     header {
         transition: all 300ms ease;
         .w200 {
@@ -432,7 +435,7 @@ footer {
                 letter-spacing: 1px;
                 &:hover {
                     span {
-                        border-bottom: 4px solid #fff;
+                        border-bottom: 4px solid $brand-smartgreen;
                     }
                 }
             }
@@ -461,16 +464,17 @@ footer {
     .li-color {
         background-color: $brand-green;
     }
+
     .bg-brown {
         background-color: $brand-brown;
         p {
-            margin: 35px 0px;
+            margin: 55px 0px;
             font-family: gothambook;
             font-weight: 700;
-            font-size: 15px;
+            font-size: 17px;
         }
         .arrow-icon {
-            width: 35px;
+            height: 150px;
         }
         .mt15 {
             margin-top: 15px;
@@ -563,7 +567,7 @@ footer {
                 font-weight: 600;
             }
             p {
-                padding: 18px;
+                padding: 18px 18px 18px 0;
                 font-size: 14px;
                 color: $brand-lightblack;
             }
@@ -603,7 +607,7 @@ footer {
         .border-bottom {
             border-bottom: 2px solid #d3d5d6;
             height: 70px;
-            margin: 0 10px;
+            margin: 0 10px 0 0;
         }
     }
     .bg-yellow {
@@ -689,7 +693,7 @@ footer {
             }
         }
         .flexslider .flex-direction-nav .flex-prev {
-            left: -70px !important;
+            left: -115px !important;
         }
         .border {
             width: 79%;
@@ -730,7 +734,7 @@ footer {
             }
         }
         .overlay {
-            background-color: rgba(0, 146, 141, 0.25);
+            background-color: rgba(0, 146, 141, 0.4);
             @include position(absolute,
             0 0 0 0);
         }
@@ -760,6 +764,9 @@ footer {
     //     top: 25%;
     //     left: 15%;
     // }
+        .awesome{
+        margin: 30px 0px;
+    }
     .human {
         // margin-top: 90px;
         img {
@@ -1427,6 +1434,11 @@ footer {
                 font-size: 13px;
                 span {
                     line-height: 2;
+                }
+                &:hover{
+                    span{
+                    border-bottom: 4px solid #fff;
+                    }
                 }
             }
         }
