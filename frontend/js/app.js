@@ -5,8 +5,8 @@ var myApp = angular.module('myApplication', [
     'angulartics',
     'angulartics.google.analytics',
     'ui.bootstrap',
-    'ngAnimate',
-    'ngSanitize',
+    // 'ngAnimate',
+    // 'ngSanitize',
     'angular-flexslider',
     'ui.swiper'
 ]);
