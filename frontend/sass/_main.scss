@@ -200,7 +200,7 @@ a,
 footer {
     background-color: $brand-black;
     .form-control {
-        background-color: #424242;
+        background-color: $brand-black;
         font-size: 12px;
     }
     .social-icon a {
@@ -224,9 +224,12 @@ footer {
         }
     }
         a {
-            letter-spacing: 0.9px;
+            letter-spacing: 1px;
             color: white;
             font-size: 12px;
+            &:hover{
+                color: darken(#fff, 15%);
+            }
         }
         h2 {
             font-size: 35px;
@@ -251,15 +254,12 @@ footer {
         }
         .text-decoration {
             font-family: gotham-el;
-            text-decoration: underline;
+            // text-decoration: underline;
             color: white;
         }
         .robot {
             margin-top: -4px;
             width: 100%;
-        }
-        a:hover {
-            color: white;
         }
         .bg-white {
             ul {
@@ -325,7 +325,7 @@ footer {
             &:hover {
                 color: $brand-smartgreen;
                 border-color: $brand-smartgreen;
-                background-color: #fff;
+                background-color: $brand-black;
             }
             &:focus {
                 outline: 0;
@@ -425,7 +425,7 @@ footer {
         }
         .navbar-nav {
             a {
-                color: #424242 !important;
+                color: $brand-black !important;
                 top: 18px;
                 font-size: 12px;
                 font-weight: 600;
@@ -1464,13 +1464,11 @@ footer {
     }
     .talk,
     .talks {
-        
     text-decoration: none;
-        
         a {
-            text-decoration: underline;
             &:hover {
-                text-decoration: none;
+                text-decoration: underline;
+                color: darken(#fff, 15%);
             }
         }
     }

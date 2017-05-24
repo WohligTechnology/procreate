@@ -9279,9 +9279,11 @@ footer {
       border-color: #cccccc;
       color: #cccccc; }
   footer a {
-    letter-spacing: 0.9px;
+    letter-spacing: 1px;
     color: white;
     font-size: 12px; }
+    footer a:hover {
+      color: #d9d9d9; }
   footer h2 {
     font-size: 35px; }
   footer h5 {
@@ -9299,13 +9301,10 @@ footer {
     font-family: gotham-el; }
   footer .text-decoration {
     font-family: gotham-el;
-    text-decoration: underline;
     color: white; }
   footer .robot {
     margin-top: -4px;
     width: 100%; }
-  footer a:hover {
-    color: white; }
   footer .bg-white ul li {
     width: 130px;
     height: 150px;
@@ -9352,7 +9351,7 @@ footer {
     footer .btn-blue:hover {
       color: #8cd26e;
       border-color: #8cd26e;
-      background-color: #fff; }
+      background-color: #424242; }
     footer .btn-blue:focus {
       outline: 0; }
   footer .circle-img4 {
@@ -10278,10 +10277,11 @@ p {
 
 .talk,
 .talks {
-  text-decoration: underline; }
+  text-decoration: none; }
   .talk a:hover,
   .talks a:hover {
-    text-decoration: none; }
+    text-decoration: underline;
+    color: #d9d9d9; }
 
 #fancybox-loading,
 .fancybox-close,
