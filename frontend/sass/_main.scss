@@ -1464,8 +1464,11 @@ footer {
     }
     .talk,
     .talks {
-        text-decoration: underline;
+        
+    text-decoration: none;
+        
         a {
+            text-decoration: underline;
             &:hover {
                 text-decoration: none;
             }
