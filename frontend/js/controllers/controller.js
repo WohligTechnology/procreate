@@ -3,47 +3,19 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.template = TemplateService.getHTML("content/home.html");
         TemplateService.title = "Home"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
-
-        // $scope.mySlides = [
-        //     'http://flexslider.woothemes.com/images/kitchen_adventurer_cheesecake_brownie.jpg',
-        //     'http://flexslider.woothemes.com/images/kitchen_adventurer_lemon.jpg',
-        //     'http://flexslider.woothemes.com/images/kitchen_adventurer_donut.jpg',
-        //     'http://flexslider.woothemes.com/images/kitchen_adventurer_caramel.jpg'
-        // ];
-
-        //         $scope.initMap = function() {
-        //            var uluru = {lat: -25.363, lng: 131.044};
-        //         var map = new google.maps.Map(document.getElementById('map'), {
-        //           zoom: 15,
-        //           center: uluru
-        //         });
-        //         var marker = new google.maps.Marker({
-        //           position: uluru,
-        //           map: map
-        //         });
-        //  };
-
-        //  google.maps.event.addDomListener(window, 'load', $scope.initMap);  
-
-
         $scope.inspireImg = [{
                 img: 'frontend/img/homepage/home3.jpg'
-
             }, {
                 img: 'frontend/img/homepage/home3.jpg'
-
             },
             {
                 img: 'frontend/img/homepage/home3.jpg'
-
             },
             {
                 img: 'frontend/img/homepage/home3.jpg'
-
             },
             {
                 img: 'frontend/img/homepage/home3.jpg'
-
             },
             {
                 img: 'frontend/img/homepage/home3.jpg',
@@ -54,23 +26,18 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
         $scope.homeImg = [{
                 img: 'frontend/img/homepage/32.png'
-
             },
             {
                 img: 'frontend/img/homepage/42.png'
-
             },
             {
                 img: 'frontend/img/homepage/61.png'
-
             },
             {
                 img: 'frontend/img/homepage/82.png'
-
             },
             {
                 img: 'frontend/img/homepage/10.png'
-
             },
             {
                 img: 'frontend/img/homepage/122.png'
@@ -186,16 +153,19 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         };
 
         initMap = function () {
-                var uluru = {lat: 19.166411, lng: 72.847466};
+            var uluru = {
+                lat: 19.166411,
+                lng: 72.847466
+            };
             // Styles a map in night mode.
             var map = new google.maps.Map(document.getElementById('map'), {
-                center:uluru,
+                center: uluru,
                 scrollwheel: false,
                 zoom: 15,
             });
 
             var marker = new google.maps.Marker({
-                position:uluru,
+                position: uluru,
                 title: "Procreate",
                 // icon: "http://gsourcedata.com/img/landing-logo.png/",
                 map: map
@@ -233,7 +203,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.navigation = NavigationService.getNavigation();
     })
 
-    
+
     //Example API Controller
     .controller('DemoAPICtrl', function ($scope, TemplateService, apiService, NavigationService, $timeout) {
         apiService.getDemo($scope.formData, function (data) {
