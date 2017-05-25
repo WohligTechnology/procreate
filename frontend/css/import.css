@@ -9783,10 +9783,6 @@ p {
     color: gray;
     font-size: 48px; }
 
-.width-370 {
-  width: 370px;
-  margin: 0 auto; }
-
 .brain h5 {
   color: gray; }
 
@@ -9843,40 +9839,11 @@ p {
   .design .display-flex img {
     width: 100%; }
 
-.design .grad {
-  height: 420px;
-  background: red;
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #fb6d75, #e4a96f);
-  /* Standard syntax (must be last) */ }
-
-.design .grad2 {
-  height: 420px;
-  background: red;
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #e56f86, #f19871);
-  /* Standard syntax (must be last) */
-  box-shadow: 10px 1px 21px #b1566c inset; }
-
-.design .grad3 {
-  height: 420px;
-  background: red;
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #e56f86, #fe7347);
-  /* Standard syntax (must be last) */
-  box-shadow: 10px 1px 21px #b1566c inset; }
+.design .bg-color-darkpink {
+  background-color: #e60774; }
 
 .design .text-size .padding {
-  padding: 30px; }
+  padding: 30px 0px 30px 3px; }
 
 .design .text-size h2 {
   margin-top: 24px;
@@ -9905,6 +9872,11 @@ p {
 
 .design .text-size .padd-l30 {
   padding-left: 30px; }
+
+.border-right-white {
+  border-right: 1px solid white;
+  margin-right: 15px;
+  height: 285px; }
 
 .about h2 {
   font-size: 36px; }
@@ -10253,6 +10225,13 @@ p {
 .header1-bg {
   background-color: red; }
 
+.header1 .Approach .navbar {
+  background-color: white;
+  border: none; }
+
+.Offering .navbar {
+  background-color: white; }
+
 .header1 .navbar {
   background-color: #e60774;
   border: none;
@@ -10273,6 +10252,56 @@ p {
   width: 80px;
   padding-left: -20px;
   margin-left: 13px; }
+
+.header1 .other-logo {
+  display: block; }
+
+.header1 .home-logo {
+  display: none; }
+
+.header1.Home .navbar-default .navbar-nav > .active > a,
+.header1.Home .navbar-default .navbar-nav > .active > a:hover,
+.header1.Home .navbar-default .navbar-nav > .active > a:focus,
+.header1.Home .navbar-nav > a:hover {
+  background: transparent; }
+  .header1.Home .navbar-default .navbar-nav > .active > a span,
+  .header1.Home .navbar-default .navbar-nav > .active > a:hover span,
+  .header1.Home .navbar-default .navbar-nav > .active > a:focus span,
+  .header1.Home .navbar-nav > a:hover span {
+    border-bottom: 4px solid white; }
+
+.header1.Home .other-logo {
+  display: none; }
+
+.header1.Home .home-logo {
+  display: block; }
+
+.header1.Home .navbar-nav a {
+  color: #424242 !important;
+  top: 18px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px; }
+  .header1.Home .navbar-nav a:hover span {
+    border-bottom: 4px solid #8cd26e; }
+
+.header1.Home .navbar-nav span {
+  padding-bottom: 5px; }
+
+.header1.Home .navbar {
+  background: white; }
+
+.header1.Approach .navbar {
+  border: none;
+  background: linear-gradient(50deg, #d76bfd, #fe7349); }
+
+.header1.Offering .navbar {
+  border: none;
+  background: linear-gradient(50deg, #b5d533, #0a9da0); }
+
+.header1.Portfolio .navbar {
+  border: none;
+  background: linear-gradient(50deg, #de5428, #ffcd0a); }
 
 .header2 .navbar {
   background-color: transparent;
