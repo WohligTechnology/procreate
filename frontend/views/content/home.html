@@ -1,12 +1,13 @@
 <section class="first-slider">
-    <div>
-        <flex-slider class="carousel" animation="slide" flex-slide="myslide in inspireImg track by $index" prev-text="" next-text=""
-            max-items="1" item-width="500" item-margin="0" animationLoop= "true" animation= "fade">
+        <!--<flex-slider class="carousel" animation="slide" flex-slide="myslide in inspireImg track by $index" prev-text="" next-text=""
+            max-items="1" item-width="500" item-margin="0" animationLoop="true" animation="fade">-->
+
+        <flex-slider flex-slide="myslide in inspireImg track by $index" animation="fade" animationloop="true"
+            move="1" slideshow-Speed="2000" prev-text="" next-text="" animation="slide">
             <li class="li-color">
                 <img ng-src="{{myslide.img}}" class="posi-rel">
             </li>
         </flex-slider>
-    </div>
 </section>
 <section>
     <div class="bg-brown">
@@ -16,10 +17,10 @@
                     <div>
                         <div class="col-md-2 paddb15 ml">
                             <div class="awesome">
-                            <h4>WE PROVIDE </h4>
-                            <h4>AWESOME</h4>
-                            <h4>HUMANNISED </h4>
-                            <h4 class="fbold">DESIGNS </h4>
+                                <h4>WE PROVIDE </h4>
+                                <h4>AWESOME</h4>
+                                <h4>HUMANNISED </h4>
+                                <h4 class="fbold">DESIGNS </h4>
                             </div>
                         </div>
                         <div class="col-md-1">
@@ -87,7 +88,7 @@
                     </p>
                 </div>-->
                 <div>
-                    <a>Know more  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    <a ui-sref="approach">Know more  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
 
                 </div>
             </div>
@@ -98,11 +99,11 @@
     <div class="bg-yellow">
         <div class="container">
             <div class="capabilities-cont">
-                <div class="container-fluid mt30">
+                <div class="mt30">
+                    <h1>Capabilities</h1>
                     <div class="row">
-                        <h1>Capabilities</h1>
-                        <div>
-                            <div class="col-md-4 padd0 mb30">
+                        <div class="col-md-4">
+                            <div class="capablities-list">
                                 <h4 class="">BRANDING</h4>
                                 <ul class="list-unstyled ">
                                     <li>Brand Creation/identity</li>
@@ -110,48 +111,66 @@
                                     <li>Visual Brand Architechture</li>
                                     <li>Brand Guidelines</li>
                                 </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="capablities-list">
+                                <h4>CORPORATE BRANDING</h4>
+                                <ul class="list-unstyled">
+                                    <li>Corporate Collateral</li>
+                                    <li>Marketing Collateral</li>
+                                    <li>Brand Guidelines</li>
+                                    <li>Publication Design</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="capablities-list">
+                                <h4>NAMING</h4>
+                                <ul class="list-unstyled">
+                                    <li>Brand Naming</li>
+                                    <li>Sub-Brand Naming</li>
+                                    <li>Brand Vocabulary</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="capablities-list">
                                 <h4 class="">PACKAGING</h4>
                                 <ul class="list-unstyled ">
                                     <li>Package Design</li>
                                     <li>Package Production</li>
                                     <li>Product Live Extensions</li>
                                 </ul>
-                                <div>
-                                    <a>Know more  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                                </div>
                             </div>
                         </div>
                         <div class="col-md-4 ">
-                            <h4>CORPORATE BRANDING</h4>
-                            <ul class="list-unstyled">
-                                <li>Corporate Collateral</li>
-                                <li>Marketing Collateral</li>
-                                <li>Brand Guidelines</li>
-                                <li>Publication Design</li>
-                            </ul>
-                            <h4>Retail Design / POS</h4>
-                            <ul class="list-unstyled">
-                                <li>Retail Design / BrandingInterior </li>
-                                <li>Interior / Exterior Design</li>
-                                <li>POS / Signage Design</li>
-                                <li>Exhibition Design</li>
-                            </ul>
+                            <div class="capablities-list">
+                                <h4>Retail Design / POS</h4>
+                                <ul class="list-unstyled">
+                                    <li>Retail Design / BrandingInterior </li>
+                                    <li>Interior / Exterior Design</li>
+                                    <li>POS / Signage Design</li>
+                                    <li>Exhibition Design</li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="col-md-4 ">
-                            <h4>NAMING</h4>
-                            <ul class="list-unstyled">
-                                <li>Brand Naming</li>
-                                <li>Sub-Brand Naming</li>
-                                <li>Brand Vocabulary</li>
-                            </ul>
-                            <h4>Brand Communication</h4>
-                            <ul class="list-unstyled">
-                                <li>Marketing Collaterals</li>
-                                <li>Press, Posters</li>
-                                <li>Danglers, Hoardings</li>
-                                <li>Brand Guidelines</li>
-                                <li>Publication Design</li>
-                            </ul>
+                            <div class="capablities-list">
+                                <h4>Brand Communication</h4>
+                                <ul class="list-unstyled">
+                                    <li>Marketing Collaterals</li>
+                                    <li>Press, Posters</li>
+                                    <li>Danglers, Hoardings</li>
+                                    <li>Brand Guidelines</li>
+                                    <li>Publication Design</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div>
+                                <a ui-sref="offering">Know more  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                            </div>
                         </div>
                     </div>
 
@@ -190,29 +209,29 @@
         <div class="container">
             <div>
                 <div class="row">
-            <div class="col-md-2">
-                <div class="mt30 ml-25">
-                    <h4>WHAT OUR </h4>
-                    <h4> CLIENTS SAY</h4>
-                    <h4 class="fbold">ABOUT US</h4>
-                </div>
-            </div>
-            <div class="col-md-10">
-                <div class="mar-top-bot">
-                    <flex-slider class="carousel" animation="slide" flex-slide="myslide in homeText track by $index" prev-text="" next-text=""
-                        max-items="1" item-width="200" item-margin="0">
-                        <li class="li-color">
-                            <div class="gradient client-say">
-                                <h3>{{myslide.title1}}</h3>
-                                <div class="border">
-                                    <div class="circle "></div>
-                                </div>
-                                <p>{{myslide.title2}}</p>
-                            </div>
-                        </li>
-                    </flex-slider>
-                </div>
-            </div>
+                    <div class="col-md-2">
+                        <div class="mt30 ml-25">
+                            <h4>WHAT OUR </h4>
+                            <h4> CLIENTS SAY</h4>
+                            <h4 class="fbold">ABOUT US</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="mar-top-bot">
+                            <flex-slider class="carousel" animation="slide" flex-slide="myslide in homeText track by $index" prev-text="" next-text=""
+                                max-items="1" item-width="200" item-margin="0">
+                                <li class="li-color">
+                                    <div class="gradient client-say">
+                                        <h3>{{myslide.title1}}</h3>
+                                        <div class="border">
+                                            <div class="circle "></div>
+                                        </div>
+                                        <p>{{myslide.title2}}</p>
+                                    </div>
+                                </li>
+                            </flex-slider>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

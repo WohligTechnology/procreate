@@ -102,5 +102,17 @@ myApp.directive('img', function ($compile, $parse) {
         };
     })
 
+    .directive("addClassColor", function ($window) {
+        return function (scope, element, attrs) {
+            angular.element($window).bind("scroll", function () {
+                var windowwidth = $(window).width();
+                if (this.pageYOffset >= 30) {
+                    element.addClass('small-image');
+                } else {
+                    element.removeClass('small-image');
+                }
+            });
+        };
+    });
 
 ;
