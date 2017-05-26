@@ -55,6 +55,22 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
         controller: 'PortfolioCtrl'
     })
 
+    .state('good', {
+        url: "/good",
+        templateUrl: tempateURL,
+        controller: 'GoodCtrl'
+    })
+
+ .state('arch', {
+        url: "/arch",
+        templateUrl: tempateURL,
+        controller: 'ArchCtrl'
+    })
+     .state('doycare', {
+        url: "/doycare",
+        templateUrl: tempateURL,
+        controller: 'DoycareCtrl'
+    })
 
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);

@@ -1461,14 +1461,6 @@
     } //offering
     //ruchira//
     //portfolio start
-    .w-100 {
-        width: 100%;
-    }
-    
-    .w-50 {
-        width: 50%;
-    }
-    
     .rowflex {
         display: flex;
     }
@@ -1483,9 +1475,6 @@
     
     .biscuit {
         margin-top: 90px;
-        .colflex {
-            width: 66.67%;
-        }
         .colflex2 {
             width: 33.33%;
         }
@@ -1589,22 +1578,21 @@
                 background: linear-gradient(50deg, #d76bfd, #fe7349);
             }
         }
-        &.Offering{
-             .navbar {
+        &.Offering {
+            .navbar {
                 // background-color: #e46fbf;
                 border: none;
                 // background: linear-gradient(50deg, rgba(181, 213, 51, 0.02) 70%, rgba(10, 157, 160, 0.06) 30%);
-                 background: linear-gradient(50deg, #b5d533 , #0a9da0 );
+                background: linear-gradient(50deg, #b5d533, #0a9da0);
             }
-            
         }
-        &.Portfolio{
-                .navbar {
+        &.Portfolio {
+            .navbar {
                 // background-color: #e46fbf;
                 border: none;
-                background: linear-gradient(50deg, #de5428 , #ffcd0a );
+                background: linear-gradient(50deg, #de5428, #ffcd0a);
             }
-            }
+        }
     }
     
     .header2 {
