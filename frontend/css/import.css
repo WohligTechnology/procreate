@@ -9272,7 +9272,7 @@ footer {
       border-radius: 50%;
       width: 40px;
       height: 40px;
-      padding: 10px 0;
+      padding: 8px 0;
       text-align: center;
       transition: all ease 300ms; }
     footer .social-icon a:hover i {
@@ -9479,7 +9479,8 @@ p {
     margin: 50px 0px;
     font-family: gothambook;
     font-weight: 700;
-    font-size: 18px; }
+    font-size: 18px;
+    padding-left: 20px; }
   .bg-brown .arrow-icon {
     height: 150px; }
   .bg-brown .mt15 {
@@ -9490,6 +9491,9 @@ p {
 
 .flexslider .slides img {
   margin-top: 70px; }
+
+.first-slider .flex-nav-prev {
+  display: none; }
 
 .flexslider {
   margin: 0 0 0px;
@@ -9507,13 +9511,8 @@ p {
     color: rgba(0, 0, 0, 0.8);
     width: 150px;
     height: 150px; }
-  .flexslider .flex-direction-nav .flex-nav-next a:before {
-    content: "";
-    display: inline-block;
-    background-image: url("../img/homepage/27.png");
-    color: rgba(0, 0, 0, 0.8);
-    width: 150px;
-    height: 150px; }
+  .flexslider .flex-direction-nav .flex-nav-next {
+    display: none; }
   .flexslider .flex-direction-nav .flex-prev {
     left: 165px !important; }
   .flexslider .flex-direction-nav .flex-next {
@@ -9620,9 +9619,11 @@ p {
     color: white; }
   .bg-blue li {
     background-color: #00928d; }
+  .bg-blue ul {
+    background-color: #00928d; }
   .bg-blue p {
     font-size: 14px;
-    padding: 10px 0px;
+    padding: 10px 1px;
     margin-bottom: 0; }
   .bg-blue h3 {
     color: white;
@@ -9828,7 +9829,7 @@ p {
   font-family: 'gothamBold'; }
 
 .design .white-sec {
-  margin: 5% 0; }
+  margin: 6% 0px 4%; }
   .design .white-sec h1 {
     font-size: 70px;
     color: #e46fbf; }
@@ -10141,7 +10142,8 @@ p {
   top: 25%;
   right: 20%; }
   .offers .top-bot p {
-    font-size: 16px; }
+    font-size: 18px;
+    padding-top: 60px; }
 
 .offers p {
   padding: 0px 18px 0 0;
@@ -10206,13 +10208,35 @@ p {
 .w-33 {
   width: 33.33%; }
 
-.w-34 {
-  width: 33.33%; }
-
 .biscuit {
   margin-top: 90px; }
-  .biscuit .colflex2 {
-    width: 33.33%; }
+
+.port-imgs {
+  position: relative; }
+  .port-imgs .overlaying {
+    background-color: rgba(255, 255, 255, 0.74);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease;
+    overflow: hidden;
+    width: 0;
+    height: 100%; }
+  .port-imgs:hover .overlaying {
+    width: 100%; }
+
+.overlay-text-bg {
+  position: absolute;
+  top: 23%;
+  left: 19%; }
+  .overlay-text-bg h2 {
+    color: darkred;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: 1px;
+    line-height: 24px; }
 
 .header1-bg {
   background-color: red; }

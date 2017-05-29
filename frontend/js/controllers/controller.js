@@ -6,21 +6,20 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.inspireImg = [{
                 img: 'frontend/img/homepage/home3.jpg'
             }, {
-                img: 'frontend/img/homepage/home3.jpg'
+                img: 'frontend/img/homepage/slide2.jpg'
             },
             {
-                img: 'frontend/img/homepage/home3.jpg'
+                img: 'frontend/img/homepage/slide3.jpg'
             },
             {
-                img: 'frontend/img/homepage/home3.jpg'
+                img: 'frontend/img/homepage/slide4.jpg'
             },
             {
-                img: 'frontend/img/homepage/home3.jpg'
+                img: 'frontend/img/homepage/slide5.jpg'
             },
             {
-                img: 'frontend/img/homepage/home3.jpg',
-                titlehome2: 'THE TWO-DOLLAR BILL',
-                title2: 'BY CHRISTIAN GREWE'
+                img: 'frontend/img/homepage/slide6.jpg',
+            
             }
         ]
 
@@ -131,11 +130,16 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
         $scope.homeText = [{
                 title1: 'PARLE, SR. PRODUCT MANAGER ',
-                title2: '“The feedback from the market as well as our field force has been quite encouraging.I must take this opportunity to mention that Procreate is a fast emerging design specialist firm with the most important trait of not just creativity, but has a lot of willingness to explore and walk that extra mile to deliver to the client’s satisfaction.I wish Akhilesh and team Procreate all the very best.”  '
+                title2: '“We take pleasure to testify the fact that Procreate has lived up to our expectation and given us a clutter-breaking and outstanding packaging solution across our range of products. I would like to make a specific mention of fantastic packaging for our newly re-launched range of Snacks – Parle’s Wafers & FullToss. Ever since the re-launch, we have received tremendous response for both the brands.”  '
             },
             {
-                title1: 'PARLE, SR. PRODUCT MANAGER',
-                title2: '“The feedback from the market as well as our field force has been quite encouraging.I must take this opportunity to mention that Procreate is a fast emerging design specialist firm with the most important trait of not just creativity, but has a lot of willingness to explore and walk that extra mile to deliver to the client’s satisfaction.I wish Akhilesh and team Procreate all the very best.”',
+                title1: 'SG CRICKET, DIRECTOR',
+                title2: ' “Procreate has shown incredible creativity in the task which was given to them. We had ideas for a new vision for our company, which we handed over to them. The final product they came up with outperformed our thoughts and ideas. Their hard work and creative thought process is brilliant. We wish them good luck in all their future endeavors.”',
+
+            },
+              {
+                title1: 'NEROLAC, SR. MANAGER',
+                title2: '" Working with the procreate team has been a pleasure. I worked with them on what will soon be the most premium product range of Kansai Nerolac - Wonderwood Gloria -  and the results were outstanding - extremely well received by the top management and the trade."',
 
             },
 

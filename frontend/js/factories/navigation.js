@@ -22,7 +22,7 @@ myApp.factory('NavigationService', function () {
     }, {
         name: "CONTACT",
         classis: "active",
-        anchor: "home",
+        id: "#contact",
         subnav: []
     }
     

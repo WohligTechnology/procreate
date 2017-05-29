@@ -31,6 +31,7 @@ OFFERING
 <ul class="nav navbar-nav color-black mt3">
   <li ng-repeat="menu in navigation" ui-sref-active="active">
     <a ui-sref="{{menu.anchor}}" ng-if="menu.anchor"><span>{{menu.name}}</span></a>
+    <a href="{{menu.id}}" ng-if="menu.id">{{menu.name}}</a>
     <a href="{{menu.link}}" ng-if="menu.link">{{menu.name}}</a>
     <ul class="dropdown-menu" ng-if="menu.subnav!='';">
       <li ng-repeat="submenu in menu.subnav" ui-sref-active="active">
