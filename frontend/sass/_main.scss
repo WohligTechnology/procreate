@@ -227,7 +227,7 @@
         a {
             letter-spacing: 1px;
             color: white;
-            font-size: 12px;
+            font-size: 14px;
             &:hover {
                 color: darken(#fff, 15%);
             }
@@ -1845,4 +1845,13 @@
     line-height: 1.6em;
          }
          
+    }
+
+    .get-padd{
+           padding: 0px 0 0 63px;
+    }
+    .padd-ul{
+        ul{
+            padding: 0px;
+        }
     }

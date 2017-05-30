@@ -183,8 +183,10 @@
     <div class="relative">
         <div class="container">
             <div class=" mb70 carousels">
-                <flex-slider class="carousel" flex-slide="img in homeImg track by $index" animation="slide" animation-loop="false" as-nav-for="#slider"
-                    slide-show="true">
+                <flex-slider class="carousel" flex-slide="img in homeImg track by $index" animation="slide" animationLoop="true" slideshow="true" as-nav-for="#slider"
+                slideshowSpeed="500" animationSpeed="60" pauseOnHover="true">
+                       <!--<flex-slider flex-slide="myslide in inspireImg track by $index" animation="fade" animationloop="true"
+            move="1" slideshow-Speed="2000" prev-text="" next-text="" animation="slide">-->
                     <li>
                         <div class="client-imgholder">
                             <div class="row" ng-repeat="row in img track by $index">

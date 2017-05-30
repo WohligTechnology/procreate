@@ -9281,7 +9281,7 @@ footer {
   footer a {
     letter-spacing: 1px;
     color: white;
-    font-size: 12px; }
+    font-size: 14px; }
     footer a:hover {
       color: #d9d9d9; }
   footer h2 {
@@ -10462,6 +10462,12 @@ p {
   .portfolio-subtitle h3 {
     margin: 0;
     line-height: 1.6em; }
+
+.get-padd {
+  padding: 0px 0 0 63px; }
+
+.padd-ul ul {
+  padding: 0px; }
 
 #fancybox-loading,
 .fancybox-close,
