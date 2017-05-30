@@ -4,114 +4,114 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         TemplateService.title = "Home"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
         $scope.inspireImg = [{
-                img: 'frontend/img/homepage/home3.jpg'
+                img: 'img/homepage/home3.jpg'
             }, {
-                img: 'frontend/img/homepage/slide2.jpg'
+                img: 'img/homepage/slide2.jpg'
             },
             {
-                img: 'frontend/img/homepage/slide3.jpg'
+                img: 'img/homepage/slide3.jpg'
             },
             {
-                img: 'frontend/img/homepage/slide4.jpg'
+                img: 'img/homepage/slide4.jpg'
             },
             {
-                img: 'frontend/img/homepage/slide5.jpg'
+                img: 'img/homepage/slide5.jpg'
             },
             {
-                img: 'frontend/img/homepage/slide6.jpg',
-            
+                img: 'img/homepage/slide6.jpg',
+
             }
         ]
 
         $scope.homeImg = [{
-                img: 'frontend/img/homepage/32.png'
+                img: 'img/homepage/32.png'
             },
             {
-                img: 'frontend/img/homepage/42.png'
+                img: 'img/homepage/42.png'
             },
             {
-                img: 'frontend/img/homepage/61.png'
+                img: 'img/homepage/61.png'
             },
             {
-                img: 'frontend/img/homepage/82.png'
+                img: 'img/homepage/82.png'
             },
             {
-                img: 'frontend/img/homepage/10.png'
+                img: 'img/homepage/10.png'
             },
             {
-                img: 'frontend/img/homepage/122.png'
+                img: 'img/homepage/122.png'
 
             },
             {
-                img: 'frontend/img/homepage/43.png'
+                img: 'img/homepage/43.png'
 
             },
             {
-                img: 'frontend/img/homepage/52.png'
+                img: 'img/homepage/52.png'
 
             },
             {
-                img: 'frontend/img/homepage/73.png'
+                img: 'img/homepage/73.png'
 
             },
             {
-                img: 'frontend/img/homepage/92.png'
+                img: 'img/homepage/92.png'
 
             },
             {
-                img: 'frontend/img/homepage/111.png'
+                img: 'img/homepage/111.png'
 
             },
             {
-                img: 'frontend/img/homepage/31.png'
+                img: 'img/homepage/31.png'
 
             },
             {
-                img: 'frontend/img/homepage/nanil2.png'
+                img: 'img/homepage/nanil2.png'
 
             },
             {
-                img: 'frontend/img/homepage/sg2.png'
+                img: 'img/homepage/sg2.png'
 
             },
             {
-                img: 'frontend/img/homepage/yours.png'
+                img: 'img/homepage/yours.png'
 
             },
             {
-                img: 'frontend/img/homepage/vvf.png'
+                img: 'img/homepage/vvf.png'
 
             },
             {
-                img: 'frontend/img/homepage/vlcc.png'
+                img: 'img/homepage/vlcc.png'
 
             },
             {
-                img: 'frontend/img/homepage/seths.png'
+                img: 'img/homepage/seths.png'
 
             },
             {
-                img: 'frontend/img/homepage/sarda.png'
+                img: 'img/homepage/sarda.png'
 
             },
             {
-                img: 'frontend/img/homepage/lotus2.png'
+                img: 'img/homepage/lotus2.png'
 
             },
             // {
-            //     img: 'frontend/img/homepage/73.png'
+            //     img: 'img/homepage/73.png'
 
             // },
             // {
-            //     img: 'frontend/img/homepage/92.png'
+            //     img: 'img/homepage/92.png'
 
             // },
             // {
-            //     img: 'frontend/img/homepage/111.png'
+            //     img: 'img/homepage/111.png'
 
             // },
             // {
-            //     img: 'frontend/img/homepage/31.png'
+            //     img: 'img/homepage/31.png'
 
             // },
         ]
@@ -137,7 +137,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 title2: ' “Procreate has shown incredible creativity in the task which was given to them. We had ideas for a new vision for our company, which we handed over to them. The final product they came up with outperformed our thoughts and ideas. Their hard work and creative thought process is brilliant. We wish them good luck in all their future endeavors.”',
 
             },
-              {
+            {
                 title1: 'NEROLAC, SR. MANAGER',
                 title2: '" Working with the procreate team has been a pleasure. I worked with them on what will soon be the most premium product range of Kansai Nerolac - Wonderwood Gloria -  and the results were outstanding - extremely well received by the top management and the trade."',
 
