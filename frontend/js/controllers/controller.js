@@ -67,53 +67,53 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             },
             {
-                img: 'frontend/img/homepage/32.png'
+                img: 'frontend/img/homepage/nanil2.png'
 
             },
             {
-                img: 'frontend/img/homepage/42.png'
+                img: 'frontend/img/homepage/sg2.png'
 
             },
             {
-                img: 'frontend/img/homepage/61.png'
+                img: 'frontend/img/homepage/yours.png'
 
             },
             {
-                img: 'frontend/img/homepage/82.png'
+                img: 'frontend/img/homepage/vvf.png'
 
             },
             {
-                img: 'frontend/img/homepage/10.png'
+                img: 'frontend/img/homepage/vlcc.png'
 
             },
             {
-                img: 'frontend/img/homepage/122.png'
+                img: 'frontend/img/homepage/seths.png'
 
             },
             {
-                img: 'frontend/img/homepage/43.png'
+                img: 'frontend/img/homepage/sarda.png'
 
             },
             {
-                img: 'frontend/img/homepage/52.png'
+                img: 'frontend/img/homepage/lotus2.png'
 
             },
-            {
-                img: 'frontend/img/homepage/73.png'
+            // {
+            //     img: 'frontend/img/homepage/73.png'
 
-            },
-            {
-                img: 'frontend/img/homepage/92.png'
+            // },
+            // {
+            //     img: 'frontend/img/homepage/92.png'
 
-            },
-            {
-                img: 'frontend/img/homepage/111.png'
+            // },
+            // {
+            //     img: 'frontend/img/homepage/111.png'
 
-            },
-            {
-                img: 'frontend/img/homepage/31.png'
+            // },
+            // {
+            //     img: 'frontend/img/homepage/31.png'
 
-            },
+            // },
         ]
 
 

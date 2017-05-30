@@ -26,6 +26,8 @@
     $brand-red:#fe7349 !default;
     $brand-lightpink:#ed7095 !default;
     $brand-darkpink:#e60774;
+    $brand-lightpurpal:#bf202e;
+    
     @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
     /* Bootstrap Variables Goes Here */
     
@@ -60,6 +62,7 @@
     h5,
     p {
         font-family: gothambook;
+        
     }
     
     h4,
@@ -1815,4 +1818,31 @@
             vertical-align: center;
             top: -23px;
         }
+    }
+    //:end
+
+    //golden arch :start
+
+    .golden-arch{
+         background-image: url("../img/portfolio/arch/8.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+       h3{
+            color:$brand-lightpurpal;
+     }
+    }
+    .img-banner-padd{
+        padding: 60px 100px;
+    
+    }
+    .portfolio-subtitle{
+        color: gray !important;
+         font-family: 'gothambook';
+         h3{
+                 margin: 0;
+    line-height: 1.6em;
+         }
+         
     }

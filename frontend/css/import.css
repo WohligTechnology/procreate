@@ -10444,6 +10444,25 @@ p {
     vertical-align: center;
     top: -23px; }
 
+.golden-arch {
+  background-image: url("../img/portfolio/arch/8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+  .golden-arch h3 {
+    color: #bf202e; }
+
+.img-banner-padd {
+  padding: 60px 100px; }
+
+.portfolio-subtitle {
+  color: gray !important;
+  font-family: 'gothambook'; }
+  .portfolio-subtitle h3 {
+    margin: 0;
+    line-height: 1.6em; }
+
 #fancybox-loading,
 .fancybox-close,
 .fancybox-next span,
