@@ -118,9 +118,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
 
 
-        $scope.homeImg = _.chunk($scope.homeImg, 12);
+        $scope.homeImg = _.chunk($scope.homeImg, 8);
         for (var i = 0; i < $scope.homeImg.length; i++) {
-            $scope.homeImg[i] = _.chunk($scope.homeImg[i], 6);
+            $scope.homeImg[i] = _.chunk($scope.homeImg[i], 4);
             console.log($scope.homeImg);
         }
         console.log("this is client");
