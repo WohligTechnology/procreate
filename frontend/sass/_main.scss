@@ -505,6 +505,7 @@
 
     .flex-control-nav {
         bottom: 5px !important;
+        z-index: 2;
     }
 
     .flexslider .slides img {
@@ -521,10 +522,12 @@
         margin: 0 0 0px;
         border: none;
         .flex-control-paging li a.flex-active {
-            background: $brand-green;
+            background: white;
+            border: 1px solid #000;
         }
         .flex-control-paging li a {
-            background: #a9ff9b;
+            background: #000;
+             border: 1px solid #000;
         }
         .flex-direction-nav {
             a {
@@ -561,7 +564,12 @@
 
     .icon-slider {
         .flex-control-nav {
-            bottom: -40px !important;
+            // bottom: -40px !important;
+              
+  
+    bottom: 5px;
+   
+    z-index: 2;
         }
         .flex-control-paging li {
             margin: 0 4px;
@@ -761,7 +769,9 @@
         .relative {
             position: relative;
             .flex-control-nav {
-                bottom: -53px !important;
+                // bottom: -53px !important;
+                bottom:5px!important;
+                z-index: 2;
             }
             .flex-direction-nav {
                 .flex-nav-prev {
@@ -1487,7 +1497,7 @@
         position: relative; // overflow: hidden;
         .overlaying {
              background-color: rgba(230, 7, 116, 0.71);
-               background: linear-gradient(50deg, rgba(222, 84, 40, 0.55), rgba(255, 205, 10, 0.74));
+               background: linear-gradient(50deg, rgba(222, 84, 40, 0.79), rgba(255, 205, 10, 0.88));
 
             @include position(absolute,
             0 0 0 0);
@@ -1513,7 +1523,8 @@ opacity:0;
         top: 23%;
         left: 19%;
         h2 {
-            color: darkred;
+            // color: darkred;
+            color:white;
             font-weight: 600;
             font-size: 36px;
             letter-spacing: 1px;
