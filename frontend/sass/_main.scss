@@ -438,8 +438,10 @@
             margin-bottom: 20px;
         }
         .img-a {
+            width: 260px;
             height: 70px;
             margin-left: 80px;
+            overflow: hidden;
         }
         .navbar-nav {
             a {
@@ -1843,4 +1845,9 @@ opacity:0;
         .flex-viewport {
             max-height: 400px;
         }
+    }
+
+    img.loading {
+        width: 100px;
+        padding: 20px;
     }

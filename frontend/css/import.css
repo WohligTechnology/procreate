@@ -9440,8 +9440,10 @@ header {
   header .mb20 {
     margin-bottom: 20px; }
   header .img-a {
+    width: 260px;
     height: 70px;
-    margin-left: 80px; }
+    margin-left: 80px;
+    overflow: hidden; }
   header .navbar-nav a {
     color: #424242 !important;
     top: 18px;
@@ -10471,6 +10473,10 @@ p {
 
 .carousels .flex-viewport {
   max-height: 400px; }
+
+img.loading {
+  width: 100px;
+  padding: 20px; }
 
 #fancybox-loading,
 .fancybox-close,

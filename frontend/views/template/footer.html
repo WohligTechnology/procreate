@@ -1,4 +1,4 @@
-<footer id="contact">
+<footer id="contact" ng-controller="headerCtrl()">
     <div>
     <div class="bg-black">
         <div class="container ">
@@ -119,8 +119,8 @@
                                     ATL/BTL
                                 </a></li>
                                 <li>
-                                    <a>
-                                        <h5 href="mailto:https://branddesignforhumans.wordpress.com" target="_blank">Blog</h5>
+                                    <a href="https://branddesignforhumans.wordpress.com" target="_blank">
+                                        <h5 >Blog</h5>
                                     </a>
                                 </li>
                             </ul>
@@ -135,7 +135,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a>
+                                    <a ng-click="changeURL(brand)">
                                     Naming
                                 </a></li>
                                 <li>
@@ -202,9 +202,12 @@
                             <!--<a class="text-decoration" href="mailto:letstalk@procreatebranding.com">letstalk@procreatebranding.com</a>-->
                         </div>
                         <div class="mt30 talks">
-                            <p>For career opportunities, please share your CV and portfolio to  <a class="text-decoration" href="mailto:career@procreatebranding.co">career@procreatebranding.com</a>
+                            <p>
+                                For career opportunities, please share your CV and portfolio to  
+                                <a class="text-decoration" href="mailto:career@procreatebranding.com">career@procreatebranding.com</a>
                                 We request you not to call us; if your profile matches our requirements, we shall get back
-                                to you.</p>
+                                to you.
+                                </p>
                         </div>
                         <div class="mt30 social-icon">
                             <div class="img-inline">
