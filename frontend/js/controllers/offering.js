@@ -5,32 +5,32 @@ myApp.controller('OfferingCtrl', function ($scope, TemplateService, NavigationSe
     $scope.navigation = NavigationService.getNavigation();
     console.log($stateParams.id);
     //  $scope.menutitle = NavigationService.makeactive($stateParams.id); 
+    var id = "";
 
-
-        $scope.getTab = function (view) {
-      var id = "";
-      console.log(view);
-      switch (view) {
-        case 0:
-          id = "strategy";
-          break;
-        case 1:
-          id = "design";
-          break;
-        case 2:
-          id = "service";
-          break;
-        case 3:
-          id = "branding";
-          break;
-        case 4:
-          id = "management";
-          break;
-        default:
-          break;
-      }
-      console.log(id);
-              $state.transitionTo('offeringid', {
+    $scope.getTab = function (view) {
+        var id = "";
+        console.log(view);
+        switch (view) {
+            case 0:
+                id = "strategy";
+                break;
+            case 1:
+                id = "design";
+                break;
+            case 2:
+                id = "service";
+                break;
+            case 3:
+                id = "branding";
+                break;
+            case 4:
+                id = "management";
+                break;
+            default:
+                break;
+        }
+        console.log(id);
+        $state.transitionTo('offeringid', {
             id: id
         }, {
             notify: false
@@ -38,7 +38,8 @@ myApp.controller('OfferingCtrl', function ($scope, TemplateService, NavigationSe
         makeAnimation(id);
         $location.replace();
     };
-console.log(id);
+    console.log(id);
+
     function makeAnimation(id) {
         if (_.isEmpty(id)) {
             id = "offering";
@@ -52,7 +53,6 @@ console.log(id);
             makeAnimation($stateParams.id);
         }, 1000);
     });
-var id = "brand";
 
     // $scope.changeURL = function (id) {
     //     // $scope.menutitle = NavigationService.makeactive(id);
