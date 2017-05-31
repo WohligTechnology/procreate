@@ -24,7 +24,7 @@ myApp.controller('OfferingCtrl', function ($scope, TemplateService, NavigationSe
           id = "branding";
           break;
         case 4:
-          id = "managment";
+          id = "management";
           break;
         default:
           break;

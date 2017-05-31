@@ -45,12 +45,13 @@ module.exports = [
   // Contorllers
 
   'frontend/js/controllers/controller.js',
-   'frontend/js/controllers/approach.js',
-   'frontend/js/controllers/portfolio.js',
-     'frontend/js/controllers/good.js',
-      'frontend/js/controllers/arch.js',
-       'frontend/js/controllers/doycare.js',
+  'frontend/js/controllers/approach.js',
+  'frontend/js/controllers/portfolio.js',
+  'frontend/js/controllers/good.js',
+  'frontend/js/controllers/arch.js',
+  'frontend/js/controllers/doycare.js',
+  'frontend/js/controllers/offering.js',
   'frontend/js/controllers/header-controller.js',
   'frontend/js/controllers/language-controller.js',
-  
+
 ];

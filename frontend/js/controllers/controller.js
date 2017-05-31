@@ -1,5 +1,5 @@
 var initMap = function () {};
-myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope) {
+myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope,$location) {
         $scope.template = TemplateService.getHTML("content/home.html");
         TemplateService.title = "Home"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
@@ -180,24 +180,65 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             initMap();
         }, 500);
 
+     $scope.getTab = function (view) {
+      var id = "";
+      console.log(view);
+      switch (view) {
+        case 0:
+          id = "/offering/strategy";
+          break;
+        case 1:
+          id = "/offering/design";
+          break;
+        case 2:
+          id = "/offering/service";
+          break;
+        case 3:
+          id = "/offering/branding";
+          break;
+        case 4:
+          id = "/offering/management";
+          break;
+        default:
+          break;
+      }
+      console.log(id);
+        console.log(id);
+      $location.path(id);
+    };
     })
 
-    .controller('FormCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
-        $scope.template = TemplateService.getHTML("content/form.html");
-        TemplateService.title = "Form"; //This is the Title of the Website
-        $scope.navigation = NavigationService.getNavigation();
-        $scope.formSubmitted = false;
-        $scope.submitForm = function (data) {
-            console.log(data);
-            $scope.formSubmitted = true;
-        };
-    })
-
-    .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout) {
+    .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout ,$location) {
         $scope.template = TemplateService.getHTML("content/about.html");
         TemplateService.title = "About"; //This is the Title of the Website
         // TemplateService.header = "views/template/header1.html"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
+             $scope.getTab = function (view) {
+      var id = "";
+      console.log(view);
+      switch (view) {
+        case 0:
+          id = "/offering/strategy";
+          break;
+        case 1:
+          id = "/offering/design";
+          break;
+        case 2:
+          id = "/offering/service";
+          break;
+        case 3:
+          id = "/offering/branding";
+          break;
+        case 4:
+          id = "/offering/management";
+          break;
+        default:
+          break;
+      }
+      console.log(id);
+        console.log(id);
+      $location.path(id);
+    };
     })
 
 
