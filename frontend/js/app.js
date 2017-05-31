@@ -8,7 +8,8 @@ var myApp = angular.module('myApplication', [
     // 'ngAnimate',
     // 'ngSanitize',
     'angular-flexslider',
-    'ui.swiper'
+    'ui.swiper',
+    'duScroll'
 ]);
 
 // Define all the routes below
@@ -29,48 +30,53 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             controller: 'FormCtrl'
         })
 
-    .state('about', {
-        url: "/about",
-        templateUrl: tempateURL,
-        controller: 'AboutCtrl'
-    })
+        .state('about', {
+            url: "/about",
+            templateUrl: tempateURL,
+            controller: 'AboutCtrl'
+        })
 
-    .state('offering', {
-        url: "/offering",
-        templateUrl: tempateURL,
-        controller: 'OfferingCtrl'
-    })
+        .state('offering', {
+            url: "/offering",
+            templateUrl: tempateURL,
+            controller: 'OfferingCtrl'
+        })
+
+        .state('offeringid', {
+            url: "/offering/:id",
+             templateUrl: tempateURL,
+            controller: 'OfferingCtrl'
+        })
+
+        .state('approach', {
+            url: "/approach",
+            templateUrl: tempateURL,
+            controller: 'ApproachCtrl'
+        })
 
 
-    .state('approach', {
-        url: "/approach",
-        templateUrl: tempateURL,
-        controller: 'ApproachCtrl'
-    })
+        .state('portfolio', {
+            url: "/portfolio",
+            templateUrl: tempateURL,
+            controller: 'PortfolioCtrl'
+        })
 
+        .state('good', {
+            url: "/good",
+            templateUrl: tempateURL,
+            controller: 'GoodCtrl'
+        })
 
-    .state('portfolio', {
-        url: "/portfolio",
-        templateUrl: tempateURL,
-        controller: 'PortfolioCtrl'
-    })
-
-    .state('good', {
-        url: "/good",
-        templateUrl: tempateURL,
-        controller: 'GoodCtrl'
-    })
-
- .state('arch', {
-        url: "/arch",
-        templateUrl: tempateURL,
-        controller: 'ArchCtrl'
-    })
-     .state('doycare', {
-        url: "/doycare",
-        templateUrl: tempateURL,
-        controller: 'DoycareCtrl'
-    })
+        .state('arch', {
+            url: "/arch",
+            templateUrl: tempateURL,
+            controller: 'ArchCtrl'
+        })
+        .state('doycare', {
+            url: "/doycare",
+            templateUrl: tempateURL,
+            controller: 'DoycareCtrl'
+        })
 
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);
