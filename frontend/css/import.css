@@ -10344,14 +10344,21 @@ p {
   position: relative; }
   .port-imgs .overlaying {
     background-color: rgba(230, 7, 116, 0.71);
+<<<<<<< HEAD
     background: linear-gradient(50deg, rgba(222, 84, 40, 0.79), rgba(255, 205, 10, 0.88));
+=======
+    background: linear-gradient(50deg, rgba(222, 84, 40, 0.55), rgba(255, 205, 10, 0.74));
+>>>>>>> 0acf442f2ae7d5a4b99db1051e4778d558fdca71
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+<<<<<<< HEAD
     -webkit-transition: 500ms ease;
     -o-transition: 500ms ease;
+=======
+>>>>>>> 0acf442f2ae7d5a4b99db1051e4778d558fdca71
     transition: 500ms ease;
     opacity: 0; }
   .port-imgs:hover .overlaying {
