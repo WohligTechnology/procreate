@@ -98,29 +98,29 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/lotus2.png'
 
             },
-            // {
-            //     img: 'img/homepage/73.png'
+            {
+                img: 'img/homepage/vachan2.png'
 
-            // },
-            // {
-            //     img: 'img/homepage/92.png'
+            },
+            {
+                img: 'img/homepage/sanank2.png'
 
-            // },
-            // {
-            //     img: 'img/homepage/111.png'
+            },
+            {
+                img: 'img/homepage/priyagold.png'
 
-            // },
-            // {
-            //     img: 'img/homepage/31.png'
+            },
+            {
+                img: 'img/homepage/livrite.png'
 
-            // },
+            },
         ]
 
 
 
-        $scope.homeImg = _.chunk($scope.homeImg, 8);
+        $scope.homeImg = _.chunk($scope.homeImg, 12);
         for (var i = 0; i < $scope.homeImg.length; i++) {
-            $scope.homeImg[i] = _.chunk($scope.homeImg[i], 4);
+            $scope.homeImg[i] = _.chunk($scope.homeImg[i], 6);
             console.log($scope.homeImg);
         }
         console.log("this is client");

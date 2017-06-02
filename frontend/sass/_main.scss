@@ -1,4 +1,3 @@
-
 /* Bootstrap Variables Goes Here */
 
 $brand-primary: #0d9dff !default;
@@ -518,19 +517,19 @@ p {
     .flex-nav-prev {
         display: none;
     }
+    .flex-control-paging li a.flex-active {
+        background: transparent;
+        display: none
+    }
+    .flex-control-paging li a {
+        background: transparent;
+        display: none
+    }
 }
 
 .flexslider {
     margin: 0 0 0px;
     border: none;
-    .flex-control-paging li a.flex-active {
-        background: white;
-        border: 1px solid #000;
-    }
-    .flex-control-paging li a {
-        background: #000;
-        border: 1px solid #000;
-    }
     .flex-direction-nav {
         a {
             width: 50px;
@@ -567,7 +566,7 @@ p {
 .icon-slider {
     .flex-control-nav {
         // bottom: -40px !important;
-        bottom: 5px;
+        bottom: -20px !important;
         z-index: 2;
     }
     .flex-control-paging li {
@@ -579,6 +578,12 @@ p {
                 background: #00928d !important;
             }
         }
+    }
+    .flex-control-paging li a.flex-active {
+        background: white;
+    }
+    .flex-control-paging li a {
+        background: #00928d;
     }
     .w125 {
         width: 125px;
@@ -769,7 +774,7 @@ p {
         position: relative;
         .flex-control-nav {
             // bottom: -53px !important;
-            bottom: 5px!important;
+            // bottom: 5px!important;
             z-index: 2;
         }
         .flex-direction-nav {
@@ -1518,8 +1523,7 @@ p {
     // background-color: rgba(254, 115, 73, 0.15);
     // background-color: white;
     position: absolute;
-    top: 23%;
-    left: 19%;
+    left: 7%;
     h2 {
         // color: darkred;
         color: white;
@@ -1528,7 +1532,50 @@ p {
         letter-spacing: 1px;
         line-height: 24px;
     }
-} //end portfolio
+}
+
+.top35 {
+    top: 35%;
+}
+
+.top45 {
+    top: 45% !important;
+}
+
+.product-name-size {
+    h4 {
+        font-weight: 900;
+        font-size: 22px;
+    }
+}
+
+.product-name {
+    top: 7%;
+    left: 7%;
+    position: absolute;
+}
+
+.product-name2 {
+    top: 3%;
+    left: 7%;
+    position: absolute;
+}
+
+.read-more {
+    left: 7%;
+    position: absolute;
+    bottom: 7%;
+}
+
+.read-more2 {
+    left: 7%;
+    position: absolute;
+    bottom: 3%;
+}
+.display-inline{
+    display: inline-block;
+}
+//end portfolio
 //header start
 .header1-bg {
     background-color: red;
