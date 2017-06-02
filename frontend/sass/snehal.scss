@@ -1,7 +1,93 @@
 //scss for good
  .good-bg {
-     background-image: url("../img/good/3.jpg");
+     background-image: url("../img/good/2.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
+     background-attachment: fixed;
+     h3 {
+         text-transform: uppercase;
+         color: #00a600;
+         font-family: gothamMedium;
+         font-size: 20px;
+     }
+     p {
+         font-size: 14px;
+         color: #696969;
+         padding: 0 0 15px;
+     }
+     h2 {
+         color: #17a84a;
+         text-transform: uppercase;
+         font-family: gothamMedium;
+         font-size: 20px;
+     }
+     h4 {
+         color: #696969;
+         font-size: 20px;
+     }
+ }
+ 
+ .new-brand p {
+     color: #17a84a;
+     font-family: gothamMedium;
+     margin: 0;
+     font-size: 16px;
+     padding: 0;
+ }
+ 
+ .new-brand-para p {
+     padding: 0;
+     font-size: 14px;
+     color: #17a84a;
+     font-family: gothamMedium;
+ }
+ 
+ .good-suheading {
+     border-bottom: 2px solid #16a749;
+     margin-bottom: 10px;
+ }
+ 
+ .good-main {
+     margin-top: -65px;
+ }
+ 
+ .good-spacing {
+     margin: 65px 0 55px;
+ }
+ 
+ .objective {
+     margin-bottom: 30px;
+ }
+ 
+ .challenge {
+     margin-bottom: 55px;
+ }
+ 
+ .strategy {
+     margin-bottom: 100px;
+     img {
+         margin-top: 30px;
+     }
+ }
+ 
+ .challenge-padd {
+     padding: 20px 50px 0 20px;
+ }
+ 
+ .strategy-padd {
+     padding: 0px 40px 0 20px;
+ }
+ 
+ .objective-padd {
+     padding: 20px 40px 0 20px;
+ }
+ 
+ .good-direction {
+     .previ-icon,
+     .next-icon {
+         span {
+             color: #19803b;
+         }
+     }
  }
