@@ -349,6 +349,14 @@ footer {
     .mt27 {
         margin-top: 27px;
     }
+    .arrow-up{
+          margin-top: -55px;
+    left:96%;
+ 
+    .btn-border-none{
+        border:none;
+    }
+    }
 } //bootstrap forms
 .input-lg,
 .input-group-lg>.form-control,
@@ -1523,7 +1531,7 @@ p {
 .overlay-text-bg {
     // background-color: rgba(254, 115, 73, 0.15);
     // background-color: white;
-    position: absolute;
+   
     left: 7%;
     h2 {
         // color: darkred;
@@ -1536,7 +1544,7 @@ p {
 }
 
 .top35 {
-    top: 35%;
+    top: 38%;
 }
 
 .top45 {
@@ -1553,24 +1561,24 @@ p {
 .product-name {
     top: 7%;
     left: 7%;
-    position: absolute;
+   
 }
 
 .product-name2 {
     top: 3%;
     left: 7%;
-    position: absolute;
+   
 }
 
 .read-more {
     left: 7%;
-    position: absolute;
+    
     bottom: 7%;
 }
 
 .read-more2 {
     left: 7%;
-    position: absolute;
+  
     bottom: 3%;
 }
 
