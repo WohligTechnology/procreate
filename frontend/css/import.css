@@ -9368,9 +9368,11 @@ footer {
     margin-top: 27px; }
   footer .arrow-up {
     margin-top: -55px;
-    left: 96%; }
+    left: 95%; }
     footer .arrow-up .btn-border-none {
-      border: none; }
+      border: none;
+      background: #555252;
+      color: white; }
 
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
@@ -10233,18 +10235,50 @@ p {
 .port-imgs {
   position: relative; }
   .port-imgs .overlaying {
-    background-color: rgba(230, 7, 116, 0.71);
-    background: linear-gradient(50deg, rgba(222, 84, 40, 0.79), rgba(255, 205, 10, 0.88));
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     transition: 500ms ease;
-    opacity: 0; }
+    opacity: 0;
+    pointer-events: none; }
   .port-imgs:hover .overlaying {
     width: 100%;
     opacity: 1; }
+
+.gradient-yellow {
+  background: linear-gradient(90deg, rgba(226, 154, 44, 0.97), rgba(247, 242, 29, 0.8)); }
+
+.gradient-red {
+  background: linear-gradient(90deg, rgba(254, 40, 18, 0.75), rgba(254, 120, 20, 0.69)); }
+
+.gradient-orange {
+  background: linear-gradient(90deg, rgba(227, 116, 51, 0.94), rgba(251, 212, 30, 0.85)); }
+
+.gradient-blue {
+  background: linear-gradient(90deg, rgba(58, 210, 193, 0.89), rgba(39, 159, 252, 0.83)); }
+
+.gradient-lightgreen {
+  background: linear-gradient(90deg, rgba(136, 222, 55, 0.88), rgba(43, 239, 24, 0.9)); }
+
+.gradient-green {
+  background: linear-gradient(50deg, rgba(59, 225, 71, 0.8), #29f68f); }
+
+.gradient-pink {
+  background: linear-gradient(90deg, rgba(225, 56, 69, 0.91), rgba(245, 99, 33, 0.84)); }
+
+.gradient-darkpink {
+  background: linear-gradient(90deg, rgba(222, 46, 49, 0.87), rgba(243, 100, 24, 0.89)); }
+
+.gradient-purpal {
+  background: linear-gradient(90deg, rgba(226, 60, 195, 0.88), rgba(246, 42, 123, 0.89)); }
+
+.gradient-arcs {
+  background: linear-gradient(90deg, rgba(198, 112, 12, 0.92), rgba(199, 181, 11, 0.91)); }
+
+.gradient-parachute {
+  background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 0.89)); }
 
 .overlay-text-bg {
   left: 7%; }
@@ -10276,6 +10310,8 @@ p {
 .read-more {
   left: 7%;
   bottom: 7%; }
+  .read-more a {
+    color: transparent; }
 
 .read-more2 {
   left: 7%;
@@ -10401,6 +10437,12 @@ p {
   padding: 25px 0; }
   .capabilities-cont .capablities-list {
     min-height: 125px; }
+
+.hidden {
+  display: none; }
+
+.fancybox-title a {
+  color: #fff; }
 
 .good-bg {
   background-image: url("../img/good/2.jpg");

@@ -8,4 +8,8 @@ myApp.controller('headerCtrl', function ($scope, TemplateService, $rootScope,$lo
  $("html, body").animate({ scrollTop: $(document).height() }, 1000);
     };
     
+        $scope.gotoTop = function() {
+ $("html, body").animate({ scrollTop: 0 }, 1000);
+    };
+    
 });
