@@ -9371,12 +9371,12 @@ footer {
   footer .mt27 {
     margin-top: 27px; }
   footer .arrow-up {
-    margin-top: -55px;
+    margin-top: 13%;
     left: 93%; }
     footer .arrow-up .btn-border-none {
       border: none;
-      background: #555252;
-      color: white; }
+      background: white;
+      color: #555252; }
 
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
@@ -10342,7 +10342,7 @@ p {
   left: 7%; }
 
 .product-name2 {
-  top: 3%;
+  top: 1%;
   left: 7%; }
 
 .read-more {
@@ -10353,7 +10353,7 @@ p {
 
 .read-more2 {
   left: 7%;
-  bottom: 3%; }
+  bottom: 1%; }
 
 .display-inline {
   display: inline-block; }

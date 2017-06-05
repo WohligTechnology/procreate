@@ -353,12 +353,12 @@ footer {
         margin-top: 27px;
     }
     .arrow-up {
-        margin-top: -55px;
+        margin-top: 13%;
         left: 93%;
         .btn-border-none {
             border: none;
-            background: #555252;
-            color: white;
+            background: white;
+            color: #555252;
         }
     }
 } //bootstrap forms
@@ -1639,7 +1639,7 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
 }
 
 .product-name2 {
-    top: 3%;
+    top: 1%;
     left: 7%;
 }
 
@@ -1653,7 +1653,7 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
 
 .read-more2 {
     left: 7%;
-    bottom: 3%;
+    bottom: 1%;
 }
 
 .display-inline {

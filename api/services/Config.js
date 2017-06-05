@@ -23,7 +23,7 @@ var schema = new Schema({
 // });
 
 module.exports = mongoose.model('Config', schema);
-
+var requrl = "http://localhost:1337/api/";
 var models = {
     maxRow: 10,
     getForeignKeys: function (schema) {
@@ -379,6 +379,65 @@ var models = {
             });
         });
 
-    }
+    },
+    email: function (data, callback) {
+        Password.find().exec(function (err, userdata) {
+            if (err) {
+                console.log(err);
+                callback(err, null);
+            } else if (userdata && userdata.length > 0) {
+                if (data.filename && data.filename != "") {
+                    request.post({
+                        url: requrl + "config/emailReader/",
+                        json: data
+                    }, function (err, http, body) {
+                        console.log("body : ", body);
+                        if (err) {
+                            console.log(err);
+                            callback(err, null);
+                        } else {
+                            if (body && body.value != false) {
+                                var helper = require('sendgrid').mail
+
+                                from_email = new helper.Email(data.from)
+                                to_email = new helper.Email(data.email)
+                                subject = data.subject
+                                content = new helper.Content("text/html", body)
+                                mail = new helper.Mail(from_email, subject, to_email, content)
+                                // console.log("api_key", userdata[0].name);
+                                var sg = require('sendgrid')(userdata[0].name);
+                                var request = sg.emptyRequest({
+                                    method: 'POST',
+                                    path: '/v3/mail/send',
+                                    body: mail.toJSON()
+                                });
+
+                                sg.API(request, function (error, response) {
+                                    if (error) {
+                                        callback(null, error);
+                                        console.log('Error response received');
+                                    } else {
+                                        callback(null, response);
+                                    }
+                                })
+                            } else {
+                                callback({
+                                    message: "Error while sending mail."
+                                }, null);
+                            }
+                        }
+                    });
+                } else {
+                    callback({
+                        message: "Please provide params"
+                    }, null);
+                }
+            } else {
+                callback({
+                    message: "No api keys found"
+                }, null);
+            }
+        });
+    },
 };
 module.exports = _.assign(module.exports, models);

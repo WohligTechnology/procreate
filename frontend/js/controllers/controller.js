@@ -1,5 +1,5 @@
 var initMap = function () {};
-myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope,$location) {
+myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location) {
         $scope.template = TemplateService.getHTML("content/home.html");
         TemplateService.title = "Home"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
@@ -99,7 +99,11 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             },
             {
-                img: 'img/homepage/vachan2.png'
+                img: 'img/homepage/priyagold.png'
+
+            },
+            {
+                img: 'img/homepage/livrite.png'
 
             },
             {
@@ -107,11 +111,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             },
             {
-                img: 'img/homepage/priyagold.png'
-
-            },
-            {
-                img: 'img/homepage/livrite.png'
+                img: 'img/homepage/vachan2.png'
 
             },
         ]
@@ -180,66 +180,81 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             initMap();
         }, 500);
 
-     $scope.getTab = function (view) {
-      var id = "";
-      console.log(view);
-      switch (view) {
-        case 0:
-          id = "/offering/strategy";
-          break;
-        case 1:
-          id = "/offering/design";
-          break;
-        case 2:
-          id = "/offering/service";
-          break;
-        case 3:
-          id = "/offering/branding";
-          break;
-        case 4:
-          id = "/offering/management";
-          break;
-        default:
-          break;
-      }
-      console.log(id);
-        console.log(id);
-      $location.path(id);
-    };
+        $scope.getTab = function (view) {
+            var id = "";
+            console.log(view);
+            switch (view) {
+                case 0:
+                    id = "/offering/strategy";
+                    break;
+                case 1:
+                    id = "/offering/design";
+                    break;
+                case 2:
+                    id = "/offering/service";
+                    break;
+                case 3:
+                    id = "/offering/branding";
+                    break;
+                case 4:
+                    id = "/offering/management";
+                    break;
+                default:
+                    break;
+            }
+            console.log(id);
+            console.log(id);
+            $location.path(id);
+        };
     })
 
-    .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout ,$location) {
+    .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout, $location) {
         $scope.template = TemplateService.getHTML("content/about.html");
         TemplateService.title = "About"; //This is the Title of the Website
         // TemplateService.header = "views/template/header1.html"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
-             $scope.getTab = function (view) {
-      var id = "";
-      console.log(view);
-      switch (view) {
-        case 0:
-          id = "/offering/strategy";
-          break;
-        case 1:
-          id = "/offering/design";
-          break;
-        case 2:
-          id = "/offering/service";
-          break;
-        case 3:
-          id = "/offering/branding";
-          break;
-        case 4:
-          id = "/offering/management";
-          break;
-        default:
-          break;
-      }
-      console.log(id);
-        console.log(id);
-      $location.path(id);
-    };
+        $scope.getTab = function (view) {
+            var id = "";
+            console.log(view);
+            switch (view) {
+                case 0:
+                    id = "/offering/strategy";
+                    break;
+                case 1:
+                    id = "/offering/design";
+                    break;
+                case 2:
+                    id = "/offering/service";
+                    break;
+                case 3:
+                    id = "/offering/branding";
+                    break;
+                case 4:
+                    id = "/offering/management";
+                    break;
+                default:
+                    break;
+            }
+            console.log(id);
+            console.log(id);
+            $location.path(id);
+        };
     })
+
+    .controller('footerCtrl', function ($scope, TemplateService, apiService, reCAPTCHA, NavigationService, $http, $timeout, vcRecaptchaService) {
+
+        $scope.sendMail = function (data) {
+
+            console.log("******** inside sendMail *********", data);
+            //if (data.email != null) {
+            $scope.url = "Enquirey/mailSends";
+            NavigationService.apiCallWithData($scope.url, data, function (data) {});
+            //} else {
+            //  $scope.message = "error"
+            //}
+        }
+    })
+
 
 
     //Example API Controller

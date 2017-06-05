@@ -103,23 +103,23 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a>
+                                        <a ui-sref="portfolio">
                                    Brand Creation/Identity
                                 </a>
                                     </li>
                                     <li>
-                                        <a>
+                                        <a ui-sref="portfolio">
                                     Corporate identity
                                 </a></li>
                                     <li>
-                                        <a>
+                                        <a ui-sref="portfolio">
                                    Visual Brand Architecture
                                 </a></li>
                                     <li>
-                                        <a>
+                                        <a ui-sref="portfolio">
                                     Packaging
                                 </a></li>
-                                    <li><a>
+                                    <li><a ui-sref="portfolio">
                                     ATL/BTL
                                 </a></li>
                                     <li>
@@ -267,17 +267,17 @@
                             <p>For any queries please feel free to get in touch with us at <a class="text-decoration" href="mailto:letstalk@procreatebranding.com">letstalk@procreatebranding.com</a>                                and we will be happy to get back with the best solution.</p>-->
                            <form class="">
                             <div class="form-group ">
-                                <input type="text" class="form-control w94" id="name" placeholder="Your Name" name="email">
+                                <input type="text" class="form-control w94" id="name" placeholder="Your Name" name="email" ng-model="form.username">
                             </div>
                             <div class="form-group ">
-                                <input type="email" class="form-control w94" id="email" placeholder="Your Email" name="email">
+                                <input type="email" class="form-control w94" id="email" placeholder="Your Email" name="email" ng-pattern='/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i' ng-model="form.email" >
                             </div>
                             <div class="form-group ">
-                                <input type="text" class="form-control w94" id="subject" placeholder="Subject" name="email">
+                                <input type="text" class="form-control w94" id="subject" placeholder="Subject" name="email" ng-model="form.subject">
                             </div>
                             <div class="form-group ">
                          
-                                <textarea class="w100 form-control" placeholder="Message..."></textarea>
+                                <textarea class="w100 form-control" placeholder="Message..." ng-model="form.message"></textarea>
                             </div>
                         </form>
                         <div>
@@ -286,7 +286,7 @@
 
                         </div>
                         <div class="mt15 mb30">
-                            <button type="button" class="btn btn-primary btn-blue">GET IN TOUCH</button>
+                            <button type="button" class="btn btn-primary btn-blue" ng-click="sendMail(form)">GET IN TOUCH</button>
                         </div>
                        
                         </div>
