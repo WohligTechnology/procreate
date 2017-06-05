@@ -9534,8 +9534,6 @@ p {
     color: rgba(0, 0, 0, 0.8);
     width: 150px;
     height: 150px; }
-  .flexslider .flex-direction-nav .flex-prev {
-    left: 165px !important; }
 
 .icon-slider .flex-control-nav {
   bottom: -20px !important;
