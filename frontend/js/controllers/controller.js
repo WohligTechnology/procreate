@@ -1,8 +1,11 @@
 var initMap = function () {};
-myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location) {
+myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location,$state) {
         $scope.template = TemplateService.getHTML("content/home.html");
         TemplateService.title = "Home"; //This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
+          $scope.refresh = function(){
+             $state.reload();
+         };
         $scope.inspireImg = [{
                 img: 'img/homepage/home3.jpg'
             }, {
@@ -126,7 +129,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         console.log("this is client");
         console.log($scope.homeImg);
 
-
+       
 
         $scope.homeText = [{
                 title1: 'PARLE, SR. PRODUCT MANAGER ',

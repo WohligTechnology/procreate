@@ -353,7 +353,8 @@ footer {
         margin-top: 27px;
     }
     .arrow-up {
-        margin-top: 13%;
+    
+    margin-top: 43px;
         left: 93%;
         .btn-border-none {
             border: none;
@@ -528,8 +529,11 @@ p {
 
 .first-slider {
     .flex-nav-prev {
-        display: none;
+        
     }
+    .flexslider .flex-direction-nav a {
+    width: 400px;
+}
     .flex-control-paging li a.flex-active {
         background: transparent;
         display: none
@@ -551,29 +555,29 @@ p {
             a:before {
                 content: "";
                 display: inline-block;
-                background-image: url("../img/homepage/26.png");
+                // background-image: url("../img/homepage/26.png");
                 color: rgba(0, 0, 0, 0.8);
                 width: 150px;
                 height: 150px;
             }
         }
         .flex-nav-next {
-            display: none; 
-            // a:before {
-            //     content: "";
-            //     display: inline-block;
-            //     background-image: url("../img/homepage/27.png");
-            //     color: rgba(0, 0, 0, 0.8);
-            //     width: 150px;
-            //     height: 150px;
-            // }
+          
+            a:before {
+                content: "";
+                display: inline-block;
+                // background-image: url("../img/homepage/27.png");
+                color: rgba(0, 0, 0, 0.8);
+                width: 150px;
+                height: 150px;
+            }
         }
     }
     .flex-direction-nav .flex-prev {
         left: 165px !important;
     }
     .flex-direction-nav .flex-next {
-        right: 165px !important;
+        // right: 165px !important;
     }
 }
 
