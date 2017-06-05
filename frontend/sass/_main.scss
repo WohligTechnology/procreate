@@ -55,6 +55,10 @@ $brand-lightpurpal:#bf202e;
     font-family: 'gotham-el';
     src: url('../fonts/GothamExLight Regular.otf');
 }
+@font-face {
+    font-family: 'corisande-b';
+    src: url('../fonts/CorisandeBold.ttf');
+}
 
 @import "other/font-fix";
 body,
@@ -350,7 +354,7 @@ footer {
     }
     .arrow-up {
         margin-top: -55px;
-        left: 95%;
+        left: 93%;
         .btn-border-none {
             border: none;
             background: #555252;
@@ -554,7 +558,8 @@ p {
             }
         }
         .flex-nav-next {
-            display: none; // a:before {
+            display: none; 
+            // a:before {
             //     content: "";
             //     display: inline-block;
             //     background-image: url("../img/homepage/27.png");
@@ -1534,7 +1539,7 @@ p {
       background: linear-gradient(90deg, rgba(254, 40, 18, 0.75), rgba(254, 120, 20, 0.69));
 }
 .gradient-orange{
-       background: linear-gradient(90deg, rgba(227, 116, 51, 0.94), rgba(251, 212, 30, 0.85));
+           background: linear-gradient(90deg, rgba(227, 116, 51, 0.94), rgba(251, 212, 30, 0.92));
 }
 .gradient-blue{
      background: linear-gradient(90deg, rgba(58, 210, 193, 0.89), rgba(39, 159, 252, 0.83));
@@ -1562,22 +1567,54 @@ p {
 .gradient-parachute{
 background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 0.89));
 }
+.gradient-Psoracare{
+      background: linear-gradient(90deg, rgba(52, 222, 113, 0.89), rgba(24, 237, 175, 0.89));
+}
+.gradient-doycare{
+      background: linear-gradient(90deg, rgba(22, 137, 194, 0.88), rgba(23, 50, 198, 0.9));
+}
+.gradient-sg{
+        background: linear-gradient(90deg, rgba(35, 152, 202, 0.88), rgba(40, 85, 224, 0.89));
+}
+.gradient-vachan{
+        background: linear-gradient(90deg, rgba(129, 59, 227, 0.88), rgba(201, 42, 245, 0.88));
+}
+.gradient-milk{
+    background: linear-gradient(90deg, rgba(199, 144, 25, 0.88), rgba(169, 202, 25, 0.9));
+}
+.gradient-medical{
+         background: linear-gradient(90deg, rgba(57, 219, 128, 0.89), rgba(40, 244, 231, 0.9));
+}
+.gradient-mexitos{
+     background: linear-gradient(90deg, rgba(202, 122, 57, 0.9), rgba(242, 194, 26, 0.92));
+}
+.gradient-vistas{
+        background: linear-gradient(90deg, rgba(203, 36, 112, 0.92), rgba(245, 38, 51, 0.92));
+}
+.gradient-cafechino{
+    background: linear-gradient(90deg, rgba(222, 79, 58, 0.91), rgba(238, 136, 29, 0.92));
+}
+.gradient-wafers{
+        background: linear-gradient(90deg, rgba(54, 143, 227, 0.91), rgba(29, 67, 228, 0.89));
+}
 .overlay-text-bg {
     // background-color: rgba(254, 115, 73, 0.15);
     // background-color: white;
     left: 7%;
     h2 {
         // color: darkred;
-        color: white;
-        font-weight: 600;
-        font-size: 36px;
-        letter-spacing: 1px;
-        line-height: 24px;
+          color: white;
+    letter-spacing: 0px;
+    line-height: 14px;
+    font-family: 'corisande-b';
+    text-decoration: underline;
+    // font-size: 29px;
+    // letter-spacing: 1px;
     }
 }
 
 .top35 {
-    top: 38%;
+    top: 35%;
 }
 
 .top45 {
@@ -1585,14 +1622,19 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
 }
 
 .product-name-size {
-    h4 {
+    h5{
         font-weight: 900;
-        font-size: 22px;
+        // font-size: 22px;
+           font-family: 'corisande-b';
+           font-size: 17px;
+    }
+    h6{
+       font-family: 'corisande-b'; 
     }
 }
 
 .product-name {
-    top: 7%;
+    top: 3%;
     left: 7%;
 }
 
@@ -1603,7 +1645,7 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
 
 .read-more {
     left: 7%;
-    bottom: 7%;
+    bottom: 3%;
     a {
         color: transparent;
     }

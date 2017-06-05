@@ -180,7 +180,7 @@
  
  .previ-icon {
      span {
-         // margin-left: 50px;
+         margin-left: 30px;
          color: green;
      }
      span:before {
@@ -192,7 +192,7 @@
          background-repeat: no-repeat;
          vertical-align: center;
          top: -23px;
-         left: -10px;
+         left: 21px;
      }
  }
  
@@ -200,6 +200,7 @@
      margin-bottom: 80px;
      span {
          color: green;
+         margin-right: 85px;
      }
      span:after {
          content: '';
@@ -210,9 +211,13 @@
          background-repeat: no-repeat;
          vertical-align: center;
          top: -23px;
+        right: 75px;
      }
  } //:end
  //golden arch :start
+ .padd-t{
+     padding-top: 75px;
+ }
  .golden-arch {
      background-image: url("../img/portfolio/arch/8.png");
      background-repeat: no-repeat;
@@ -244,7 +249,7 @@
  }
  
  .get-padd {
-     padding: 0px 0 0 63px;
+     padding: 13px 0 0 63px;
  }
  
  .padd-ul {
@@ -272,3 +277,41 @@
      width: 100px;
      padding: 20px;
  }
+ .img-padd{
+         padding: 85px 85px;
+ }
+ .previ-iconarch{
+        span {
+         margin-left: 30px;
+         color: $brand-lightpurpal;
+     }
+     span:before {
+         content: '';
+         background-image: url("../img/portfolio/arch/9.png");
+         position: absolute;
+         width: 20px;
+         height: 64px;
+         background-repeat: no-repeat;
+         vertical-align: center;
+         top: -23px;
+         left: 21px;
+     }
+ }
+  .next-iconarch {
+     margin-bottom: 80px;
+     span {
+         color: $brand-lightpurpal;
+         margin-right: 85px;
+     }
+     span:after {
+         content: '';
+         background-image: url("../img/portfolio/arch/10.png");
+         position: absolute;
+         width: 25px;
+         height: 64px;
+         background-repeat: no-repeat;
+         vertical-align: center;
+         top: -23px;
+        right: 75px;
+     }
+ } 
