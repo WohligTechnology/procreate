@@ -362,7 +362,10 @@ footer {
             color: #555252;
         }
     }
-} //bootstrap forms
+}
+
+
+ //bootstrap forms
 .input-lg,
 .input-group-lg>.form-control,
 .input-group-lg>.input-group-addon,
@@ -1778,6 +1781,27 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
             background: linear-gradient(50deg, #de5428, #ffcd0a);
         }
     }
+    &.Doycare{
+         .navbar {
+            // background-color: #e46fbf;
+            border: none;
+            background: linear-gradient(50deg, #de5428, #ffcd0a);
+        }
+    }
+    &.Good{
+         .navbar {
+            // background-color: #e46fbf;
+            border: none;
+            background: linear-gradient(50deg, #de5428, #ffcd0a);
+        }
+    }
+    &.Arch{
+         .navbar {
+            // background-color: #e46fbf;
+            border: none;
+            background: linear-gradient(50deg, #de5428, #ffcd0a);
+        }
+    }
 }
 
 .header2 {
@@ -1844,3 +1868,29 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
 .fancybox-title a {
     color: #fff;
 }
+// .tooltiptext {
+//     visibility: hidden;
+//     width: 120px;
+//     background-color: black;
+//     color: #fff;
+//     text-align: center;
+//     border-radius: 6px;
+//     padding: 5px 0;
+
+  
+//     z-index: 1;
+// }
+// .btn-border-none:hover .tooltiptext{
+    
+// visibility: visible;
+
+ 
+// }
+// .tooltip{
+//     border-bottom: 1px dotted black;
+// }
+// .tooltip:hover{
+//     &.tooltiptext{
+//         visibility: visible;
+//     }
+// }

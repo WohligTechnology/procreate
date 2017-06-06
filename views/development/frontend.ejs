@@ -40,6 +40,10 @@
     <% _.each(jsFiles,function(file) {  %>
         <script src="<%= file %>"></script>
         <% }); %>
+
+        <script>
+              new WOW().init();
+              </script>
 </body>
 
 </html>
