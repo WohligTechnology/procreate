@@ -252,12 +252,14 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         };
     })
 
-    .controller('footerCtrl', function ($scope, TemplateService, apiService, reCAPTCHA, NavigationService, $http, $timeout, vcRecaptchaService) {
-
+    .controller('footerCtrl', function ($scope, TemplateService, apiService, NavigationService, $http, $timeout) {
+    //    reCAPTCHA
+    // vcRecaptchaService
         $scope.sendMail = function (data) {
+        $scope.message="";
 
             console.log("******** inside sendMail *********", data);
-            if (data.email != null) {
+            if (data && data.email !=null) {
             $scope.url = "Enquirey/mailSends";
             NavigationService.apiCallWithData($scope.url, data, function (data) {
                 if(data){
@@ -267,6 +269,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             });
             
             } else {
+                 console.log("******** inside sendMails *********", data); console.log("******** inside sendMail *********", data);
               $scope.message = "Please enter valid email id"
             }
         }

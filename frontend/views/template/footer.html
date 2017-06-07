@@ -1,4 +1,4 @@
-<footer id="contact">
+<footer id="contact" ng-controller="footerCtrl">
     <div>
         <div class="bg-black">
             <div class="container ">
@@ -285,8 +285,10 @@
                          
                                 <textarea class="w100 form-control" placeholder="Message..." ng-model="form.message"></textarea>
                             </div>
-                                     <div class="mt15 mb30"> {{message}}
+                                     <div class="mt15 mb30"> 
                             <button type="button" class="btn btn-primary btn-blue" ng-click="sendMail(form)">GET IN TOUCH</button>
+                      
+                      <p>{{message}}</p>
                         </div>
                         </form>
                         <!--<div>
