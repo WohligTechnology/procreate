@@ -36,23 +36,23 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             controller: 'AboutCtrl'
         })
 
-        .state('offering', {
-            url: "/offering",
-            templateUrl: tempateURL,
-            controller: 'OfferingCtrl'
-        })
+        // .state('offering', {
+        //     url: "/offering",
+        //     templateUrl: tempateURL,
+        //     controller: 'OfferingCtrl'
+        // })
 
-        .state('offeringid', {
-            url: "/offering/:id",
-             templateUrl: tempateURL,
-            controller: 'OfferingCtrl'
-        })
+        // .state('offeringid', {
+        //     url: "/offering/:id",
+        //      templateUrl: tempateURL,
+        //     controller: 'OfferingCtrl'
+        // })
 
-        .state('approach', {
-            url: "/approach",
-            templateUrl: tempateURL,
-            controller: 'ApproachCtrl'
-        })
+        // .state('approach', {
+        //     url: "/approach",
+        //     templateUrl: tempateURL,
+        //     controller: 'ApproachCtrl'
+        // })
 
 
         .state('portfolio', {

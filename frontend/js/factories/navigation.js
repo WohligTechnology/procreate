@@ -10,18 +10,18 @@ myApp.factory('NavigationService', function ($http) {
             anchor: "portfolio",
             subnav: []
         },
-        //  {
-        //     name: "APPROACH",
-        //     classis: "active",
-        //     anchor: "approach",
-        //     subnav: []
-        // }, 
-        // {
-        //     name: "OFFERING",
-        //     classis: "active",
-        //     anchor: "offering",
-        //     subnav: []
-        // },
+         {
+            name: "APPROACH",
+            classis: "active",
+            anchor: "approach",
+            subnav: []
+        }, 
+        {
+            name: "OFFERING",
+            classis: "active",
+            anchor: "offering",
+            subnav: []
+        },
          {
             name: "CONTACT",
             classis: "active",
