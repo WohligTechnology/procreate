@@ -1,5 +1,6 @@
 myApp.service('TemplateService', function () {
     this.title = "Home";
+    this.cssMain = "Home";
     this.meta = "";
     this.metadesc = "";
 

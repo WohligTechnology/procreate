@@ -1,7 +1,8 @@
 var initMap = function () {};
 myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location,$state) {
         $scope.template = TemplateService.getHTML("content/home.html");
-        TemplateService.title = "Home"; //This is the Title of the Website
+        TemplateService.title = "Leading Brand Design Company"; //This is the Title of the Website
+        TemplateService.cssMain = "Home"; //This is the Title of the Website        
         $scope.navigation = NavigationService.getNavigation();
           $scope.refresh = function(){
              $state.reload();
@@ -213,8 +214,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
     .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout, $location) {
         $scope.template = TemplateService.getHTML("content/about.html");
-        TemplateService.title = "About"; //This is the Title of the Website
+        TemplateService.title = "Strategic Brand Design Firm"; //This is the Title of the Website
         // TemplateService.header = "views/template/header1.html"; //This is the Title of the Website
+           TemplateService.cssMain = "About";
         $scope.navigation = NavigationService.getNavigation();
         $scope.getTab = function (view) {
             var id = "";
