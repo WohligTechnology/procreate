@@ -1,5 +1,5 @@
 apps:
   - script: "app.js"
-    name: "Procreate - 80"
+    name: "Procreate - 8080"
     watch: false
     args: "--prod"
