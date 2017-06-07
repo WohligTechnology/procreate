@@ -1868,24 +1868,30 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
 .fancybox-title a {
     color: #fff;
 }
-// .tooltiptext {
-//     visibility: hidden;
-//     width: 120px;
-//     background-color: black;
-//     color: #fff;
-//     text-align: center;
-//     border-radius: 6px;
-//     padding: 5px 0;
-
-  
-//     z-index: 1;
-// }
-// .btn-border-none:hover .tooltiptext{
+.tooltiptext {
+    visibility: hidden;
+       width: 59px;
+   
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 2px 6px;
+    z-index: 1;
+   
+    display: inline;
+    position: absolute;
+    margin-top: -25px;
+   
+    margin-left: -11px;
+}
+.top{
+&:hover{
+.tooltiptext{
     
-// visibility: visible;
-
- 
-// }
+visibility: visible;
+}
+}
+}
 // .tooltip{
 //     border-bottom: 1px dotted black;
 // }
@@ -1894,3 +1900,6 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
 //         visibility: visible;
 //     }
 // }
+
+
+

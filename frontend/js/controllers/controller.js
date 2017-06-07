@@ -78,10 +78,12 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/sg2.png'
 
             },
-            {
-                img: 'img/homepage/yours.png'
 
-            },
+            // {
+            //     img: 'img/homepage/yours.png'
+
+            // },
+
             {
                 img: 'img/homepage/vvf.png'
 
@@ -102,22 +104,26 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/lotus2.png'
 
             },
-            {
-                img: 'img/homepage/priyagold.png'
 
-            },
+            // {
+            //     img: 'img/homepage/priyagold.png'
+
+            // },
+
             {
                 img: 'img/homepage/livrite.png'
 
             },
-            {
-                img: 'img/homepage/sanank2.png'
 
-            },
-            {
-                img: 'img/homepage/vachan2.png'
+            // {
+            //     img: 'img/homepage/sanank2.png'
 
-            },
+            // },
+
+            // {
+            //     img: 'img/homepage/vachan2.png'
+
+            // },
         ]
 
 
@@ -251,12 +257,18 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.sendMail = function (data) {
 
             console.log("******** inside sendMail *********", data);
-            //if (data.email != null) {
+            if (data.email != null) {
             $scope.url = "Enquirey/mailSends";
-            NavigationService.apiCallWithData($scope.url, data, function (data) {});
-            //} else {
-            //  $scope.message = "error"
-            //}
+            NavigationService.apiCallWithData($scope.url, data, function (data) {
+                if(data){
+                    $scope.message="Thank you For submitting the form";
+                    $scope.form={};
+                }
+            });
+            
+            } else {
+              $scope.message = "Please enter valid email id"
+            }
         }
     })
 
