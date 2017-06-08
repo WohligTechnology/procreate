@@ -1,12 +1,12 @@
 var initMap = function () {};
-myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location,$state) {
+myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location, $state) {
         $scope.template = TemplateService.getHTML("content/home.html");
         TemplateService.title = "Leading Brand Design Company"; //This is the Title of the Website
         TemplateService.cssMain = "Home"; //This is the Title of the Website        
         $scope.navigation = NavigationService.getNavigation();
-          $scope.refresh = function(){
-             $state.reload();
-         };
+        $scope.refresh = function () {
+            $state.reload();
+        };
         $scope.inspireImg = [{
                 img: 'img/homepage/home3.jpg'
             }, {
@@ -136,7 +136,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         console.log("this is client");
         console.log($scope.homeImg);
 
-       
+
 
         $scope.homeText = [{
                 title1: 'PARLE, SR. PRODUCT MANAGER ',
@@ -222,7 +222,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.template = TemplateService.getHTML("content/about.html");
         TemplateService.title = "Strategic Brand Design Firm"; //This is the Title of the Website
         // TemplateService.header = "views/template/header1.html"; //This is the Title of the Website
-           TemplateService.cssMain = "About";
+        TemplateService.cssMain = "About";
         $scope.navigation = NavigationService.getNavigation();
         $scope.getTab = function (view) {
             var id = "";
@@ -253,26 +253,33 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
     })
 
     .controller('footerCtrl', function ($scope, TemplateService, apiService, NavigationService, $http, $timeout) {
-    //    reCAPTCHA
-    // vcRecaptchaService
+        //    reCAPTCHA
+        // vcRecaptchaService
         $scope.sendMail = function (data) {
-        $scope.message="";
+            $scope.message = "";
 
             console.log("******** inside sendMail *********", data);
-            if (data && data.email !=null) {
-            $scope.url = "Enquirey/mailSends";
-            NavigationService.apiCallWithData($scope.url, data, function (data) {
-                if(data){
-                    $scope.message="Thank you For submitting the form";
-                    $scope.form={};
-                }
-            });
-            
+            if (data && data.email != null) {
+                $scope.url = "Enquirey/mailSends";
+                NavigationService.apiCallWithData($scope.url, data, function (data) {
+                    if (data) {
+                        $scope.message = "Thank you For submitting the form";
+                        $scope.form = {};
+                    }
+                });
+
             } else {
-                 console.log("******** inside sendMails *********", data); console.log("******** inside sendMail *********", data);
-              $scope.message = "Please enter valid email id"
+                console.log("******** inside sendMails *********", data);
+                console.log("******** inside sendMail *********", data);
+                $scope.message = "Please enter valid email id"
             }
         }
+
+        $scope.gotoTop = function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 1000);
+        };
     })
 
 
