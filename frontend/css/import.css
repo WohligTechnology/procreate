@@ -11357,18 +11357,24 @@ p {
     background-image: url("../img/homepage/26.png");
     color: rgba(0, 0, 0, 0.8);
     width: 100px;
-    height: 134px; }
+    height: 134px;
+    opacity: 0; }
+  .flexslider .flex-direction-nav .flex-nav-prev:hover a:before {
+    opacity: 1; }
   .flexslider .flex-direction-nav .flex-nav-next a:before {
     content: "";
     display: inline-block;
     background-image: url("../img/homepage/27.png");
     color: rgba(0, 0, 0, 0.8);
     width: 100px;
-    height: 134px; }
+    height: 134px;
+    opacity: 0; }
+  .flexslider .flex-direction-nav .flex-nav-next:hover a:before {
+    opacity: 1; }
   .flexslider .flex-direction-nav .flex-prev {
-    left: 165px !important; }
+    left: 150px !important; }
   .flexslider .flex-direction-nav .flex-next {
-    right: 165px !important; }
+    right: 150px !important; }
 
 .icon-slider .flex-control-nav {
   bottom: -20px !important;
@@ -11501,8 +11507,9 @@ p {
     background-repeat: no-repeat;
     color: rgba(0, 0, 0, 0.8);
     width: 150px;
-    height: 150px; }
-  .bg-blue .flex-direction-nav .flex-nav-next {
+    height: 150px;
+    opacity: 1; }
+  .bg-blue .flex-direction-nav .flex-nav-next:hover {
     display: none; }
   .bg-blue .flex-direction-nav a {
     top: 9%;
@@ -12343,6 +12350,12 @@ p {
 
 .top:hover .tooltiptext {
   visibility: visible; }
+
+.fancybox-nav.fancybox-next span {
+  background-image: url("../img/portfolio/next.png"); }
+
+.fancybox-nav.fancybox-prev span {
+  background-image: url("../img/portfolio/prev.png"); }
 
 .good-bg {
   background-image: url("../img/good/2.jpg");

@@ -9,6 +9,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         };
         $scope.inspireImg = [{
                 img: 'img/homepage/home3.jpg'
+               
             },
                {
                 img: 'img/homepage/slide3.jpg'
@@ -25,7 +26,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             },
           
             {
-                img: 'img/homepage/slide6.jpg',
+                img: 'img/homepage/top-slide6.jpg',
 
             },
             {
