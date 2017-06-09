@@ -9,20 +9,27 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         };
         $scope.inspireImg = [{
                 img: 'img/homepage/home3.jpg'
-            }, {
+            },
+               {
+                img: 'img/homepage/slide3.jpg'
+            },
+              {
+                img: 'img/homepage/top-slide3.jpg'
+            },
+         
+             {
                 img: 'img/homepage/slide2.jpg'
             },
             {
-                img: 'img/homepage/slide3.jpg'
+                img: 'img/homepage/top-slide5.jpg'
             },
-            {
-                img: 'img/homepage/slide4.jpg'
-            },
-            {
-                img: 'img/homepage/slide5.jpg'
-            },
+          
             {
                 img: 'img/homepage/slide6.jpg',
+
+            },
+            {
+                img: 'img/homepage/top-slide7.jpg',
 
             }
         ]

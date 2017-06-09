@@ -3,7 +3,7 @@
             max-items="1" item-width="500" item-margin="0" animationLoop="true" animation="fade">-->
 
         <flex-slider flex-slide="myslide in inspireImg track by $index" animation="fade" animationloop="true"
-            move="1" slideshow-Speed="3000" prev-text="" next-text="" animation="slide">
+            move="1" slideshow-Speed="3000" pauseOnHover="true" prev-text="" next-text="" animation="slide" >
             <li class="li-color">
                 <img ng-src="{{myslide.img}}" class="posi-rel">
             </li>
@@ -221,7 +221,7 @@
                     <div class="col-md-10">
                         <div class="mar-top-bot">
                             <flex-slider animation="fade"  flex-slide="myslide in homeText track by $index" animationLoop="true" slideshow-Speed="3000"	  prev-text="" next-text=""
-                                max-items="1" item-width="200" item-margin="0">
+                                max-items="1" item-width="200" item-margin="0" pauseOnHover="true">
                                 <li class="li-color">
                                     <div class="gradient client-say">
                                         <h3>{{myslide.title1}}</h3>

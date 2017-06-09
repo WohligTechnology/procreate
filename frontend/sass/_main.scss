@@ -531,19 +531,21 @@ p {
 }
 
 .first-slider {
-    .flex-nav-prev {
-        
-    }
+   
     .flexslider .flex-direction-nav a {
-    width: 400px;
+    // width: 400px;
 }
     .flex-control-paging li a.flex-active {
         background: transparent;
-        display: none
+          box-shadow: none;
+          border: 2px solid white;
+        
     }
     .flex-control-paging li a {
-        background: transparent;
-        display: none
+        background: white;
+    border: 2px solid white;
+            box-shadow: none;
+       
     }
 }
 
@@ -552,16 +554,16 @@ p {
     border: none;
     .flex-direction-nav {
         a {
-            width: 50px;
+            width: 48px;
         }
         .flex-nav-prev {
             a:before {
                 content: "";
                 display: inline-block;
-                // background-image: url("../img/homepage/26.png");
+                background-image: url("../img/homepage/26.png");
                 color: rgba(0, 0, 0, 0.8);
-                width: 150px;
-                height: 150px;
+                width: 100px;
+                height: 134px;
             }
         }
         .flex-nav-next {
@@ -569,18 +571,18 @@ p {
             a:before {
                 content: "";
                 display: inline-block;
-                // background-image: url("../img/homepage/27.png");
+                background-image: url("../img/homepage/27.png");
                 color: rgba(0, 0, 0, 0.8);
-                width: 150px;
-                height: 150px;
+                width: 100px;
+                height: 134px;
             }
         }
     }
     .flex-direction-nav .flex-prev {
-        // left: 165px !important;
+        left: 165px !important;
     }
     .flex-direction-nav .flex-next {
-        // right: 165px !important;
+        right: 165px !important;
     }
 }
 

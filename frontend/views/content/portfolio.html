@@ -2,9 +2,19 @@
     <div class="rowflex  ">
         <div class="w-33">
             <div class="port-imgs">
-                <a fancybox href="img/portfolio/popup/dabur.jpg" data-title-id="title-1" >
-                    <img src="img/portfolio/new17.jpg" class="full-width" alt="">
-                </a>
+                <div  class="brand-blue relative pointer" fancybox-box href="img/portfolio/popup/dabur.jpg" rel="gallery" data-fancybox-group="gallery">
+                <img src="img/portfolio/new17.jpg" class="full-width" alt="">
+                <a href="" class="pink-button" ng-if="d.url"><img src="img/home/button.png" class="img-responsive" alt=""></a>
+                </div>
+
+  <!--<div class="brand-blue relative pointer" fancybox-box href="{{d.popupImage|uploadpath}}"  rel="gallery" data-fancybox-group="gallery" title={{d.title}}>
+              <img ng-src="{{d.image|uploadpath}}" class="img-responsive" alt="" >
+              <a href="" class="pink-button" ng-if="d.url"><img src="img/home/button.png" class="img-responsive" alt=""></a>
+            </div>-->
+
+
+
+
                 <div id="title-1" class="hidden">
                     This is 1st title.
                 </div>
@@ -24,10 +34,10 @@
                 </div>
             </div>
             <div class="port-imgs">
-                <!--<a fancybox href="img/portfolio/popup/3.jpg">
+                <a fancybox href="img/portfolio/popup/3.jpg" rel="gallery" data-fancybox-group="gallery">
                     <img src="img/portfolio/new15.jpg" class="full-width" alt="">
-                </a>-->
-                 <img src="img/portfolio/new15.jpg" class="full-width" alt="">
+                </a>
+                 <!--<img src="img/portfolio/new15.jpg" class="full-width" alt="">-->
                 <div class="overlaying  gradient-red">
                     <div class="product-name product-name-size absolute">
                         <h5>SETH'S</h5>
@@ -46,7 +56,7 @@
         </div>
         <div class="w-33 ">
             <div class="port-imgs">
-                <a fancybox href="img/portfolio/popup/Beelicious.jpg">
+                <a fancybox href="img/portfolio/popup/Beelicious.jpg"  rel="gallery" data-fancybox-group="gallery">
                     <img src="img/portfolio/new16.jpg" class="full-width" alt="">
                 </a>
                 <div class="overlaying gradient-orange">
@@ -87,7 +97,7 @@
         </div>
         <div class="w-33">
             <div class="port-imgs">
-                <a fancybox href="img/portfolio/popup/Phalsa.jpg">
+                <a fancybox href="img/portfolio/popup/Phalsa.jpg" rel="gallery" data-fancybox-group="gallery">
                     <img src="img/portfolio/newAA.jpg" class="full-width" alt="">
                 </a>
                 <div class="overlaying gradient-lightgreen">
@@ -111,7 +121,7 @@
     <div class="rowflex">
         <div class="w-33">
             <div class="port-imgs">
-                <a fancybox href="img/portfolio/popup/beal.jpg">
+                <a fancybox href="img/portfolio/popup/beal.jpg" rel="gallery" data-fancybox-group="gallery">
                     <img src="img/portfolio/B.jpg" class="full-width" alt="">
                 </a>
                 <div class="overlaying gradient-green">
