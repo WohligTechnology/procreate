@@ -12,7 +12,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                
             },
                {
-                img: 'img/homepage/slide3.jpg'
+                img: 'img/homepage/slide-top3.jpg'
             },
               {
                 img: 'img/homepage/top-slide3.jpg'
