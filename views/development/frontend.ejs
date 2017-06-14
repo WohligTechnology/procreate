@@ -40,10 +40,12 @@
     <% _.each(jsFiles,function(file) {  %>
         <script src="<%= file %>"></script>
         <% }); %>
-    <script>
+   <script>
         setTimeout(function(){ 
+            $( document ).ready(function() {
             new WOW().init(); 
-        }, 4000);
+        }, 3000);
+        });
     </script>
 </body>
 </html>
