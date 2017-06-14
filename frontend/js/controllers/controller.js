@@ -7,6 +7,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.refresh = function () {
             $state.reload();
         };
+        setTimeout(function(){ 
+            new WOW().init(); 
+        }, 3000);
         $scope.inspireImg = [{
                 img: 'img/homepage/home3.jpg'
                
