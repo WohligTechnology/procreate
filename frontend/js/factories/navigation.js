@@ -13,13 +13,15 @@ myApp.factory('NavigationService', function ($http) {
          {
             name: "APPROACH",
             classis: "active",
-            anchor: "approach",
+            // anchor: "approach",
+             anchor: "home",
             subnav: []
         }, 
         {
             name: "OFFERING",
             classis: "active",
-            anchor: "offering",
+            // anchor: "offering",
+             anchor: "home",
             subnav: []
         },
          {

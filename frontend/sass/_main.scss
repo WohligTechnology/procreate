@@ -1412,17 +1412,18 @@ p {
     // background-size: cover !important;
     img {
         // min-height: 600px;
-        filter: grayscale(100%);
+        @include transition(all ease 300ms);
+        @include filter(grayscale(100%));
     }
     img:hover {
-        filter: grayscale(0%);
+        @include filter(grayscale(0));
     }
 } // .fig1 {
 //     background: url("../img/about/director.jpg") no-repeat center;
 // }
 .clientele {
     position: relative;
-    transition: all ease 600ms;
+    @include transition(all ease 600ms);
     cursor: pointer;
     .overlays {
         background-color: rgba(228, 228, 228, 0.54);
