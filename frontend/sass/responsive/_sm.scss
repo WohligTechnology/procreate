@@ -3,14 +3,12 @@
      body {
          font-size: 10px;
      }
-
-    h4{
-        font-size: 13px;
-    }
-  .fs-12{
-      font-size: 12px;
-  }
-
+     h4 {
+         font-size: 13px;
+     }
+     .fs-12 {
+         font-size: 12px;
+     }
      //header start
      header .navbar-brand .w200 {
          width: 170px;
@@ -19,6 +17,9 @@
          top: 14px;
          font-size: 10px;
      }
+     header .navbar-nav a {
+                 top: 14px;
+      }
      header .img-a {
          width: 220px;
          height: 63px;
@@ -51,95 +52,189 @@
          height: 25px;
          padding: 6px 0;
      }
-footer .btn-blue {
-    font-size: 7px;
-    padding: 6px 7px;
-}
-footer .fs12 {
-    font-size: 10px;
-}
-footer h5 a {
-    font-size: 10px;
-}
-.btn-arrow{
-    padding: 4px 6px;
-    font-size: 10px;
-}
-  
-
-  //home start
-
-.bg-brown p {
-    font-size: 13px;
-    margin: 38px 0px;
-}
-.bg-brown .arrow-icon {
-    height: 100px;
-}
-.awesome {
-    margin: 16px 0px;
-}
-.circle .fs21 {
-    font-size: 16px !important;
-}
-.circle .text-color p {
-    font-size: 10px;
-}
-.capabilities-cont .capablities-list {
-    min-height: 90px;
-}
-.capabilities-cont {
-    padding: 5px 0 20px 0;
-}
-.mt30 {
-    margin-top: 10px;
-    h1{
-        font-size: 30px;
-    }
-}
-.capabilities-cont a {
-    font-size: 12px;
-}
-
-.icon-slider .w125  {
-    width: 65px;
-}
-.bg-blue h4 {
-    font-size: 14px;
-   
-}
-.bg-blue p {
-     font-size: 12px;
-}
-.bg-blue h3 {
-   
-    font-size: 16px;
-}
-.bg-blue .mar-top-bot {
-    margin-top: 0px;
-    margin-bottom: -22px;
-    margin-left: 117px;
-}
-.bg-blue .flexslider .flex-direction-nav .flex-prev {
-    left: -103px !important;
-}
-.flex-control-paging li a {
-    width: 9px;
-    height: 9px;
-}
-.carousels .flex-viewport {
-    max-height: 327px;
-}
-.mb70{
-    margin-bottom: 0px;
-}
-.icon-slider .flex-control-paging li a{
-    margin-top: -55px;
-}
-.bg-yellow .capabilities-cont a {
-    font-size: 10px;
-}
-.circle .text-color a {
-      font-size: 10px;
-}
+     footer .btn-blue {
+         font-size: 7px;
+         padding: 6px 7px;
+     }
+     footer .fs12 {
+         font-size: 10px;
+     }
+     footer h5 a {
+         font-size: 10px;
+     }
+     .btn-arrow {
+         padding: 4px 6px;
+         font-size: 10px;
+     }
+     //home start
+     .bg-brown p {
+         font-size: 13px;
+         margin: 38px 0px;
+     }
+     .bg-brown .arrow-icon {
+         height: 100px;
+     }
+     .awesome {
+         margin: 16px 0px;
+     }
+     .circle .fs21 {
+         font-size: 16px !important;
+     }
+     .circle .text-color p {
+         font-size: 10px;
+     }
+     .capabilities-cont .capablities-list {
+         min-height: 90px;
+     }
+     .capabilities-cont {
+         padding: 5px 0 20px 0;
+     }
+     .mt30 {
+         margin-top: 10px;
+         h1 {
+             font-size: 30px;
+         }
+     }
+     .capabilities-cont a {
+         font-size: 12px;
+     }
+     .icon-slider .w125 {
+         width: 65px;
+     }
+     .bg-blue h4 {
+         font-size: 14px;
+     }
+     .bg-blue p {
+         font-size: 12px;
+     }
+     .bg-blue h3 {
+         font-size: 16px;
+     }
+     .bg-blue .mar-top-bot {
+         margin-top: 0px;
+         margin-bottom: -22px;
+         margin-left: 117px;
+     }
+     .bg-blue .flexslider .flex-direction-nav .flex-prev {
+         left: -103px !important;
+     }
+     .flex-control-paging li a {
+         width: 9px;
+         height: 9px;
+     }
+     .carousels .flex-viewport {
+         max-height: 327px;
+     }
+     .mb70 {
+         margin-bottom: 0px;
+     }
+     .icon-slider .flex-control-paging li a {
+         margin-top: -55px;
+     }
+     .bg-yellow .capabilities-cont a {
+         font-size: 10px;
+     }
+     .circle .text-color a {
+         font-size: 10px;
+     }
+     //about
+     .header1 .navbar-nav a {
+         font-size: 10px;
+     }
+     .about {
+         h4 {
+             font-size: 12px;
+         }
+         p {
+             font-size: 12px;
+         }
+         h3 {
+             font-size: 16px;
+         }
+         h2 {
+             font-size: 20px;
+         }
+         h6 {
+             font-size: 13px;
+         }
+         p {
+             font-size: 10px;
+         }
+     }
+     .paddb15 {
+         padding-bottom: 0px;
+     }
+     .about-band .about-band-title {
+         margin: 59px 0;
+     }
+     .bg-brown p {
+         margin: 38px 0px;
+     }
+     .team-details h3 {
+         padding-top: 30px;
+         padding-bottom: 30px;
+     }
+     .employee-detail {
+         padding: 15px 50px;
+         min-height: 392px;
+     }
+     .imgs {
+         width: 179px;
+         height: 179px;
+     }
+     .clients {
+         width: 80px;
+         height: 80px;
+     }
+     .mar-t90 {
+         margin-top: 70px;
+     }
+     //work
+     .biscuit {
+         margin-top: 70px;
+     }
+     .overlay-text-bg h2 {
+         font-size: 25px;
+     }
+     .product-name-size h5 {
+         font-size: 12px;
+     }
+     // doycare
+     .mar-tr {
+         margin-top: 97px;
+         margin-right: 3px;
+     }
+     .main-banner p {
+         font-size: 10px;
+     }
+     .portfolio-title {
+         font-size: 16px;
+     }
+     // arch
+     .portfolio-subtitle {
+         font-size: 16px;
+     }
+     .design-cont-padd {
+         padding: 60px 95px 0px 0px;
+     }
+     .good-bg {
+         margin-top: 70px;
+     }
+     .mar-t40 {
+         margin-top: 40px;
+     }
+     .good-bg {
+         h4 {
+             font-size: 16px;
+         }
+         h3 {
+             font-size: 16px;
+         }
+         p {
+             font-size: 10px;
+         }
+         h2{
+             font-size: 16px;
+         }
+     }
  }

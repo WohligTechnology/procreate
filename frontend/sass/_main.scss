@@ -61,6 +61,9 @@ $brand-lightpurpal:#bf202e;
 }
 
 @import "other/font-fix";
+body{
+    overflow-x: hidden!important;
+}
 body,
 h4,
 h5,

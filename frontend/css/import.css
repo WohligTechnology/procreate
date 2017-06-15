@@ -10986,6 +10986,9 @@ button.close {
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
+body {
+  overflow-x: hidden !important; }
+
 body,
 h4,
 h5,
@@ -12656,6 +12659,8 @@ img.loading {
   .header1.Home .navbar-nav a {
     top: 14px;
     font-size: 10px; }
+  header .navbar-nav a {
+    top: 14px; }
   header .img-a {
     width: 220px;
     height: 63px; }
@@ -12735,7 +12740,70 @@ img.loading {
   .bg-yellow .capabilities-cont a {
     font-size: 10px; }
   .circle .text-color a {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .header1 .navbar-nav a {
+    font-size: 10px; }
+  .about h4 {
+    font-size: 12px; }
+  .about p {
+    font-size: 12px; }
+  .about h3 {
+    font-size: 16px; }
+  .about h2 {
+    font-size: 20px; }
+  .about h6 {
+    font-size: 13px; }
+  .about p {
+    font-size: 10px; }
+  .paddb15 {
+    padding-bottom: 0px; }
+  .about-band .about-band-title {
+    margin: 59px 0; }
+  .bg-brown p {
+    margin: 38px 0px; }
+  .team-details h3 {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  .employee-detail {
+    padding: 15px 50px;
+    min-height: 392px; }
+  .imgs {
+    width: 179px;
+    height: 179px; }
+  .clients {
+    width: 80px;
+    height: 80px; }
+  .mar-t90 {
+    margin-top: 70px; }
+  .biscuit {
+    margin-top: 70px; }
+  .overlay-text-bg h2 {
+    font-size: 25px; }
+  .product-name-size h5 {
+    font-size: 12px; }
+  .mar-tr {
+    margin-top: 97px;
+    margin-right: 3px; }
+  .main-banner p {
+    font-size: 10px; }
+  .portfolio-title {
+    font-size: 16px; }
+  .portfolio-subtitle {
+    font-size: 16px; }
+  .design-cont-padd {
+    padding: 60px 95px 0px 0px; }
+  .good-bg {
+    margin-top: 70px; }
+  .mar-t40 {
+    margin-top: 40px; }
+  .good-bg h4 {
+    font-size: 16px; }
+  .good-bg h3 {
+    font-size: 16px; }
+  .good-bg p {
+    font-size: 10px; }
+  .good-bg h2 {
+    font-size: 16px; } }
 
 @media (max-width: 767px) {
   header .img-a {
