@@ -39,14 +39,6 @@
 
     <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <![endif]-->
     <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <![endif]-->
-   <script>
-        
-            $( document ).ready(function() {
-                setTimeout(function(){ 
-            new WOW().init(); 
-        }, 3000);
-        });
-    </script>
 </head>
 
 <body>
@@ -75,6 +67,13 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-77872125-3', {
             'cookieDomain': 'none'
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                new WOW().init();
+            }, 3000);
         });
     </script>
 </body>
