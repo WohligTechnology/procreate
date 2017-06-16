@@ -1,35 +1,176 @@
  @media (max-width: $screen-xs-max) {
      // Mobile
-
      header .img-a {
-         margin-left:0px;
+         margin-left: 0px;
      }
-   .navbar-toggle {
-       margin-top: 20px;
-   }
-//footer
+     .navbar-toggle {
+         margin-top: 20px;
+     }
+     //footer
+     .cols-flex {
+         width: 49%;
+     }
+     .get-padd {
+         padding: 48px 0 0 34px;
+     }
+     .padd-t30 {
+         padding-top: 30px;
+     }
+     footer .arrow-up {
+         margin-top: 15px;
+         left: 82%;
+     }
+     footer .arrow-up {
+         margin-top: 15px;
+         left: 82%;
+     }
+     .l-padd {
+         padding-left: 32px;
+     }
+     .t-padd {
+         padding-top: 19px;
+     }
+     //home start
+     .circle .fs21 {
+         font-size: 12px !important;
+     }
+     .circle .w20 {
+         width: 23.5%;
+     }
+     .circle .text-color p {
+         font-size: 10px;
+     }
+     .icon-slider {
+         display: none;
+     }
+     .get-padd {
+         padding: 48px 0 0 0px;
+         margin-left: 4px;
+     }
+     .awesome {
+         text-align: center;
+     }
+     .trans-rotate {
+         @include transform( rotate(90deg));
+         width: 80px;
+         margin: 0 auto;
+     }
+     .ml {
+         margin-left: 0px;
+     }
+     .bg-brown p {
+         margin: 0px 0px 23px 0px;
+         text-align: center;
+     }
+     .bg-blue .flexslider .flex-direction-nav .flex-prev {
+         @include transform( rotate(90deg));
+     }
+     .bg-blue .flex-direction-nav a {
+         top: 0%;
+     }
+     .bg-blue .client-say {
+         padding: 114px 0px 0px;
+     }
+     .bg-blue .flexslider .flex-direction-nav .flex-prev {
+         left: 103px !important;
+     }
+     .bg-blue .mar-top-bot {
+         margin-left: 28px;
+     }
+     .ml-25 {
+         text-align: center;
+     }
+     .image-circles {
+         padding-top: 30px;
+     }
+     .pdd45 {
+         padding: 20px 0;
+     }
+     //work start
+     .overlay-text-bg h2 {
+         font-size: 20px;
+     }
+     .w-33 {
+         width: 100%;
+     }
+     .rowflex {
+         display: block;
+     }
+     .clients {
+         width: 50px;
+         height: 50px;
+     }
+     //about start
+     .about-band .about-band-title {
+         margin: 26px 0 0;
+         text-align: center;
+     }
+     .mt15 {
+         margin-top: 0px;
+     }
+     .employee-detail:after {
+         display: none;
+     }
+     .t-mar40 {
+         margin-top: 40px;
+     }
+     .imgs {
+         width: 357px;
+         height: 357px;
+     }
+     // doycare start
+     .mar-tr {
+         margin-top: 57px;
+         margin-right: 3px;
+         width: 20%;
+     }
+     .doycare-logo-padd {
+         padding-top: 56px;
+         padding-left: 15px;
+         width: 60%;
+     }
+     .inno-content-padd {
+         padding: 12px 37px 0px 10px;
+     }
+     .design-cont-padd {
+         padding: 10px 40px 0px 10px;
+     }
+     .inno-content-padd {
+         padding: 20px 37px 0px 10px;
+     }
+     .paddl {
+         padding-left: 30px;
+         padding-top: 50px;
+     }
+     .geness-cont-padd {
+         padding-left: 10px;
+         padding-left: 10px;
+     }
+     .mt70 {
+         margin-top: 35px;
+     }
+     .visual-cont-padd {
+         padding: 15px 10px 33px 10px;
+     }
+   
+     .marb200 {
+         margin-bottom: 80px;
+     }
+     .next-icon span {
+         margin-right: 28px;
+         font-size: 9px;
+     }
+     .next-icon span:after {
+         top: -23px;
+         right: 20px;
+     }
+     .previ-icon span {
+         margin-left: 28px;
+         font-size: 9px;
+     }
+   .mar-t40 {
+    margin-top: 56px;
+}
 
-.cols-flex {
-    width: 49%;
-}
-.get-padd {
-    padding: 48px 0 0 34px;
-}
-.padd-t30{
-    padding-top: 30px;
-}
-
-//home start
-
-.circle .fs21 {
-    font-size: 12px !important;
-}
-
-.circle .w20 {
-    width: 23.5%;
-}
-.circle .text-color p {
-    font-size: 10px;
-}
 
  }
