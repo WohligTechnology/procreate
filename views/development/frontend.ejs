@@ -41,9 +41,12 @@
         <script src="<%= file %>"></script>
         <% }); %>
 
-        <script>
-              new WOW().init();
-              </script>
+           <script>
+      $(document).ready(function () {
+            setTimeout(function () {
+                new WOW().init();
+            }, 3000);
+        });
+    </script>
 </body>
-
 </html>

@@ -11976,12 +11976,13 @@ p {
     border: none !important; }
 
 .figures img {
+  transition: all ease 300ms;
   -webkit-filter: grayscale(100%);
-          filter: grayscale(100%); }
+  filter: grayscale(100%); }
 
 .figures img:hover {
-  -webkit-filter: grayscale(0%);
-          filter: grayscale(0%); }
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0); }
 
 .clientele {
   position: relative;

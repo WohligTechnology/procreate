@@ -107,9 +107,12 @@
         <script src="frontend/js/controllers/language-controller.js"></script>
         
 
-        <script>
-              new WOW().init();
-              </script>
+           <script>
+      $(document).ready(function () {
+            setTimeout(function () {
+                new WOW().init();
+            }, 3000);
+        });
+    </script>
 </body>
-
 </html>
