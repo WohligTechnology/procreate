@@ -1,5 +1,20 @@
  @media (max-width: $screen-xs-max) {
      // Mobile
+     .nav > li {
+         text-align: center;
+     }
+       .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-nav>a:hover,
+    {
+        background: transparent;
+        span {
+            border-bottom: 4px solid white;
+            // width: 100%;
+                display: block;
+        }
+    }
      header .img-a {
          margin-left: 0px;
      }
@@ -69,7 +84,8 @@ header.small-image .navbar-brand .w200 {
      }
      .trans-rotate {
          @include transform( rotate(90deg));
-         width: 80px;
+        //  width: 80px;
+           width: 40px;
          margin: 0 auto;
      }
      .ml {
@@ -79,6 +95,20 @@ header.small-image .navbar-brand .w200 {
          margin: 0px 0px 23px 0px;
          text-align: center;
      }
+       .bg-brown{
+           h4{
+               line-height: 11px;
+           }
+       }
+       .bg-brown{
+              .mt15 {
+         margin-top: -21px;
+     }
+       }
+       .bg-blue h4 {
+  
+    line-height: 13px;
+}
      .bg-blue .flexslider .flex-direction-nav .flex-prev {
          @include transform( rotate(90deg));
      }

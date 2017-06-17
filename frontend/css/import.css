@@ -12716,6 +12716,8 @@ img.loading {
     margin-top: 10px; }
     .mt30 h1 {
       font-size: 30px; }
+  .pdd45 {
+    padding: 25px 0 30px 0px; }
   .capabilities-cont a {
     font-size: 12px; }
   .icon-slider .w125 {
@@ -12742,9 +12744,9 @@ img.loading {
   .icon-slider .flex-control-paging li a {
     margin-top: -55px; }
   .bg-yellow .capabilities-cont a {
-    font-size: 10px; }
+    font-size: 12px; }
   .circle .text-color a {
-    font-size: 10px; }
+    font-size: 12px; }
   .header1 .navbar-nav a {
     font-size: 10px; }
   .about h4 {
@@ -12758,7 +12760,7 @@ img.loading {
   .about h6 {
     font-size: 13px; }
   .about p {
-    font-size: 10px; }
+    font-size: 12px; }
   .paddb15 {
     padding-bottom: 0px; }
   .about-band .about-band-title {
@@ -12789,7 +12791,7 @@ img.loading {
     margin-top: 97px;
     margin-right: 3px; }
   .main-banner p {
-    font-size: 10px; }
+    font-size: 12px; }
   .portfolio-title {
     font-size: 16px; }
   .portfolio-subtitle {
@@ -12805,11 +12807,24 @@ img.loading {
   .good-bg h3 {
     font-size: 16px; }
   .good-bg p {
-    font-size: 10px; }
+    font-size: 12px; }
   .good-bg h2 {
     font-size: 16px; } }
 
 @media (max-width: 767px) {
+  .nav > li {
+    text-align: center; }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-nav > a:hover {
+    background: transparent; }
+    .navbar-default .navbar-nav > .active > a span,
+    .navbar-default .navbar-nav > .active > a:hover span,
+    .navbar-default .navbar-nav > .active > a:focus span,
+    .navbar-nav > a:hover span {
+      border-bottom: 4px solid white;
+      display: block; }
   header .img-a {
     margin-left: 0px; }
   .navbar-toggle {
@@ -12857,13 +12872,19 @@ img.loading {
   .trans-rotate {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
-    width: 80px;
+    width: 40px;
     margin: 0 auto; }
   .ml {
     margin-left: 0px; }
   .bg-brown p {
     margin: 0px 0px 23px 0px;
     text-align: center; }
+  .bg-brown h4 {
+    line-height: 11px; }
+  .bg-brown .mt15 {
+    margin-top: -21px; }
+  .bg-blue h4 {
+    line-height: 13px; }
   .bg-blue .flexslider .flex-direction-nav .flex-prev {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg); }
