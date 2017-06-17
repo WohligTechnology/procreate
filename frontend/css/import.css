@@ -12941,4 +12941,12 @@ img.loading {
     margin-right: 30px;
     font-size: 9px; }
   .previ-iconarch span {
-    font-size: 9px; } }
+    font-size: 9px; }
+  .img-banner-padd {
+    padding: 40px 30px; }
+  .inno-content-padd {
+    padding: 10px 10px 0px 10px; }
+  .design-cont-padd {
+    padding: 0px 10px 0px 10px; }
+  .img-padd {
+    padding: 65px 30px; } }

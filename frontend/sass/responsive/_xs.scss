@@ -152,7 +152,6 @@
      .visual-cont-padd {
          padding: 15px 10px 33px 10px;
      }
-   
      .marb200 {
          margin-bottom: 80px;
      }
@@ -168,40 +167,52 @@
          margin-left: 28px;
          font-size: 9px;
      }
-   .mar-t40 {
-    margin-top: 56px;
+     .mar-t40 {
+         margin-top: 56px;
+     }
+     // good start
+     .objective-padd {
+         padding: 20px 10px 0 10px;
+     }
+     .challenge-padd {
+         padding: 0px 10px 0 10px;
+     }
+     .objective {
+         margin-bottom: 10px;
+     }
+     .strategy img {
+         margin-top: 0px;
+     }
+     .strategy-padd {
+         padding: 0px 10px 0 10px;
+     }
+     // arch start
+     .next-iconarch span:after {
+         right: 22px;
+     }
+     .next-iconarch span {
+         margin-right: 30px;
+         font-size: 9px;
+     }
+     .previ-iconarch span {
+         font-size: 9px;
+     }
+     .img-banner-padd {
+         padding: 40px 30px;
+     }
+    .inno-content-padd {
+    padding: 10px 10px 0px 10px;
 }
-// doycare
-.objective-padd {
-    padding: 20px 10px 0 10px;
+.design-cont-padd {
+    padding: 0px 10px 0px 10px;
 }
-.challenge-padd {
-    padding: 0px 10px 0 10px;
+.img-padd {
+    padding: 65px 30px;
 }
-.objective {
-    margin-bottom: 10px; 
-}
-.strategy img {
-    margin-top: 0px;
-}
-.strategy-padd {
-    padding: 0px 10px 0 10px;
-}
-
-
-
-.next-iconarch span:after {
-      
-          right: 22px;
-}
-
-.next-iconarch span {
    
-    margin-right: 30px;
-    font-size: 9px;
-}
-.previ-iconarch span {
-      font-size: 9px;
-}
+
+
+
+
 
  }
