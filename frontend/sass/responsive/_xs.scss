@@ -7,10 +7,14 @@
          margin-top: 20px;
      }
      header .navbar-brand .w200 {
-    width: 253px;
+    width: 183px;
 }
 header .img-a {
     width: 258px;
+}
+header.small-image .navbar-brand .w200 {
+   
+    transform: translate(-152px);
 }
 .navbar-toggle {
     

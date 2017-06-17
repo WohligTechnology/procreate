@@ -12657,6 +12657,9 @@ img.loading {
     font-size: 12px; }
   header .navbar-brand .w200 {
     width: 170px; }
+  header.small-image .navbar-brand .w200 {
+    -webkit-transform: translate(-141px);
+            transform: translate(-141px); }
   .header1.Home .navbar-nav a {
     top: 14px;
     font-size: 10px; }
@@ -12700,7 +12703,7 @@ img.loading {
   .bg-brown .arrow-icon {
     height: 100px; }
   .awesome {
-    margin: 16px 0px; }
+    margin: 20px 0px; }
   .circle .fs21 {
     font-size: 16px !important; }
   .circle .text-color p {
@@ -12812,9 +12815,12 @@ img.loading {
   .navbar-toggle {
     margin-top: 20px; }
   header .navbar-brand .w200 {
-    width: 253px; }
+    width: 183px; }
   header .img-a {
     width: 258px; }
+  header.small-image .navbar-brand .w200 {
+    -webkit-transform: translate(-152px);
+            transform: translate(-152px); }
   .navbar-toggle {
     margin-right: -17px; }
   .w200 {

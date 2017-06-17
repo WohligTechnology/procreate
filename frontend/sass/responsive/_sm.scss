@@ -13,6 +13,10 @@
      header .navbar-brand .w200 {
          width: 170px;
      }
+     header.small-image .navbar-brand .w200 {
+
+    transform: translate(-141px);
+}
      .header1.Home .navbar-nav a {
          top: 14px;
          font-size: 10px;
@@ -75,7 +79,7 @@
          height: 100px;
      }
      .awesome {
-         margin: 16px 0px;
+         margin: 20px 0px;
      }
      .circle .fs21 {
          font-size: 16px !important;
