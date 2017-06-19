@@ -1,3 +1,9 @@
+  @media (min-width: 495){
+.flex-direction-nav .flex-prev {
+    left: 155px !important;
+}
+  }
+ 
  @media (max-width: $screen-xs-max) {
      // Mobile
      .nav > li {
@@ -62,7 +68,39 @@ header.small-image .navbar-brand .w200 {
      .t-padd {
          padding-top: 19px;
      }
+     footer .form-control {
+         color: white;
+     }
      //home start
+     .first-slider{
+     .flexslider .flex-direction-nav .flex-nav-prev a:before {
+         width: 18px;
+    height: 95px;
+      background-repeat: no-repeat;
+    background-size: cover;
+     }
+     
+    .flexslider .flex-direction-nav .flex-prev {
+    left: 31px !important;
+}
+     .flexslider .flex-direction-nav .flex-nav-next a:before {
+
+width: 18px;
+    height: 54px;
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+        margin-top: 23px;
+
+
+     }
+  .flexslider .flex-direction-nav .flex-next {
+   right: 31px !important;
+}
+.flex-direction-nav a {
+        top: 52%;
+}
+     }
      .circle .fs21 {
          font-size: 12px !important;
      }
@@ -70,7 +108,7 @@ header.small-image .navbar-brand .w200 {
          width: 23.5%;
      }
      .circle .text-color p {
-         font-size: 10px;
+         font-size: 12px;
      }
      .icon-slider {
          display: none;
@@ -110,16 +148,18 @@ header.small-image .navbar-brand .w200 {
     line-height: 13px;
 }
      .bg-blue .flexslider .flex-direction-nav .flex-prev {
-         @include transform( rotate(90deg));
+        //  @include transform( rotate(90deg));
      }
      .bg-blue .flex-direction-nav a {
          top: 0%;
+         text-align: center;
      }
      .bg-blue .client-say {
          padding: 114px 0px 0px;
      }
      .bg-blue .flexslider .flex-direction-nav .flex-prev {
-         left: 103px !important;
+             left: 50% !important;
+    transform: translateX(-70%) rotate(90deg);
      }
      .bg-blue .mar-top-bot {
          margin-left: 28px;
@@ -132,6 +172,9 @@ header.small-image .navbar-brand .w200 {
      }
      .pdd45 {
          padding: 20px 0;
+     }
+     .bg-blue .border {
+    width: 92%;
      }
      //work start
      .overlay-text-bg h2 {
@@ -148,6 +191,9 @@ header.small-image .navbar-brand .w200 {
          height: 50px;
      }
      //about start
+     .center-align{
+         text-align: center;
+     }
      .about-band .about-band-title {
          margin: 26px 0 0;
          text-align: center;
