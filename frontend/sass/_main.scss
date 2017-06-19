@@ -1530,6 +1530,31 @@ p {
 } //offering
 //ruchira//
 //portfolio start
+.fancybox-title-float-wrap .child {
+    /* top: 19%; */
+    display: inline-block;
+    margin-right: -100%;
+    /* margin-top: 11%; */
+    /* margin-top: 30px; */
+    padding: 12px 12px;
+    background: white;
+    border-radius: 0px; 
+     text-shadow: none; 
+    color: #FFF;
+    font-weight: normal;
+    line-height: 14px;
+   white-space: normal; 
+    font-size: 15px;
+    color: black;
+}
+.fancybox-skin{
+    padding: 0px !important;
+}
+
+.fancybox-title-float-wrap {
+        margin-bottom: -29px;
+            right: 50%;
+}
 .rowflex {
     display: flex;
 }

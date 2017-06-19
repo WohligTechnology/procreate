@@ -12071,6 +12071,30 @@ p {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%); }
 
+.fancybox-title-float-wrap .child {
+  /* top: 19%; */
+  display: inline-block;
+  margin-right: -100%;
+  /* margin-top: 11%; */
+  /* margin-top: 30px; */
+  padding: 12px 12px;
+  background: white;
+  border-radius: 0px;
+  text-shadow: none;
+  color: #FFF;
+  font-weight: normal;
+  line-height: 14px;
+  white-space: normal;
+  font-size: 15px;
+  color: black; }
+
+.fancybox-skin {
+  padding: 0px !important; }
+
+.fancybox-title-float-wrap {
+  margin-bottom: -29px;
+  right: 50%; }
+
 .rowflex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12934,6 +12958,11 @@ img.loading {
     padding: 20px 0; }
   .bg-blue .border {
     width: 92%; }
+  .fancybox-title-float-wrap {
+    margin-bottom: -87px; }
+  .fancybox-title-float-wrap .child {
+    font-size: 12px;
+    font-weight: normal; }
   .overlay-text-bg h2 {
     font-size: 20px; }
   .w-33 {
