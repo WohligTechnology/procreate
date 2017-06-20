@@ -1,8 +1,12 @@
 var initMap = function () {};
 myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location, $state) {
         $scope.template = TemplateService.getHTML("content/home.html");
-        TemplateService.title = "Leading Brand Design Company"; //This is the Title of the Website
-        TemplateService.cssMain = "Home"; //This is the Title of the Website        
+        // TemplateService.title = "Leading Brand Design Company"; //This is the Title of the Website
+      TemplateService.title = "Strategic Brand Design Agency India | Best Branding Company in India -Procreate Design";
+        TemplateService.cssMain = "Home"; //This is the Title of the Website    
+         TemplateService.description = "Procreate Design is a strategic brand design agency providing effective brand design solutions to the clients in India. Visit our website for more information!";
+          TemplateService.keywords = "product packaging design companies india, best branding agencies in india, best branding companies in india, brand design agencyindia, branding companies in india, packaging design agencies"; 
+          TemplateService.canonical = "Home";   
         $scope.navigation = NavigationService.getNavigation();
         $scope.refresh = function () {
             $state.reload();
@@ -231,9 +235,14 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
     .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout, $location) {
         $scope.template = TemplateService.getHTML("content/about.html");
-        TemplateService.title = "Strategic Brand Design Firm"; //This is the Title of the Website
+        // TemplateService.title = "Strategic Brand Design Firm"; //This is the Title of the Website
+          TemplateService.title = "About Procreate Design - Top Branding Agencies in India";
         // TemplateService.header = "views/template/header1.html"; //This is the Title of the Website
+      
         TemplateService.cssMain = "About";
+         TemplateService.description = "Procreate Design is one of the top strategic brand design firm that creates brand designs that resonate with Humans, not just consumersor shoppers.";
+         TemplateService.keywords = "procreate design, top branding agencies in india, top branding companies in india, top packaging design agency india";
+        //   TemplateService.canonical = "About";   
         $scope.navigation = NavigationService.getNavigation();
         $scope.getTab = function (view) {
             var id = "";
