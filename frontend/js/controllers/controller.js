@@ -266,6 +266,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
     .controller('footerCtrl', function ($scope, TemplateService, apiService, NavigationService, $http, $timeout) {
         //    reCAPTCHA
         // vcRecaptchaService
+        $scope.form = {};
         $scope.sendMail = function (data) {
             $scope.message = "";
 
@@ -274,8 +275,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 $scope.url = "Enquirey/mailSends";
                 NavigationService.apiCallWithData($scope.url, data, function (data) {
                     if (data) {
-                        $scope.message = "Thank you For submitting the form";
+                        $scope.message = "Thank you for submitting the form";
                         $scope.form = {};
+                        
                     }
                 });
 

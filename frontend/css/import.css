@@ -12386,6 +12386,15 @@ p {
 .fancybox-nav.fancybox-prev span {
   background-image: url("../img/portfolio/prev.png"); }
 
+@-webkit-keyframes autofill {
+  to {
+    color: white;
+    background: transparent; } }
+
+input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both; }
+
 .good-bg {
   background-image: url("../img/good/2.jpg");
   background-repeat: no-repeat;
@@ -12910,6 +12919,17 @@ img.loading {
     right: 31px !important; }
   .first-slider .flex-direction-nav a {
     top: 52%; }
+  .circle .text-color .color-darkblue {
+    padding: 0px; }
+  .circle .text-color .color-lightgreen {
+    padding-left: 0px; }
+  .circle .text-color .color-skyblue {
+    padding-left: 0px; }
+  .circle .text-color .color-darkgreen {
+    padding-left: 0px; }
+  .tooltiptext {
+    margin-top: -15px;
+    margin-left: -18px; }
   .circle .fs21 {
     font-size: 12px !important; }
   .circle .w20 {

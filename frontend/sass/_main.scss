@@ -1948,4 +1948,17 @@ visibility: visible;
 }
 .fancybox-nav.fancybox-prev span {
     background-image: url("../img/portfolio/prev.png");
+
+}
+
+@-webkit-keyframes autofill {
+    to {
+        color: white;
+        background: transparent;
+    }
+}
+
+input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
 }
