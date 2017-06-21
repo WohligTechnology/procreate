@@ -1715,7 +1715,71 @@ background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 
 .display-inline {
     display: inline-block;
 }
+// .modal-dialog {
+//     width: 877px;
+// }
+// .bg-popup-img{
+//     background-image: url("../img/portfolio/popup/daburr.jpg");
+ 
+//      height: 608px;
+// width: 875px;
+// background-size: cover;
+// background-repeat: no-repeat;
+// background-position: center center;
+// }
+.modal-heading{
+    font-size: 12px;
+    color:$brand-darkbrown;
+    font-weight: 600;
+    margin-top: 0px;
+        padding: 30px 0px 0px 45px;
+}
+.modal-first-para{
+p{
+    font-size: 12px;
+    color: green;
+    padding: 0px 0px 0px 45px;
+    font-weight: 600;
 
+}
+span{
+    color:$brand-darkbrown;
+       font-weight: bold;
+       font-weight: 600;
+}
+}
+.modal-second-para p{
+
+font-size: 12px;
+color:gray;
+padding: 0px 0px 0px 45px;
+line-height: 14px;
+}
+.modal-heading:before{
+      content: '';
+         background-image: url("../img/portfolio/popup/nexticon.png");
+         position: absolute;
+         width: 20px;
+         height: 64px;
+         background-repeat: no-repeat;
+        //  vertical-align: center;
+            top: 20px;
+    left: 37px;
+}
+.top0{
+    top:0px;
+}
+.close-modal {
+position: absolute;
+top: 6px;
+right: 11px;
+cursor: pointer;
+.fa {
+font-size: 20px;
+color: black;
+}
+}
+ 
 //end portfolio
 //header start
 .header1-bg {

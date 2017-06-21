@@ -1,4 +1,4 @@
-myApp.controller('PortfolioCtrl', function ($scope, TemplateService, NavigationService, $timeout,$state,$location) {
+myApp.controller('PortfolioCtrl', function ($scope, TemplateService, NavigationService, $timeout,$state,$location,$uibModal) {
     $scope.template = TemplateService.getHTML("content/portfolio.html");
     // TemplateService.title = "Packaging & Corporate Branding Company"; //This is the Title of the Website
       TemplateService.title = "Portfolio - Procreate Design";
@@ -12,6 +12,121 @@ myApp.controller('PortfolioCtrl', function ($scope, TemplateService, NavigationS
         console.log(data);
         $scope.formSubmitted = true;
     };
+
+ $scope.login = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/login.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "login-modal"
+
+            });
+        };
+        $scope.loginclose = function () {
+            $scope.loginModal.close();
+        };
+
+ $scope.belicious = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/belicious.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "belicious-modal"
+
+            });
+        };
+$scope.phalse = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/phalse.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "phalse-modal"
+
+            });
+        };
+        $scope.bael = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/bael.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "bael-modal"
+
+            });
+        };
+          $scope.nerolac = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/nerolac.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "nerolac-modal"
+
+            });
+        };
+         $scope.redgel = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/redgel.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "redgel-modal"
+
+            });
+        };
+         $scope.parachute = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/parachute.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "parachute-modal"
+
+            });
+        };
+         $scope.maxitos = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/maxitos.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "maxitos-modal"
+
+            });
+        };
+         $scope.vachan = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/vachan.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "vachan-modal"
+
+            });
+        };
+         $scope.vachan2 = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/vachan2.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "vachan2-modal"
+
+            });
+        };
+          $scope.parle = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/parle.html',
+                scope: $scope,
+                size: 'lg',
+                windowClass: "parle-modal"
+
+            });
+        };
      $scope.getTab = function (view) {
       var id = "";
       console.log(view);

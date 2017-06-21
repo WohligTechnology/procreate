@@ -12228,6 +12228,52 @@ p {
 .display-inline {
   display: inline-block; }
 
+.modal-heading {
+  font-size: 12px;
+  color: #5f2f0f;
+  font-weight: 600;
+  margin-top: 0px;
+  padding: 30px 0px 0px 45px; }
+
+.modal-first-para p {
+  font-size: 12px;
+  color: green;
+  padding: 0px 0px 0px 45px;
+  font-weight: 600; }
+
+.modal-first-para span {
+  color: #5f2f0f;
+  font-weight: bold;
+  font-weight: 600; }
+
+.modal-second-para p {
+  font-size: 12px;
+  color: gray;
+  padding: 0px 0px 0px 45px;
+  line-height: 14px; }
+
+.modal-heading:before {
+  content: '';
+  background-image: url("../img/portfolio/popup/nexticon.png");
+  position: absolute;
+  width: 20px;
+  height: 64px;
+  background-repeat: no-repeat;
+  top: 20px;
+  left: 37px; }
+
+.top0 {
+  top: 0px; }
+
+.close-modal {
+  position: absolute;
+  top: 6px;
+  right: 11px;
+  cursor: pointer; }
+  .close-modal .fa {
+    font-size: 20px;
+    color: black; }
+
 .header1-bg {
   background-color: red; }
 
@@ -12992,6 +13038,32 @@ img.loading {
   .clients {
     width: 50px;
     height: 50px; }
+  .top0 {
+    top: 90%;
+    background: #e8b83a;
+    padding-bottom: 20px; }
+  .modal-first-para p {
+    padding: 0px 20px 0px 35px; }
+  .modal-second-para p {
+    padding: 0px 20px 0px 35px;
+    color: black; }
+  .modal-heading {
+    padding: 15px 0px 0px 35px; }
+  .modal-heading:before {
+    top: 5px;
+    left: 32px; }
+  .close-modal .fa {
+    font-size: 14px; }
+  .beelicious-modal-color {
+    background: #faf599; }
+  .phalse-modal-color {
+    background: #f9f6c8; }
+  .bael-modal-color {
+    background: #f2f6f9; }
+  .redgel-color {
+    background: #ffffff; }
+  .maxitos-color {
+    background: #fdec51; }
   .center-align {
     text-align: center; }
   .about-band .about-band-title {
