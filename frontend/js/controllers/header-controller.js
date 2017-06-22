@@ -6,7 +6,7 @@ myApp.controller('headerCtrl', function ($scope, TemplateService, $rootScope, $l
     $.fancybox.close(true);
     $scope.gotoBottom = function () {
         $("html, body").animate({
-            scrollTop: $(document).height()
+             scrollTop: $(".contact-set").offset().top - 80
         }, 1000);
     };
 });
