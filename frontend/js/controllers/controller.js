@@ -6,7 +6,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         TemplateService.cssMain = "Home"; //This is the Title of the Website    
          TemplateService.description = "Procreate Design is a strategic brand design agency providing effective brand design solutions to the clients in India. Visit our website for more information!";
           TemplateService.keywords = "product packaging design companies india, best branding agencies in india, best branding companies in india, brand design agencyindia, branding companies in india, packaging design agencies"; 
-          TemplateService.canonical = "Home";   
+        //   TemplateService.canonical = "Home";   
         $scope.navigation = NavigationService.getNavigation();
         $scope.refresh = function () {
             $state.reload();
@@ -242,7 +242,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         TemplateService.cssMain = "About";
          TemplateService.description = "Procreate Design is one of the top strategic brand design firm that creates brand designs that resonate with Humans, not just consumersor shoppers.";
          TemplateService.keywords = "procreate design, top branding agencies in india, top branding companies in india, top packaging design agency india";
-          TemplateService.canonical = "About";   
+        //   TemplateService.canonical = "About";   
         $scope.navigation = NavigationService.getNavigation();
         $scope.getTab = function (view) {
             var id = "";

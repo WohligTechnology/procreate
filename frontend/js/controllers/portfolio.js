@@ -5,7 +5,7 @@ myApp.controller('PortfolioCtrl', function ($scope, TemplateService, NavigationS
      TemplateService.cssMain = "Portfolio";
       TemplateService.description = "content=&quot;If you are thinking about redesigning your brand or product design, be sure to take a look at the list of design portfolios by Procreate Design.";
        TemplateService.keywords = "design portfolios, procreate design portfolio, product design, brand design";
-                 TemplateService.canonical = "Work";
+                //  TemplateService.canonical = "Work";
     $scope.navigation = NavigationService.getNavigation();
     $scope.formSubmitted = false;
     $scope.submitForm = function (data) {
