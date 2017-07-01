@@ -15,7 +15,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         //     new WOW().init(); 
         // }, 3000);
         $scope.inspireImg = [{
-                img: 'img/homepage/home3.jpg'
+                img: 'img/homepage/home 4.jpg'
                
             },
                {
