@@ -251,25 +251,42 @@ footer {
             font-size: 13px;
             color: black;
             line-height: 1px;
+            font-weight: 600;
         }
     }
     .get-call h5 {
         font-family: 'gothamBold';
         line-height: 1px;
+        font-weight: 600;
     }
     .contact p {
         font-family: 'gothambook';
         font-size: 13px;
         color: black;
+        font-weight: 600;
     }
     .mob-number h5 {
         font-family: 'gothambook';
     }
-    .mar-tb{
-        margin: 30px 0px;
+    .mob-number a:hover {
+        color: black;
     }
-    
-     // ul {
+    .mar-tb {
+        margin: 40px 0px 33px 0px;
+    }
+    .talk {
+        padding: 13px 0px 0px 0px;
+    }
+    .social-icon {
+        padding: 30px 0px 0px 23px;
+    }
+    .contact-us {
+        padding: 13px 0px 0px 35px;
+    } // .bg-gray {
+    //     p {
+    //         font-family: gotham-el;
+    //     }
+    // } // ul {
     //     list-style-type: none;
     //     color: black;
     //     font-family: gothambook;
@@ -277,10 +294,10 @@ footer {
     // li {
     //     font-family: gothamLight;
     // }
-    // p {
-    //     font-family: gotham-el;
-    //     color: black;
-    // }
+    p {
+        font-family: gotham-el;
+        color: white;
+    }
     .text-decoration {
         font-family: gotham-el; // text-decoration: underline;
         color: black;
@@ -311,8 +328,7 @@ footer {
         span {
             font-family: gothamBold;
         }
-    }
-    // .contact {
+    } // .contact {
     //     float: right;
     // }
     .circle-img {
@@ -372,10 +388,14 @@ footer {
         font-size: 12px;
     }
     .mar15 {
-        margin: 15px 0px;
+        margin: 20px 0px 50px 0px;
     }
     .mt27 {
         margin-top: 27px;
+    }
+    .marin {
+        margin-right: 55px;
+        margin-top: -60px;
     }
     .arrow-up {
         margin-top: 43px;
@@ -741,7 +761,7 @@ p {
 
 .bg-blue {
     background-color: $brand-brown;
-    padding: 40px 0;
+    padding: 20px 0;
     h4 {
         font-size: 23px;
         margin-top: 0;
@@ -779,7 +799,7 @@ p {
             a:before {
                 content: "";
                 display: inline-block;
-                background-image: url("../img/homepage/29.png");
+                background-image: url("../img/homepage/27.png");
                 background-repeat: no-repeat;
                 color: rgba(0, 0, 0, 0.8);
                 width: 150px;
@@ -804,13 +824,13 @@ p {
     }
     .border {
         width: 79%;
-        border-bottom: 1px solid $brand-lightergreen;
+        border-bottom: 1px solid white;
         position: relative;
     }
     .circle {
         width: 6px;
         height: 6px;
-        background-color: $brand-lightergreen;
+        background-color: white;
         position: absolute;
         border-radius: 50%;
         right: -6px;

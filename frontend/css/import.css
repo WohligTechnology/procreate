@@ -11105,18 +11105,32 @@ footer {
     footer h5 a {
       font-size: 13px;
       color: black;
-      line-height: 1px; }
+      line-height: 1px;
+      font-weight: 600; }
   footer .get-call h5 {
     font-family: 'gothamBold';
-    line-height: 1px; }
+    line-height: 1px;
+    font-weight: 600; }
   footer .contact p {
     font-family: 'gothambook';
     font-size: 13px;
-    color: black; }
+    color: black;
+    font-weight: 600; }
   footer .mob-number h5 {
     font-family: 'gothambook'; }
+  footer .mob-number a:hover {
+    color: black; }
   footer .mar-tb {
-    margin: 30px 0px; }
+    margin: 40px 0px 33px 0px; }
+  footer .talk {
+    padding: 13px 0px 0px 0px; }
+  footer .social-icon {
+    padding: 30px 0px 0px 23px; }
+  footer .contact-us {
+    padding: 13px 0px 0px 35px; }
+  footer p {
+    font-family: gotham-el;
+    color: white; }
   footer .text-decoration {
     font-family: gotham-el;
     color: black; }
@@ -11146,9 +11160,12 @@ footer {
   footer .fs12 {
     font-size: 12px; }
   footer .mar15 {
-    margin: 15px 0px; }
+    margin: 20px 0px 50px 0px; }
   footer .mt27 {
     margin-top: 27px; }
+  footer .marin {
+    margin-right: 55px;
+    margin-top: -60px; }
   footer .arrow-up {
     margin-top: 43px;
     left: 93%; }
@@ -11427,7 +11444,7 @@ p {
 
 .bg-blue {
   background-color: #683818;
-  padding: 40px 0; }
+  padding: 20px 0; }
   .bg-blue h4 {
     font-size: 23px;
     margin-top: 0; }
@@ -11454,7 +11471,7 @@ p {
   .bg-blue .flex-direction-nav .flex-nav-prev a:before {
     content: "";
     display: inline-block;
-    background-image: url("../img/homepage/29.png");
+    background-image: url("../img/homepage/27.png");
     background-repeat: no-repeat;
     color: rgba(0, 0, 0, 0.8);
     width: 150px;
@@ -11473,12 +11490,12 @@ p {
     left: -115px !important; }
   .bg-blue .border {
     width: 79%;
-    border-bottom: 1px solid #8cffff;
+    border-bottom: 1px solid white;
     position: relative; }
   .bg-blue .circle {
     width: 6px;
     height: 6px;
-    background-color: #8cffff;
+    background-color: white;
     position: absolute;
     border-radius: 50%;
     right: -6px;
