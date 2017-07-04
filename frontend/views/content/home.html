@@ -187,7 +187,37 @@
         </div>
     </div>
 </section>
+<section class="icon-slider">
 
+    <div class="relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="  carousels ">
+                        <flex-slider class="carousel" flex-slide="img in homeImg track by $index" animation="slide" animationLoop="true" slideshow="true"
+                            as-nav-for="#slider" slideshowSpeed="500" animationSpeed="60" pauseOnHover="true">
+                            <!--<flex-slider flex-slide="myslide in inspireImg track by $index" animation="fade" animationloop="true"
+            move="1" slideshow-Speed="2000" prev-text="" next-text="" animation="slide">-->
+                            <li>
+                                <div class="client-imgholder">
+                                    <div class="row" ng-repeat="row in img track by $index">
+                                        <div class="col-md-2 col-sm-2 col-xs-2" ng-repeat="clientimg in row track by $index">
+                                            <div class="img-holder listing w125">
+                                                <img ng-src="{{clientimg.img}}" alt="" class="img-responsive ">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </flex-slider>
+                    </div>
+                </div>
+                <div class="overlay">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section>
     <div class="bg-blue">
         <div class="container">
