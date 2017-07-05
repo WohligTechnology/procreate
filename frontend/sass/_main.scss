@@ -394,11 +394,13 @@ footer {
         margin-top: 27px;
     }
     .marin {
-        margin-right: 55px;
+        // margin-right: 55px;
+        margin-right: 42px;
         margin-top: -60px;
     }
     .arrow-up {
-        margin-top: 43px;
+        // margin-top: 43px;
+        margin-top: -6px;
         left: 93%;
         .btn-border-none {
             border: none;
@@ -545,7 +547,7 @@ p {
     background-color: $brand-green;
 }
 
-.bg-brown {
+.bg-brown2 {
     background-color: $brand-brown;
     p {
         // margin: 50px 0px;
@@ -592,7 +594,7 @@ p {
     .flexslider {
        .flex-direction-nav {
         a {
-            width: 48px;
+            width: 50px;
         }
         .flex-nav-prev {
             a:before {
@@ -650,7 +652,7 @@ p {
         }
         .flex-nav-prev:hover {
             a:before {
-                opacity: 0;
+                opacity: 1;
             }
         }
         .flex-nav-next {
@@ -666,7 +668,7 @@ p {
         }
         .flex-nav-next:hover {
             a:before {
-                opacity: 0;
+                opacity: 1;
             }
         }
     }
@@ -814,10 +816,120 @@ p {
         }
     }
 }
+.bg-brown {
+    background-color: $brand-brown;
+    padding: 20px 0;
+   h5{
+       font-size: 18px;
+          line-height: 8px;
+          margin-top: -6px;
+   }
+   h4{
+          font-family: 'gothamMedium';
+          font-size: 20px;
+          margin:0;
+   }
+    li {
+        background-color: $brand-brown;
+    }
+    ul {
+        background-color: $brand-brown;
+    }
+    p {
+         font-family: gothambook;
+    font-size: 18px;
+    padding-left: 20px;
+    }
+    h3 {
+        color: white;
+        font-size: 20px;
+        margin-top: 0;
+    }
+    .border-tb{
+    border-top: 1px solid #90cb18;
+    border-bottom: 1px solid #90cb18;
+    padding: 0px 0px 5px;
+    margin: 20px 9px;
+    }
+span{
+    font-size: 7px;
+    margin-left: 146px;
+    color: white;
+}
+    // .fs-18{
+    //         font-family: gothambook;
+    // font-size: 18px;
+    // padding-left: 20px;
+
+    // }
+    .flex-control-paging li a {
+        display: none;
+    }
+    .flex-control-paging li a.flex-active {
+        display: none;
+    }
+    .flex-direction-nav {
+        .flex-nav-prev {
+            a:before {
+                content: "";
+                display: inline-block;
+                background-image: url("../img/homepage/triangle.png");
+                background-repeat: no-repeat;
+                color: rgba(0, 0, 0, 0.8);
+                width: 150px;
+                height: 150px;
+                opacity: 1;
+            }
+        }
+        .flex-nav-next:hover {
+            display: none;
+        }
+        a {
+            top: 19%;
+            width: 70px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            opacity: 1;
+        }
+    }
+    .flexslider .flex-direction-nav .flex-prev {
+        // left: -115px !important;
+        left:-52px !important;
+    }
+    .border {
+        width: 79%;
+        border-bottom: 1px solid white;
+        position: relative;
+    }
+    .circle {
+        width: 6px;
+        height: 6px;
+        background-color: white;
+        position: absolute;
+        border-radius: 50%;
+        right: -6px;
+        top: -3px;
+    }
+    .mar-top-bot {
+        margin-top: 20px;
+        margin-bottom: 12px;
+        // margin-left: 150px;
+        margin-left: 73px;
+    }
+    .client-say {
+        // padding: 0 20px;
+            padding: 5px 20px 0px 20px;
+    }
+}
+
 
 .bg-blue {
     background-color: $brand-brown;
     padding: 20px 0;
+   h5{
+       font-size: 20px;
+   }
     h4 {
         font-size: 23px;
         margin-top: 0;
@@ -843,6 +955,12 @@ p {
     }
     h1 {
         margin-top: 30px;
+    }
+    .fs-18{
+            font-family: gothambook;
+    font-size: 18px;
+    padding-left: 20px;
+
     }
     .flex-control-paging li a {
         display: none;
@@ -932,7 +1050,28 @@ p {
 
 .mar-t20 {
     margin: 60px 50px 50px 0px !important;
-} // home page end
+}
+.showcase{
+      .flexslider{
+    .flex-control-nav {
+        display: none;
+}
+.slides img {
+    margin: 0px 30px 0px 0px !important;
+}
+ .flex-direction-nav .flex-prev {
+    display: none;
+}
+ .flex-direction-nav .flex-next:hover {
+     display: none;
+}
+
+      }
+     
+}
+
+
+ // home page end
 // approach page start
 .approach {
     h1 {
@@ -1955,7 +2094,7 @@ p {
         .navbar-default .navbar-nav>.active>a:focus,
         .navbar-nav>a:hover,
         {
-            background: transparent;
+              
             span {
                 border-bottom: 4px solid white;
             }
@@ -1968,7 +2107,7 @@ p {
         }
         .navbar-nav {
             a {
-                color: $brand-black !important;
+                color: white !important;
                 top: 18px;
                 font-size: 12px;
                 font-weight: 600;
@@ -1984,7 +2123,9 @@ p {
             }
         }
         .navbar {
-            background: white;
+            border: none;
+            background: linear-gradient(45deg,#83bf01,#83bf01,#83bf01,  #abe348 );
+            
         }
     }
     &.Approach {

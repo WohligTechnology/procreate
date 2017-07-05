@@ -2,10 +2,10 @@ var initMap = function () {};
 myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location, $state) {
         $scope.template = TemplateService.getHTML("content/home.html");
         // TemplateService.title = "Leading Brand Design Company"; //This is the Title of the Website
-      TemplateService.title = "Strategic Brand Design Agency India | Best Branding Company in India -Procreate Design";
+        TemplateService.title = "Strategic Brand Design Agency India | Best Branding Company in India -Procreate Design";
         TemplateService.cssMain = "Home"; //This is the Title of the Website    
-         TemplateService.description = "Procreate Design is a strategic brand design agency providing effective brand design solutions to the clients in India. Visit our website for more information!";
-          TemplateService.keywords = "product packaging design companies india, best branding agencies in india, best branding companies in india, brand design agencyindia, branding companies in india, packaging design agencies"; 
+        TemplateService.description = "Procreate Design is a strategic brand design agency providing effective brand design solutions to the clients in India. Visit our website for more information!";
+        TemplateService.keywords = "product packaging design companies india, best branding agencies in india, best branding companies in india, brand design agencyindia, branding companies in india, packaging design agencies";
         //   TemplateService.canonical = "Home";   
         $scope.navigation = NavigationService.getNavigation();
         $scope.refresh = function () {
@@ -16,22 +16,22 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         // }, 3000);
         $scope.inspireImg = [{
                 img: 'img/homepage/33.jpg'
-               
+
             },
-               {
+            {
                 img: 'img/homepage/slide-top3.jpg'
             },
-              {
+            {
                 img: 'img/homepage/top-slide3.jpg'
             },
-         
-             {
+
+            {
                 img: 'img/homepage/slide2.jpg'
             },
             {
                 img: 'img/homepage/top-slide5.jpg'
             },
-          
+
             {
                 img: 'img/homepage/top-slide6.jpg',
 
@@ -40,6 +40,41 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/top-slide7.jpg',
 
             }
+        ]
+        $scope.inspireImg2 = [{
+                img: 'img/homepage/slide1.jpg',
+                 link: 'good',
+
+            },
+            {
+                 img: 'img/homepage/slider5.jpg'
+                
+            },
+            {
+                img: 'img/homepage/slider3.jpg'
+            },
+
+            {
+               img: 'img/homepage/slider4.jpg',
+               link: 'arch',
+            },
+
+            {
+                img: 'img/homepage/slider6.jpg'
+
+            },
+            {
+                img: 'img/homepage/slider2.jpg'
+            },
+            {
+                img: 'img/homepage/slider7.jpg'
+            },
+
+            {
+                img: 'img/homepage/slider8.jpg',
+                 link: 'doycare',
+            },
+
         ]
 
         $scope.homeImg = [{
@@ -169,7 +204,19 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             },
 
         ]
+        $scope.homeText2 = [{
 
+
+                title2: ' Design Strategy | Brand Building | Packaging Design Brand Communications | Retail & POSM | Digital Design',
+            },
+            {
+
+                title2: 'We are a Strategic Design company. As Design Specialist, we offer Integrated Design solutions that cover branding & plays a vital design role.  '
+
+            },
+
+
+        ]
 
         var abc = _.times(100, function (n) {
             return n;
@@ -236,12 +283,12 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
     .controller('AboutCtrl', function ($scope, TemplateService, NavigationService, $timeout, $location) {
         $scope.template = TemplateService.getHTML("content/about.html");
         // TemplateService.title = "Strategic Brand Design Firm"; //This is the Title of the Website
-          TemplateService.title = "About Procreate Design - Top Branding Agencies in India";
+        TemplateService.title = "About Procreate Design - Top Branding Agencies in India";
         // TemplateService.header = "views/template/header1.html"; //This is the Title of the Website
-      
+
         TemplateService.cssMain = "About";
-         TemplateService.description = "Procreate Design is one of the top strategic brand design firm that creates brand designs that resonate with Humans, not just consumersor shoppers.";
-         TemplateService.keywords = "procreate design, top branding agencies in india, top branding companies in india, top packaging design agency india";
+        TemplateService.description = "Procreate Design is one of the top strategic brand design firm that creates brand designs that resonate with Humans, not just consumersor shoppers.";
+        TemplateService.keywords = "procreate design, top branding agencies in india, top branding companies in india, top packaging design agency india";
         //   TemplateService.canonical = "About";   
         $scope.navigation = NavigationService.getNavigation();
         $scope.getTab = function (view) {
@@ -286,7 +333,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                     if (data) {
                         $scope.message = "Thank you for submitting the form";
                         $scope.form = {};
-                        
+
                     }
                 });
 
