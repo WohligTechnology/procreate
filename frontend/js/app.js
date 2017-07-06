@@ -77,7 +77,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: tempateURL,
             controller: 'DoycareCtrl'
         })
-
+          .state('contact', {
+            url: "/contact",
+            templateUrl: tempateURL,
+            controller: 'ContactCtrl'
+        })
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);
 });

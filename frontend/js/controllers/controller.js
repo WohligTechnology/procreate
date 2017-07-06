@@ -15,7 +15,11 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         //     new WOW().init(); 
         // }, 3000);
         $scope.inspireImg = [{
-                img: 'img/homepage/33.jpg'
+                img: 'img/homepage/homefinal.jpg',
+                title1:'We are Procreate!',
+                title2:'Design for Growth +',
+                title3:'Transformation',
+                title4:'with a Humanised approach'
 
             },
             {
@@ -26,7 +30,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             },
 
             {
-                img: 'img/homepage/slide2.jpg'
+                img: 'img/homepage/top-slide7.jpg',
+
             },
             {
                 img: 'img/homepage/top-slide5.jpg'
@@ -36,10 +41,10 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/top-slide6.jpg',
 
             },
-            {
-                img: 'img/homepage/top-slide7.jpg',
-
-            }
+         
+               {
+                img: 'img/homepage/slide2.jpg'
+            },
         ]
         $scope.inspireImg2 = [{
                 img: 'img/homepage/slide1.jpg',
@@ -47,8 +52,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             },
             {
-                 img: 'img/homepage/slider5.jpg'
-                
+                 img: 'img/homepage/slider5.jpg',
+              
             },
             {
                 img: 'img/homepage/slider3.jpg'
@@ -67,12 +72,13 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/slider2.jpg'
             },
             {
-                img: 'img/homepage/slider7.jpg'
+                img: 'img/homepage/slider7.jpg',
+                 link: 'doycare',
             },
 
             {
                 img: 'img/homepage/slider8.jpg',
-                 link: 'doycare',
+                
             },
 
         ]
@@ -211,7 +217,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             },
             {
 
-                title2: 'We are a Strategic Design company. As Design Specialist, we offer Integrated Design solutions that cover branding & plays a vital design role.  '
+                title2: 'We are a Strategic Design company. As Design Specialist, we offer Integrated Design solutions that cover branding & plays a vital design role. We provide awesome humanised designs!  '
+            
 
             },
 

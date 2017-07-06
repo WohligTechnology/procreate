@@ -254,6 +254,7 @@ footer {
             font-weight: 600;
         }
     }
+    
     .get-call h5 {
         font-family: 'gothamBold';
         line-height: 1px;
@@ -324,7 +325,8 @@ footer {
     //     padding-bottom: 20px;
     // }
     .bg-gray {
-        background: #555;
+        // background: #555;
+        @include linear-gradient(to top, #555, #222222);
         span {
             font-family: gothamBold;
         }
@@ -375,6 +377,9 @@ footer {
     //         outline: 0;
     //     }
     // }
+    .w65{
+        width: 65%;
+    }
     .circle-img4 {
         width: 70%;
     }
@@ -630,6 +635,9 @@ p {
         }
     }
     }
+    .flexslider .slides img {
+      margin: 70px 78px 0px 0px;
+}
 }
 
 .flexslider {
@@ -712,7 +720,7 @@ p {
 
 .circle {
     .fs21 {
-        font-size: 21px !important;
+        font-size: 23px !important;
     }
     .w20 {
         // width: 19%;
@@ -737,7 +745,7 @@ p {
             color: $brand-lightblack;
         }
         h4 {
-            font-family: gothambook;
+             font-family: 'gothamMedium';
             font-size: 18px;
         }
         .color-darkblue {
@@ -784,6 +792,7 @@ p {
     .capabilities-cont {
         h1{
             padding-bottom: 10px;
+              font-family: 'gothamMedium';
         }
         .padd-t{
             padding-top: 5px;
@@ -805,7 +814,8 @@ p {
           
         }
         li {
-            color: $brand-brown;
+            // color: $brand-brown;
+            color: black;
             font-family: gothambook;
         }
         a {
@@ -816,17 +826,22 @@ p {
         }
     }
 }
+ .padd-tb{
+       padding: 20px 0 ;
+
+   }
 .bg-brown {
     background-color: $brand-brown;
-    padding: 20px 0;
+   
    h5{
-       font-size: 18px;
+       font-size: 20px;
           line-height: 8px;
           margin-top: -6px;
+               font-family: 'gothamMedium';
    }
    h4{
           font-family: 'gothamMedium';
-          font-size: 20px;
+          font-size: 22px;
           margin:0;
    }
     li {
@@ -849,11 +864,12 @@ p {
     border-top: 1px solid #90cb18;
     border-bottom: 1px solid #90cb18;
     padding: 0px 0px 5px;
-    margin: 20px 9px;
+    // margin: 20px 9px;
+        margin: 20px 0px;
     }
-span{
+.tm{
     font-size: 7px;
-    margin-left: 146px;
+    margin-left: 162px;
     color: white;
 }
     // .fs-18{
@@ -1021,6 +1037,7 @@ span{
 }
 
 .icon-slider {
+
     .relative {
         position: relative;
         .flex-control-nav {
@@ -1041,6 +1058,17 @@ span{
         background-color: rgba(229, 219, 57, 0.83);
         @include position(absolute,
         0 0 0 0);
+    }
+    .icon-padd{
+        padding: 20px;
+    }
+    .mar-lt{
+      margin: 32px 69px 32px 20px;
+    
+    }
+  
+    .mar-b{
+        margin-bottom: 30px;
     }
 }
 
@@ -1069,7 +1097,37 @@ span{
       }
      
 }
-
+.display-flex{
+    display: flex;
+}
+.flex-1{
+    flex: 1;
+}
+.slide1-text{
+    position: absolute;
+    top:33%;
+    left:16%;
+    h2{
+    margin:0;
+    font-size: 38px;
+ 
+    }
+    h3{
+    margin:0;
+    font-size: 26px;
+    line-height: 50px;
+   
+    }
+    .color-brown{
+        color:#683818;
+         font-family: 'gothambook';
+    }
+    .color-white{
+        color: white;
+        line-height: 50px;
+        
+    }
+}
 
  // home page end
 // approach page start
@@ -1341,6 +1399,18 @@ span{
 } //ruchira//
 //about us//
 .about {
+    .pink-p{
+            margin: 50px 43px 50px 0;
+    font-family: gothambook;
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: justify;
+        font-size: 15px;
+        span{
+            font-size: 15px;
+            font-weight: 700;
+        }
+    }
     h2 {
         font-size: 36px;
     }
@@ -2124,8 +2194,9 @@ span{
         }
         .navbar {
             border: none;
-            background: linear-gradient(45deg,#83bf01,#83bf01,#83bf01,  #abe348 );
-            
+            // background: linear-gradient(-82deg,#83bf01,#83bf01,#9cd72f,  #abe448 );
+            // background: -webkit-linear-gradient(-82deg, #83bf01 0%, #83bf01 0%, #83bf01 4%, #83bf01 35%, #83bf01 61%, #abe448 100%);
+            @include linear-gradient(82deg, #83bf01 38%, #abe448 94%, #abe448 91%, #abe448 100%);
         }
     }
     &.Approach {
@@ -2243,7 +2314,7 @@ span{
 .tooltiptext {
     visibility: hidden;
     width: 59px;
-    color: #fff;
+    color: black;
     text-align: center;
     border-radius: 6px;
     padding: 2px 6px;
@@ -2281,4 +2352,18 @@ span{
 input:-webkit-autofill {
     -webkit-animation-name: autofill;
     -webkit-animation-fill-mode: both;
+}
+
+
+//contact pg start
+.contact-bannner{
+    background-image: url("../img/contact/2.jpg");
+    width: 100%;
+    height: 620px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contact-bg-blue{
+    background: #057697;
 }

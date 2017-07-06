@@ -27,7 +27,8 @@ myApp.factory('NavigationService', function ($http) {
          {
             name: "CONTACT",
             classis: "active",
-            id: "contact",
+            // id: "contact",
+              anchor: "contact",
             subnav: []
         }
 

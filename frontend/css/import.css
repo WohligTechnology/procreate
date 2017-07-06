@@ -11135,7 +11135,8 @@ footer {
     font-family: gotham-el;
     color: black; }
   footer .bg-gray {
-    background: #555; }
+    background-color: #555;
+    background-image: linear-gradient(to top,#555, #222222); }
     footer .bg-gray span {
       font-family: gothamBold; }
   footer .circle-img {
@@ -11151,6 +11152,8 @@ footer {
     margin: 0px 10px; }
   footer label {
     color: white; }
+  footer .w65 {
+    width: 65%; }
   footer .circle-img4 {
     width: 70%; }
   footer .block-inline {
@@ -11341,6 +11344,9 @@ p {
 .first-slider .flexslider .flex-direction-nav .flex-nav-next:hover a:before {
   opacity: 1; }
 
+.first-slider .flexslider .slides img {
+  margin: 70px 78px 0px 0px; }
+
 .flexslider {
   margin: 0 0 0px;
   border: none; }
@@ -11390,7 +11396,7 @@ p {
   width: 100px; }
 
 .circle .fs21 {
-  font-size: 21px !important; }
+  font-size: 23px !important; }
 
 .circle .w20 {
   width: 24.5%;
@@ -11412,7 +11418,7 @@ p {
   color: #707070; }
 
 .circle .text-color h4 {
-  font-family: gothambook;
+  font-family: 'gothamMedium';
   font-size: 18px; }
 
 .circle .text-color .color-darkblue {
@@ -11452,7 +11458,8 @@ p {
   .bg-yellow .padd0 {
     padding: 0px; }
   .bg-yellow .capabilities-cont h1 {
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    font-family: 'gothamMedium'; }
   .bg-yellow .capabilities-cont .padd-t {
     padding-top: 5px; }
   .bg-yellow .capabilities-cont h4 {
@@ -11467,7 +11474,7 @@ p {
     padding-bottom: 5px;
     padding-top: 15px; }
   .bg-yellow .capabilities-cont li {
-    color: #683818;
+    color: black;
     font-family: gothambook; }
   .bg-yellow .capabilities-cont a {
     color: #683818;
@@ -11475,16 +11482,19 @@ p {
     font-weight: 600;
     font-size: 14px; }
 
-.bg-brown {
-  background-color: #683818;
+.padd-tb {
   padding: 20px 0; }
+
+.bg-brown {
+  background-color: #683818; }
   .bg-brown h5 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 8px;
-    margin-top: -6px; }
+    margin-top: -6px;
+    font-family: 'gothamMedium'; }
   .bg-brown h4 {
     font-family: 'gothamMedium';
-    font-size: 20px;
+    font-size: 22px;
     margin: 0; }
   .bg-brown li {
     background-color: #683818; }
@@ -11502,10 +11512,10 @@ p {
     border-top: 1px solid #90cb18;
     border-bottom: 1px solid #90cb18;
     padding: 0px 0px 5px;
-    margin: 20px 9px; }
-  .bg-brown span {
+    margin: 20px 0px; }
+  .bg-brown .tm {
     font-size: 7px;
-    margin-left: 146px;
+    margin-left: 162px;
     color: white; }
   .bg-brown .flex-control-paging li a {
     display: none; }
@@ -11638,6 +11648,15 @@ p {
   bottom: 0;
   left: 0; }
 
+.icon-slider .icon-padd {
+  padding: 20px; }
+
+.icon-slider .mar-lt {
+  margin: 32px 69px 32px 20px; }
+
+.icon-slider .mar-b {
+  margin-bottom: 30px; }
+
 .paddb15 {
   padding-bottom: 15px; }
 
@@ -11655,6 +11674,34 @@ p {
 
 .showcase .flexslider .flex-direction-nav .flex-next:hover {
   display: none; }
+
+.display-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.flex-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.slide1-text {
+  position: absolute;
+  top: 33%;
+  left: 16%; }
+  .slide1-text h2 {
+    margin: 0;
+    font-size: 38px; }
+  .slide1-text h3 {
+    margin: 0;
+    font-size: 26px;
+    line-height: 50px; }
+  .slide1-text .color-brown {
+    color: #683818;
+    font-family: 'gothambook'; }
+  .slide1-text .color-white {
+    color: white;
+    line-height: 50px; }
 
 .approach h1 {
   font-size: 50px; }
@@ -11841,6 +11888,17 @@ p {
   border-right: 1px solid white;
   margin-right: 15px;
   height: 285px; }
+
+.about .pink-p {
+  margin: 50px 43px 50px 0;
+  font-family: gothambook;
+  font-size: 18px;
+  padding-left: 20px;
+  text-align: justify;
+  font-size: 15px; }
+  .about .pink-p span {
+    font-size: 15px;
+    font-weight: 700; }
 
 .about h2 {
   font-size: 36px; }
@@ -12430,7 +12488,8 @@ p {
 
 .header1.Home .navbar {
   border: none;
-  background: linear-gradient(45deg, #83bf01, #83bf01, #83bf01, #abe348); }
+  background-color: #83bf01;
+  background-image: linear-gradient(82deg,#83bf01 38%, #abe448 94%, #abe448 91%, #abe448 100%); }
 
 .header1.Approach .navbar {
   border: none;
@@ -12505,7 +12564,7 @@ p {
 .tooltiptext {
   visibility: hidden;
   width: 59px;
-  color: #fff;
+  color: black;
   text-align: center;
   border-radius: 6px;
   padding: 2px 6px;
@@ -12532,6 +12591,17 @@ p {
 input:-webkit-autofill {
   -webkit-animation-name: autofill;
   -webkit-animation-fill-mode: both; }
+
+.contact-bannner {
+  background-image: url("../img/contact/2.jpg");
+  width: 100%;
+  height: 620px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.contact-bg-blue {
+  background: #057697; }
 
 .good-bg {
   background-image: url("../img/good/2.jpg");
