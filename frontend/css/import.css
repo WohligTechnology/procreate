@@ -12565,7 +12565,8 @@ p {
 .about-band .about-band-title {
   margin: 75px 0; }
   .about-band .about-band-title h4 {
-    color: #fff; }
+    color: #fff;
+    font-family: 'gothambook'; }
 
 .capabilities-cont {
   padding: 25px 0; }
