@@ -11488,12 +11488,12 @@ p {
 .bg-brown {
   background-color: #683818; }
   .bg-brown h5 {
-    font-size: 29px;
+    font-size: 33px;
     line-height: 8px;
     font-family: 'gothamMedium'; }
   .bg-brown h4 {
     font-family: 'gothamMedium';
-    font-size: 32px;
+    font-size: 36px;
     margin: 0; }
   .bg-brown li {
     background-color: #683818; }
@@ -11514,7 +11514,8 @@ p {
     margin: 28px 0px; }
   .bg-brown .fs15 {
     font-size: 12px;
-    top: -14px; }
+    top: -14px;
+    margin-right: -49px; }
   .bg-brown .tm {
     font-size: 7px;
     margin-left: 162px;
