@@ -11488,13 +11488,12 @@ p {
 .bg-brown {
   background-color: #683818; }
   .bg-brown h5 {
-    font-size: 20px;
+    font-size: 29px;
     line-height: 8px;
-    margin-top: -6px;
     font-family: 'gothamMedium'; }
   .bg-brown h4 {
     font-family: 'gothamMedium';
-    font-size: 22px;
+    font-size: 32px;
     margin: 0; }
   .bg-brown li {
     background-color: #683818; }
@@ -11511,8 +11510,11 @@ p {
   .bg-brown .border-tb {
     border-top: 1px solid #90cb18;
     border-bottom: 1px solid #90cb18;
-    padding: 0px 0px 5px;
-    margin: 20px 0px; }
+    padding: 12px 0px 5px;
+    margin: 28px 0px; }
+  .bg-brown .fs15 {
+    font-size: 12px;
+    top: -14px; }
   .bg-brown .tm {
     font-size: 7px;
     margin-left: 162px;
@@ -11524,7 +11526,7 @@ p {
   .bg-brown .flex-direction-nav .flex-nav-prev a:before {
     content: "";
     display: inline-block;
-    background-image: url("../img/homepage/triangle.png");
+    background-image: url("../img/homepage/44.png");
     background-repeat: no-repeat;
     color: rgba(0, 0, 0, 0.8);
     width: 150px;
@@ -11533,7 +11535,7 @@ p {
   .bg-brown .flex-direction-nav .flex-nav-next:hover {
     display: none; }
   .bg-brown .flex-direction-nav a {
-    top: 19%;
+    top: 2%;
     width: 70px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -11558,7 +11560,7 @@ p {
     margin-bottom: 12px;
     margin-left: 73px; }
   .bg-brown .client-say {
-    padding: 5px 20px 0px 20px; }
+    padding: 18px 20px 0px 20px; }
 
 .bg-blue {
   background-color: #683818;
@@ -11641,7 +11643,7 @@ p {
     display: none; }
 
 .icon-slider .overlay {
-  background-color: rgba(229, 219, 57, 0.83);
+  background-color: rgba(229, 219, 57, 0.7);
   position: absolute;
   top: 0;
   right: 0;
@@ -11965,6 +11967,9 @@ p {
 
 .border-right {
   border-right: 2px solid #ccc; }
+
+.mar-t35 {
+  margin-top: 35px; }
 
 .team-details h3 {
   padding-top: 50px;
@@ -12438,7 +12443,8 @@ p {
 .header1 .navbar {
   background-color: #e60774;
   border: none;
-  background: linear-gradient(-90deg, #e31141, #e60774); }
+  background-color: #e31141;
+  background-image: linear-gradient(-90deg,#e31141, #e60774); }
 
 .header1 .navbar-nav a {
   color: white !important;
@@ -12481,7 +12487,7 @@ p {
   font-weight: 600;
   letter-spacing: 1px; }
   .header1.Home .navbar-nav a:hover span {
-    border-bottom: 4px solid #8cd26e; }
+    border-bottom: 4px solid white; }
 
 .header1.Home .navbar-nav span {
   padding-bottom: 5px; }
@@ -12493,27 +12499,38 @@ p {
 
 .header1.Approach .navbar {
   border: none;
-  background: linear-gradient(50deg, #d76bfd, #fe7349); }
+  background-color: #d76bfd;
+  background-image: linear-gradient(50deg,#d76bfd, #fe7349); }
 
 .header1.Offering .navbar {
   border: none;
-  background: linear-gradient(50deg, #b5d533, #0a9da0); }
+  background-color: #b5d533;
+  background-image: linear-gradient(50deg,#b5d533, #0a9da0); }
 
 .header1.Portfolio .navbar {
   border: none;
-  background: linear-gradient(50deg, #de5428, #ffcd0a); }
+  background-color: #de5428;
+  background-image: linear-gradient(50deg,#de5428, #ffcd0a); }
 
 .header1.Doycare .navbar {
   border: none;
-  background: linear-gradient(50deg, #de5428, #ffcd0a); }
+  background-color: #de5428;
+  background-image: linear-gradient(50deg,#de5428, #ffcd0a); }
 
 .header1.Good .navbar {
   border: none;
-  background: linear-gradient(50deg, #de5428, #ffcd0a); }
+  background-color: #de5428;
+  background-image: linear-gradient(50deg,#de5428, #ffcd0a); }
 
 .header1.Arch .navbar {
   border: none;
-  background: linear-gradient(50deg, #de5428, #ffcd0a); }
+  background-color: #de5428;
+  background-image: linear-gradient(50deg,#de5428, #ffcd0a); }
+
+.header1.Contact .navbar {
+  border: none;
+  background-color: #01a2bf;
+  background-image: linear-gradient(82deg,#01a2bf 28%, #00ccbe 90%, #00ccbe 91%, #00ccbe 100%); }
 
 .header2 .navbar {
   background-color: transparent;
@@ -12602,6 +12619,75 @@ input:-webkit-autofill {
 
 .contact-bg-blue {
   background: #057697; }
+
+.contact-us-text {
+  margin: 30px 0px; }
+  .contact-us-text .padd-t {
+    padding-top: 10px; }
+  .contact-us-text a {
+    color: #000;
+    font-size: 11px;
+    margin: 0; }
+  .contact-us-text p {
+    color: #000;
+    font-family: 'gothambook';
+    margin: 0;
+    font-size: 11px;
+    font-weight: bols; }
+  .contact-us-text h4 {
+    color: #000;
+    font-family: 'gothamMedium';
+    font-size: 16px; }
+
+.contact-bannner-text {
+  margin-top: 55%;
+  margin-left: 1%; }
+  .contact-bannner-text h2 {
+    font-size: 50px;
+    font-family: 'gothamMedium';
+    margin: 0; }
+  .contact-bannner-text h3 {
+    font-size: 29px;
+    color: #fff;
+    font-family: 'gothambook';
+    margin: 0; }
+
+.contact-bg-blue-text {
+  margin: 25px 0px; }
+  .contact-bg-blue-text p {
+    font-family: 'gothamBold';
+    font-size: 20px; }
+
+.contact-us-border-bott {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+  width: 255px;
+  padding-bottom: 5px; }
+
+.contact-social-icon .img-inline {
+  display: inline-block;
+  padding: 0px 30px 5px 0px; }
+  .contact-social-icon .img-inline img {
+    width: 65%; }
+
+.contact-form {
+  margin-top: 45px; }
+  .contact-form p {
+    color: black;
+    font-size: 10px;
+    color: gray; }
+  .contact-form input {
+    background: rgba(211, 211, 211, 0.17); }
+  .contact-form textarea {
+    background: rgba(211, 211, 211, 0.17); }
+  .contact-form label {
+    color: #3c3c3c;
+    font-family: 'gothambook'; }
+  .contact-form .btn-black {
+    background: black;
+    color: white;
+    font-size: 10px;
+    font-family: 'gothambook';
+    padding: 8px 20px; }
 
 .good-bg {
   background-image: url("../img/good/2.jpg");

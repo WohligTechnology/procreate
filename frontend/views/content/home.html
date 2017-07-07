@@ -6,12 +6,14 @@
         pauseOnHover="true" prev-text="" next-text="" animation="slide">
         <li class="li-color">
             <img ng-src="{{myslide.img}}" class="posi-rel">
+            <!--<div class="container">-->
             <div class="slide1-text">
             <h2 class="color-white">{{myslide.title1}}</h2>
             <h2 class="color-brown">{{myslide.title2}}</h2>
              <h2 class="color-brown">{{myslide.title3}}</h2>
         <h3 class="color-brown">{{myslide.title4}}</h3>
             </div>
+            <!--</div>-->
             
     
         </li>
@@ -53,16 +55,16 @@
         <div class="container">
             <div>
                 <div class="row">
-                    <div class="col-md-2 col-sm-2 ">
+                    <div class="col-md-3 col-sm-3 ">
                         <div class="mt30 ml-25 border-tb">
-                     <span class="tm">TM</span>
-                            <h5>BRAND DESIGN </h5>
+                     <!--<span class="tm">TM</span>-->
+                            <h5>BRAND DESIGN<sup class="fs15">TM</sup> </h5>
                             <h4> FOR HUMANS</h4>
                             <!--<h4 class="fbold">ABOUT US</h4>-->
                      
                         </div>
                     </div>
-                    <div class="col-md-10 col-sm-8">
+                    <div class="col-md-9 col-sm-9">
                         <div class="mar-top-bot">
                             <flex-slider animation="fade" flex-slide="myslide in homeText2 track by $index" animationLoop="true" slideshow-Speed="3000"
                                 prev-text="" next-text="" max-items="1" item-width="200" item-margin="0" pauseOnHover="true">

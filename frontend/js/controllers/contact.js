@@ -1,7 +1,8 @@
 myApp.controller('ContactCtrl', function ($scope, TemplateService, NavigationService, $timeout,$location) {
         $scope.template = TemplateService.getHTML("content/contact.html");
-        TemplateService.title = "Doycare"; //This is the Title of the Website
+        TemplateService.title = "Contact"; //This is the Title of the Website
         //   TemplateService.header = "views/template/header2.html"; 
+         TemplateService.cssMain = "Contact"; 
         $scope.navigation = NavigationService.getNavigation();
         $scope.formSubmitted = false;
         $scope.submitForm = function (data) {
@@ -57,4 +58,31 @@ myApp.controller('ContactCtrl', function ($scope, TemplateService, NavigationSer
         console.log(id);
       $location.path(id);
     };
+     $scope.form = {};
+        $scope.sendMail = function (data) {
+            $scope.message = "";
+
+            console.log("******** inside sendMail *********", data);
+            if (data && data.email != null) {
+                $scope.url = "Enquirey/mailSends";
+                NavigationService.apiCallWithData($scope.url, data, function (data) {
+                    if (data) {
+                        $scope.message = "Thank you for submitting the form";
+                        $scope.form = {};
+
+                    }
+                });
+
+            } else {
+                console.log("******** inside sendMails *********", data);
+                console.log("******** inside sendMail *********", data);
+                $scope.message = "Please enter valid email id"
+            }
+        }
+
+        $scope.gotoTop = function () {
+            $("html, body").animate({
+                scrollTop: 0
+            }, 1000);
+        };
     })
