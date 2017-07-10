@@ -24,7 +24,13 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                     paginationClickable: true,
                     loop: true,
                     autoplay: 2500,
+                    grabCursor: true
                 });
+                $(".swiper-container").hover(function(){
+mySwiper.stopAutoplay();
+}, function(){
+mySwiper.startAutoplay();
+});
             }, 300)
         });
 
