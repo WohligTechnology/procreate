@@ -12963,6 +12963,38 @@ img.loading {
 .vachan-bg-padd {
   padding-top: 25px; }
 
+.vachan-title-first {
+  font-family: 'gotham-narrow-bold';
+  font-size: 18px;
+  color: #f42434; }
+
+.vachan-title {
+  font-family: 'gotham-narrow-m';
+  font-size: 20px;
+  color: #f42434; }
+
+.vachan p {
+  font-family: 'gotham-narrow-book';
+  font-size: 14px;
+  color: #525252; }
+
+.vachan h5 {
+  font-family: 'gotham-narrow-m';
+  font-size: 13px;
+  color: #f42434;
+  margin: 0;
+  line-height: 30px; }
+
+.vachan-title-border-bottom {
+  border-bottom: 2px solid #f42434;
+  margin-bottom: 10px; }
+
+.vachan-padd-trbt {
+  padding: 10px 155px 30px 116px; }
+
+.padd-b35 {
+  padding-bottom: 35px; }
+
 #fancybox-loading,
 .fancybox-close,
 .fancybox-next span,

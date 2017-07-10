@@ -329,3 +329,37 @@
     // padding: 25px;
     padding-top: 25px;
 }
+.vachan-title-first{
+        font-family: 'gotham-narrow-bold';
+        font-size: 18px;
+        color: $brand-red;
+}
+.vachan-title{
+        font-family: 'gotham-narrow-m';
+        font-size: 20px;
+        color: $brand-red;
+}
+.vachan{
+    p{
+          font-family: 'gotham-narrow-book';
+          font-size: 14px;
+          color: #525252;
+    }
+    h5{
+        font-family: 'gotham-narrow-m';
+               font-size: 13px;
+               color: $brand-red;
+                   margin: 0;
+    line-height: 30px;
+    }
+}
+ .vachan-title-border-bottom {
+     border-bottom: 2px solid $brand-red;
+     margin-bottom: 10px;
+ }
+ .vachan-padd-trbt{
+  padding: 10px 155px 30px 116px;
+ }
+ .padd-b35{
+     padding-bottom: 35px;
+ }
