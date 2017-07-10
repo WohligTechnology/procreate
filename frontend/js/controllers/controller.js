@@ -22,7 +22,6 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                     pagination: '.swiper-pagination',
                     slidesPerView: 4,
                     paginationClickable: true,
-                    spaceBetween: 30,
                     loop: true,
                     autoplay: 2500,
                 });
