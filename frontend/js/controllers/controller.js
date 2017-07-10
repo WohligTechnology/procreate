@@ -20,7 +20,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             $timeout(function () {
                 mySwiper = new Swiper('.swiper-container', {
                     pagination: '.swiper-pagination',
-                    slidesPerView: 3,
+                    slidesPerView: 4,
                     paginationClickable: true,
                     spaceBetween: 30,
                     loop: true,
