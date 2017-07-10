@@ -315,7 +315,8 @@
         right: 75px;
      }
  } 
-
+ 
+//  vachan start
 
 
 .vachan{
@@ -363,3 +364,70 @@
  .padd-b35{
      padding-bottom: 35px;
  }
+ .vachan-inside-p{
+     p{
+         text-align: justify;
+         padding-top: 5px;
+     }
+ }
+ .vachan-inside-img{
+
+    padding: 0px 0px 30px 65px;
+ }
+ .vachan-inside-img{
+     padding: 36px 0px 20px 0px;
+ }
+ .vachan-previ-icon{
+    margin-left: 30px;
+     color: $brand-red;
+ }
+ .vachan-next-icon{
+         margin-left: 30px;
+  color: $brand-red;
+padding-bottom: 50px;
+ }
+
+.vachan-next-icon span {
+    color: $brand-red;
+    margin-right: 85px;
+}
+
+
+.vachan-previ-icon span:before {
+    content: '';
+    background-image: url(../img/portfolio/vachan/12.png);
+    position: absolute;
+    width: 20px;
+    height: 64px;
+    background-repeat: no-repeat;
+    vertical-align: center;
+    top: -23px;
+    left: 21px;
+}
+.vachan-next-icon span:after {
+    content: '';
+    background-image: url(../img/portfolio/vachan/8.png);
+    position: absolute;
+    width: 25px;
+    height: 64px;
+    background-repeat: no-repeat;
+    vertical-align: center;
+    top: -23px;
+    right: 75px;
+}
+.vachan-cont-padd{
+    padding:60px 0px 0px 0px;
+}
+
+// sg start
+
+.sgsports{
+      background-image: url("../img/portfolio/sg/1.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center center;
+     background-attachment: fixed;
+}
+ .padd0 {
+        padding: 0px;
+    }

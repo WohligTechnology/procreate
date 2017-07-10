@@ -2276,6 +2276,50 @@ p {
     
         }
     }
+     &.Vachan {
+        .navbar {
+            background: white;
+            border: none;
+            
+             
+    
+        }
+         .navbar-default .navbar-nav>.active>a,
+        .navbar-default .navbar-nav>.active>a:hover,
+        .navbar-default .navbar-nav>.active>a:focus,
+        .navbar-nav>a:hover,
+        {
+                 
+              
+            span {
+                border-bottom: 4px solid #83bf01;
+            }
+        }
+        .other-logo {
+            display: none;
+        }
+        .home-logo {
+            display: block;
+        }
+        .navbar-nav {
+            a {
+                color: black !important;
+                top: 18px;
+                font-size: 12px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                &:hover {
+                    span {
+                        border-bottom: 4px solid #83bf01;
+                    }
+               
+                }
+            }
+            span {
+                padding-bottom: 5px;
+            }
+        }
+    }
 }
 
 .header2 {
