@@ -4,6 +4,7 @@ module.exports = [
   'bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js',
   'bower_components/flexslider/jquery.flexslider-min.js',
   'bower_components/wow/dist/wow.min.js',
+  'bower_components/swiper/dist/js/swiper.jquery.js',
   'bower_components/fancyBox/source/jquery.fancybox.js',
   'bower_components/smart-app-banner/smart-app-banner.js',
   "bower_components/moment/min/moment.min.js",

@@ -14,8 +14,8 @@
         <h3 class="color-brown">{{myslide.title4}}</h3>
             </div>-->
             <!--</div>-->
-            
-    
+
+
         </li>
     </flex-slider>
 </section>
@@ -57,11 +57,11 @@
                 <div class="row">
                     <div class="col-md-3 col-sm-3 ">
                         <div class="mt30 ml-25 border-tb">
-                     <!--<span class="tm">TM</span>-->
+                            <!--<span class="tm">TM</span>-->
                             <h5>BRAND DESIGN<sup class="fs15">TM</sup> </h5>
                             <h4> FOR HUMANS</h4>
                             <!--<h4 class="fbold">ABOUT US</h4>-->
-                     
+
                         </div>
                     </div>
                     <div class="col-md-9 col-sm-9">
@@ -70,10 +70,7 @@
                                 prev-text="" next-text="" max-items="1" item-width="200" item-margin="0" pauseOnHover="true">
                                 <li class="li-color">
                                     <div class="gradient client-say">
-                                      
-                                       
                                         <p class="fs-18">{{myslide.title2}}</p>
-                                        
                                     </div>
                                 </li>
                             </flex-slider>
@@ -82,7 +79,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
 <section class="circle">
     <div class="container">
@@ -236,8 +232,8 @@
 
         <!--flexslider-->
         <div class="">
-            <flex-slider animation="slide" flex-slide="myslide in inspireImg2 track by $index" prev-text="" next-text=""
-                item-width="325" slideshow="true" slideshow-speed="2500">
+            <!--<flex-slider animation="slide" flex-slide="myslide in inspireImg2 track by $index" prev-text="" next-text="" item-width="325"
+                slideshow="true" slideshow-speed="2500">
 
                 <li class="text-center">
                     <a ui-sref="{{myslide.link}}">
@@ -248,7 +244,21 @@
                     </a>
 
                 </li>
-            </flex-slider>
+            </flex-slider>-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <li class="swiper-slide text-center" ng-repeat="myslide in inspireImg2 track by $index">
+                        <a ui-sref="{{myslide.link}}">
+                            <figure class="">
+
+                                <img ng-src="{{myslide.img}}" class="img-responsive iconBlue">
+                            </figure>
+                        </a>
+                    </li>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -318,111 +328,111 @@
 </section>-->
 <section class="icon-slider">
     <div class="relative">
-    <div class="container">
-        <div class="row ">
-    
-            <div class="mar-lt">
-            <div class="col-md-2 col-sm-2 col-xs-12">
-            <div class="icon-padd">
-                <img src="img/homepage/32.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/42.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/61.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/82.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/10.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/122.png" alt="" class="img-responsive">
-            </div>
-            </div>
-            <div class="col-md-2 col-sm-2 col-xs-12">
-             <div class="icon-padd">
-                <img src="img/homepage/43.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/52.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/73.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/92.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/111.png" alt="" class="img-responsive">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/31.png" alt="" class="img-responsive"> 
-            </div>
-            </div>
-           
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/sg2.png" alt="">
-            </div>
-            </div>
-           
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/vlcc.png" alt="">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/seths.png" alt="">
-            </div>
-            </div>
-              <div class="col-md-2 col-sm-2 col-xs-12">
-             <div class="icon-padd">
-                <img src="img/homepage/nanil2.png" alt="">
-            </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd">
-                <img src="img/homepage/sarda.png" alt="">
-                  </div>
-            </div>
-             <div class="col-md-2 col-sm-2 col-xs-12">
-                  <div class="icon-padd mar-b">
-                <img src="img/homepage/lotus2.png" alt="">
-            </div>
-             </div>
-            
-            </div>
-             <div class="overlay">
+        <div class="container">
+            <div class="row ">
+
+                <div class="mar-lt">
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/32.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/42.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/61.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/82.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/10.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/122.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/43.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/52.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/73.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/92.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/111.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/31.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/sg2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/vlcc.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/seths.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/nanil2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homepage/sarda.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd mar-b">
+                            <img src="img/homepage/lotus2.png" alt="">
+                        </div>
+                    </div>
+
+                </div>
+                <div class="overlay">
+                </div>
             </div>
         </div>
     </div>
-    </div>
-    
-       
+
+
 </section>
 <!--<section>
     <div class="container-fluid">

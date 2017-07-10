@@ -1,4 +1,5 @@
 var initMap = function () {};
+var mySwiper;
 myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationService, $timeout, $rootScope, $location, $state) {
         $scope.template = TemplateService.getHTML("content/home.html");
         // TemplateService.title = "Leading Brand Design Company"; //This is the Title of the Website
@@ -14,12 +15,27 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         // setTimeout(function(){ 
         //     new WOW().init(); 
         // }, 3000);
+
+        $scope.$on('$viewContentLoaded', function (event) {
+            $timeout(function () {
+                mySwiper = new Swiper('.swiper-container', {
+                    pagination: '.swiper-pagination',
+                    slidesPerView: 3,
+                    paginationClickable: true,
+                    spaceBetween: 30,
+                    loop: true,
+                    autoplay: 2500,
+                });
+            }, 300)
+        });
+
+
         $scope.inspireImg = [{
                 img: 'img/homepage/homefinal.jpg',
-                title1:'We are Procreate!',
-                title2:'Design for Growth +',
-                title3:'Transformation',
-                title4:'with a Humanised approach'
+                title1: 'We are Procreate!',
+                title2: 'Design for Growth +',
+                title3: 'Transformation',
+                title4: 'with a Humanised approach'
 
             },
             {
@@ -41,27 +57,27 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/top-slide6.jpg',
 
             },
-         
-               {
+
+            {
                 img: 'img/homepage/slide2.jpg'
             },
         ]
         $scope.inspireImg2 = [{
                 img: 'img/homepage/slide1.jpg',
-                 link: 'good',
+                link: 'good',
 
             },
             {
-                 img: 'img/homepage/slider5.jpg',
-              
+                img: 'img/homepage/slider5.jpg',
+
             },
             {
                 img: 'img/homepage/slider3.jpg'
             },
 
             {
-               img: 'img/homepage/slider4.jpg',
-               link: 'arch',
+                img: 'img/homepage/slider4.jpg',
+                link: 'arch',
             },
 
             {
@@ -73,12 +89,12 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             },
             {
                 img: 'img/homepage/slider7.jpg',
-                 link: 'doycare',
+                link: 'doycare',
             },
 
             {
                 img: 'img/homepage/slider8.jpg',
-                
+
             },
 
         ]
@@ -218,7 +234,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             {
 
                 title2: 'We are a Strategic Design company. As Design Specialist, we offer Integrated Design solutions that cover branding & plays a vital design role. We provide awesome humanised designs!  '
-            
+
 
             },
 
