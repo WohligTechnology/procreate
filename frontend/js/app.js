@@ -82,6 +82,17 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: tempateURL,
             controller: 'ContactCtrl'
         })
+          .state('vachan', {
+            url: "/vachan",
+            templateUrl: tempateURL,
+            controller: 'VachanCtrl'
+        })
+       
+           .state('sgsports', {
+            url: "/sgsports",
+            templateUrl: tempateURL,
+            controller: 'SgsportsCtrl'
+        })
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);
 });

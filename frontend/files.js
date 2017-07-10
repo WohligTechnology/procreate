@@ -52,7 +52,10 @@ module.exports = [
   'frontend/js/controllers/arch.js',
   'frontend/js/controllers/doycare.js',
   'frontend/js/controllers/offering.js',
-   'frontend/js/controllers/contact.js',
+  'frontend/js/controllers/contact.js',
+  'frontend/js/controllers/vachan.js',
+  
+      'frontend/js/controllers/sgsports.js',
   'frontend/js/controllers/header-controller.js',
   'frontend/js/controllers/language-controller.js',
 

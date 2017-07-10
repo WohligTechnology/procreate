@@ -28,6 +28,7 @@ $brand-lightpink:#ed7095 !default;
 $brand-darkpink:#e60774;
 $brand-lightpurpal:#bf202e;
 $brand-skin:#fffccd;
+$brand-red:#f42434;
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 /* Bootstrap Variables Goes Here */
@@ -61,7 +62,22 @@ $brand-skin:#fffccd;
     font-family: 'corisande-b';
     src: url('../fonts/CorisandeBold.ttf');
 }
-
+@font-face {
+    font-family: 'gotham-narrow-book';
+    src: url('../fonts/GothamNarrow-Book.otf');
+}
+@font-face {
+    font-family: 'gotham-narrow-m';
+    src: url('../fonts/Gotham Narrow Medium.otf');
+}
+@font-face {
+    font-family: 'gotham-narrow-book';
+    src: url('../fonts/GothamNarrow-Book.otf');
+}
+@font-face {
+    font-family: 'gotham-narrow-bold';
+    src: url('../fonts/Gotham Narrow Bold.otf');
+}
 @import "other/font-fix";
 body {
     overflow-x: hidden!important;
@@ -2342,7 +2358,7 @@ p {
     display: inline;
     position: absolute;
     margin-top: -25px;
-    margin-left: -11px;
+    margin-left: -14px;
 }
 
 .top {

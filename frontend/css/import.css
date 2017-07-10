@@ -10975,6 +10975,22 @@ button.close {
   src: url("../fonts/CorisandeBold.ttf"); }
 
 @font-face {
+  font-family: 'gotham-narrow-book';
+  src: url("../fonts/GothamNarrow-Book.otf"); }
+
+@font-face {
+  font-family: 'gotham-narrow-m';
+  src: url("../fonts/Gotham Narrow Medium.otf"); }
+
+@font-face {
+  font-family: 'gotham-narrow-book';
+  src: url("../fonts/GothamNarrow-Book.otf"); }
+
+@font-face {
+  font-family: 'gotham-narrow-bold';
+  src: url("../fonts/Gotham Narrow Bold.otf"); }
+
+@font-face {
   font-family: 'flexslider-icon';
   src: url("../fonts/flexslider-icon.eot");
   src: url("../fonts/flexslider-icon.eot?#iefix") format("embedded-opentype"), url("../fonts/flexslider-icon.woff") format("woff"), url("../fonts/flexslider-icon.ttf") format("truetype"), url("../fonts/flexslider-icon.svg#flexslider-icon") format("svg");
@@ -12591,7 +12607,7 @@ p {
   display: inline;
   position: absolute;
   margin-top: -25px;
-  margin-left: -11px; }
+  margin-left: -14px; }
 
 .top:hover .tooltiptext {
   visibility: visible; }
@@ -12937,6 +12953,15 @@ img.loading {
     vertical-align: center;
     top: -23px;
     right: 75px; }
+
+.vachan {
+  background-image: url("../img/portfolio/vachan/10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+
+.vachan-bg-padd {
+  padding-top: 25px; }
 
 #fancybox-loading,
 .fancybox-close,
