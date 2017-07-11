@@ -23,6 +23,7 @@ module.exports = [
   'bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js',
   'bower_components/angular-ui-swiper/dist/angular-ui-swiper.js',
   'bower_components/angular-scroll/angular-scroll.min.js',
+  'bower_components/angular-toastr/dist/angular-toastr.tpls.min.js',
 
   //App.js
   'frontend/js/app.js',
@@ -55,8 +56,8 @@ module.exports = [
   'frontend/js/controllers/offering.js',
   'frontend/js/controllers/contact.js',
   'frontend/js/controllers/vachan.js',
-  
-      'frontend/js/controllers/sgsports.js',
+
+  'frontend/js/controllers/sgsports.js',
   'frontend/js/controllers/header-controller.js',
   'frontend/js/controllers/language-controller.js',
 

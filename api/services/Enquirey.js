@@ -28,7 +28,7 @@ var model = {
     mailSend: function (data, callback) {
         var emailData = {};
         emailData.from = data.email;
-        emailData.email = "bhargav.purohit@wohlig.com"; //letstalk@procreatebranding.com
+        emailData.email = "letstalk@procreatebranding.com"; //letstalk@procreatebranding.com
         emailData.message = data.message;
         emailData.filename = "enquirey.ejs";
         emailData.subject = "Enquiry mail";

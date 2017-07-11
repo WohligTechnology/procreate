@@ -362,7 +362,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                         $state.reload();
                         $scope.message = "Thank you for submitting the form";
                         $scope.form = {};
-                        toastr.success("Your message has been delivered to admin")
+
 
                     }
                 });

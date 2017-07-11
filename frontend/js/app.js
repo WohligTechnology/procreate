@@ -10,7 +10,7 @@ var myApp = angular.module('myApplication', [
     'angular-flexslider',
     'ui.swiper',
     'duScroll',
-
+    'toastr'
 ]);
 
 // Define all the routes below
