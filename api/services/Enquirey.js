@@ -28,10 +28,11 @@ var model = {
     mailSend: function (data, callback) {
         var emailData = {};
         emailData.from = data.email;
-        emailData.email = "letstalk@procreatebranding.com";
+        emailData.email = "letstalk@procreatebranding.com"; //letstalk@procreatebranding.com
         emailData.message = data.message;
         emailData.filename = "enquirey.ejs";
-        emailData.subject = data.subject;
+        emailData.subject = "Enquiry mail";
+        emailData.phone = data.subject;
         console.log("emaildata", emailData);
         Config.email(emailData, function (err, emailRespo) {
             if (err) {
