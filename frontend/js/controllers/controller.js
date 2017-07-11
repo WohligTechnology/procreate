@@ -70,6 +70,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.inspireImg2 = [{
                 img: 'img/homepage/slide1.jpg',
                 link: 'good',
+                overClass:'myred',
+                title1:'hello'
 
             },
             {

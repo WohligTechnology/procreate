@@ -228,7 +228,7 @@
 </section>
 <section class="">
 
-    <div class="showcase">
+    <div class="showcase ">
 
         <!--flexslider-->
         <div class="">
@@ -245,20 +245,30 @@
 
                 </li>
             </flex-slider>-->
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <li class="swiper-slide text-center" ng-repeat="myslide in inspireImg2 track by $index">
+            <div class="swiper-container ">
+                <div class="swiper-wrapper ">
+                    <li class="swiper-slide text-center ((myslide.overClass)) " ng-repeat="myslide in inspireImg2 track by $index">
                         <a ui-sref="{{myslide.link}}">
-                            <figure class="">
+                            <figure>
 
                                 <img ng-src="{{myslide.img}}" class="img-responsive iconBlue">
                             </figure>
                         </a>
+                        <!--<div class="overlayinggg">
+                            <h2 class="">studio in charge</h2>
+                        </div>-->
+                         <h2 class="color-white">{{inspireImg2.title1}}</h2>
                     </li>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
+
                 </div>
+
             </div>
+            <!--<div class="">
+                <h1>hello</h1>
+            </div>-->
+
         </div>
     </div>
 </section>
@@ -334,100 +344,100 @@
                 <div class="mar-lt">
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/32.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Unilever.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/42.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/ITC.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/61.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Parle.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/82.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Marico.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/10.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Signature.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/122.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Nerolac.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/43.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Hershey's.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/52.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Dabur.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/73.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Goma.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/92.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/Wecare.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/111.png" alt="" class="img-responsive">
+                            <img src="img/homelogos/UPL.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/31.png" alt="" class="img-responsive">
-                        </div>
-                    </div>
-
-                    <div class="col-md-2 col-sm-2 col-xs-12">
-                        <div class="icon-padd">
-                            <img src="img/homepage/sg2.png" alt="">
+                            <img src="img/homelogos/Mapro.jpg" alt="" class="img-responsive">
                         </div>
                     </div>
 
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/vlcc.png" alt="">
+                            <img src="img/homelogos/Sg.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 col-sm-2 col-xs-12">
+                        <div class="icon-padd">
+                            <img src="img/homelogos/VLCC.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/seths.png" alt="">
+                            <img src="img/homelogos/Seths.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/nanil2.png" alt="">
+                            <img src="img/homelogos/Nabil.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd">
-                            <img src="img/homepage/sarda.png" alt="">
+                            <img src="img/homelogos/Sarda.jpg" alt="">
                         </div>
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-12">
                         <div class="icon-padd mar-b">
-                            <img src="img/homepage/lotus2.png" alt="">
+                            <img src="img/homelogos/Lotus.jpg" alt="">
                         </div>
                     </div>
 
                 </div>
-                <div class="overlay">
-                </div>
+                <!--<div class="overlay">
+                </div>-->
             </div>
         </div>
     </div>

@@ -705,6 +705,7 @@ p {
 }
 
 .icon-slider {
+    background: #e5dc39;
     .flex-control-nav {
         // bottom: -40px !important;
         bottom: -20px !important;
@@ -1607,36 +1608,59 @@ p {
     }
 }
 
+// .imgs,
+// .clients {
+//     @include size(280px,
+//     280px); 
+//     background-size: cover !important;
+//     margin: 0 auto;
+// }
+
 .imgs,
 .clients {
     @include size(280px,
-    280px); // background: url("../img/10.png") no-repeat top center;
+    280px); 
     background-size: cover !important;
-    margin: 0 auto;
+    // margin: 0 auto;
 }
+.marin-l78{
+    margin-left: 78px;
 
+}
+.marin-l35{
+ margin-left: 35px;
+}
+.nitin-mar {
+        margin: 5px 80px 40px 0px;
+}
+.siddarth-mar{
+        margin: 5px 0px 40px 0px;
+}
+.shardha-mar{
+        margin: 5px 0px 0px 78px;
+}
 .img1 {
-    background-image: url("../img/about/20.jpg");
+    background-image: url("../img/about/new1.jpg");
 }
 
 .img2 {
-    background-image: url("../img/about/imran.jpg");
+    background-image: url("../img/about/new2.jpg");
 }
 
 .img3 {
-    background-image: url("../img/about/nitin.jpg");
+    background-image: url("../img/about/new3.jpg");
 }
 
 .img4 {
-    background-image: url("../img/about/sunil.jpg");
+    background-image: url("../img/about/new4.jpg");
 }
 
 .img5 {
-    background-image: url("../img/about/rajesh.jpg");
+    background-image: url("../img/about/new5.jpg");
 }
 
 .img6 {
-    background-image: url("../img/about/parthivii.jpg");
+    background-image: url("../img/about/new6.jpg");
 }
 
 .img7 {
@@ -1759,14 +1783,14 @@ p {
 .figures {
     // background: url("../img/about/cheif.jpg") no-repeat center;
     // background-size: cover !important;
-    img {
-        // min-height: 600px;
-        @include transition(all ease 300ms);
-        @include filter(grayscale(100%));
-    }
-    img:hover {
-        @include filter(grayscale(0));
-    }
+    // img {
+    //     // min-height: 600px;
+    //     @include transition(all ease 300ms);
+    //     @include filter(grayscale(100%));
+    // }
+    // img:hover {
+    //     @include filter(grayscale(0));
+    // }
 } // .fig1 {
 //     background: url("../img/about/director.jpg") no-repeat center;
 // }
@@ -2441,7 +2465,7 @@ p {
 
 @-webkit-keyframes autofill {
     to {
-        color: white;
+         color: #000;
         background: transparent;
     }
 }
@@ -2549,3 +2573,45 @@ input:-webkit-autofill {
     }
 }
   
+
+//   .showcase{
+//         .overlaying {
+//         background-color: rgba(230, 7, 116, 0.71);
+//         background: linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65));
+//         @include position(absolute,
+//         0 0 0 0);
+//         @include transition(all ease 500ms);
+//         @include transform(translateY(95%));
+//         &:after {
+//             content: "";
+//             border-bottom: 20px solid rgba(230, 7, 116, 0.71);
+//             border-left: 20px solid transparent;
+//             border-right: 20px solid transparent;
+//             @include position(absolute,
+//             -20px null null 10px);
+//         }
+//     }
+//     &:hover {
+//         .overlaying {
+//             @include transform(translateY(-90%));
+//         }
+//     }
+//   }
+
+.overlayinggg{
+    position: absolute;
+    // top:0;
+    background: red;
+    //  top:33%;
+    // left:16%;
+    bottom: 0;
+    h2{
+    margin:0;
+    font-size: 38px;
+ 
+    }
+}
+.myred{
+    background: yellow;
+    
+}
