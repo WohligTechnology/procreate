@@ -1574,7 +1574,24 @@ p {
         }
     }
 }
-
+.imran{
+      .employee-detail {
+        &:after {
+               position: absolute;
+    top: -20px;
+    right: inherit;
+    left: 40px;
+   
+    transform: rotate(0deg);
+     border-bottom: 20px solid #e31141;
+   
+        }
+    }
+}
+.imran-detail{
+        background: linear-gradient(-90deg,  #e60774, #e31141);
+            min-height: 450px;
+}
 .bgrey {
     background-color: $brand-grey;
     padding: 50px 0 60px;

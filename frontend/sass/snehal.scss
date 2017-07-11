@@ -426,8 +426,52 @@ padding-bottom: 50px;
      background-repeat: no-repeat;
      background-size: cover;
      background-position: center center;
-     background-attachment: fixed;
+    //  background-attachment: fixed;
 }
  .padd0 {
         padding: 0px;
     }
+
+    .fs-16{
+        font-size: 16px !important;
+    }
+    .pdd10{
+        padding: 10px 177px;
+    }
+    .bg-red{
+     background: #e8242e;;
+    }
+  .robust{
+      h2{
+          font-size: 26px;
+              font-family: 'gothamBold';
+              padding: 20px 0px;
+              margin: 0;
+      }
+      h4{
+           font-family: 'gotham-narrow-m';
+           font-size: 22px;
+               padding: 25px 200px;
+               margin: 0;
+      }
+      h3{
+           font-family: 'gothamBold';
+             font-size: 22px;
+             color: #fff;
+             padding: 25px 0px;
+             margin: 0;
+      }
+  }  
+  .sg-img-padd {
+          padding: 42px 90px 40px 35px;
+  }
+  .sg-box-padd{
+          padding: 140px 90px 0px 140px;
+  }
+  .padd-t230{
+      padding-top: 230px;
+  }
+  .mar-b70{
+      margin-bottom: 70px;
+  }
+  

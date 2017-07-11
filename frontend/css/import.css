@@ -12043,6 +12043,19 @@ p {
           transform: rotate(-90deg);
   border-bottom: 20px solid #e60774; }
 
+.imran .employee-detail:after {
+  position: absolute;
+  top: -20px;
+  right: inherit;
+  left: 40px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  border-bottom: 20px solid #e31141; }
+
+.imran-detail {
+  background: linear-gradient(-90deg, #e60774, #e31141);
+  min-height: 450px; }
+
 .bgrey {
   background-color: #e4e4e4;
   padding: 50px 0 60px; }
@@ -13075,11 +13088,50 @@ img.loading {
   background-image: url("../img/portfolio/sg/1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; }
+  background-position: center center; }
 
 .padd0 {
   padding: 0px; }
+
+.fs-16 {
+  font-size: 16px !important; }
+
+.pdd10 {
+  padding: 10px 177px; }
+
+.bg-red {
+  background: #e8242e; }
+
+.robust h2 {
+  font-size: 26px;
+  font-family: 'gothamBold';
+  padding: 20px 0px;
+  margin: 0; }
+
+.robust h4 {
+  font-family: 'gotham-narrow-m';
+  font-size: 22px;
+  padding: 25px 200px;
+  margin: 0; }
+
+.robust h3 {
+  font-family: 'gothamBold';
+  font-size: 22px;
+  color: #fff;
+  padding: 25px 0px;
+  margin: 0; }
+
+.sg-img-padd {
+  padding: 42px 90px 40px 35px; }
+
+.sg-box-padd {
+  padding: 140px 90px 0px 140px; }
+
+.padd-t230 {
+  padding-top: 230px; }
+
+.mar-b70 {
+  margin-bottom: 70px; }
 
 #fancybox-loading,
 .fancybox-close,

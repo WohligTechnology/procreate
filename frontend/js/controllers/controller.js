@@ -217,7 +217,7 @@ mySwiper.startAutoplay();
 
         $scope.homeText = [{
                 title1: 'PARLE, SR. PRODUCT MANAGER ',
-                title2: '“We take pleasure to testify the fact that Procreate has lived up to our expectation and given us a clutter-breaking and outstanding packaging solution across our range of products. I would like to make a specific mention of fantastic packaging for our newly re-launched range of Snacks – Parle’s Wafers & FullToss. Ever since the re-launch, we have received tremendous response for both the brands.”  '
+                title2: '“The feedback from the market as well as our field force has been quite encouraging. I must take this opportunity to mention that Procreate is a fast emerging design specialist firm with the most important trait of not just creativity, but has a lot of willingness to explore and walk that extra mile to deliver to the client’s satisfaction. I wish Akhilesh and team Procreate all the very best.” '
             },
             {
                 title1: 'SG CRICKET, DIRECTOR',
