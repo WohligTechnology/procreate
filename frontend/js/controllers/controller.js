@@ -71,7 +71,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/slide1.jpg',
                 link: 'good',
                 overClass:'myred',
-                title1:'hello'
+                title1:'hello',
 
             },
             {

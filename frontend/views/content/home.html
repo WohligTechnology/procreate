@@ -247,7 +247,7 @@
             </flex-slider>-->
             <div class="swiper-container ">
                 <div class="swiper-wrapper ">
-                    <li class="swiper-slide text-center ((myslide.overClass)) " ng-repeat="myslide in inspireImg2 track by $index">
+                    <li  ng-repeat="myslide in inspireImg2 track by $index" class="swiper-slide text-center" ng-class="{{myslide.overClass}}">
                         <a ui-sref="{{myslide.link}}">
                             <figure>
 
@@ -257,7 +257,7 @@
                         <!--<div class="overlayinggg">
                             <h2 class="">studio in charge</h2>
                         </div>-->
-                         <h2 class="color-white">{{inspireImg2.title1}}</h2>
+                         <!--<h2 class="">{{inspireImg2.title1}}</h2>-->
                     </li>
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>

@@ -12752,17 +12752,6 @@ input:-webkit-autofill {
     font-family: 'gothambook';
     padding: 8px 20px; }
 
-.overlayinggg {
-  position: absolute;
-  background: red;
-  bottom: 0; }
-  .overlayinggg h2 {
-    margin: 0;
-    font-size: 38px; }
-
-.myred {
-  background: yellow; }
-
 .good-bg {
   background-image: url("../img/good/2.jpg");
   background-repeat: no-repeat;
