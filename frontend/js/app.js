@@ -9,7 +9,8 @@ var myApp = angular.module('myApplication', [
     // 'ngSanitize',
     'angular-flexslider',
     'ui.swiper',
-    'duScroll'
+    'duScroll',
+
 ]);
 
 // Define all the routes below
@@ -77,18 +78,18 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: tempateURL,
             controller: 'DoycareCtrl'
         })
-          .state('contact', {
+        .state('contact', {
             url: "/contact",
             templateUrl: tempateURL,
             controller: 'ContactCtrl'
         })
-          .state('vachan', {
+        .state('vachan', {
             url: "/vachan",
             templateUrl: tempateURL,
             controller: 'VachanCtrl'
         })
-       
-           .state('sgsports', {
+
+        .state('sgsports', {
             url: "/sgsports",
             templateUrl: tempateURL,
             controller: 'SgsportsCtrl'
@@ -131,12 +132,12 @@ myApp.directive('fancyboxBox', function ($document) {
     };
 });
 
-myApp.directive('fancyboxThumb', function($document) {
+myApp.directive('fancyboxThumb', function ($document) {
 
     return {
         restrict: 'EA',
         replace: false,
-        link: function(scope, element, attr) {
+        link: function (scope, element, attr) {
             var $element = $(element);
             var target;
             if (attr.rel) {

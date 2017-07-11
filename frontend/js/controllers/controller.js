@@ -26,11 +26,11 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                     autoplay: 2500,
                     grabCursor: true
                 });
-                $(".swiper-container").hover(function(){
-mySwiper.stopAutoplay();
-}, function(){
-mySwiper.startAutoplay();
-});
+                $(".swiper-container").hover(function () {
+                    mySwiper.stopAutoplay();
+                }, function () {
+                    mySwiper.startAutoplay();
+                });
             }, 300)
         });
 
@@ -347,7 +347,7 @@ mySwiper.startAutoplay();
         };
     })
 
-    .controller('footerCtrl', function ($scope, TemplateService, apiService, NavigationService, $http, $timeout) {
+    .controller('footerCtrl', function ($scope, $state, TemplateService, apiService, toastr, NavigationService, $http, $timeout) {
         //    reCAPTCHA
         // vcRecaptchaService
         $scope.form = {};
@@ -359,8 +359,10 @@ mySwiper.startAutoplay();
                 $scope.url = "Enquirey/mailSends";
                 NavigationService.apiCallWithData($scope.url, data, function (data) {
                     if (data) {
+                        $state.reload();
                         $scope.message = "Thank you for submitting the form";
                         $scope.form = {};
+                        toastr.success("Your message has been delivered to admin")
 
                     }
                 });
