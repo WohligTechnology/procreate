@@ -658,7 +658,8 @@ p {
         }
     }
     .flexslider .slides img {
-        margin: 70px 78px 0px 0px;
+        // margin: 70px 78px 0px 0px;
+         margin: 30px 78px 0px 0px;
     }
 }
 
@@ -1412,6 +1413,9 @@ p {
 } //ruchira//
 //about us//
 .about {
+    .mar-t{
+        margin-top: 30px;
+    }
     .pink-p {
         margin: 50px 43px 50px 0;
         font-family: gothambook;
@@ -2586,15 +2590,16 @@ input:-webkit-autofill {
 }
 
 .showcase {
+    // .swiper-slide {
+    //     &:hover {
+    //         .overlayinggg {
+    //             @include transform(translateY(0%));
+               
+    //         }
+    //     }
+    // }
     .swiper-slide {
-        &:hover {
-            .overlayinggg {
-                @include transform(translateY(0%));
-                visibility: visible;
-            }
-        }
-    }
-    .swiper-slide {
+         overflow: hidden;
         .overlayinggg {
             position: absolute;
             width: 100%;
@@ -2603,9 +2608,14 @@ input:-webkit-autofill {
             h4 {
                 font-size: 20px;
             }
-            visibility: hidden;
+            // visibility: hidden;
             @include transition(all ease 500ms);
-            @include transform(translateY(20%));
+            @include transform(translateY(83%));
+        }
+        &:hover{
+         .overlayinggg {
+                @include transform(translateY(0%));
+        }
         }
         .overlayinggg:after {
             content: ""; // border-bottom: 14px solid #e3123e;
