@@ -2241,7 +2241,7 @@ p {
             a {
                 color: white !important;
                 top: 18px;
-                font-size: 12px;
+                font-size: 13px;
                 font-weight: 600;
                 letter-spacing: 1px;
                 &:hover {
@@ -2585,70 +2585,101 @@ input:-webkit-autofill {
     }
 }
 
-
 .showcase {
-    .swiper-slide{
-        .overlayinggg{
-  position: absolute;
-      width: 100%;
-    height: 45px;
-    bottom: 0px;
-    h4{
-        font-size: 20px;
-
-    }
-    // visibility: hidden;
-    // display: none;
-    
-        }
-        // li:hover{
-        //       .overlayinggg{
-        //         //   visibility: visible;
-        //         display: block;
-        //       }
-        // }
-        .overlayinggg:after{
-            content: "";
-    // border-bottom: 14px solid #e3123e;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    position: absolute;
-    top: -14px;
-    left: 21px;
-    z-index: 999;
-    // -webkit-transform: rotate(90deg);
-    transform: rotate(1deg);
-    }
-    &.mygreen {
-        .overlayinggg:after{
-              border-bottom: 14px solid blue;
-        }
-        .mycolors {
-          
-            background: #92cb3e;
-        }
-       
-    }
-    &.myblue {
-          .overlayinggg:after{
-              border-bottom: 14px solid rgba(26, 61, 112, 0.83);
-        }
-        .mycolors {
-            
-         background: rgba(26, 61, 112, 0.83);
+    .swiper-slide {
+        &:hover {
+            .overlayinggg {
+                @include transform(translateY(0%));
+                visibility: visible;
+            }
         }
     }
-    &.myred{
-         .overlayinggg:after{
-              border-bottom: 14px solid rgba(198, 35, 38, 0.8);
+    .swiper-slide {
+        .overlayinggg {
+            position: absolute;
+            width: 100%;
+            height: 45px;
+            bottom: 0px;
+            h4 {
+                font-size: 20px;
+            }
+            visibility: hidden;
+            @include transition(all ease 500ms);
+            @include transform(translateY(20%));
         }
-         .mycolors {
-            
-   background: rgba(198, 35, 38, 0.8);
+        .overlayinggg:after {
+            content: ""; // border-bottom: 14px solid #e3123e;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            position: absolute;
+            top: -14px;
+            left: 21px;
+            z-index: 999; // -webkit-transform: rotate(90deg);
+            @include transform(rotate(1deg));
+        }
+        &.mygreen {
+            .overlayinggg:after {
+                border-bottom: 14px solid #92cb3e;
+            }
+            .mycolors {
+                background: #92cb3e;
+            }
+        }
+        &.myblue {
+            .overlayinggg:after {
+                border-bottom: 14px solid rgba(26, 61, 112, 0.83);
+            }
+            .mycolors {
+                background: rgba(26, 61, 112, 0.83);
+            }
+        }
+        &.myred {
+            .overlayinggg:after {
+                border-bottom: 14px solid rgba(165, 28, 35, 0.8);
+            }
+            .mycolors {
+                background: rgba(165, 28, 35, 0.8);
+            }
+        }
+        &.mydarkred {
+            .overlayinggg:after {
+                border-bottom: 14px solid rgba(220, 27, 30, 0.84);
+            }
+            .mycolors {
+                background: rgba(220, 27, 30, 0.84);
+            }
+        }
+        &.myskyblue {
+            .overlayinggg:after {
+                border-bottom: 14px solid rgba(30, 127, 136, 0.87);
+            }
+            .mycolors {
+                background: rgba(30, 127, 136, 0.87);
+            }
+        }
+        &.mybrown {
+            .overlayinggg:after {
+                border-bottom: 14px solid rgba(137, 90, 88, 0.87);
+            }
+            .mycolors {
+                background: rgba(137, 90, 88, 0.87);
+            }
+        }
+        &.myblack {
+            .overlayinggg:after {
+                border-bottom: 14px solid rgba(48, 48, 49, 0.88);
+            }
+            .mycolors {
+                background: rgba(48, 48, 49, 0.88);
+            }
+        }
+        &.mylightgreen {
+            .overlayinggg:after {
+                border-bottom: 14px solid rgba(109, 168, 47, 0.79);
+            }
+            .mycolors {
+                background: rgba(109, 168, 47, 0.79);
+            }
         }
     }
-    }
-
 }
-
-

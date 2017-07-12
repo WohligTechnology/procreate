@@ -70,51 +70,51 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.inspireImg2 = [{
                 img: 'img/homepage/slide1.jpg',
                 link: 'good',
-                overClass:'mygreen',
-                title1:'Case Study',
+                overClass: 'mygreen',
+                title1: 'Case Study',
 
             },
             {
                 img: 'img/homepage/slider5.jpg',
-                  overClass:'myblue',
-                     title1:'More Work',
+                overClass: 'mybrown',
+                title1: 'More Work',
 
             },
             {
                 img: 'img/homepage/slider3.jpg',
-                 overClass:'myblue',
-                     title1:'More Work',
+                overClass: 'myblue',
+                title1: 'More Work',
             },
 
             {
                 img: 'img/homepage/slider4.jpg',
                 link: 'arch',
-                 overClass:'mygreen',
-                title1:'Case Study',
+                overClass: 'myred',
+                title1: 'Case Study',
             },
 
             {
                 img: 'img/homepage/slider6.jpg',
-                 overClass:'mygreen',
-                title1:'More Work',
+                overClass: 'myskyblue',
+                title1: 'More Work',
 
             },
             {
                 img: 'img/homepage/slider2.jpg',
-                 overClass:'myred',
-                title1:'Case Study',
+                overClass: 'mydarkred',
+                title1: 'Case Study',
             },
             {
                 img: 'img/homepage/slider7.jpg',
                 link: 'doycare',
-                 overClass:'mygreen',
-                title1:'Case Study',
+                overClass: 'mylightgreen',
+                title1: 'Case Study',
             },
 
             {
                 img: 'img/homepage/slider8.jpg',
-                 overClass:'mygreen',
-                title1:'Case Study',
+                overClass: 'myblack',
+                title1: 'Case Study',
 
             },
 
