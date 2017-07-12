@@ -716,7 +716,8 @@ p {
 }
 
 .icon-slider {
-    background: #e5dc39;
+    background: #e5dc39; 
+    // background: #e1d732;
     .flex-control-nav {
         // bottom: -40px !important;
         bottom: -20px !important;
@@ -2625,7 +2626,7 @@ input:-webkit-autofill {
             border-left: 8px solid transparent;
             border-right: 8px solid transparent;
             position: absolute;
-            top: -14px;
+            top: -13px;
             left: 21px;
             z-index: 999; // -webkit-transform: rotate(90deg);
             @include transform(rotate(1deg));
