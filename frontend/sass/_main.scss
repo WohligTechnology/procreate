@@ -183,6 +183,10 @@ textarea {
     margin-top: 90px;
 }
 
+.mar-t30 {
+    margin-top: 30px;
+}
+
 .absolute {
     position: absolute;
 }
@@ -659,7 +663,7 @@ p {
     }
     .flexslider .slides img {
         // margin: 70px 78px 0px 0px;
-         margin: 30px 78px 0px 0px;
+        margin: 30px 78px 0px 0px;
     }
 }
 
@@ -1413,7 +1417,7 @@ p {
 } //ruchira//
 //about us//
 .about {
-    .mar-t{
+    .mar-t {
         margin-top: 30px;
     }
     .pink-p {
@@ -1933,7 +1937,8 @@ p {
 }
 
 .biscuit {
-    margin-top: 90px;
+    // margin-top: 90px;
+    margin-top: 30px;
 }
 
 .port-imgs {
@@ -2594,12 +2599,11 @@ input:-webkit-autofill {
     //     &:hover {
     //         .overlayinggg {
     //             @include transform(translateY(0%));
-               
     //         }
     //     }
     // }
     .swiper-slide {
-         overflow: hidden;
+        overflow: hidden;
         .overlayinggg {
             position: absolute;
             width: 100%;
@@ -2607,15 +2611,14 @@ input:-webkit-autofill {
             bottom: 0px;
             h4 {
                 font-size: 20px;
-            }
-            // visibility: hidden;
+            } // visibility: hidden;
             @include transition(all ease 500ms);
             @include transform(translateY(83%));
         }
-        &:hover{
-         .overlayinggg {
+        &:hover {
+            .overlayinggg {
                 @include transform(translateY(0%));
-        }
+            }
         }
         .overlayinggg:after {
             content: ""; // border-bottom: 14px solid #e3123e;

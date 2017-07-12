@@ -11078,6 +11078,9 @@ textarea {
 .mar-t90 {
   margin-top: 90px; }
 
+.mar-t30 {
+  margin-top: 30px; }
+
 .absolute {
   position: absolute; }
 
@@ -11907,6 +11910,9 @@ p {
   margin-right: 15px;
   height: 285px; }
 
+.about .mar-t {
+  margin-top: 30px; }
+
 .about .pink-p {
   margin: 50px 43px 50px 0;
   font-family: gothambook;
@@ -12294,7 +12300,7 @@ p {
   width: 33.33%; }
 
 .biscuit {
-  margin-top: 90px; }
+  margin-top: 30px; }
 
 .port-imgs {
   position: relative; }

@@ -101,6 +101,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             },
             {
                 img: 'img/homepage/slider2.jpg',
+                link: 'vachan',
                 overClass: 'mydarkred',
                 title1: 'Case Study',
             },
@@ -113,6 +114,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             {
                 img: 'img/homepage/slider8.jpg',
+                  link: 'sgsports',
                 overClass: 'myblack',
                 title1: 'Case Study',
 
