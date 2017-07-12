@@ -12752,6 +12752,43 @@ input:-webkit-autofill {
     font-family: 'gothambook';
     padding: 8px 20px; }
 
+.showcase .swiper-slide .overlayinggg {
+  position: absolute;
+  width: 100%;
+  height: 45px;
+  bottom: 0px; }
+  .showcase .swiper-slide .overlayinggg h4 {
+    font-size: 20px; }
+
+.showcase .swiper-slide .overlayinggg:after {
+  content: "";
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  position: absolute;
+  top: -14px;
+  left: 21px;
+  z-index: 999;
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg); }
+
+.showcase .swiper-slide.mygreen .overlayinggg:after {
+  border-bottom: 14px solid blue; }
+
+.showcase .swiper-slide.mygreen .mycolors {
+  background: #92cb3e; }
+
+.showcase .swiper-slide.myblue .overlayinggg:after {
+  border-bottom: 14px solid rgba(26, 61, 112, 0.83); }
+
+.showcase .swiper-slide.myblue .mycolors {
+  background: rgba(26, 61, 112, 0.83); }
+
+.showcase .swiper-slide.myred .overlayinggg:after {
+  border-bottom: 14px solid rgba(198, 35, 38, 0.8); }
+
+.showcase .swiper-slide.myred .mycolors {
+  background: rgba(198, 35, 38, 0.8); }
+
 .good-bg {
   background-image: url("../img/good/2.jpg");
   background-repeat: no-repeat;

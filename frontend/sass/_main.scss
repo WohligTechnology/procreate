@@ -62,22 +62,27 @@ $brand-red:#f42434;
     font-family: 'corisande-b';
     src: url('../fonts/CorisandeBold.ttf');
 }
+
 @font-face {
     font-family: 'gotham-narrow-book';
     src: url('../fonts/GothamNarrow-Book.otf');
 }
+
 @font-face {
     font-family: 'gotham-narrow-m';
     src: url('../fonts/Gotham Narrow Medium.otf');
 }
+
 @font-face {
     font-family: 'gotham-narrow-book';
     src: url('../fonts/GothamNarrow-Book.otf');
 }
+
 @font-face {
     font-family: 'gotham-narrow-bold';
     src: url('../fonts/Gotham Narrow Bold.otf');
 }
+
 @import "other/font-fix";
 body {
     overflow-x: hidden!important;
@@ -270,7 +275,6 @@ footer {
             font-weight: 600;
         }
     }
-    
     .get-call h5 {
         font-family: 'gothamBold';
         line-height: 1px;
@@ -342,7 +346,9 @@ footer {
     // }
     .bg-gray {
         // background: #555;
-        @include linear-gradient(to top, #555, #222222);
+        @include linear-gradient(to top,
+        #555,
+        #222222);
         span {
             font-family: gothamBold;
         }
@@ -393,7 +399,7 @@ footer {
     //         outline: 0;
     //     }
     // }
-    .w65{
+    .w65 {
         width: 65%;
     }
     .circle-img4 {
@@ -595,7 +601,7 @@ p {
 }
 
 .flexslider .slides img {
-      margin: 36px 78px 0px 0px;
+    margin: 36px 78px 0px 0px;
 }
 
 .first-slider {
@@ -613,47 +619,47 @@ p {
         box-shadow: none;
     }
     .flexslider {
-       .flex-direction-nav {
-        a {
-            width: 50px;
-        }
-        .flex-nav-prev {
-            a:before {
-                content: "";
-                display: inline-block;
-                background-image: url("../img/homepage/1.png");
-                color: rgba(0, 0, 0, 0.8);
-                width: 100px;
-                height: 134px;
-                opacity: 1;
+        .flex-direction-nav {
+            a {
+                width: 50px;
+            }
+            .flex-nav-prev {
+                a:before {
+                    content: "";
+                    display: inline-block;
+                    background-image: url("../img/homepage/1.png");
+                    color: rgba(0, 0, 0, 0.8);
+                    width: 100px;
+                    height: 134px;
+                    opacity: 1;
+                }
+            }
+            .flex-nav-prev:hover {
+                a:before {
+                    opacity: 1;
+                }
+            }
+            .flex-nav-next {
+                a:before {
+                    content: "";
+                    display: inline-block;
+                    background-image: url("../img/homepage/00.png");
+                    color: rgba(0, 0, 0, 0.8);
+                    width: 100px;
+                    height: 134px;
+                    opacity: 1;
+                }
+            }
+            .flex-nav-next:hover {
+                a:before {
+                    opacity: 1;
+                }
             }
         }
-        .flex-nav-prev:hover {
-            a:before {
-                opacity: 1;
-            }
-        }
-        .flex-nav-next {
-            a:before {
-                content: "";
-                display: inline-block;
-                background-image: url("../img/homepage/00.png");
-                color: rgba(0, 0, 0, 0.8);
-                width: 100px;
-                height: 134px;
-                opacity: 1;
-            }
-        }
-        .flex-nav-next:hover {
-            a:before {
-                opacity: 1;
-            }
-        }
-    }
     }
     .flexslider .slides img {
-      margin: 70px 78px 0px 0px;
-}
+        margin: 70px 78px 0px 0px;
+    }
 }
 
 .flexslider {
@@ -713,8 +719,7 @@ p {
     }
     .flex-control-paging li {
         margin: 0 4px;
-        display: none;
-        // a {
+        display: none; // a {
         //     background: white !important;
         //     box-shadow: none;
         //     &.flex-active {
@@ -762,7 +767,7 @@ p {
             color: $brand-lightblack;
         }
         h4 {
-             font-family: 'gothamMedium';
+            font-family: 'gothamMedium';
             font-size: 18px;
         }
         .color-darkblue {
@@ -807,11 +812,11 @@ p {
         padding: 0px;
     }
     .capabilities-cont {
-        h1{
+        h1 {
             padding-bottom: 10px;
-              font-family: 'gothamMedium';
+            font-family: 'gothamMedium';
         }
-        .padd-t{
+        .padd-t {
             padding-top: 5px;
         }
         h4 {
@@ -819,16 +824,14 @@ p {
             font-family: gothamBold;
             margin-bottom: 0;
         }
-        h6{
+        h6 {
             color: $brand-darkbrown;
             font-family: gothamBold;
-              margin: 0px;
+            margin: 0px;
         }
         ul {
             padding-bottom: 5px;
-              padding-top: 15px;
-            
-          
+            padding-top: 15px;
         }
         li {
             // color: $brand-brown;
@@ -843,26 +846,24 @@ p {
         }
     }
 }
- .padd-tb{
-       padding: 20px 0 ;
 
-   }
+.padd-tb {
+    padding: 20px 0;
+}
+
 .bg-brown {
     background-color: $brand-brown;
-   
-   h5{
-    //    font-size: 20px;
-    font-size: 33px;
-          line-height: 8px;
-        //   margin-top: -6px;
-               font-family: 'gothamMedium';
-   }
-   h4{
-          font-family: 'gothamMedium';
-        //   font-size: 22px;
+    h5 {
+        //    font-size: 20px;
+        font-size: 33px;
+        line-height: 8px; //   margin-top: -6px;
+        font-family: 'gothamMedium';
+    }
+    h4 {
+        font-family: 'gothamMedium'; //   font-size: 22px;
         font-size: 36px;
-          margin:0;
-   }
+        margin: 0;
+    }
     li {
         background-color: $brand-brown;
     }
@@ -870,38 +871,34 @@ p {
         background-color: $brand-brown;
     }
     p {
-         font-family: gothambook;
-    font-size: 18px;
-    padding-left: 20px;
+        font-family: gothambook;
+        font-size: 18px;
+        padding-left: 20px;
     }
     h3 {
         color: white;
         font-size: 20px;
         margin-top: 0;
     }
-    .border-tb{
-    border-top: 1px solid #90cb18;
-    border-bottom: 1px solid #90cb18;
-    padding: 12px 0px 5px;
-    // margin: 20px 9px;
+    .border-tb {
+        border-top: 1px solid #90cb18;
+        border-bottom: 1px solid #90cb18;
+        padding: 12px 0px 5px; // margin: 20px 9px;
         margin: 28px 0px;
-        
     }
-    .fs15{
+    .fs15 {
         font-size: 12px;
-    top: -14px;
+        top: -14px;
         margin-right: -49px;
     }
-.tm{
-    font-size: 7px;
-    margin-left: 162px;
-    color: white;
-}
-    // .fs-18{
+    .tm {
+        font-size: 7px;
+        margin-left: 162px;
+        color: white;
+    } // .fs-18{
     //         font-family: gothambook;
     // font-size: 18px;
     // padding-left: 20px;
-
     // }
     .flex-control-paging li a {
         display: none;
@@ -936,7 +933,7 @@ p {
     }
     .flexslider .flex-direction-nav .flex-prev {
         // left: -115px !important;
-        left:-52px !important;
+        left: -52px !important;
     }
     .border {
         width: 79%;
@@ -954,23 +951,21 @@ p {
     }
     .mar-top-bot {
         margin-top: 20px;
-        margin-bottom: 12px;
-        // margin-left: 150px;
+        margin-bottom: 12px; // margin-left: 150px;
         margin-left: 73px;
     }
     .client-say {
         // padding: 0 20px;
-            padding: 18px 20px 0px 20px;
+        padding: 18px 20px 0px 20px;
     }
 }
-
 
 .bg-blue {
     background-color: $brand-brown;
     padding: 20px 0;
-   h5{
-       font-size: 20px;
-   }
+    h5 {
+        font-size: 20px;
+    }
     h4 {
         font-size: 23px;
         margin-top: 0;
@@ -997,11 +992,10 @@ p {
     h1 {
         margin-top: 30px;
     }
-    .fs-18{
-            font-family: gothambook;
-    font-size: 18px;
-    padding-left: 20px;
-
+    .fs-18 {
+        font-family: gothambook;
+        font-size: 18px;
+        padding-left: 20px;
     }
     .flex-control-paging li a {
         display: none;
@@ -1062,7 +1056,6 @@ p {
 }
 
 .icon-slider {
-
     .relative {
         position: relative;
         .flex-control-nav {
@@ -1084,15 +1077,13 @@ p {
         @include position(absolute,
         0 0 0 0);
     }
-    .icon-padd{
+    .icon-padd {
         padding: 20px;
     }
-    .mar-lt{
-      margin: 32px 69px 32px 20px;
-    
+    .mar-lt {
+        margin: 32px 69px 32px 20px;
     }
-  
-    .mar-b{
+    .mar-b {
         margin-bottom: 30px;
     }
 }
@@ -1104,57 +1095,54 @@ p {
 .mar-t20 {
     margin: 60px 50px 50px 0px !important;
 }
-.showcase{
-      .flexslider{
-    .flex-control-nav {
-        display: none;
-}
-.slides img {
-    margin: 0px 30px 0px 0px !important;
-}
- .flex-direction-nav .flex-prev {
-    display: none;
-}
- .flex-direction-nav .flex-next:hover {
-     display: none;
+
+.showcase {
+    .flexslider {
+        .flex-control-nav {
+            display: none;
+        }
+        .slides img {
+            margin: 0px 30px 0px 0px !important;
+        }
+        .flex-direction-nav .flex-prev {
+            display: none;
+        }
+        .flex-direction-nav .flex-next:hover {
+            display: none;
+        }
+    }
 }
 
-      }
-     
-}
-.display-flex{
+.display-flex {
     display: flex;
 }
-.flex-1{
+
+.flex-1 {
     flex: 1;
 }
-.slide1-text{
+
+.slide1-text {
     position: absolute;
-    top:33%;
-    left:16%;
-    h2{
-    margin:0;
-    font-size: 38px;
- 
+    top: 33%;
+    left: 16%;
+    h2 {
+        margin: 0;
+        font-size: 38px;
     }
-    h3{
-    margin:0;
-    font-size: 26px;
-    line-height: 50px;
-   
+    h3 {
+        margin: 0;
+        font-size: 26px;
+        line-height: 50px;
     }
-    .color-brown{
-        color:#683818;
-         font-family: 'gothambook';
+    .color-brown {
+        color: #683818;
+        font-family: 'gothambook';
     }
-    .color-white{
+    .color-white {
         color: white;
         line-height: 50px;
-        
     }
-}
-
- // home page end
+} // home page end
 // approach page start
 .approach {
     h1 {
@@ -1424,14 +1412,14 @@ p {
 } //ruchira//
 //about us//
 .about {
-    .pink-p{
-            margin: 50px 43px 50px 0;
-    font-family: gothambook;
-    font-size: 18px;
-    padding-left: 20px;
-    text-align: justify;
+    .pink-p {
+        margin: 50px 43px 50px 0;
+        font-family: gothambook;
+        font-size: 18px;
+        padding-left: 20px;
+        text-align: justify;
         font-size: 15px;
-        span{
+        span {
             font-size: 15px;
             font-weight: 700;
         }
@@ -1498,9 +1486,11 @@ p {
 .border-right {
     border-right: 2px solid #ccc;
 }
-.mar-t35{
-   margin-top: 35px;
+
+.mar-t35 {
+    margin-top: 35px;
 }
+
 .team-details {
     h3 {
         @include padding(50px null);
@@ -1575,24 +1565,25 @@ p {
         }
     }
 }
-.imran{
-      .employee-detail {
+
+.imran {
+    .employee-detail {
         &:after {
-               position: absolute;
-    top: -20px;
-    right: inherit;
-    left: 40px;
-   
-    transform: rotate(0deg);
-     border-bottom: 20px solid #e31141;
-   
+            position: absolute;
+            top: -20px;
+            right: inherit;
+            left: 40px;
+            transform: rotate(0deg);
+            border-bottom: 20px solid #e31141;
         }
     }
 }
-.imran-detail{
-        background: linear-gradient(-90deg,  #e60774, #e31141);
-            min-height: 450px;
+
+.imran-detail {
+    background: linear-gradient(-90deg, #e60774, #e31141);
+    min-height: 450px;
 }
+
 .bgrey {
     background-color: $brand-grey;
     padding: 50px 0 60px;
@@ -1615,30 +1606,33 @@ p {
 //     background-size: cover !important;
 //     margin: 0 auto;
 // }
-
 .imgs,
 .clients {
     @include size(280px,
-    280px); 
-    background-size: cover !important;
-    // margin: 0 auto;
+    280px);
+    background-size: cover !important; // margin: 0 auto;
 }
-.marin-l78{
-    margin-left: 78px;
 
+.marin-l78 {
+    margin-left: 78px;
 }
-.marin-l35{
- margin-left: 35px;
+
+.marin-l35 {
+    margin-left: 35px;
 }
+
 .nitin-mar {
-        margin: 5px 80px 40px 0px;
+    margin: 5px 80px 40px 0px;
 }
-.siddarth-mar{
-        margin: 5px 0px 40px 0px;
+
+.siddarth-mar {
+    margin: 5px 0px 40px 0px;
 }
-.shardha-mar{
-        margin: 5px 0px 0px 78px;
+
+.shardha-mar {
+    margin: 5px 0px 0px 78px;
 }
+
 .img1 {
     background-image: url("../img/about/new1.jpg");
 }
@@ -2195,7 +2189,9 @@ p {
     .navbar {
         background-color: #e60774;
         border: none;
-      @include linear-gradient(-90deg, #e31141, #e60774);
+        @include linear-gradient(-90deg,
+        #e31141,
+        #e60774);
     }
     .navbar-nav {
         a {
@@ -2231,7 +2227,6 @@ p {
         .navbar-default .navbar-nav>.active>a:focus,
         .navbar-nav>a:hover,
         {
-              
             span {
                 border-bottom: 4px solid white;
             }
@@ -2260,78 +2255,90 @@ p {
             }
         }
         .navbar {
-            border: none;
-            // background: linear-gradient(-82deg,#83bf01,#83bf01,#9cd72f,  #abe448 );
+            border: none; // background: linear-gradient(-82deg,#83bf01,#83bf01,#9cd72f,  #abe448 );
             // background: -webkit-linear-gradient(-82deg, #83bf01 0%, #83bf01 0%, #83bf01 4%, #83bf01 35%, #83bf01 61%, #abe448 100%);
-            @include linear-gradient(82deg, #83bf01 38%, #abe448 94%, #abe448 91%, #abe448 100%);
+            @include linear-gradient(82deg,
+            #83bf01 38%,
+            #abe448 94%,
+            #abe448 91%,
+            #abe448 100%);
         }
     }
     &.Approach {
         .navbar {
             // background-color: #e46fbf;
             border: none;
-           @include linear-gradient(50deg, #d76bfd, #fe7349);
+            @include linear-gradient(50deg,
+            #d76bfd,
+            #fe7349);
         }
     }
     &.Offering {
         .navbar {
             // background-color: #e46fbf;
             border: none; // background: linear-gradient(50deg, rgba(181, 213, 51, 0.02) 70%, rgba(10, 157, 160, 0.06) 30%);
-            @include linear-gradient(50deg, #b5d533, #0a9da0);
+            @include linear-gradient(50deg,
+            #b5d533,
+            #0a9da0);
         }
     }
     &.Portfolio {
         .navbar {
             // background-color: #e46fbf;
             border: none;
-            @include linear-gradient(50deg, #de5428, #ffcd0a);
+            @include linear-gradient(50deg,
+            #de5428,
+            #ffcd0a);
         }
     }
     &.Doycare {
         .navbar {
             // background-color: #e46fbf;
             border: none;
-          @include linear-gradient(50deg, #de5428, #ffcd0a);
+            @include linear-gradient(50deg,
+            #de5428,
+            #ffcd0a);
         }
     }
     &.Good {
         .navbar {
             // background-color: #e46fbf;
             border: none;
-            @include linear-gradient(50deg, #de5428, #ffcd0a);
+            @include linear-gradient(50deg,
+            #de5428,
+            #ffcd0a);
         }
     }
     &.Arch {
         .navbar {
             // background-color: #e46fbf;
             border: none;
-            @include linear-gradient(50deg, #de5428, #ffcd0a);
+            @include linear-gradient(50deg,
+            #de5428,
+            #ffcd0a);
         }
     }
-     &.Contact {
+    &.Contact {
         .navbar {
             // background-color: #e46fbf;
             border: none;
-            
-              @include linear-gradient(82deg, #01a2bf 28%, #00ccbe 90%, #00ccbe 91%, #00ccbe 100%);
-    
+            @include linear-gradient(82deg,
+            #01a2bf 28%,
+            #00ccbe 90%,
+            #00ccbe 91%,
+            #00ccbe 100%);
         }
     }
-     &.Vachan {
+    &.Vachan {
         .navbar {
             background: white;
             border: none;
-            
-             
-    
         }
-         .navbar-default .navbar-nav>.active>a,
+        .navbar-default .navbar-nav>.active>a,
         .navbar-default .navbar-nav>.active>a:hover,
         .navbar-default .navbar-nav>.active>a:focus,
         .navbar-nav>a:hover,
         {
-                 
-              
             span {
                 border-bottom: 4px solid #83bf01;
             }
@@ -2353,7 +2360,6 @@ p {
                     span {
                         border-bottom: 4px solid #83bf01;
                     }
-               
                 }
             }
             span {
@@ -2381,8 +2387,8 @@ p {
         z-index: 99;
     }
     .flex-viewport {
-    max-height: 285px !important;
-}
+        max-height: 285px !important;
+    }
 }
 
 .image-circles {
@@ -2412,7 +2418,7 @@ p {
         margin: 75px 0;
         h4 {
             color: #fff;
-               font-family: 'gothambook';
+            font-family: 'gothambook';
         }
     }
 }
@@ -2465,7 +2471,7 @@ p {
 
 @-webkit-keyframes autofill {
     to {
-         color: #000;
+        color: #000;
         background: transparent;
     }
 }
@@ -2475,9 +2481,8 @@ input:-webkit-autofill {
     -webkit-animation-fill-mode: both;
 }
 
-
 //contact pg start
-.contact-bannner{
+.contact-bannner {
     background-image: url("../img/contact/2.jpg");
     width: 100%;
     height: 620px;
@@ -2485,127 +2490,165 @@ input:-webkit-autofill {
     background-repeat: no-repeat;
     background-position: center center;
 }
-.contact-bg-blue{
+
+.contact-bg-blue {
     background: #057697;
 }
-.contact-us-text{
-        margin: 30px 0px;
-    .padd-t{
+
+.contact-us-text {
+    margin: 30px 0px;
+    .padd-t {
         padding-top: 10px;
     }
-    a{
-          color: #000;
-               font-size: 11px;
-               margin: 0;
-    }
-    p{
+    a {
         color: #000;
-         font-family: 'gothambook';
-         margin:0;
-         font-size: 11px;
-         font-weight: bols;
+        font-size: 11px;
+        margin: 0;
     }
-    h4{
+    p {
         color: #000;
-           font-family: 'gothamMedium';
-           font-size: 16px;
+        font-family: 'gothambook';
+        margin: 0;
+        font-size: 11px;
+        font-weight: bols;
+    }
+    h4 {
+        color: #000;
+        font-family: 'gothamMedium';
+        font-size: 16px;
     }
 }
-.contact-bannner-text{
+
+.contact-bannner-text {
     margin-top: 55%;
     margin-left: 1%;
-    h2{
-     font-size: 50px;
-          font-family: 'gothamMedium';
-          margin: 0;
+    h2 {
+        font-size: 50px;
+        font-family: 'gothamMedium';
+        margin: 0;
     }
-    h3{
+    h3 {
         font-size: 29px;
         color: #fff;
-         font-family: 'gothambook';
-         margin: 0;
+        font-family: 'gothambook';
+        margin: 0;
     }
 }
-.contact-bg-blue-text{
-        margin: 25px 0px;
-    p{
-            font-family: 'gothamBold';
-         font-size: 20px;
+
+.contact-bg-blue-text {
+    margin: 25px 0px;
+    p {
+        font-family: 'gothamBold';
+        font-size: 20px;
     }
 }
-.contact-us-border-bott{
-      border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+
+.contact-us-border-bott {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.19);
     width: 255px;
     padding-bottom: 5px;
 }
-.contact-social-icon{
-.img-inline{
-      display: inline-block;
-          padding: 0px 30px 5px 0px;
-    img{
-        width: 65%
-    }  
+
+.contact-social-icon {
+    .img-inline {
+        display: inline-block;
+        padding: 0px 30px 5px 0px;
+        img {
+            width: 65%
+        }
+    }
 }
-}
-.contact-form{
+
+.contact-form {
     margin-top: 45px;
-    p{
+    p {
         color: black;
         font-size: 10px;
-          color: gray;
+        color: gray;
     }
-    input{
-     background: rgba(211, 211, 211, 0.17);
+    input {
+        background: rgba(211, 211, 211, 0.17);
     }
-    textarea{
-         background: rgba(211, 211, 211, 0.17);
+    textarea {
+        background: rgba(211, 211, 211, 0.17);
     }
-    label{
+    label {
         color: $brand-gray;
-          font-family: 'gothambook';
+        font-family: 'gothambook';
     }
-    .btn-black{
+    .btn-black {
         background: black;
         color: white;
         font-size: 10px;
-                font-family: 'gothambook';
-                padding: 8px 20px;
+        font-family: 'gothambook';
+        padding: 8px 20px;
     }
 }
-  
-
-//   .showcase{
-//         .overlaying {
-//         background-color: rgba(230, 7, 116, 0.71);
-//         background: linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65));
-//         @include position(absolute,
-//         0 0 0 0);
-//         @include transition(all ease 500ms);
-//         @include transform(translateY(95%));
-//         &:after {
-//             content: "";
-//             border-bottom: 20px solid rgba(230, 7, 116, 0.71);
-//             border-left: 20px solid transparent;
-//             border-right: 20px solid transparent;
-//             @include position(absolute,
-//             -20px null null 10px);
-//         }
-//     }
-//     &:hover {
-//         .overlaying {
-//             @include transform(translateY(-90%));
-//         }
-//     }
-//   }
 
 
-// .myred{
-//    .overlayinggg{
+.showcase {
+    .swiper-slide{
+        .overlayinggg{
+  position: absolute;
+      width: 100%;
+    height: 45px;
+    bottom: 0px;
+    h4{
+        font-size: 20px;
+
+    }
+    // visibility: hidden;
+    // display: none;
     
-//    background: red;
-   
-  
-   
-  
-// }
-// }
+        }
+        // li:hover{
+        //       .overlayinggg{
+        //         //   visibility: visible;
+        //         display: block;
+        //       }
+        // }
+        .overlayinggg:after{
+            content: "";
+    // border-bottom: 14px solid #e3123e;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    position: absolute;
+    top: -14px;
+    left: 21px;
+    z-index: 999;
+    // -webkit-transform: rotate(90deg);
+    transform: rotate(1deg);
+    }
+    &.mygreen {
+        .overlayinggg:after{
+              border-bottom: 14px solid blue;
+        }
+        .mycolors {
+          
+            background: #92cb3e;
+        }
+       
+    }
+    &.myblue {
+          .overlayinggg:after{
+              border-bottom: 14px solid rgba(26, 61, 112, 0.83);
+        }
+        .mycolors {
+            
+         background: rgba(26, 61, 112, 0.83);
+        }
+    }
+    &.myred{
+         .overlayinggg:after{
+              border-bottom: 14px solid rgba(198, 35, 38, 0.8);
+        }
+         .mycolors {
+            
+   background: rgba(198, 35, 38, 0.8);
+        }
+    }
+    }
+
+}
+
+
