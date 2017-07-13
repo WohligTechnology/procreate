@@ -184,7 +184,7 @@ textarea {
 }
 
 .mar-t30 {
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .absolute {
@@ -663,7 +663,7 @@ p {
     }
     .flexslider .slides img {
         // margin: 70px 78px 0px 0px;
-        margin: 30px 78px 0px 0px;
+        margin: 10px 78px 0px 0px;
     }
 }
 
@@ -861,7 +861,7 @@ p {
     background-color: $brand-brown;
     h5 {
         //    font-size: 20px;
-        font-size: 33px;
+        font-size: 32px;
         line-height: 8px; //   margin-top: -6px;
         font-family: 'gothamMedium';
     }
@@ -1419,7 +1419,7 @@ p {
 //about us//
 .about {
     .mar-t {
-        margin-top: 30px;
+        margin-top: 10px;
     }
     .pink-p {
         margin: 50px 43px 50px 0;
@@ -1939,9 +1939,18 @@ p {
 
 .biscuit {
     // margin-top: 90px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
-
+.casestudy-strip{
+         @include linear-gradient(50deg,
+            #de5428,
+            #ffcd0a);
+            h2{
+                    font-size: 21px;
+    font-weight: bold;
+    padding: 12px;
+            }
+}
 .port-imgs {
     position: relative; // overflow: hidden;
     .overlaying {
@@ -1964,89 +1973,110 @@ p {
 }
 
 .gradient-yellow {
-    background: linear-gradient(90deg, rgba(226, 154, 44, 0.97), rgba(247, 242, 29, 0.8));
+//    @include linear-gradient(90deg, rgba(226, 154, 44, 0.97), rgba(247, 242, 29, 0.8));
+      background-color: rgba(226, 154, 44, 0.78);
+ @include linear-gradient(90deg,rgba(226, 154, 44, 0.78), rgba(247, 242, 29, 0.63));
 }
 
 .gradient-red {
-    background: linear-gradient(90deg, rgba(254, 40, 18, 0.75), rgba(254, 120, 20, 0.69));
+     @include linear-gradient(90deg, rgba(254, 40, 18, 0.75), rgba(254, 120, 20, 0.69));
+     background-color: rgba(254, 40, 18, 0.48);
 }
 
 .gradient-orange {
-    background: linear-gradient(90deg, rgba(227, 116, 51, 0.94), rgba(251, 212, 30, 0.92));
+    @include linear-gradient(90deg, rgba(227, 116, 51, 0.94), rgba(251, 212, 30, 0.92));
 }
 
 .gradient-blue {
-    background: linear-gradient(90deg, rgba(58, 210, 193, 0.89), rgba(39, 159, 252, 0.83));
+     @include linear-gradient(90deg, rgba(58, 210, 193, 0.89), rgba(39, 159, 252, 0.83));
 }
 
 .gradient-lightgreen {
-    background: linear-gradient(90deg, rgba(136, 222, 55, 0.88), rgba(43, 239, 24, 0.9));
+     @include linear-gradient(90deg, rgba(136, 222, 55, 0.88), rgba(43, 239, 24, 0.9));
 }
 
 .gradient-green {
-    background: linear-gradient(50deg, rgba(59, 225, 71, 0.8), #29f68f);
+    @include linear-gradient(50deg, rgba(59, 225, 71, 0.8), #29f68f);
 }
 
 .gradient-pink {
-    background: linear-gradient(90deg, rgba(225, 56, 69, 0.91), rgba(245, 99, 33, 0.84));
+    @include linear-gradient(90deg, rgba(225, 56, 69, 0.91), rgba(245, 99, 33, 0.84));
 }
 
 .gradient-darkpink {
-    background: linear-gradient(90deg, rgba(222, 46, 49, 0.87), rgba(243, 100, 24, 0.89));
+    @include linear-gradient(90deg, rgba(222, 46, 49, 0.87), rgba(243, 100, 24, 0.89));
 }
 
 .gradient-purpal {
-    background: linear-gradient(90deg, rgba(226, 60, 195, 0.88), rgba(246, 42, 123, 0.89));
+    @include linear-gradient(90deg, rgba(226, 60, 195, 0.88), rgba(246, 42, 123, 0.89));
 }
 
 .gradient-arcs {
-    background: linear-gradient(90deg, rgba(198, 112, 12, 0.92), rgba(199, 181, 11, 0.91));
+    @include linear-gradient(90deg, rgba(198, 112, 12, 0.92), rgba(199, 181, 11, 0.91));
 }
 
 .gradient-parachute {
-    background: linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 0.89));
+     @include linear-gradient(90deg, rgba(224, 168, 50, 0.92), rgba(228, 244, 32, 0.89));
 }
 
 .gradient-Psoracare {
-    background: linear-gradient(90deg, rgba(52, 222, 113, 0.89), rgba(24, 237, 175, 0.89));
+    // @include linear-gradient(90deg, rgba(52, 222, 113, 0.89), rgba(24, 237, 175, 0.89));
+        background-color: rgba(52, 222, 113, 0.76);
+ @include linear-gradient(90deg,rgba(52, 222, 113, 0.67), rgba(24, 237, 175, 0.58));
 }
 
 .gradient-doycare {
-    background: linear-gradient(90deg, rgba(22, 137, 194, 0.88), rgba(23, 50, 198, 0.9));
+   @include linear-gradient(90deg, rgba(22, 137, 194, 0.88), rgba(23, 50, 198, 0.9));
 }
 
 .gradient-sg {
-    background: linear-gradient(90deg, rgba(35, 152, 202, 0.88), rgba(40, 85, 224, 0.89));
+   @include linear-gradient(90deg, rgba(35, 152, 202, 0.88), rgba(40, 85, 224, 0.89));
 }
 
 .gradient-vachan {
-    background: linear-gradient(90deg, rgba(129, 59, 227, 0.88), rgba(201, 42, 245, 0.88));
+    @include linear-gradient(90deg, rgba(129, 59, 227, 0.88), rgba(201, 42, 245, 0.88));
 }
 
 .gradient-milk {
-    background: linear-gradient(90deg, rgba(199, 144, 25, 0.88), rgba(169, 202, 25, 0.9));
+     @include linear-gradient(90deg, rgba(199, 144, 25, 0.88), rgba(169, 202, 25, 0.9));
 }
 
 .gradient-medical {
-    background: linear-gradient(90deg, rgba(57, 219, 128, 0.89), rgba(40, 244, 231, 0.9));
+  @include linear-gradient(90deg, rgba(57, 219, 128, 0.89), rgba(40, 244, 231, 0.9));
 }
 
 .gradient-mexitos {
-    background: linear-gradient(90deg, rgba(202, 122, 57, 0.9), rgba(242, 194, 26, 0.92));
+  @include linear-gradient(90deg, rgba(202, 122, 57, 0.9), rgba(242, 194, 26, 0.92));
 }
 
 .gradient-vistas {
-    background: linear-gradient(90deg, rgba(203, 36, 112, 0.92), rgba(245, 38, 51, 0.92));
+    // @include linear-gradient(90deg, rgba(203, 36, 112, 0.92), rgba(245, 38, 51, 0.92));
+        background-color: rgba(203, 36, 112, 0.72);
+   @include linear-gradient(90deg,rgba(203, 36, 112, 0.62), rgba(245, 38, 51, 0.58));
 }
 
 .gradient-cafechino {
-    background: linear-gradient(90deg, rgba(222, 79, 58, 0.91), rgba(238, 136, 29, 0.92));
+    @include linear-gradient(90deg, rgba(222, 79, 58, 0.91), rgba(238, 136, 29, 0.92));
 }
 
 .gradient-wafers {
-    background: linear-gradient(90deg, rgba(54, 143, 227, 0.91), rgba(29, 67, 228, 0.89));
+   @include linear-gradient(90deg, rgba(54, 143, 227, 0.91), rgba(29, 67, 228, 0.89));
 }
-
+.gradient-graywhite{
+//  @include  linear-gradient(50deg,rgba(97, 104, 112, 0.95), rgba(248, 249, 251, 0.73));
+      
+     
+       background-color: rgba(97, 104, 112, 0.81);
+    @include linear-gradient(50deg,rgba(97, 104, 112, 0.56), rgba(248, 249, 251, 0.72));
+}
+.gradient-organico{
+        background-color: rgba(131, 104, 92, 0.71);
+ @include linear-gradient(90deg,rgba(144, 115, 101, 0.74), rgba(177, 159, 145, 0.71));
+}
+.gradient-mega{
+    background-color: rgba(161, 205, 227, 0.72);
+   @include linear-gradient(90deg,rgba(15, 89, 118, 0.6), rgba(13, 170, 166, 0.62));
+}
 .overlay-text-bg {
     // background-color: rgba(254, 115, 73, 0.15);
     // background-color: white;
@@ -2492,6 +2522,12 @@ input:-webkit-autofill {
 }
 
 //contact pg start
+.w312{
+    width: 312px;
+}
+.w414{
+    width: 414px;
+}
 .contact-bannner {
     background-image: url("../img/contact/2.jpg");
     width: 100%;
