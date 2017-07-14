@@ -576,6 +576,9 @@ p {
     @include transition(all 300ms ease);
     padding: 15px 0px;
 } // homepage start
+.icon-padd-sg{
+    padding: 10px;
+}
 .li-color {
     background-color: $brand-green;
 }
@@ -2090,14 +2093,15 @@ p {
 .overlay-text-bg {
     // background-color: rgba(254, 115, 73, 0.15);
     // background-color: white;
-    left: 7%;
+    // left: 7%;
+    left: 23%;
     h2 {
         // color: darkred;
         color: white;
         letter-spacing: 0px;
         line-height: 14px;
         font-family: 'corisande-b';
-        text-decoration: underline; // font-size: 29px;
+        // text-decoration: underline; // font-size: 29px;
         // letter-spacing: 1px;
     }
 }
@@ -2536,10 +2540,10 @@ input:-webkit-autofill {
 
 //contact pg start
 .w312{
-    width: 312px;
+    width: 369px;
 }
 .w414{
-    width: 414px;
+    width: 480px;
 }
 .contact-bannner {
     background-image: url("../img/contact/2.jpg");
@@ -2561,14 +2565,14 @@ input:-webkit-autofill {
     }
     a {
         color: #000;
-        font-size: 11px;
+        font-size: 13px;
         margin: 0;
     }
     p {
         color: #000;
         font-family: 'gothambook';
         margin: 0;
-        font-size: 11px;
+        font-size: 13px;
         font-weight: bols;
     }
     h4 {

@@ -11305,6 +11305,9 @@ p {
   transition: all 300ms ease;
   padding: 15px 0px; }
 
+.icon-padd-sg {
+  padding: 10px; }
+
 .li-color {
   background-color: #39b548; }
 
@@ -12442,13 +12445,12 @@ p {
   background-image: linear-gradient(90deg, rgba(15, 89, 118, 0.46), rgba(13, 170, 166, 0.53)); }
 
 .overlay-text-bg {
-  left: 7%; }
+  left: 23%; }
   .overlay-text-bg h2 {
     color: white;
     letter-spacing: 0px;
     line-height: 14px;
-    font-family: 'corisande-b';
-    text-decoration: underline; }
+    font-family: 'corisande-b'; }
 
 .top35 {
   top: 35%; }
@@ -12740,10 +12742,10 @@ input:-webkit-autofill {
   -webkit-animation-fill-mode: both; }
 
 .w312 {
-  width: 312px; }
+  width: 369px; }
 
 .w414 {
-  width: 414px; }
+  width: 480px; }
 
 .contact-bannner {
   background-image: url("../img/contact/2.jpg");
@@ -12762,13 +12764,13 @@ input:-webkit-autofill {
     padding-top: 10px; }
   .contact-us-text a {
     color: #000;
-    font-size: 11px;
+    font-size: 13px;
     margin: 0; }
   .contact-us-text p {
     color: #000;
     font-family: 'gothambook';
     margin: 0;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: bols; }
   .contact-us-text h4 {
     color: #000;
@@ -13589,8 +13591,6 @@ img.loading {
     width: 23.5%; }
   .circle .text-color p {
     font-size: 12px; }
-  .icon-slider {
-    display: none; }
   .get-padd {
     padding: 48px 0 0 0px;
     margin-left: 4px; }

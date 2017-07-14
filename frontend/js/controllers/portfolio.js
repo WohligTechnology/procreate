@@ -127,6 +127,56 @@ $scope.phalse = function () {
 
             });
         };
+          $scope.maxces = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/maxces.html',
+                scope: $scope,
+                size: 'lg',
+                // windowClass: "maxces"
+
+            });
+        };
+         $scope.herbal = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/herbal.html',
+                scope: $scope,
+                size: 'lg',
+                // windowClass: "maxces"
+
+            });
+        };
+         $scope.organico = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/organico.html',
+                scope: $scope,
+                size: 'lg',
+                // windowClass: "maxces"
+
+            });
+        };
+          $scope.seth = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/seth.html',
+                scope: $scope,
+                size: 'lg',
+                // windowClass: "maxces"
+
+            });
+        };
+         $scope.vista = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/vista.html',
+                scope: $scope,
+                size: 'lg',
+                // windowClass: "maxces"
+
+            });
+        };
      $scope.getTab = function (view) {
       var id = "";
       console.log(view);
