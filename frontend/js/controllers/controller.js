@@ -36,7 +36,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
 
         $scope.inspireImg = [{
-                img: 'img/homepage/homefinal.jpg',
+                img: 'img/homepage/homefinal11.jpg',
                 title1: 'We are Procreate!',
                 title2: 'Design for Growth +',
                 title3: 'Transformation',
@@ -78,12 +78,14 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/slider5.jpg',
                 overClass: 'mybrown',
                 title1: 'More Work',
+                    link: 'portfolio',
 
             },
             {
                 img: 'img/homepage/slider3.jpg',
                 overClass: 'myblue',
                 title1: 'More Work',
+                     link: 'portfolio',
             },
 
             {
@@ -97,6 +99,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 img: 'img/homepage/slider6.jpg',
                 overClass: 'myskyblue',
                 title1: 'More Work',
+               link: 'portfolio',
 
             },
             {

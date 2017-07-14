@@ -11,8 +11,10 @@ myApp.controller('ContactCtrl', function ($scope, $state, toastr, TemplateServic
     };
     initMap = function () {
         var uluru = {
-            lat: 19.166411,
-            lng: 72.847466
+            // lat: 19.166411,
+            // lng: 72.847466
+                 lat: 19.1629,
+            lng: 72.8392
         };
         // Styles a map in night mode.
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -64,7 +66,7 @@ myApp.controller('ContactCtrl', function ($scope, $state, toastr, TemplateServic
 
         console.log("******** inside sendMail *********", data);
         if (data && data.email != null) {
-            toastr.success("Your message has been delivered to admin");
+            // toastr.success("Your message has been delivered to admin");
             $state.reload();
             $scope.url = "Enquirey/mailSends";
             NavigationService.apiCallWithData($scope.url, data, function (data) {
