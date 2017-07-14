@@ -34,28 +34,3 @@
 
 
 
-.imgs {
-    position: relative;
-    overflow: hidden;
-    .overlaying {
-        background-color: rgba(230, 7, 116, 0.71);
-        background: linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65));
-        @include position(absolute,
-        0 0 0 0);
-        @include transition(all ease 500ms);
-        @include transform(translateY(95%));
-        &:after {
-            content: "";
-            border-bottom: 20px solid rgba(230, 7, 116, 0.71);
-            border-left: 20px solid transparent;
-            border-right: 20px solid transparent;
-            @include position(absolute,
-            -20px null null 10px);
-        }
-    }
-    &:hover {
-        .overlaying {
-            @include transform(translateY(0%));
-        }
-    }
-}

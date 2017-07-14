@@ -11368,7 +11368,7 @@ p {
   opacity: 1; }
 
 .first-slider .flexslider .slides img {
-  margin: 10px 78px 0px 0px; }
+  margin: 70px 78px 0px 0px; }
 
 .flexslider {
   margin: 0 0 0px;
@@ -12317,7 +12317,7 @@ p {
   width: 33.33%; }
 
 .biscuit {
-  margin-top: 10px; }
+  margin-top: 90px; }
 
 .casestudy-strip {
   background-color: #de5428;
@@ -12888,7 +12888,8 @@ input:-webkit-autofill {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  margin-top: 75px; }
   .good-bg h3 {
     text-transform: uppercase;
     color: #00a600;
