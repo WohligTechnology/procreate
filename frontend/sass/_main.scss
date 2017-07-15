@@ -1432,7 +1432,7 @@ p {
         margin-top: 10px;
     }
     .pink-p {
-        margin: 50px 43px 50px 0;
+        margin: 50px 43px 0px 0;
         font-family: gothambook;
         font-size: 18px;
         padding-left: 20px;
@@ -2093,8 +2093,8 @@ p {
 .overlay-text-bg {
     // background-color: rgba(254, 115, 73, 0.15);
     // background-color: white;
-    // left: 7%;
-    left: 23%;
+    left: 7%;
+   
     h2 {
         // color: darkred;
         color: white;
@@ -2140,14 +2140,23 @@ p {
     bottom: 3%;
     // right: 7%;
     a {
-        color: transparent;
+        // color: transparent;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
     }
 }
 
 .read-more2 {
     left: 7%;
-    bottom: 1%;
+    bottom: 3%;
     // right: 7%;
+     a {
+        // color: transparent;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
 }
 
 .display-inline {
@@ -2471,7 +2480,8 @@ p {
 
 .about-band {
     .about-band-title {
-        margin: 75px 0;
+        // margin: 75px 0;
+         margin: 85px 0;
         h4 {
             color: #fff;
             font-family: 'gothambook';

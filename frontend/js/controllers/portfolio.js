@@ -177,6 +177,16 @@ $scope.phalse = function () {
 
             });
         };
+          $scope.mega = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/mega.html',
+                scope: $scope,
+                size: 'lg',
+                // windowClass: "maxces"
+
+            });
+        };
      $scope.getTab = function (view) {
       var id = "";
       console.log(view);
