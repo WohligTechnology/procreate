@@ -2634,6 +2634,9 @@ input:-webkit-autofill {
 
 .contact-form {
     margin-top: 45px;
+    min-height: 400px;
+    position: relative;
+    width: 100%;
     p {
         color: black;
         font-size: 10px;
@@ -2656,6 +2659,21 @@ input:-webkit-autofill {
         font-family: 'gothambook';
         padding: 8px 20px;
     }
+    .thank-u {
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+        h4{
+        color: #057697;
+        font-size: 25px;
+        margin-bottom: 5px;
+        p{
+        font-size: 18px;
+        }
+    }
+}
+
 }
 
 .showcase {

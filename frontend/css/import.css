@@ -12814,7 +12814,10 @@ input:-webkit-autofill {
     width: 65%; }
 
 .contact-form {
-  margin-top: 45px; }
+  margin-top: 45px;
+  min-height: 400px;
+  position: relative;
+  width: 100%; }
   .contact-form p {
     color: black;
     font-size: 10px;
@@ -12832,6 +12835,17 @@ input:-webkit-autofill {
     font-size: 10px;
     font-family: 'gothambook';
     padding: 8px 20px; }
+  .contact-form .thank-u {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center; }
+    .contact-form .thank-u h4 {
+      color: #057697;
+      font-size: 25px;
+      margin-bottom: 5px; }
+      .contact-form .thank-u h4 p {
+        font-size: 18px; }
 
 .showcase .swiper-slide {
   overflow: hidden; }

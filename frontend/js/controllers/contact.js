@@ -13,7 +13,7 @@ myApp.controller('ContactCtrl', function ($scope, $state, toastr, TemplateServic
         var uluru = {
             // lat: 19.166411,
             // lng: 72.847466
-                 lat: 19.1629,
+            lat: 19.1629,
             lng: 72.8392
         };
         // Styles a map in night mode.
@@ -67,12 +67,15 @@ myApp.controller('ContactCtrl', function ($scope, $state, toastr, TemplateServic
         console.log("******** inside sendMail *********", data);
         if (data && data.email != null) {
             // toastr.success("Your message has been delivered to admin");
-            $state.reload();
+            $scope.formComplete = true;
+            $timeout(function () {
+                $scope.formComplete = false;
+                // $scope.message = "Thank you for submitting the form";
+            }, 3500)
+            $scope.form = {};
             $scope.url = "Enquirey/mailSends";
             NavigationService.apiCallWithData($scope.url, data, function (data) {
                 if (data) {
-                    $scope.message = "Thank you for submitting the form";
-                    $scope.form = {};
 
                 }
             });
