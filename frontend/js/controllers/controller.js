@@ -75,7 +75,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             },
             {
-                img: 'img/homepage/slider5.jpg',
+             
+                   img: 'img/homepage/slider2.jpg',
                 overClass: 'mybrown',
                 title1: 'More Work',
                     link: 'portfolio',
@@ -96,27 +97,30 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             },
 
             {
-                img: 'img/homepage/slider6.jpg',
+               
+                img: 'img/homepage/slider8.jpg',
                 overClass: 'myskyblue',
                 title1: 'More Work',
                link: 'portfolio',
 
             },
             {
-                img: 'img/homepage/slider2.jpg',
+               
+                 img: 'img/homepage/slider7.jpg',
                 link: 'vachan',
                 overClass: 'mydarkred',
                 title1: 'Case Study',
             },
             {
-                img: 'img/homepage/slider7.jpg',
+                
+                  img: 'img/homepage/slider6.jpg',
                 link: 'doycare',
                 overClass: 'mylightgreen',
                 title1: 'Case Study',
             },
 
             {
-                img: 'img/homepage/slider8.jpg',
+               img: 'img/homepage/slider5.jpg',
                   link: 'sgsports',
                 overClass: 'myblack',
                 title1: 'Case Study',
@@ -371,6 +375,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
     .controller('footerCtrl', function ($scope, $state, TemplateService, apiService, toastr, NavigationService, $http, $timeout) {
         //    reCAPTCHA
         // vcRecaptchaService
+       
         $scope.form = {};
         $scope.sendMail = function (data) {
             $scope.message = "";

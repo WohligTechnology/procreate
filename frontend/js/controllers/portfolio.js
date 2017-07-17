@@ -187,6 +187,16 @@ $scope.phalse = function () {
 
             });
         };
+         $scope.coffee = function () {
+            $scope.loginModal = $uibModal.open({
+                animation: true,
+                templateUrl: 'views/modal/coffee.html',
+                scope: $scope,
+                size: 'lg',
+                // windowClass: "maxces"
+
+            });
+        };
      $scope.getTab = function (view) {
       var id = "";
       console.log(view);

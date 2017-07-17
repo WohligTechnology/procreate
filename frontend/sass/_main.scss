@@ -86,8 +86,10 @@ $brand-red:#f42434;
 @import "other/font-fix";
 body {
     overflow-x: hidden!important;
-}
+  
 
+}
+ 
 body,
 h4,
 h5,
@@ -274,23 +276,33 @@ footer {
     h5 {
         font-size: 13px;
         color: black;
-        a {
+     
+    }
+
+
+ 
+    
+     
+    .mob-number{
+        width: 140px;
+          a {
             font-size: 13px;
             color: black;
-            line-height: 1px;
-            font-weight: 600;
+            line-height: 2px;
+          
+              font-size: 13px;
         }
     }
     .get-call h5 {
         font-family: 'gothamBold';
         line-height: 1px;
-        font-weight: 600;
+
     }
     .contact p {
         font-family: 'gothambook';
         font-size: 13px;
         color: black;
-        font-weight: 600;
+        // font-weight: 600;
     }
     .mob-number h5 {
         font-family: 'gothambook';
@@ -2131,7 +2143,7 @@ p {
 }
 
 .product-name2 {
-    top: 1%;
+    top: 3%;
     left: 7%;
 }
 
@@ -2195,7 +2207,9 @@ p {
         font-weight: 600;
     }
 }
-
+.w420{
+    width: 420px;
+}
 .modal-second-para p {
     font-size: 12px;
     color: gray;
@@ -2347,15 +2361,39 @@ p {
             #0a9da0);
         }
     }
-    &.Portfolio {
-        .navbar {
+ 
+        
+         &.Portfolio {
+       
+      
+       
+        .navbar-nav {
+            a {
+                color: white !important;
+                top: 18px;
+                font-size: 13px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                &:hover {
+                    span {
+                        border-bottom: 4px solid white;
+                    }
+                }
+            }
+            span {
+                padding-bottom: 5px;
+            }
+        }
+          .navbar {
             // background-color: #e46fbf;
             border: none;
             @include linear-gradient(50deg,
             #de5428,
             #ffcd0a);
         }
-    }
+         }
+  
+    
     &.Doycare {
         .navbar {
             // background-color: #e46fbf;
@@ -2375,6 +2413,18 @@ p {
         }
     }
     &.Arch {
+    
+       .navbar-default .navbar-nav>.active>a,
+        .navbar-default .navbar-nav>.active>a:hover,
+        .navbar-default .navbar-nav>.active>a:focus,
+        .navbar-nav>a:hover,
+        {
+            span {
+                border-bottom: 4px solid white;
+            }
+        }
+       
+       
         .navbar {
             // background-color: #e46fbf;
             border: none;
@@ -2393,6 +2443,7 @@ p {
             #00ccbe 91%,
             #00ccbe 100%);
         }
+      
     }
     &.Vachan {
         .navbar {
@@ -2675,7 +2726,11 @@ input:-webkit-autofill {
 }
 
 }
-
+.Contact{
+ .display-not{
+         display: none;
+          }
+ }
 .showcase {
     // .swiper-slide {
     //     &:hover {
@@ -2778,3 +2833,7 @@ input:-webkit-autofill {
         }
     }
 }
+
+ 
+
+ 

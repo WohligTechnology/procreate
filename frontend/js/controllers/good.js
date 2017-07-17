@@ -2,6 +2,7 @@ myApp.controller('GoodCtrl', function ($scope, TemplateService, NavigationServic
         $scope.template = TemplateService.getHTML("content/good.html");
         TemplateService.title = "Good"; //This is the Title of the Website
         //   TemplateService.header = "views/template/header2.html"; 
+          TemplateService.cssMain = "Portfolio";
         $scope.navigation = NavigationService.getNavigation();
         $scope.formSubmitted = false;
         $scope.submitForm = function (data) {

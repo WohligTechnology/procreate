@@ -3,6 +3,7 @@ myApp.controller('ArchCtrl', function ($scope, TemplateService, NavigationServic
         TemplateService.title = "Arch"; //This is the Title of the Website
         //   TemplateService.header = "views/template/header2.html"; 
         $scope.navigation = NavigationService.getNavigation();
+          TemplateService.cssMain = "Portfolio";
         $scope.formSubmitted = false;
         $scope.submitForm = function (data) {
             console.log(data);
