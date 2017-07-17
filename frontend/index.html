@@ -20,8 +20,24 @@
 
 <body>
     <div class="repeated-item" ui-view></div>
-
-
+    <div class="hidden">
+        <video poster="img/libro-home/slide/1.jpg" class='videoPlayer' muted>
+        <source src='img/libro-home/videos/Homevideo.mp4' type='video/mp4'>
+        </video>
+        <img src="img/libro-home/slide/2.jpg" alt="">
+        <img src="img/libro-home/slide/3.jpg" alt="">
+        <img src="img/libro-home/slide/4.jpg" alt="">
+        <img src="img/libro-home/slide/5.jpg" alt="">
+    </div>
+     <!--home page Loader-->
+    <div class="loaders" style="background:#303557;z-index:999;text-align: center;position:fixed;top:0;left:0;bottom:0;right:0">
+        <div style="position: absolute ;top: 50%;left:50%;transform: translate(-50%,-50%);">
+        <h1 noloading="true" style="color:#fff;" class="avenir-medium">
+            <span loading-text></span>
+        </h1>
+        </div>
+    </div>
+ <!--home page Loader end-->
     <link rel="stylesheet" type="text/css" href="css/import.css" />
 
     <script>
@@ -52,6 +68,8 @@
         <script src="bower_components/smart-app-banner/smart-app-banner.js"></script>
         
         <script src="bower_components/moment/min/moment.min.js"></script>
+        
+        <script src="bower_components/typed.js/dist/typed.min.js"></script>
         
         <script src="bower_components/angular/angular.js"></script>
         
