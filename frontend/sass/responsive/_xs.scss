@@ -154,9 +154,10 @@ footer .img-inline{
           text-align: center;
       }
       .trans-rotate {
-          @include transform( rotate(90deg)); //  width: 80px;
-          width: 40px;
-          margin: 0 auto;
+        //   @include transform( rotate(90deg)); 
+        //   width: 40px;
+        //   margin: 0 auto;
+        display: none;
       }
       .ml {
           margin-left: 0px;
@@ -361,6 +362,7 @@ footer .img-inline{
       .about h4 {
     font-size: 20px;
 }
+
       // good start
       .objective-padd {
           padding: 20px 10px 0 10px;
