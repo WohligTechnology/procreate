@@ -5,6 +5,7 @@
     <flex-slider flex-slide="myslide in inspireImg track by $index" animation="fade" animationloop="true" move="1" slideshow-Speed="3000"
         pauseOnHover="true" prev-text="" next-text="" animation="slide">
         <li class="li-color">
+            <a ui-sref="{{myslide.link}}">
             <img ng-src="{{myslide.img}}" class="posi-rel">
             <!--<div class="container">-->
             <!--<div class="slide1-text">
@@ -15,7 +16,7 @@
             </div>-->
             <!--</div>-->
 
-
+            </a>
         </li>
     </flex-slider>
 </section>

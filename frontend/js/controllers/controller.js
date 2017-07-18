@@ -40,31 +40,38 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 title1: 'We are Procreate!',
                 title2: 'Design for Growth +',
                 title3: 'Transformation',
-                title4: 'with a Humanised approach'
+                title4: 'with a Humanised approach',
+                   
 
             },
             {
-                img: 'img/homepage/slide-top3.jpg'
+                img: 'img/homepage/slide-top3.jpg',
+                 link: 'portfolio',
             },
             {
-                img: 'img/homepage/top-slide3.jpg'
+                img: 'img/homepage/top-slide3.jpg',
+                 link: 'portfolio',
             },
 
             {
                 img: 'img/homepage/top-slide7.jpg',
+                 link: 'portfolio',
 
             },
             {
-                img: 'img/homepage/top-slide5.jpg'
+                img: 'img/homepage/top-slide5.jpg',
+                 link: 'portfolio',
             },
 
             {
                 img: 'img/homepage/top-slide6.jpg',
+                 link: 'portfolio',
 
             },
 
             {
-                img: 'img/homepage/slide2.jpg'
+                img: 'img/homepage/slide2.jpg',
+                 link: 'portfolio',
             },
         ]
         $scope.inspireImg2 = [{
@@ -77,9 +84,10 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             {
              
                    img: 'img/homepage/slider2.jpg',
-                overClass: 'mybrown',
-                title1: 'More Work',
-                    link: 'portfolio',
+               
+                 overClass: 'mydarkred',
+                title1: 'Case Study',
+                    link: 'vachan',
 
             },
             {
@@ -99,31 +107,35 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             {
                
                 img: 'img/homepage/slider8.jpg',
-                overClass: 'myskyblue',
-                title1: 'More Work',
-               link: 'portfolio',
+              
+                 overClass: 'myblack',
+                title1: 'Case Study',
+               link: 'sgsports',
 
             },
             {
                
                  img: 'img/homepage/slider7.jpg',
-                link: 'vachan',
-                overClass: 'mydarkred',
+                link: 'doycare',
+           
+                    overClass: 'mylightgreen',
                 title1: 'Case Study',
             },
             {
                 
                   img: 'img/homepage/slider6.jpg',
-                link: 'doycare',
-                overClass: 'mylightgreen',
-                title1: 'Case Study',
+                link: 'portfolio',
+            
+                  overClass: 'myskyblue',
+                title1: 'More Work',
             },
 
             {
                img: 'img/homepage/slider5.jpg',
-                  link: 'sgsports',
-                overClass: 'myblack',
-                title1: 'Case Study',
+                  link: 'portfolio',
+               
+                 overClass: 'mybrown',
+                title1: 'More Work',
 
             },
 
