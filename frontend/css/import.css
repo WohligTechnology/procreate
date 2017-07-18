@@ -13639,11 +13639,17 @@ img.loading {
     margin-top: -15px;
     margin-left: -18px; }
   .circle .fs21 {
-    font-size: 12px !important; }
+    font-size: 23px !important; }
   .circle .w20 {
-    width: 23.5%; }
+    width: 49%; }
   .circle .text-color p {
-    font-size: 12px; }
+    font-size: 14px; }
+  .circle .border-bottom {
+    height: 90px; }
+  .border-bottom2 {
+    border-bottom: 2px solid #d3d5d6;
+    height: 110px;
+    margin: 0 20px 0 0; }
   .icon-slider .mar-lt {
     margin: 32px 15px 32px 15px; }
   .get-padd {
@@ -13667,6 +13673,10 @@ img.loading {
     line-height: 11px; }
   .bg-brown .mt15 {
     margin-top: -21px; }
+  .bg-blue p {
+    font-size: 14px; }
+  .bg-blue h3 {
+    font-size: 20px; }
   .bg-blue h4 {
     line-height: 20px; }
   .bg-blue .flex-direction-nav a {
