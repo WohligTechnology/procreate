@@ -2802,7 +2802,7 @@ input:-webkit-autofill {
         }
         &.mydarkred {
             .overlayinggg:after {
-               @include border-bottom( 14px solid rgba(220, 27, 30, 0.84));
+               border-bottom: 14px solid rgba(220, 27, 30, 0.84);
             }
             .mycolors {
                @include background(rgba(220, 27, 30, 0.84));
@@ -2843,6 +2843,5 @@ input:-webkit-autofill {
     }
 }
 
- 
 
  
