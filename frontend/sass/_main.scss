@@ -1591,7 +1591,7 @@ p {
     .employee-detail {
         &:after {
             @include position(absolute,
-            30px inherit null -30px);
+            -20px inherit null -30px);
             transform: rotate(-90deg);
             border-bottom: 20px solid #e60774;
         }
@@ -1601,10 +1601,10 @@ p {
 .imran {
     .employee-detail {
         &:after {
-            position: absolute;
+           position: absolute;
             top: -20px;
             right: inherit;
-            left: 40px;
+            left: 32px;
             transform: rotate(0deg);
             border-bottom: 20px solid #e31141;
         }
@@ -2743,13 +2743,13 @@ input:-webkit-autofill {
     .swiper-slide {
         overflow: hidden;
         .overlayinggg {
-            position: absolute;
+           @include position(absolute,null null 0 null);
             width: 100%;
             height: 45px;
-            bottom: 0px;
+            // bottom: 0px;
             h4 {
                 font-size: 20px;
-            } // visibility: hidden;
+            } 
             @include transition(all ease 500ms);
             @include transform(translateY(83%));
         }
@@ -2762,9 +2762,10 @@ input:-webkit-autofill {
             content: ""; // border-bottom: 14px solid #e3123e;
             border-left: 8px solid transparent;
             border-right: 8px solid transparent;
-            position: absolute;
-            top: -13px;
-            left: 21px;
+            // position: absolute;
+            // top: -13px;
+            // left: 21px;
+            @include position(absolute,-13px null null 21px);
             z-index: 999; // -webkit-transform: rotate(90deg);
             @include transform(rotate(1deg));
         }
@@ -2773,7 +2774,7 @@ input:-webkit-autofill {
                 border-bottom: 14px solid #92cb3e;
             }
             .mycolors {
-                background: #92cb3e;
+                @include  background(#92cb3e); 
             }
         }
         &.myblue {
@@ -2781,7 +2782,7 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(26, 61, 112, 0.83);
             }
             .mycolors {
-                background: rgba(26, 61, 112, 0.83);
+              @include  background(rgba(26, 61, 112, 0.83)) ;
             }
         }
         &.myred {
@@ -2789,7 +2790,7 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(165, 28, 35, 0.8);
             }
             .mycolors {
-                background: rgba(165, 28, 35, 0.8);
+                 @include background(rgba(165, 28, 35, 0.8));
             }
         }
         &.mydarkred {
@@ -2797,7 +2798,7 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(220, 27, 30, 0.84);
             }
             .mycolors {
-                background: rgba(220, 27, 30, 0.84);
+               @include background(rgba(220, 27, 30, 0.84));
             }
         }
         &.myskyblue {
@@ -2805,7 +2806,7 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(30, 127, 136, 0.87);
             }
             .mycolors {
-                background: rgba(30, 127, 136, 0.87);
+                  @include background(rgba(30, 127, 136, 0.87));
             }
         }
         &.mybrown {
@@ -2813,7 +2814,7 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(137, 90, 88, 0.87);
             }
             .mycolors {
-                background: rgba(137, 90, 88, 0.87);
+                  @include background(rgba(137, 90, 88, 0.87));
             }
         }
         &.myblack {
@@ -2821,7 +2822,7 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(48, 48, 49, 0.88);
             }
             .mycolors {
-                background: rgba(48, 48, 49, 0.88);
+               @include  background(rgba(48, 48, 49, 0.88));
             }
         }
         &.mylightgreen {
@@ -2829,7 +2830,7 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(109, 168, 47, 0.79);
             }
             .mycolors {
-                background: rgba(109, 168, 47, 0.79);
+                @include  background(rgba(109, 168, 47, 0.79));
             }
         }
     }
