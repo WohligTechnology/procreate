@@ -2740,18 +2740,25 @@ input:-webkit-autofill {
     //         }
     //     }
     // }
+//     .swiper-wrapper{
+//  li{
+//              position: relative;
+//          }
+//     }
     .swiper-slide {
+        // @include position(relative,null null null null);
+     a{
+         position: relative;
+     }
         overflow: hidden;
+        
         .overlayinggg {
-           @include position(absolute,null null 0 null);
-            width: 100%;
+           width: 100%;
             height: 45px;
-            // bottom: 0px;
-            h4 {
-                font-size: 20px;
-            } 
+             @include position(absolute,null null 0 null);
             @include transition(all ease 500ms);
             @include transform(translateY(83%));
+          
         }
         &:hover {
             .overlayinggg {
@@ -2762,13 +2769,13 @@ input:-webkit-autofill {
             content: ""; // border-bottom: 14px solid #e3123e;
             border-left: 8px solid transparent;
             border-right: 8px solid transparent;
-            // position: absolute;
-            // top: -13px;
-            // left: 21px;
-            @include position(absolute,-13px null null 21px);
+         @include position(absolute,-13px null null 21px);
             z-index: 999; // -webkit-transform: rotate(90deg);
             @include transform(rotate(1deg));
         }
+          h4 {
+                font-size: 20px;
+            }
         &.mygreen {
             .overlayinggg:after {
                 border-bottom: 14px solid #92cb3e;
@@ -2795,7 +2802,7 @@ input:-webkit-autofill {
         }
         &.mydarkred {
             .overlayinggg:after {
-                border-bottom: 14px solid rgba(220, 27, 30, 0.84);
+               @include border-bottom( 14px solid rgba(220, 27, 30, 0.84));
             }
             .mycolors {
                @include background(rgba(220, 27, 30, 0.84));
