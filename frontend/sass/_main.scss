@@ -1952,14 +1952,14 @@ p {
     right: 50%;
 }
 
-.rowflex {
-    display: flex;
-}
 
-.w-33 {
-    width: 33.33%;
-}
-
+ .w-100{
+     width: 100%;
+        display: flex;
+ }
+ .flex1{
+      flex: 1;
+ }
 .biscuit {
     margin-top: 90px;
     // margin-top: 10px;
@@ -2246,9 +2246,9 @@ p {
 
 //end portfolio
 //header start
-.header1-bg {
-    background-color: red;
-}
+// .header1-bg {
+//     background-color: red;
+// }
 
 .header1 {
     .Approach {
@@ -2311,30 +2311,7 @@ p {
                 border-bottom: 4px solid white;
             }
         }
-        .other-logo {
-            display: none;
-        }
-        .home-logo {
-            display: block;
-        }
-        .navbar-nav {
-            a {
-                color: white !important;
-                top: 18px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: 1px;
-                &:hover {
-                    span {
-                        border-bottom: 4px solid white;
-                    }
-                }
-            }
-            span {
-                padding-bottom: 5px;
-            }
-        }
-        .navbar {
+      .navbar {
             border: none; // background: linear-gradient(-82deg,#83bf01,#83bf01,#9cd72f,  #abe448 );
             // background: -webkit-linear-gradient(-82deg, #83bf01 0%, #83bf01 0%, #83bf01 4%, #83bf01 35%, #83bf01 61%, #abe448 100%);
             @include linear-gradient(82deg,
@@ -2362,30 +2339,8 @@ p {
             #0a9da0);
         }
     }
- 
-        
-         &.Portfolio {
-       
-      
-       
-        .navbar-nav {
-            a {
-                color: white !important;
-                top: 18px;
-                font-size: 13px;
-                font-weight: 600;
-                letter-spacing: 1px;
-                &:hover {
-                    span {
-                        border-bottom: 4px solid white;
-                    }
-                }
-            }
-            span {
-                padding-bottom: 5px;
-            }
-        }
-          .navbar {
+     &.Portfolio {
+        .navbar {
             // background-color: #e46fbf;
             border: none;
             @include linear-gradient(50deg,
@@ -2393,9 +2348,7 @@ p {
             #ffcd0a);
         }
          }
-  
-    
-    &.Doycare {
+  &.Doycare {
         .navbar {
             // background-color: #e46fbf;
             border: none;
@@ -2415,18 +2368,8 @@ p {
     }
     &.Arch {
     
-       .navbar-default .navbar-nav>.active>a,
-        .navbar-default .navbar-nav>.active>a:hover,
-        .navbar-default .navbar-nav>.active>a:focus,
-        .navbar-nav>a:hover,
-        {
-            span {
-                border-bottom: 4px solid white;
-            }
-        }
-       
-       
-        .navbar {
+      
+      .navbar {
             // background-color: #e46fbf;
             border: none;
             @include linear-gradient(50deg,
@@ -2446,59 +2389,22 @@ p {
         }
       
     }
-    &.Vachan {
-        .navbar {
-            background: white;
-            border: none;
-        }
-        .navbar-default .navbar-nav>.active>a,
-        .navbar-default .navbar-nav>.active>a:hover,
-        .navbar-default .navbar-nav>.active>a:focus,
-        .navbar-nav>a:hover,
-        {
-            span {
-                border-bottom: 4px solid #83bf01;
-            }
-        }
-        .other-logo {
-            display: none;
-        }
-        .home-logo {
-            display: block;
-        }
-        .navbar-nav {
-            a {
-                color: black !important;
-                top: 18px;
-                font-size: 12px;
-                font-weight: 600;
-                letter-spacing: 1px;
-                &:hover {
-                    span {
-                        border-bottom: 4px solid #83bf01;
-                    }
-                }
-            }
-            span {
-                padding-bottom: 5px;
-            }
-        }
-    }
+ 
 }
 
-.header2 {
-    .navbar {
-        background-color: transparent;
-        border: none;
-    }
-    .navbar-nav {
-        a {
-            color: white !important;
-            font-family: 'gothamMedium';
-            font-size: 13px;
-        }
-    }
-} //ruchi//
+// .header2 {
+//     .navbar {
+//         background-color: transparent;
+//         border: none;
+//     }
+//     .navbar-nav {
+//         a {
+//             color: white !important;
+//             font-family: 'gothamMedium';
+//             font-size: 13px;
+//         }
+//     }
+// } //ruchi//
 .carousels {
     .flex-control-nav {
         z-index: 99;
@@ -2844,4 +2750,3 @@ input:-webkit-autofill {
 }
 
 
- 
