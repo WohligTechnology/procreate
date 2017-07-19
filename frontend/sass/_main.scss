@@ -1715,7 +1715,7 @@ p {
     overflow: hidden;
     .overlaying {
         background-color: rgba(230, 7, 116, 0.71);
-        background: linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65));
+       @include background( linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65)));
         @include position(absolute,
         0 0 0 0);
         @include transition(all ease 500ms);
@@ -2639,18 +2639,7 @@ input:-webkit-autofill {
           }
  }
 .showcase {
-    // .swiper-slide {
-    //     &:hover {
-    //         .overlayinggg {
-    //             @include transform(translateY(0%));
-    //         }
-    //     }
-    // }
-//     .swiper-wrapper{
-//  li{
-//              position: relative;
-//          }
-//     }
+   
     .swiper-slide {
         // @include position(relative,null null null null);
      a{
