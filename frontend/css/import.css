@@ -11967,15 +11967,6 @@ p {
   width: 100%; }
 
 .col-flex {
-  -webkit-box-flex: 1;
-  box-flex: 1;
-  -moz-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -webkit-display: block;
-  -moz-display: block;
-  -ms-display: block;
-  display: block;
   width: 50%; }
 
 .rows-flex {
@@ -12159,12 +12150,9 @@ p {
       position: absolute;
       top: -20px;
       left: 10px; }
-  .imgs:hover .overlaying {
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%); }
 
 .clients {
-  width: 180px;
+  width: 132px;
   height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13019,7 +13007,8 @@ input:-webkit-autofill {
   left: 21px; }
 
 .next-icon {
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  text-align: right; }
   .next-icon span {
     color: green;
     margin-right: 85px; }
@@ -13100,7 +13089,8 @@ img.loading {
   left: 21px; }
 
 .next-iconarch {
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  text-align: right; }
   .next-iconarch span {
     color: #bf202e;
     margin-right: 85px; }
@@ -13170,7 +13160,8 @@ img.loading {
 .vachan-next-icon {
   margin-left: 30px;
   color: #f42434;
-  padding-bottom: 50px; }
+  padding-bottom: 50px;
+  text-align: right; }
 
 .vachan-next-icon span {
   color: #f42434;
@@ -13354,9 +13345,13 @@ img.loading {
   footer .arrow-up {
     margin-top: -16px;
     right: 37px; }
+  .bg-brown-p p {
+    padding: 26px 0px 0px 30px; }
   .bg-brown p {
-    font-size: 13px;
-    margin: 38px 0px; }
+    font-size: 14px; }
+  .bg-brown .mar-l25 {
+    margin-left: 16px;
+    margin-top: 26px; }
   .mar-t20 {
     margin: 0px !important; }
   .bg-brown .arrow-icon {
@@ -13442,15 +13437,12 @@ img.loading {
     margin: 0px 49px; }
   .main-person-imran {
     padding-bottom: 40px; }
-  .clients img {
-    margin: 0 auto; }
   .imgs {
     width: 179px;
     height: 179px; }
   .clients {
-    width: 80px;
-    height: 80px;
-    margin-left: 19px; }
+    width: 68px;
+    height: 80px; }
   .mar-t90 {
     margin-top: 70px; }
   .about .pink-p {
@@ -13584,6 +13576,17 @@ img.loading {
   header.small-image .navbar-brand .w200 {
     -webkit-transform: translate(-152px);
             transform: translate(-152px); }
+  .navbar-nav {
+    float: left;
+    margin-left: 100px; }
+  .navbar-collapse.in {
+    overflow-y: hidden; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff; }
+  .navbar-default .navbar-toggle {
+    border-color: white; }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent; }
   .navbar-toggle {
     margin-right: -17px; }
   .w200 {
@@ -13595,11 +13598,11 @@ img.loading {
   .padd-t30 {
     padding-top: 30px; }
   footer .arrow-up {
-    margin-top: 15px;
-    left: 82%; }
-  footer .arrow-up {
-    margin-top: 15px;
-    left: 82%; }
+    margin-top: -24px;
+    left: 70%; }
+  footer .marin {
+    margin-right: 49px;
+    margin-top: -9px; }
   .l-padd {
     padding-left: 32px; }
   .t-padd {
@@ -13670,6 +13673,14 @@ img.loading {
     text-align: center;
     padding-left: 0px;
     padding-bottom: 20px; }
+  .about .pink-p {
+    padding-left: 0px;
+    font-size: 14px;
+    margin: 20px 0px 10px 0; }
+  .mart30 {
+    margin-top: 30px; }
+  .imgs .overlaying:after {
+    display: none; }
   .bg-brown h4 {
     line-height: 11px; }
   .bg-brown .mt15 {
@@ -13715,8 +13726,12 @@ img.loading {
     width: 100%;
     display: block; }
   .clients {
-    width: 50px;
-    height: 50px; }
+    width: 85px;
+    height: 75px;
+    margin-top: 30px;
+    margin-left: 19px; }
+  .bgrey {
+    padding: 16px 0 60px; }
   .top0 {
     top: 90%;
     background: #e8b83a;
@@ -13743,6 +13758,13 @@ img.loading {
     background: #ffffff; }
   .maxitos-color {
     background: #fdec51; }
+  .employee-names {
+    top: 9%; }
+  .imgs .overlaying {
+    bottom: 50px; }
+  .imgs:hover .overlaying {
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%); }
   .center-align {
     text-align: center; }
   .about-band .about-band-title {
@@ -13757,6 +13779,9 @@ img.loading {
   .imgs {
     width: 357px;
     height: 357px; }
+  .employee-detail {
+    margin: 0px;
+    padding: 5px 25px; }
   .mar-tr {
     margin-top: 57px;
     margin-right: 3px;
@@ -13783,15 +13808,17 @@ img.loading {
     padding: 15px 10px 33px 10px; }
   .marb200 {
     margin-bottom: 80px; }
+  .next-icon {
+    margin-top: 50px; }
   .next-icon span {
-    margin-right: 28px;
-    font-size: 9px; }
+    font-size: 14px;
+    margin-left: 90px; }
   .next-icon span:after {
-    top: -23px;
-    right: 20px; }
+    top: 31px;
+    right: 35px; }
   .previ-icon span {
-    margin-left: 28px;
-    font-size: 9px; }
+    margin-left: 90px;
+    font-size: 14px; }
   .mar-t40 {
     margin-top: 56px; }
   .marin-l78 {
@@ -13810,13 +13837,17 @@ img.loading {
     margin-top: 0px; }
   .strategy-padd {
     padding: 0px 10px 0 10px; }
+  .next-iconarch {
+    margin-top: 50px; }
   .next-iconarch span:after {
-    right: 22px; }
+    top: 31px;
+    right: 35px; }
   .next-iconarch span {
-    margin-right: 30px;
-    font-size: 9px; }
+    margin-left: 90px;
+    font-size: 14px; }
   .previ-iconarch span {
-    font-size: 9px; }
+    font-size: 14px;
+    margin-left: 90px; }
   .img-banner-padd {
     padding: 40px 30px; }
   .inno-content-padd {
@@ -13824,4 +13855,30 @@ img.loading {
   .design-cont-padd {
     padding: 0px 10px 0px 10px; }
   .img-padd {
-    padding: 65px 30px; } }
+    padding: 65px 30px; }
+  .sg-box-padd {
+    padding: 65px 60px 0px 60px; }
+  .inno-content-padd {
+    display: none; }
+  .sg-img-padd {
+    padding: 42px 60px 40px 60px; }
+  .padd-t230 {
+    display: none; }
+  .inno-content-padd {
+    display: block; }
+  .mart20 {
+    margin-top: 20px; }
+  .padd-b {
+    padding-bottom: 30px; }
+  .visual-cont-padd {
+    padding: 15px 10px 0px 10px; }
+  .objective {
+    margin-bottom: 40px;
+    margin-top: 40px; }
+  .vachan-next-icon {
+    margin-top: 50px;
+    margin-left: 60px; }
+  .vachan-previ-icon {
+    margin-left: 60px; }
+  .vachan-next-icon span:after {
+    top: 31px; } }

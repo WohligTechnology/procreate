@@ -35,6 +35,25 @@
       header.small-image .navbar-brand .w200 {
           transform: translate(-152px);
       }
+      .navbar-nav {
+ 
+    // text-align: center !important;
+    float:left;
+     margin-left: 100px;
+}
+.navbar-collapse.in {
+    overflow-y: hidden;
+//    display: none;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
       .navbar-toggle {
           margin-right: -17px;
       }
@@ -50,14 +69,18 @@
       .padd-t30 {
           padding-top: 30px;
       }
-      footer .arrow-up {
-          margin-top: 15px;
-          left: 82%;
-      }
-      footer .arrow-up {
-          margin-top: 15px;
-          left: 82%;
-      }
+     footer .arrow-up {
+    margin-top: -24px;
+    left: 70%;
+}
+     footer .marin {
+    margin-right: 49px;
+    margin-top: -9px;
+}
+    //   footer .arrow-up {
+    //       margin-top: 15px;
+    //       left: 82%;
+    //   }
       .l-padd {
           padding-left: 32px;
       }
@@ -168,6 +191,17 @@ footer .img-inline{
           padding-left: 0px;
           padding-bottom: 20px;
       }
+      .about .pink-p {
+              padding-left: 0px;
+              font-size: 14px;
+                  margin: 20px 0px 10px 0;
+      }
+      .mart30{
+          margin-top: 30px;
+      }
+     .imgs .overlaying:after {
+         display: none;
+     }
       .bg-brown {
           h4 {
               line-height: 11px;
@@ -246,9 +280,19 @@ footer .img-inline{
         display: block;
  }
       .clients {
-          width: 50px;
-          height: 50px;
+        //   width: 47px;
+        //   height: 47px;
+        //   margin-left: 4px;
+        width: 85px;
+        height: 75px;
+        margin-top: 30px;
+             margin-left: 19px;
+
       }
+      .bgrey {
+ 
+    padding: 16px 0 60px;
+}
       .top0 {
           top: 90%;
           background: #e8b83a;
@@ -286,6 +330,22 @@ footer .img-inline{
       .maxitos-color {
           background: #fdec51;
       } //about start
+      .employee-names {
+          top: 9%;
+      }
+      .imgs{
+.overlaying {
+              bottom: 50px;
+        
+      }
+        &:hover {
+        .overlaying {
+            @include transform(translateY(90%));
+            // display: none;
+        }
+    }
+      } 
+      
       .center-align {
           text-align: center;
       }
@@ -305,7 +365,14 @@ footer .img-inline{
       .imgs {
           width: 357px;
           height: 357px;
-      } // doycare start
+      } 
+      .employee-detail {
+          margin: 0px;
+             padding: 5px 25px;
+      }
+    
+ 
+      // doycare start
       .mar-tr {
           margin-top: 57px;
           margin-right: 3px;
@@ -341,18 +408,24 @@ footer .img-inline{
       }
       .marb200 {
           margin-bottom: 80px;
+        
+      }
+      .next-icon {
+  margin-top: 50px;
       }
       .next-icon span {
-          margin-right: 28px;
-          font-size: 9px;
+        //   margin-right: 28px;
+          font-size: 14px;
+              margin-left: 90px;
       }
+  
       .next-icon span:after {
-          top: -23px;
-          right: 20px;
+          top: 31px;
+    right: 35px;
       }
       .previ-icon span {
-          margin-left: 28px;
-          font-size: 9px;
+            margin-left: 90px;
+          font-size: 14px;
       }
       .mar-t40 {
           margin-top: 56px;
@@ -383,15 +456,20 @@ footer .img-inline{
       .strategy-padd {
           padding: 0px 10px 0 10px;
       } // arch start
+      .next-iconarch {
+          margin-top: 50px;
+      }
       .next-iconarch span:after {
-          right: 22px;
+          top: 31px;
+    right: 35px;
       }
       .next-iconarch span {
-          margin-right: 30px;
-          font-size: 9px;
+ margin-left: 90px;
+          font-size: 14px;
       }
       .previ-iconarch span {
-          font-size: 9px;
+          font-size: 14px;
+          margin-left: 90px;
       }
       .img-banner-padd {
           padding: 40px 30px;
@@ -405,4 +483,48 @@ footer .img-inline{
       .img-padd {
           padding: 65px 30px;
       }
+
+
+      //sg
+
+      .sg-box-padd {
+    padding: 65px 60px 0px 60px;
+}
+
+.inno-content-padd {
+    display: none;
+}
+.sg-img-padd {
+    padding: 42px 60px 40px 60px;
+}
+.padd-t230{
+    display: none;
+}
+//vachan
+.inno-content-padd {
+  display: block;
+}
+.mart20{
+    margin-top: 20px;
+}
+.padd-b{
+    padding-bottom: 30px;
+}
+.visual-cont-padd {
+    padding: 15px 10px 0px 10px;
+}
+.objective {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.vachan-next-icon {
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.vachan-previ-icon {
+      margin-left: 60px;
+}
+.vachan-next-icon span:after {
+    top:31px;
+}
   }

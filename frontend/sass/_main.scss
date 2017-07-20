@@ -1497,8 +1497,8 @@ p {
 }
 
 .col-flex {
-    @include flex(1);
-    @include display(block);
+    // @include flex(1);
+    // @include display(block);
     width: 50%;
 }
 
@@ -1729,15 +1729,13 @@ p {
             -20px null null 10px);
         }
     }
-    &:hover {
-        .overlaying {
-            @include transform(translateY(0%));
-        }
-    }
+  
 }
 
 .clients {
-    @include size(180px,
+    // @include size(180px,
+    // 100px);
+       @include size(132px,
     100px);
     display: flex;
     justify-content: center;

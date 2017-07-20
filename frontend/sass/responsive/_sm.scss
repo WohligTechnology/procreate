@@ -16,9 +16,8 @@
      header.small-image .navbar-brand .w200 {
 
     transform: translate(-141px);
-}
-
-       .header1 .navbar-nav a {
+       }
+     .header1 .navbar-nav a {
          font-size: 12px;
             top: 14px;
      }
@@ -99,10 +98,19 @@ footer .arrow-up {
     right: 37px;
 }
      //home start
-     .bg-brown p {
-         font-size: 13px;
-         margin: 38px 0px;
+     .bg-brown-p{
+         p{
+             padding: 26px 0px 0px 30px;
+         }
      }
+     .bg-brown p {
+         font-size: 14px;
+        //  margin: 38px 0px;
+     }
+     .bg-brown .mar-l25 {
+    margin-left: 16px;
+    margin-top: 26px;
+}
   .mar-t20{
       margin: 0px !important;
   }
@@ -236,17 +244,17 @@ margin : 0 auto;
      .main-person-imran{
          padding-bottom: 40px;
      }
-     .clients img {
-                margin: 0 auto;
-     }
+    //  .clients img {
+    //             margin: 0 auto;
+    //  }
      .imgs {
          width: 179px;
          height: 179px;
      }
      .clients {
-         width: 80px;
-         height: 80px;
-         margin-left: 19px;
+         width: 68px;
+         height:80px;
+        //  margin-left: 19px;
      }
      .mar-t90 {
          margin-top: 70px;
