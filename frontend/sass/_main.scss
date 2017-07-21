@@ -1729,7 +1729,12 @@ p {
             -20px null null 10px);
         }
     }
-  
+    &:hover {
+        .overlaying {
+            @include transform(translateY(0%));
+            // display: none;
+        }
+    }
 }
 
 .clients {
@@ -2735,5 +2740,7 @@ input:-webkit-autofill {
         }
     }
 }
-
+.myhidden-lg{
+    display: none;
+}
 

@@ -12150,6 +12150,9 @@ p {
       position: absolute;
       top: -20px;
       left: 10px; }
+  .imgs:hover .overlaying {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%); }
 
 .clients {
   width: 132px;
@@ -12855,6 +12858,9 @@ input:-webkit-autofill {
     background: rgba(109, 168, 47, 0.79);
     background: rgba(109, 168, 47, 0.79); }
 
+.myhidden-lg {
+  display: none; }
+
 .good-bg {
   background-image: url("../img/good/2.jpg");
   background-repeat: no-repeat;
@@ -13345,6 +13351,10 @@ img.loading {
   footer .arrow-up {
     margin-top: -16px;
     right: 37px; }
+  .flexslider .flex-direction-nav .flex-prev {
+    left: 80px !important; }
+  .flexslider .flex-direction-nav .flex-next {
+    right: 80px !important; }
   .bg-brown-p p {
     padding: 26px 0px 0px 30px; }
   .bg-brown p {
@@ -13359,9 +13369,10 @@ img.loading {
   .awesome {
     margin: 20px 0px; }
   .circle .fs21 {
-    font-size: 16px !important; }
+    font-size: 23px !important; }
   .circle .text-color p {
-    font-size: 10px; }
+    font-size: 14px;
+    padding: 18px 11px 18px 0; }
   .capabilities-cont .capablities-list {
     min-height: 90px;
     margin-top: 35px; }
@@ -13385,8 +13396,12 @@ img.loading {
     font-size: 16px; }
   .bg-blue .mar-top-bot {
     margin-top: 0px;
-    margin-bottom: -22px;
+    margin-bottom: -20px;
     margin-left: 117px; }
+  .mar-t50 {
+    margin-top: 37px; }
+  .showcase .swiper-slide .overlayinggg {
+    bottom: 28px; }
   .bg-blue .flexslider .flex-direction-nav .flex-prev {
     left: -103px !important; }
   .flex-control-paging li a {
@@ -13404,6 +13419,13 @@ img.loading {
     padding-top: 15px; }
   .circle .text-color a {
     font-size: 12px; }
+  .circle .border-bottom {
+    height: 95px;
+    margin: 0 10px 0 0; }
+  .bg-blue .client-say {
+    padding: 0 4px 5px 0px; }
+  .bg-blue .flex-direction-nav a {
+    top: 12%; }
   .marin-l78 {
     margin-left: 50px; }
   .marin-l35 {
@@ -13418,6 +13440,17 @@ img.loading {
     font-size: 20px; }
   .about h6 {
     font-size: 13px; }
+  .text-size-sm {
+    font-size: 13px !important;
+    margin: 0; }
+  .text-size-sm2 {
+    font-size: 10px !important; }
+  .employee-names {
+    top: 15%; }
+  .imgs .overlaying {
+    bottom: 36px; }
+  .imgs .overlaying:after {
+    display: none; }
   .paddb15 {
     padding-bottom: 0px; }
   .mar-t35 {
@@ -13445,8 +13478,8 @@ img.loading {
     width: 179px;
     height: 179px; }
   .clients {
-    width: 68px;
-    height: 80px; }
+    width: 184px;
+    height: 184px; }
   .mar-t90 {
     margin-top: 70px; }
   .about .pink-p {
@@ -13627,7 +13660,8 @@ img.loading {
     background-repeat: no-repeat;
     background-size: cover; }
   .first-slider .flexslider .flex-direction-nav .flex-prev {
-    left: 31px !important; }
+    left: 31px !important;
+    display: none; }
   .first-slider .flexslider .flex-direction-nav .flex-nav-next a:before {
     width: 18px;
     height: 54px;
@@ -13635,9 +13669,14 @@ img.loading {
     background-size: cover;
     margin-top: 23px; }
   .first-slider .flexslider .flex-direction-nav .flex-next {
-    right: 31px !important; }
+    right: 31px !important;
+    display: none; }
   .first-slider .flex-direction-nav a {
     top: 52%; }
+  .first-slider .flexslider .slides img {
+    margin: 70px 78px -1px 0px; }
+  .bg-brown-p p {
+    padding: 8px 0px 0px 30px; }
   .circle .text-color .color-darkblue {
     padding: 0px; }
   .circle .text-color .color-lightgreen {
@@ -13769,6 +13808,11 @@ img.loading {
   .imgs:hover .overlaying {
     -webkit-transform: translateY(90%);
     transform: translateY(90%); }
+  .text-size-sm {
+    font-size: 20px !important;
+    line-height: 25px; }
+  .text-size-sm2 {
+    font-size: 15px !important; }
   .center-align {
     text-align: center; }
   .about-band .about-band-title {
@@ -13885,4 +13929,11 @@ img.loading {
   .vachan-previ-icon {
     margin-left: 60px; }
   .vachan-next-icon span:after {
-    top: 31px; } }
+    top: 31px; }
+  .contact-bannner {
+    background-image: url("../img/contact/7.jpg");
+    width: 100%;
+    height: 467px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top; } }
