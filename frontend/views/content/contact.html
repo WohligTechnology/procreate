@@ -31,8 +31,8 @@
                     <div class="form-group">
                         <label for="name">Name*</label>
                         <input type="text" class="form-control" id="name" name="name" ng-model="form.username" required>
-                           <div class="pull-right" ng-repeat="(field,value) in formName.name.$error" ng-show="formName.name.$invalid && formName.name.$dirty ">
-                <span class="label label-danger" ng-if="field=='required' && value">Please Enter Name</span>
+                           <div class="pull-right" ng-repeat="(field,value) in formName.name.$error" >
+                <!--<span class="label label-danger" ng-if="field=='required' && value">Please Enter Name</span>-->
             </div>
 
                     </div>
@@ -40,25 +40,25 @@
                         <label for="name">Phone*</label>
                         <p>Please include your Country Code </p>
                         <input type="tel" class="form-control" id="number" name="number" ng-model="form.subject" required>
-       <div class="pull-right" ng-repeat="(field,value) in formName.number.$error" ng-show="formName.number.$invalid && formName.name.$dirty">
-                <span class="label label-danger" ng-if="field=='required' && value">Please Enter Number</span>
+       <div class="pull-right" ng-repeat="(field,value) in formName.number.$error" >
+                <!--<span class="label label-danger" ng-if="field=='required' && value">Please Enter Number</span>-->
             </div>
                     </div>
                     <div class="form-group">
                         <label for="email">Email Address*</label>
                         <input type="email" class="form-control" id="email" name="email" ng-pattern='/^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i'
                             ng-model="form.email" required>
-                            <div class="pull-right" ng-repeat="(field,value) in formName.email.$error" ng-show="formName.email.$invalid && formName.email.$dirty">
-                <span class="label label-danger" ng-if="field=='required' && value">Please Enter Email</span>
-                <span class="label label-danger" ng-if="field=='email' && value">Please Enter Valid Email</span>
+                            <div class="pull-right" ng-repeat="(field,value) in formName.email.$error" >
+                <!--<span class="label label-danger" ng-if="field=='required' && value">Please Enter Email</span>
+                <span class="label label-danger" ng-if="field=='email' && value">Please Enter Valid Email</span>-->
             </div>
                     </div>
                     <div class="form-group">
                         <label>Message*</label>
                         <p>A short description about your brand and your vision</p>
                         <textarea rows="4" cols="50" class="form-control" ng-model="form.message" required></textarea>
-                        <div class="pull-right" ng-repeat="(field,value) in formName.query.$error" ng-show="formName.query.$invalid && formName.query.$dirty">
-                <span class="label label-danger" ng-if="field=='required' && value">Please Enter Query</span>
+                        <div class="pull-right" ng-repeat="(field,value) in formName.query.$error" >
+                <!--<span class="label label-danger" ng-if="field=='required' && value">Please Enter Query</span>-->
             </div>
             </div>
                     <button type="submit" class="btn btn-default btn-black" ng-disabled="formName.$invalid" ng-click="sendMail(form)">Send</button>
