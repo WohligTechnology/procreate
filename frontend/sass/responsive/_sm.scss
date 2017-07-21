@@ -168,6 +168,15 @@
 .showcase .swiper-slide .overlayinggg {
     bottom:28px;
 }
+.showcase {
+      .swiper-slide {
+              &:hover {
+            .overlayinggg {
+                @include transform(translateY(90%));
+            }
+        }
+      }
+}
      .bg-blue .flexslider .flex-direction-nav .flex-prev {
          left: -103px !important;
      }

@@ -12683,15 +12683,14 @@ p {
   .row1 .row .col-md-2:nth-of-type(6) .clients {
     border: none !important; }
 
-.figures {
-  background-size: cover !important; }
-  .figures img {
-    transition: all ease 300ms;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%); }
-  .figures img:hover {
-    -webkit-filter: grayscale(0);
-    filter: grayscale(0); }
+.figures img {
+  transition: all ease 300ms;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); }
+
+.figures img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0); }
 
 .clientele {
   position: relative;
@@ -13902,6 +13901,9 @@ img.loading {
     margin-top: 37px; }
   .showcase .swiper-slide .overlayinggg {
     bottom: 28px; }
+  .showcase .swiper-slide:hover .overlayinggg {
+    -webkit-transform: translateY(90%);
+    transform: translateY(90%); }
   .bg-blue .flexslider .flex-direction-nav .flex-prev {
     left: -103px !important; }
   .flex-control-paging li a {
