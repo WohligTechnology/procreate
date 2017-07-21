@@ -57,10 +57,21 @@
                     closeEffect: 'fade',
                     closeBtn: true,
                     padding: 0,
-                    helpers: {
+                    allowfullscreen   : 'true',
+                    nextClick:'true',
+                    next : 'left',
+                    loop : true,
+                    //  autoSize    : false,
+                    //  width       : '100%',
+                     height      : '100%',
+                     helpers: {
                         media: {}
                     }
-                });
+                }
+
+
+                
+                );
             }
         };
     })

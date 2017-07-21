@@ -207,10 +207,10 @@
 
       //about
      .marin-l78 {
-         margin-left: 50px;
+         margin-left: 40px;
      }
      .marin-l35 {
-         margin-left: 25px;
+         margin-left: 20px;
      }
      .about {
          h4 {
@@ -246,6 +246,15 @@
      .imgs .overlaying:after {
          display: none;
      }
+     .imgs{
+ &:hover {
+        .overlaying {
+            @include transform(translateY(90%));
+            // display: none;
+        }
+    }
+     }
+      
      .paddb15 {
          padding-bottom: 0px;
      }

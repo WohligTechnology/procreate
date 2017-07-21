@@ -72,24 +72,27 @@ myApp.controller('ContactCtrl', function ($scope, $state, toastr, TemplateServic
                 $scope.formComplete = false;
                 // $scope.message = "Thank you for submitting the form";
             }, 3500)
+            // console.log($scope.form);
             $scope.form = {};
+            // $scope.form.username.$touched(false);
+            
             $scope.url = "Enquirey/mailSends";
             NavigationService.apiCallWithData($scope.url, data, function (data) {
                 if (data) {
-                      goog_report_conversion = function(url) {
-    goog_snippet_vars();
-    window.google_conversion_format = "3";
-    var opt = new Object();
-    opt.onload_callback = function() {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  }
-  var conv_handler = window['google_trackConversion'];
-  if (typeof(conv_handler) == 'function') {
-    conv_handler(opt);
-  }
-}
+                    goog_report_conversion = function (url) {
+                        goog_snippet_vars();
+                        window.google_conversion_format = "3";
+                        var opt = new Object();
+                        opt.onload_callback = function () {
+                            if (typeof (url) != 'undefined') {
+                                window.location = url;
+                            }
+                        }
+                        var conv_handler = window['google_trackConversion'];
+                        if (typeof (conv_handler) == 'function') {
+                            conv_handler(opt);
+                        }
+                    }
                 }
             });
 
