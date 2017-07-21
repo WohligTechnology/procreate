@@ -13700,6 +13700,9 @@ img.loading {
 .padd20 {
   padding-bottom: 20px; }
 
+.mart230 {
+  margin-top: 230px; }
+
 .sgsports {
   background-image: url("../img/portfolio/sg/1.png");
   background-repeat: no-repeat;
@@ -14058,6 +14061,8 @@ img.loading {
     padding: 20px 15px 0 10px; }
   .strategy-padd {
     padding: 0px 15px 0 15px; }
+  .mart230 {
+    margin-top: 125px; }
   .pdd10 {
     padding: 10px 30px; }
   .sg-box-padd {
@@ -14409,12 +14414,12 @@ img.loading {
     padding: 0px 10px 0px 10px; }
   .img-padd {
     padding: 65px 30px; }
+  .sg-img-padd2 {
+    padding: 0px 60px 40px 60px !important; }
   .sg-box-padd {
     padding: 65px 60px 0px 60px; }
   .inno-content-padd {
     display: none; }
-  .sg-img-padd {
-    padding: 42px 60px 40px 60px; }
   .padd-t230 {
     display: none; }
   .inno-content-padd {
