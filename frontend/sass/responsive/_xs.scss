@@ -37,9 +37,9 @@
       }
       .navbar-nav {
  
-    // text-align: center !important;
-    float:left;
-     margin-left: 100px;
+    text-align: center !important;
+    float:none;
+    //  margin-left: 100px;
 }
 .navbar-collapse.in {
     overflow-y: hidden;
@@ -380,8 +380,8 @@ footer .img-inline{
           margin-top: 40px;
       }
       .imgs {
-       width: 340px;
-    height: 340px;
+       width: 335px;
+    height: 335px;
       } 
       .employee-detail {
           margin: 0px;

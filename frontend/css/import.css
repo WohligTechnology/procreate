@@ -14124,8 +14124,8 @@ img.loading {
     -webkit-transform: translate(-152px);
             transform: translate(-152px); }
   .navbar-nav {
-    float: left;
-    margin-left: 100px; }
+    text-align: center !important;
+    float: none; }
   .navbar-collapse.in {
     overflow-y: hidden; }
   .navbar-default .navbar-toggle .icon-bar {
@@ -14335,8 +14335,8 @@ img.loading {
   .t-mar40 {
     margin-top: 40px; }
   .imgs {
-    width: 340px;
-    height: 340px; }
+    width: 335px;
+    height: 335px; }
   .employee-detail {
     margin: 0px;
     padding: 5px 25px; }
