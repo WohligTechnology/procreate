@@ -40,8 +40,7 @@
           float: none; //  margin-left: 100px;
       }
       .navbar-collapse.in {
-          overflow-y: hidden;
-          //    display: none;
+          overflow-y: hidden; //    display: none;
       }
       .navbar-default .navbar-toggle .icon-bar {
           background-color: #fff;
@@ -173,8 +172,7 @@
       }
       .icon-slider .mar-lt {
           margin: 32px 15px 32px 15px;
-      }
-      // .icon-slider .icon-padd {
+      } // .icon-slider .icon-padd {
       //     padding: 20px;
       // }
       .get-padd {
@@ -501,14 +499,12 @@
       }
       .inno-content-padd {
           display: none;
-      }
-      // .sg-img-padd {
+      } // .sg-img-padd {
       //     padding: 42px 60px 40px 60px;
       // }
       .padd-t230 {
           display: none;
-      }
-      //vachan
+      } //vachan
       .inno-content-padd {
           display: block;
       }
@@ -534,8 +530,7 @@
       }
       .vachan-next-icon span:after {
           top: 31px;
-      }
-      //contact
+      } //contact
       .contact-bannner {
           background-image: url("../img/contact/7.jpg");
           width: 100%;

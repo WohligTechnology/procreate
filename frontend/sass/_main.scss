@@ -86,10 +86,8 @@ $brand-red:#f42434;
 @import "other/font-fix";
 body {
     overflow-x: hidden!important;
-  
-
 }
- 
+
 body,
 h4,
 h5,
@@ -204,9 +202,11 @@ textarea {
 .margin0 {
     margin: 0;
 }
-.mar-t50{
+
+.mar-t50 {
     margin-top: 50px;
 }
+
 .grad {
     height: 326px;
     background: red;
@@ -237,72 +237,31 @@ a,
 }
 
 footer {
-    background-color: $brand-skin; // .form-control {
-    //     background-color: $brand-black;
-    //     font-size: 12px;
-    //     color:#fff;
-    // }
-    // .social-icon a {
-    //     padding-right: 10px;
-    //     cursor: pointer;
-    //     i {
-    //         font-size: 20px;
-    //         border: 1px solid #fff;
-    //         border-radius: 50%;
-    //         width: 40px;
-    //         height: 40px;
-    //         padding: 8px 0;
-    //         text-align: center;
-    //         @include transition (all ease 300ms);
-    //     }
-    //     &:hover {
-    //         i {
-    //             border-color: darken(#fff, 20%);
-    //             color: darken(#fff, 20%);
-    //         }
-    //     }
-    // }
-    // a {
-    //     letter-spacing: 1px;
-    //     color: black;
-    //     font-size: 14px;
-    //     &:hover {
-    //         color: darken(#fff, 15%);
-    //     }
-    // }
+    background-color: $brand-skin;
     h2 {
         font-size: 35px;
     }
     h5 {
         font-size: 13px;
         color: black;
-     
     }
-
-
- 
-    
-     
-    .mob-number{
+    .mob-number {
         width: 140px;
-          a {
+        a {
             font-size: 13px;
             color: black;
             line-height: 2px;
-          
-              font-size: 13px;
+            font-size: 13px;
         }
     }
     .get-call h5 {
         font-family: 'gothamBold';
         line-height: 1px;
-
     }
     .contact p {
         font-family: 'gothambook';
         font-size: 13px;
-        color: black;
-        // font-weight: 600;
+        color: black; // font-weight: 600;
     }
     .mob-number h5 {
         font-family: 'gothambook';
@@ -321,18 +280,7 @@ footer {
     }
     .contact-us {
         padding: 13px 0px 0px 35px;
-    } // .bg-gray {
-    //     p {
-    //         font-family: gotham-el;
-    //     }
-    // } // ul {
-    //     list-style-type: none;
-    //     color: black;
-    //     font-family: gothambook;
-    // }
-    // li {
-    //     font-family: gothamLight;
-    // }
+    }
     p {
         font-family: gotham-el;
         color: white;
@@ -340,28 +288,7 @@ footer {
     .text-decoration {
         font-family: gotham-el; // text-decoration: underline;
         color: black;
-    } // .robot {
-    //     margin-top: -4px;
-    //     width: 100%;
-    // }
-    // .bg-white {
-    //     ul {
-    //         li {
-    //             @include size(130px,
-    //             150px);
-    //             display: inline-block;
-    //             margin: 0px;
-    //             padding: 0px;
-    //         }
-    //     }
-    //     img {
-    //         width: 100%
-    //     }
-    // }
-    // .bg-black {
-    //     background-color: $brand-black;
-    //     padding-bottom: 20px;
-    // }
+    }
     .bg-gray {
         // background: #555;
         @include linear-gradient(to top,
@@ -370,9 +297,7 @@ footer {
         span {
             font-family: gothamBold;
         }
-    } // .contact {
-    //     float: right;
-    // }
+    }
     .circle-img {
         width: 10px;
     }
@@ -390,33 +315,7 @@ footer {
     }
     label {
         color: white;
-    } // .form-control {
-    //     height: 28px;
-    //     border-radius: 3px;
-    // }
-    // .dis-inline {
-    //     display: inline-block;
-    //     width: 19%;
-    // }
-    // .w100 {
-    //     border-radius: 4px;
-    //     height: 110px;
-    // }
-    // .btn-blue {
-    //     background-color: $brand-smartgreen;
-    //     border-color: $brand-smartgreen;
-    //     font-size: 11px;
-    //     border-radius: 0;
-    //     padding: 6px 15px;
-    //     &:hover {
-    //         color: $brand-smartgreen;
-    //         border-color: $brand-smartgreen;
-    //         background-color: $brand-black;
-    //     }
-    //     &:focus {
-    //         outline: 0;
-    //     }
-    // }
+    }
     .w65 {
         width: 65%;
     }
@@ -588,9 +487,10 @@ p {
     @include transition(all 300ms ease);
     padding: 15px 0px;
 } // homepage start
-.icon-padd-sg{
+.icon-padd-sg {
     padding: 10px;
 }
+
 .li-color {
     background-color: $brand-green;
 }
@@ -679,8 +579,7 @@ p {
         }
     }
     .flexslider .slides img {
-        margin: 70px 78px 0px 0px;
-        // margin: 10px 78px 0px 0px;
+        margin: 70px 78px 0px 0px; // margin: 10px 78px 0px 0px;
     }
 }
 
@@ -733,8 +632,7 @@ p {
 }
 
 .icon-slider {
-    background: #e5dc39; 
-    // background: #e1d732;
+    background: #e5dc39; // background: #e1d732;
     .flex-control-nav {
         // bottom: -40px !important;
         bottom: -20px !important;
@@ -854,9 +752,8 @@ p {
             line-height: 30px;
         }
         ul {
-            padding-bottom: 5px;
-            // padding-top: 15px;
-             padding-top: 30px;
+            padding-bottom: 5px; // padding-top: 15px;
+            padding-top: 30px;
         }
         li {
             // color: $brand-brown;
@@ -878,7 +775,7 @@ p {
 
 .bg-brown {
     background-color: $brand-brown;
-    .mar-l25{
+    .mar-l25 {
         margin-left: 25px;
     }
     h5 {
@@ -979,9 +876,8 @@ p {
     }
     .mar-top-bot {
         margin-top: 20px;
-        margin-bottom: 12px; 
+        margin-bottom: 12px;
         margin-left: 73px;
-       
     }
     .client-say {
         // padding: 0 20px;
@@ -1076,9 +972,8 @@ p {
     }
     .mar-top-bot {
         margin-top: 20px;
-        margin-bottom: 12px;
-        // margin-left: 150px;
-          margin-left: 50px;
+        margin-bottom: 12px; // margin-left: 150px;
+        margin-left: 50px;
     }
     .client-say {
         padding: 0 20px;
@@ -1603,7 +1498,7 @@ p {
 .imran {
     .employee-detail {
         &:after {
-           position: absolute;
+            position: absolute;
             top: -20px;
             right: inherit;
             left: 32px;
@@ -1717,7 +1612,15 @@ p {
     overflow: hidden;
     .overlaying {
         background-color: rgba(230, 7, 116, 0.71);
-       @include background( linear-gradient(-90deg, rgba(227, 17, 65, 0.75), rgba(230, 7, 116, 0.65)));
+        @include background( linear-gradient(-90deg,
+        rgba(227,
+        17,
+        65,
+        0.75),
+        rgba(230,
+        7,
+        116,
+        0.65)));
         @include position(absolute,
         0 0 0 0);
         @include transition(all ease 500ms);
@@ -1733,8 +1636,7 @@ p {
     }
     &:hover {
         .overlaying {
-            @include transform(translateY(0%));
-            // display: none;
+            @include transform(translateY(0%)); // display: none;
         }
     }
 }
@@ -1742,7 +1644,7 @@ p {
 .clients {
     // @include size(180px,
     // 100px);
-       @include size(132px,
+    @include size(132px,
     100px);
     display: flex;
     justify-content: center;
@@ -1957,28 +1859,30 @@ p {
     right: 50%;
 }
 
+.w-100 {
+    width: 100%;
+    display: flex;
+}
 
- .w-100{
-     width: 100%;
-        display: flex;
- }
- .flex1{
-      flex: 1;
- }
+.flex1 {
+    flex: 1;
+}
+
 .biscuit {
-    margin-top: 90px;
-    // margin-top: 10px;
+    margin-top: 90px; // margin-top: 10px;
 }
-.casestudy-strip{
-         @include linear-gradient(50deg,
-            #de5428,
-            #ffcd0a);
-            h2{
-                    font-size: 21px;
-    font-weight: bold;
-    padding: 12px;
-            }
+
+.casestudy-strip {
+    @include linear-gradient(50deg,
+    #de5428,
+    #ffcd0a);
+    h2 {
+        font-size: 21px;
+        font-weight: bold;
+        padding: 12px;
+    }
 }
+
 .port-imgs {
     position: relative; // overflow: hidden;
     .overlaying {
@@ -2001,125 +1905,283 @@ p {
 }
 
 .gradient-yellow {
-//    @include linear-gradient(90deg, rgba(226, 154, 44, 0.97), rgba(247, 242, 29, 0.8));
-      background-color: rgba(226, 154, 44, 0.78);
- @include linear-gradient(90deg,rgba(226, 154, 44, 0.46), rgba(247, 242, 29, 0.53));
+    //    @include linear-gradient(90deg, rgba(226, 154, 44, 0.97), rgba(247, 242, 29, 0.8));
+    background-color: rgba(226, 154, 44, 0.78);
+    @include linear-gradient(90deg,
+    rgba(226,
+    154,
+    44,
+    0.46),
+    rgba(247,
+    242,
+    29,
+    0.53));
 }
 
 .gradient-red {
-         background-image: linear-gradient(90deg,rgba(254, 40, 18, 0.75), rgba(254, 120, 20, 0.53));
+    background-image: linear-gradient(90deg, rgba(254, 40, 18, 0.75), rgba(254, 120, 20, 0.53));
     background-color: rgba(254, 40, 18, 0.39);
 }
 
 .gradient-orange {
-    @include linear-gradient(90deg, rgba(227, 116, 51, 0.46), rgba(251, 212, 30, 0.53));
-    //  background-color: rgba(227, 116, 51, 0.39);
+    @include linear-gradient(90deg,
+    rgba(227,
+    116,
+    51,
+    0.46),
+    rgba(251,
+    212,
+    30,
+    0.53)); //  background-color: rgba(227, 116, 51, 0.39);
     // background-image: linear-gradient(90deg,rgba(227, 116, 51, 0.46), rgba(251, 212, 30, 0.53));
-
 }
 
 .gradient-blue {
-     @include linear-gradient(90deg, rgba(58, 210, 193, 0.46), rgba(39, 159, 252, 0.53));
+    @include linear-gradient(90deg,
+    rgba(58,
+    210,
+    193,
+    0.46),
+    rgba(39,
+    159,
+    252,
+    0.53));
 }
 
 .gradient-lightgreen {
-     @include linear-gradient(90deg, rgba(136, 222, 55, 0.46), rgba(43, 239, 24, 0.53));
+    @include linear-gradient(90deg,
+    rgba(136,
+    222,
+    55,
+    0.46),
+    rgba(43,
+    239,
+    24,
+    0.53));
 }
 
 .gradient-green {
-     @include linear-gradient(50deg,rgba(59, 225, 71, 0.46), rgba(41, 246, 143, 0.53));
+    @include linear-gradient(50deg,
+    rgba(59,
+    225,
+    71,
+    0.46),
+    rgba(41,
+    246,
+    143,
+    0.53));
 }
 
 .gradient-pink {
-    @include linear-gradient(90deg, rgba(225, 56, 69, 0.46), rgba(245, 99, 33, 0.53));
+    @include linear-gradient(90deg,
+    rgba(225,
+    56,
+    69,
+    0.46),
+    rgba(245,
+    99,
+    33,
+    0.53));
 }
 
 .gradient-darkpink {
-    @include linear-gradient(90deg, rgba(222, 46, 49, 0.46), rgba(243, 100, 24, 0.53));
+    @include linear-gradient(90deg,
+    rgba(222,
+    46,
+    49,
+    0.46),
+    rgba(243,
+    100,
+    24,
+    0.53));
 }
 
 .gradient-purpal {
-    @include linear-gradient(90deg, rgba(226, 60, 195, 0.46), rgba(246, 42, 123, 0.53));
+    @include linear-gradient(90deg,
+    rgba(226,
+    60,
+    195,
+    0.46),
+    rgba(246,
+    42,
+    123,
+    0.53));
 }
 
 .gradient-arcs {
-    @include linear-gradient(90deg, rgba(198, 112, 12, 0.46), rgba(199, 181, 11, 0.53));
+    @include linear-gradient(90deg,
+    rgba(198,
+    112,
+    12,
+    0.46),
+    rgba(199,
+    181,
+    11,
+    0.53));
 }
 
 .gradient-parachute {
-     @include linear-gradient(90deg, rgba(224, 168, 50, 0.46), rgba(228, 244, 32, 0.53));
+    @include linear-gradient(90deg,
+    rgba(224,
+    168,
+    50,
+    0.46),
+    rgba(228,
+    244,
+    32,
+    0.53));
 }
 
 .gradient-Psoracare {
     // @include linear-gradient(90deg, rgba(52, 222, 113, 0.89), rgba(24, 237, 175, 0.89));
-        background-color: rgba(52, 222, 113, 0.39);
- @include linear-gradient(90deg,rgba(52, 222, 113, 0.46), rgba(24, 237, 175, 0.53));
+    background-color: rgba(52, 222, 113, 0.39);
+    @include linear-gradient(90deg,
+    rgba(52,
+    222,
+    113,
+    0.46),
+    rgba(24,
+    237,
+    175,
+    0.53));
 }
 
 .gradient-doycare {
-   @include linear-gradient(90deg, rgba(22, 137, 194, 0.46), rgba(23, 50, 198, 0.53));
+    @include linear-gradient(90deg,
+    rgba(22,
+    137,
+    194,
+    0.46),
+    rgba(23,
+    50,
+    198,
+    0.53));
 }
 
 .gradient-sg {
-   @include linear-gradient(90deg, rgba(35, 152, 202, 0.46), rgba(40, 85, 224, 0.53));
+    @include linear-gradient(90deg,
+    rgba(35,
+    152,
+    202,
+    0.46),
+    rgba(40,
+    85,
+    224,
+    0.53));
 }
 
 .gradient-vachan {
-    @include linear-gradient(90deg, rgba(129, 59, 227, 0.46), rgba(201, 42, 245, 0.53));
+    @include linear-gradient(90deg,
+    rgba(129,
+    59,
+    227,
+    0.46),
+    rgba(201,
+    42,
+    245,
+    0.53));
 }
 
 .gradient-milk {
-     @include linear-gradient(90deg, rgba(199, 144, 25, 0.46), rgba(169, 202, 25, 0.53));
+    @include linear-gradient(90deg,
+    rgba(199,
+    144,
+    25,
+    0.46),
+    rgba(169,
+    202,
+    25,
+    0.53));
 }
 
 .gradient-medical {
-  @include linear-gradient(90deg, rgba(57, 219, 128, 0.46), rgba(40, 244, 231, 0.53));
+    @include linear-gradient(90deg,
+    rgba(57,
+    219,
+    128,
+    0.46),
+    rgba(40,
+    244,
+    231,
+    0.53));
 }
 
 .gradient-mexitos {
-  @include linear-gradient(90deg, rgba(202, 122, 57, 0.46), rgba(242, 194, 26, 0.53));
+    @include linear-gradient(90deg,
+    rgba(202,
+    122,
+    57,
+    0.46),
+    rgba(242,
+    194,
+    26,
+    0.53));
 }
 
 .gradient-vistas {
     // @include linear-gradient(90deg, rgba(203, 36, 112, 0.92), rgba(245, 38, 51, 0.92));
-         background-color: rgba(203, 36, 112, 0.39);
-    background-image: linear-gradient(90deg,rgba(203, 36, 112, 0.46), rgba(245, 38, 51, 0.53));
+    background-color: rgba(203, 36, 112, 0.39);
+    background-image: linear-gradient(90deg, rgba(203, 36, 112, 0.46), rgba(245, 38, 51, 0.53));
 }
 
 .gradient-cafechino {
-    @include linear-gradient(90deg, rgba(222, 79, 58, 0.46), rgba(238, 136, 29, 0.53));
+    @include linear-gradient(90deg,
+    rgba(222,
+    79,
+    58,
+    0.46),
+    rgba(238,
+    136,
+    29,
+    0.53));
 }
 
 .gradient-wafers {
-   @include linear-gradient(90deg, rgba(54, 143, 227, 0.46), rgba(29, 67, 228, 0.53));
+    @include linear-gradient(90deg,
+    rgba(54,
+    143,
+    227,
+    0.46),
+    rgba(29,
+    67,
+    228,
+    0.53));
 }
-.gradient-graywhite{
-//  @include  linear-gradient(50deg,rgba(97, 104, 112, 0.95), rgba(248, 249, 251, 0.73));
-      
-     
-       background-color: rgba(97, 104, 112, 0.81);
-    @include linear-gradient(50deg,rgba(97, 104, 112, 0.46), rgba(248, 249, 251, 0.53));
+
+.gradient-graywhite {
+    //  @include  linear-gradient(50deg,rgba(97, 104, 112, 0.95), rgba(248, 249, 251, 0.73));
+    background-color: rgba(97, 104, 112, 0.81);
+    @include linear-gradient(50deg,
+    rgba(97,
+    104,
+    112,
+    0.46),
+    rgba(248,
+    249,
+    251,
+    0.53));
 }
-.gradient-organico{
-           background-color: rgba(144, 115, 101, 0.39);
-    background-image: linear-gradient(90deg,rgba(144, 115, 101, 0.46), rgba(177, 159, 145, 0.53));
+
+.gradient-organico {
+    background-color: rgba(144, 115, 101, 0.39);
+    background-image: linear-gradient(90deg, rgba(144, 115, 101, 0.46), rgba(177, 159, 145, 0.53));
 }
-.gradient-mega{
-      background-color: rgba(15, 89, 118, 0.39);
-    background-image: linear-gradient(90deg,rgba(15, 89, 118, 0.46), rgba(13, 170, 166, 0.53));
+
+.gradient-mega {
+    background-color: rgba(15, 89, 118, 0.39);
+    background-image: linear-gradient(90deg, rgba(15, 89, 118, 0.46), rgba(13, 170, 166, 0.53));
 }
+
 .overlay-text-bg {
     // background-color: rgba(254, 115, 73, 0.15);
     // background-color: white;
     left: 7%;
-   
     h2 {
         // color: darkred;
         color: white;
         letter-spacing: 0px;
         line-height: 14px;
-        font-family: 'corisande-b';
-        // text-decoration: underline; // font-size: 29px;
+        font-family: 'corisande-b'; // text-decoration: underline; // font-size: 29px;
         // letter-spacing: 1px;
     }
 }
@@ -2155,8 +2217,7 @@ p {
 
 .read-more {
     left: 7%;
-    bottom: 3%;
-    // right: 7%;
+    bottom: 3%; // right: 7%;
     a {
         // color: transparent;
         color: white;
@@ -2167,9 +2228,8 @@ p {
 
 .read-more2 {
     left: 7%;
-    bottom: 3%;
-    // right: 7%;
-     a {
+    bottom: 3%; // right: 7%;
+    a {
         // color: transparent;
         color: white;
         font-size: 15px;
@@ -2213,9 +2273,11 @@ p {
         font-weight: 600;
     }
 }
-.w420{
+
+.w420 {
     width: 420px;
 }
+
 .modal-second-para p {
     font-size: 12px;
     color: gray;
@@ -2254,7 +2316,6 @@ p {
 // .header1-bg {
 //     background-color: red;
 // }
-
 .header1 {
     .Approach {
         .navbar {
@@ -2316,7 +2377,7 @@ p {
                 border-bottom: 4px solid white;
             }
         }
-      .navbar {
+        .navbar {
             border: none; // background: linear-gradient(-82deg,#83bf01,#83bf01,#9cd72f,  #abe448 );
             // background: -webkit-linear-gradient(-82deg, #83bf01 0%, #83bf01 0%, #83bf01 4%, #83bf01 35%, #83bf01 61%, #abe448 100%);
             @include linear-gradient(82deg,
@@ -2344,7 +2405,7 @@ p {
             #0a9da0);
         }
     }
-     &.Portfolio {
+    &.Portfolio {
         .navbar {
             // background-color: #e46fbf;
             border: none;
@@ -2352,8 +2413,8 @@ p {
             #de5428,
             #ffcd0a);
         }
-         }
-  &.Doycare {
+    }
+    &.Doycare {
         .navbar {
             // background-color: #e46fbf;
             border: none;
@@ -2372,9 +2433,7 @@ p {
         }
     }
     &.Arch {
-    
-      
-      .navbar {
+        .navbar {
             // background-color: #e46fbf;
             border: none;
             @include linear-gradient(50deg,
@@ -2392,9 +2451,7 @@ p {
             #00ccbe 91%,
             #00ccbe 100%);
         }
-      
     }
- 
 }
 
 // .header2 {
@@ -2444,7 +2501,7 @@ p {
 .about-band {
     .about-band-title {
         // margin: 75px 0;
-         margin: 85px 0;
+        margin: 85px 0;
         h4 {
             color: #fff;
             font-family: 'gothambook';
@@ -2456,7 +2513,7 @@ p {
     padding: 25px 0;
     .capablities-list {
         // min-height: 130px;
-         min-height: 155px;
+        min-height: 155px;
     }
 }
 
@@ -2512,12 +2569,14 @@ input:-webkit-autofill {
 }
 
 //contact pg start
-.w312{
+.w312 {
     width: 369px;
 }
-.w414{
+
+.w414 {
     width: 480px;
 }
+
 .contact-bannner {
     background-image: url("../img/contact/2.jpg");
     width: 100%;
@@ -2627,38 +2686,37 @@ input:-webkit-autofill {
         top: 50%;
         width: 100%;
         text-align: center;
-        h4{
-        color: #057697;
-        font-size: 25px;
-        margin-bottom: 5px;
-        p{
-        font-size: 18px;
+        h4 {
+            color: #057697;
+            font-size: 25px;
+            margin-bottom: 5px;
+            p {
+                font-size: 18px;
+            }
         }
     }
 }
 
+.Contact {
+    .display-not {
+        display: none;
+    }
 }
-.Contact{
- .display-not{
-         display: none;
-          }
- }
+
 .showcase {
-   
     .swiper-slide {
         // @include position(relative,null null null null);
-     a{
-         position: relative;
-     }
+        a {
+            position: relative;
+        }
         overflow: hidden;
-        
         .overlayinggg {
-           width: 100%;
+            width: 100%;
             height: 45px;
-             @include position(absolute,null null 0 null);
+            @include position(absolute,
+            null null 0 null);
             @include transition(all ease 500ms);
             @include transform(translateY(83%));
-          
         }
         &:hover {
             .overlayinggg {
@@ -2669,19 +2727,20 @@ input:-webkit-autofill {
             content: ""; // border-bottom: 14px solid #e3123e;
             border-left: 8px solid transparent;
             border-right: 8px solid transparent;
-         @include position(absolute,-13px null null 21px);
+            @include position(absolute,
+            -13px null null 21px);
             z-index: 999; // -webkit-transform: rotate(90deg);
             @include transform(rotate(1deg));
         }
-          h4 {
-                font-size: 20px;
-            }
+        h4 {
+            font-size: 20px;
+        }
         &.mygreen {
             .overlayinggg:after {
                 border-bottom: 14px solid #92cb3e;
             }
             .mycolors {
-                @include  background(#92cb3e); 
+                @include background(#92cb3e);
             }
         }
         &.myblue {
@@ -2689,7 +2748,10 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(26, 61, 112, 0.83);
             }
             .mycolors {
-              @include  background(rgba(26, 61, 112, 0.83)) ;
+                @include background(rgba(26,
+                61,
+                112,
+                0.83));
             }
         }
         &.myred {
@@ -2697,15 +2759,21 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(165, 28, 35, 0.8);
             }
             .mycolors {
-                 @include background(rgba(165, 28, 35, 0.8));
+                @include background(rgba(165,
+                28,
+                35,
+                0.8));
             }
         }
         &.mydarkred {
             .overlayinggg:after {
-               border-bottom: 14px solid rgba(220, 27, 30, 0.84);
+                border-bottom: 14px solid rgba(220, 27, 30, 0.84);
             }
             .mycolors {
-               @include background(rgba(220, 27, 30, 0.84));
+                @include background(rgba(220,
+                27,
+                30,
+                0.84));
             }
         }
         &.myskyblue {
@@ -2713,7 +2781,10 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(30, 127, 136, 0.87);
             }
             .mycolors {
-                  @include background(rgba(30, 127, 136, 0.87));
+                @include background(rgba(30,
+                127,
+                136,
+                0.87));
             }
         }
         &.mybrown {
@@ -2721,7 +2792,10 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(137, 90, 88, 0.87);
             }
             .mycolors {
-                  @include background(rgba(137, 90, 88, 0.87));
+                @include background(rgba(137,
+                90,
+                88,
+                0.87));
             }
         }
         &.myblack {
@@ -2729,7 +2803,10 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(48, 48, 49, 0.88);
             }
             .mycolors {
-               @include  background(rgba(48, 48, 49, 0.88));
+                @include background(rgba(48,
+                48,
+                49,
+                0.88));
             }
         }
         &.mylightgreen {
@@ -2737,12 +2814,15 @@ input:-webkit-autofill {
                 border-bottom: 14px solid rgba(109, 168, 47, 0.79);
             }
             .mycolors {
-                @include  background(rgba(109, 168, 47, 0.79));
+                @include background(rgba(109,
+                168,
+                47,
+                0.79));
             }
         }
     }
 }
-.myhidden-lg{
+
+.myhidden-lg {
     display: none;
 }
-
