@@ -12158,7 +12158,7 @@ p {
   .bg-blue .mar-top-bot {
     margin-top: 20px;
     margin-bottom: 12px;
-    margin-left: 150px; }
+    margin-left: 50px; }
   .bg-blue .client-say {
     padding: 0 20px; }
 
@@ -13795,6 +13795,53 @@ img.loading {
 .fancybox-nav.fancybox-prev span {
   background-image: url(../img/prev.png); }
 
+@media (max-width: 1199px) {
+  footer .marin {
+    margin-right: 30px;
+    margin-top: -23px; }
+  .flexslider .flex-direction-nav .flex-prev {
+    left: 120px !important; }
+  .flexslider .flex-direction-nav .flex-next {
+    right: 120px !important; }
+  .bg-brown .mar-l25 {
+    margin-left: 0px; }
+  .mar-t20 {
+    margin: 35px 50px 35px 0px !important; }
+  .awesome {
+    margin: 47px 0px; }
+  .bg-blue .mar-top-bot {
+    margin-left: 70px; }
+  .bg-blue .client-say {
+    padding: 0 10px; }
+  .circle .border-bottom {
+    height: 90px; }
+  .bg-blue .flex-direction-nav a {
+    top: 17%; }
+  .mar-t50 {
+    margin-top: 60px; }
+  .bg-blue {
+    padding: 5px 0; }
+  .mart230 {
+    margin-top: 200px; }
+  .inno-content-padd {
+    padding: 0px 30px 0px 20px; }
+  .sg-box-padd {
+    padding: 120px 78px 0px 100px; }
+  .design-cont-padd {
+    padding: 12px 50px 80px 0px; }
+  .employee-detail {
+    margin: 0px 185px; }
+  .figures img {
+    margin: 0 auto; }
+  .imran-detail {
+    margin: 0px 158px; }
+  .main-person-imran {
+    padding-bottom: 40px; }
+  .employee-detail:after {
+    display: none; }
+  .clients {
+    width: 100px; } }
+
 @media (max-width: 991px) {
   .fs-12 {
     font-size: 12px; }
@@ -13834,7 +13881,7 @@ img.loading {
   .get-padd {
     padding: 13px 0 0 34px; }
   footer .social-icon {
-    padding: 30px 0px 0px 0px; }
+    padding: 30px 0px 0px 35px; }
   footer .img-inline {
     width: 29px; }
   footer .btn-blue {
@@ -13851,7 +13898,7 @@ img.loading {
     margin-right: 35px;
     margin-top: -22px; }
   footer .arrow-up {
-    margin-top: -16px;
+    margin-top: 0px;
     right: 37px; }
   .flexslider .flex-direction-nav .flex-prev {
     left: 80px !important; }
@@ -13931,6 +13978,8 @@ img.loading {
     padding: 0 4px 5px 0px; }
   .bg-blue .flex-direction-nav a {
     top: 12%; }
+  .bg-blue {
+    padding: 20px 0; }
   .marin-l78 {
     margin-left: 40px; }
   .marin-l35 {
@@ -14132,7 +14181,8 @@ img.loading {
     background-color: #fff; }
   .navbar-default .navbar-toggle {
     border-color: white; }
-  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
     background-color: transparent; }
   .navbar-toggle {
     margin-right: -17px; }
@@ -14161,7 +14211,9 @@ img.loading {
   footer .contact-us {
     padding: 0px; }
   footer .img-inline {
-    margin-right: 10px; }
+    margin: 0px; }
+  .mar-r10 {
+    margin-right: 10px !important; }
   footer .talk {
     padding: 0px; }
   .first-slider .flexslider .flex-direction-nav .flex-nav-prev a:before {
@@ -14281,8 +14333,7 @@ img.loading {
   .clients {
     width: 85px;
     height: 75px;
-    margin-top: 30px;
-    margin-left: 19px; }
+    margin: 0 auto; }
   .bgrey {
     padding: 16px 0 60px; }
   .top0 {
@@ -14311,6 +14362,8 @@ img.loading {
     background: #ffffff; }
   .maxitos-color {
     background: #fdec51; }
+  .border-right {
+    border: none; }
   .employee-names {
     top: 9%; }
   .imgs .overlaying {
@@ -14380,9 +14433,11 @@ img.loading {
   .mar-t40 {
     margin-top: 56px; }
   .marin-l78 {
-    margin-left: 0px; }
+    margin: 0 auto; }
   .marin-l35 {
-    margin-left: 0px; }
+    margin: 0 auto; }
+  .margin-auto {
+    margin: 0 auto; }
   .about h4 {
     font-size: 20px; }
   .objective-padd {

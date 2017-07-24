@@ -1,3 +1,73 @@
  @media (max-width: $screen-md-max) {
      // Desktop
+     footer .marin {
+         margin-right: 30px;
+         margin-top: -23px;
+     } //home start
+     .flexslider .flex-direction-nav .flex-prev {
+    left: 120px !important;
+}
+.flexslider .flex-direction-nav .flex-next {
+    right: 120px !important;
+}
+     .bg-brown .mar-l25 {
+         margin-left: 0px;
+     }
+     .mar-t20 {
+         margin: 35px 50px 35px 0px !important;
+     }
+     .awesome {
+         margin: 47px 0px;
+     }
+     .bg-blue .mar-top-bot {
+         margin-left: 70px;
+     }
+     .bg-blue .client-say {
+         padding: 0 10px;
+     }
+     .circle .border-bottom {
+         height: 90px;
+     }
+     .bg-blue .flex-direction-nav a {
+         top: 17%;
+     }
+     .mar-t50 {
+         margin-top: 60px;
+     }
+     .bg-blue {
+         padding: 5px 0;
+     }
+
+//sg start
+.mart230 {
+    margin-top: 200px;
+}
+.inno-content-padd {
+    padding: 0px 30px 0px 20px;
+}
+.sg-box-padd {
+    padding: 120px 78px 0px 100px;
+}
+.design-cont-padd {
+    padding: 12px 50px 80px 0px;
+}
+//about start
+.employee-detail {
+        margin: 0px 185px;
+}
+.figures img {
+    margin: 0 auto;
+}
+.imran-detail {
+         margin: 0px 158px;
+     }
+.main-person-imran {
+    padding-bottom: 40px;
+}
+.employee-detail:after {
+    display: none;
+}
+.clients {
+    width: 100px;
+}
  }
