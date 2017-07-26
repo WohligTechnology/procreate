@@ -106,65 +106,75 @@ myApp.config(function ($translateProvider) {
     $translateProvider.translations('hi', LanguageHindi);
     $translateProvider.preferredLanguage('en');
 });
-myApp.directive('loadingText', function ($compile, $parse,$document) {
-  return {
-    restrict: 'EA',
-    replace: false,
-    link: function ($scope, element, attrs) {
-      var $element = $(element);
-      dem = $element;
-      dem.typed({
-        strings: ["We are Procreate!"],
-        backDelay: 700,
-        typeSpeed: 70
-      });
+myApp.directive('loadingText', function ($compile, $parse, $document, $timeout) {
+    return {
+        restrict: 'EA',
+        replace: false,
+        link: function ($scope, element, attrs) {
+            $timeout(function () {
+            var $element = $(element);
+            dem = $element;
+            dem.typed({
+                strings: ["We are Procreate!"],
+                typeSpeed: 30, // typing speed
+                backDelay: 750, // pause before backspacing
+            });
+            }, 0)
+        }
     }
-  }
 });
-myApp.directive('loadingText1', function ($compile, $parse,$document) {
-  return {
-    restrict: 'EA',
-    replace: false,
-    link: function ($scope, element, attrs) {
-      var $element = $(element);
-      dem = $element;
-      dem.typed({
-        strings: ["Design for Growth +"],
-        startDelay: 75,
-        typeSpeed: 70
-      });
+myApp.directive('loadingText1', function ($compile, $parse, $document, $timeout) {
+    return {
+        restrict: 'EA',
+        replace: false,
+        link: function ($scope, element, attrs) {
+            $timeout(function () {
+            var $element = $(element);
+            dem = $element;
+            dem.typed({
+                strings: ["Design for Growth +"],
+                typeSpeed: 30, // typing speed
+                backDelay: 750, // pause before backspacing
+            });
+            }, 1300)
+
+        }
     }
-  }
 });
-myApp.directive('loadingText2', function ($compile, $parse,$document) {
-  return {
-    restrict: 'EA',
-    replace: false,
-    link: function ($scope, element, attrs) {
-      var $element = $(element);
-      dem = $element;
-      dem.typed({
-        strings: ["Transformation"],
-        startDelay: 115,
-        typeSpeed: 70
-      });
+myApp.directive('loadingText2', function ($compile, $parse, $document, $timeout) {
+    return {
+        restrict: 'EA',
+        replace: false,
+        link: function ($scope, element, attrs) {
+            $timeout(function () {
+            var $element = $(element);
+            dem = $element;
+            dem.typed({
+                strings: ["Transformation"],
+                typeSpeed: 30, // typing speed
+                backDelay: 750, // pause before backspacing
+            });
+            }, 2500)
+        }
     }
-  }
 });
-myApp.directive('loadingText3', function ($compile, $parse,$document) {
-  return {
-    restrict: 'EA',
-    replace: false,
-    link: function ($scope, element, attrs) {
-      var $element = $(element);
-      dem = $element;
-      dem.typed({
-        strings: ["with a Humanised approach."],
-        startDelay: 5,
-        typeSpeed: 70
-      });
+myApp.directive('loadingText3', function ($compile, $parse, $document, $timeout) {
+    return {
+        restrict: 'EA',
+        replace: false,
+
+        link: function ($scope, element, attrs) {
+            $timeout(function () {
+                var $element = $(element);
+                dem = $element;
+                dem.typed({
+                    strings: ["with a Humanised approach."],
+                    typeSpeed: 30, // typing speed
+                    backDelay: 750, // pause before backspacing
+                });
+            }, 3500)
+        }
     }
-  }
 });
 myApp.directive('fancyboxBox', function ($document) {
     return {

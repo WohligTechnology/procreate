@@ -22,7 +22,7 @@
 </head>
 
 <body>
-    <div class="repeated-item" ui-view></div>
+    <div class="repeated-item loadedContent" ui-view></div>
 
 <div class="loaders" style="background:#fff;z-index:99999;text-align: center;position:fixed;top:0;left:0;bottom:0;right:0">
     <div style="position:relative;height:100vh;">
@@ -146,8 +146,8 @@
       $(document).ready(function () {
       console.log("Loaded");
       setTimeout(function(){ 
-        $("body > .loaders").hide();
-      $("body > .loadedContent").fadeIn(100); 
+        $("body > .loaders").hide(100);
+      $("body > .loadedContent").fadeIn(1000); 
     }, 10000);
       
     });
