@@ -87,7 +87,11 @@ $brand-red:#f42434;
 body {
     overflow-x: hidden!important;
 }
-
+.loaders{
+    h2{
+        font-size: 40px;
+    }
+}
 body,
 h4,
 h5,
@@ -234,6 +238,10 @@ a,
 [ui-sref] {
     cursor: pointer;
     transition: all ease 300ms;
+}
+
+.typed-cursor{
+    display: none;
 }
 
 footer {

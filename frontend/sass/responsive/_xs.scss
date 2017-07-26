@@ -6,6 +6,11 @@
 
   @media (max-width: $screen-xs-max) {
       // Mobile
+      .loaders {
+          h2 {
+              font-size: 18px;
+          }
+      }
       .nav>li {
           text-align: center;
       }
@@ -74,10 +79,7 @@
       footer .marin {
           margin-right: 49px;
           margin-top: -9px;
-      } //   footer .arrow-up {
-      //       margin-top: 15px;
-      //       left: 82%;
-      //   }
+      }
       .l-padd {
           padding-left: 32px;
       }

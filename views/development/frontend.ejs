@@ -8,60 +8,81 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{template.description}}">
-     <meta name="keywords" content="{{template.keywords}}">
+    <meta name="keywords" content="{{template.keywords}}">
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.ico" />
-   
-     <title ng-bind="template.title"></title> 
 
-    <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <![endif]-->
-    <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <![endif]-->
+    <title ng-bind="template.title"></title>
+
+    <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js">
+    </script> 
+        <![endif]-->
+    <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js">
+    </script> <![endif]-->
 </head>
 
 <body>
-    <div class="repeated-item" ui-view></div>
-    <!--<div class="hidden">
-        <video poster="img/libro-home/slide/1.jpg" class='videoPlayer' muted>
-        <source src='img/libro-home/videos/Homevideo.mp4' type='video/mp4'>
-        </video>
-        <img src="img/libro-home/slide/2.jpg" alt="">
-        <img src="img/libro-home/slide/3.jpg" alt="">
-        <img src="img/libro-home/slide/4.jpg" alt="">
-        <img src="img/libro-home/slide/5.jpg" alt="">
-    </div>-->
-     <!--home page Loader-->
-    <!--<div class="loaders" style="background:#303557;z-index:999;text-align: center;position:fixed;top:0;left:0;bottom:0;right:0">
-        <div style="position: absolute ;top: 50%;left:50%;transform: translate(-50%,-50%);">
-        <h1 noloading="true" style="color:#fff;" class="avenir-medium">
-            <span loading-text></span>
-        </h1>
-        </div>
-    </div>-->
- <!--home page Loader end-->
-    <link rel="stylesheet" type="text/css" href="css/import.css" />
+    <div class="repeated-item loadedContent" ui-view></div>
 
+<div class="loaders" style="background:#fff;z-index:99999;text-align: center;position:fixed;top:0;left:0;bottom:0;right:0">
+    <div style="position:relative;height:100vh;">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-7">
+                <div style="position:relative;height:100vh;text-align:right;">
+                    <h2 noloading="true" style="color:#00928d;position:absolute;top:40%;transform:translateY(-50%);width:100%;" class="avenir-medium">
+                        <div><span loading-text></span></div>
+                        <div><span loading-text1></span></div>
+                        <div><span loading-text2></span></div>
+                        <div><span loading-text3></span></div>
+                    </h2>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-5">
+                <div style="position:relative;height:100vh;text-align:right;">
+                    <div class="img-loader" style="position:absolute;top:50%;transform:translateY(-50%);left:00">
+                        <img src="img/loader-pro.png" alt="Procreate" style="width:100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <link rel="stylesheet" type="text/css" href="css/import.css" />
     <script>
-        var adminurl = "<%= ((typeof adminurl) == "undefined") ? "" : adminurl  %>";
+        var adminurl = "<%= ((typeof adminurl) == "undefined ") ? " " : adminurl  %>";
         var isproduction = true;
-        var chintan = function(content) {
+        var chintan = function (content) {
             console.log("%c ---------------------------------------", 'background: #222; color: #bada55');
             console.log(content);
             console.log("%c ---------------------------------------", 'background: #222; color: #bada55');
         };
     </script>
-     <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT-bJH_O9-AA9iJSaFh0QWvD0rSgByY8M">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT-bJH_O9-AA9iJSaFh0QWvD0rSgByY8M">
     </script>
     <% _.each(jsFiles,function(file) {  %>
         <script src="<%= file %>"></script>
         <% }); %>
-
-           <script>
+  <!--//loader-->
+  <script>
       $(document).ready(function () {
-            setTimeout(function () {
-                new WOW().init();
-            }, 3000);
-        });
-    </script>
+      console.log("Loaded");
+      setTimeout(function(){ 
+        $("body > .loaders").hide(500);
+      $("body > .loadedContent").fadeIn(1000); 
+    }, 10000);
+      
+    });
+
+  </script>
+  <!--//loader end-->
+            <script>
+                $(document).ready(function () {
+                    setTimeout(function () {
+                        new WOW().init();
+                    }, 3000);
+                });
+            </script>
 </body>
+
 </html>
