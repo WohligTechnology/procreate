@@ -37,48 +37,48 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
         $scope.inspireImg = [{
                 img: 'img/homepage/homefinal11.jpg',
-                    img2: 'img/homepage/slider-xs/Slider-1.jpg',
+                img2: 'img/homepage/slider-xs/Slider-1.jpg',
                 title1: 'We are Procreate!',
                 title2: 'Design for Growth +',
                 title3: 'Transformation',
                 title4: 'with a Humanised approach',
-                   
+
 
             },
             {
                 img: 'img/homepage/slide-top3.jpg',
-                  img2: 'img/homepage/slider-xs/Slider-2.jpg',
-                 link: 'portfolio',
+                img2: 'img/homepage/slider-xs/Slider-2.jpg',
+                link: 'portfolio',
             },
             {
                 img: 'img/homepage/top-slide3.jpg',
-                  img2: 'img/homepage/slider-xs/Slider-3.jpg',
-                 link: 'portfolio',
+                img2: 'img/homepage/slider-xs/Slider-3.jpg',
+                link: 'portfolio',
             },
 
             {
                 img: 'img/homepage/top-slide7.jpg',
-                  img2: 'img/homepage/slider-xs/Slider-4.jpg',
-                 link: 'portfolio',
+                img2: 'img/homepage/slider-xs/Slider-4.jpg',
+                link: 'portfolio',
 
             },
             {
                 img: 'img/homepage/top-slide5.jpg',
-                  img2: 'img/homepage/slider-xs/Slider-5.jpg',
-                 link: 'portfolio',
+                img2: 'img/homepage/slider-xs/Slider-5.jpg',
+                link: 'portfolio',
             },
 
             {
                 img: 'img/homepage/top-slide6.jpg',
-                  img2: 'img/homepage/slider-xs/Slider-6.jpg',
-                 link: 'portfolio',
+                img2: 'img/homepage/slider-xs/Slider-6.jpg',
+                link: 'portfolio',
 
             },
 
             {
                 img: 'img/homepage/slide2.jpg',
-                  img2: 'img/homepage/slider-xs/Slider-7.jpg',
-                 link: 'portfolio',
+                img2: 'img/homepage/slider-xs/Slider-7.jpg',
+                link: 'portfolio',
             },
         ]
         $scope.inspireImg2 = [{
@@ -89,19 +89,19 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
 
             },
             {
-             
-                   img: 'img/homepage/slider2.jpg',
-               
-                 overClass: 'mydarkred',
+
+                img: 'img/homepage/slider2.jpg',
+
+                overClass: 'mydarkred',
                 title1: 'Case Study',
-                    link: 'vachan',
+                link: 'vachan',
 
             },
             {
                 img: 'img/homepage/slider3.jpg',
                 overClass: 'myblue',
                 title1: 'More Work',
-                     link: 'portfolio',
+                link: 'portfolio',
             },
 
             {
@@ -112,36 +112,36 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             },
 
             {
-               
+
                 img: 'img/homepage/slider8.jpg',
-              
-                 overClass: 'myblack',
+
+                overClass: 'myblack',
                 title1: 'Case Study',
-               link: 'sgsports',
+                link: 'sgsports',
 
             },
             {
-               
-                 img: 'img/homepage/slider7.jpg',
+
+                img: 'img/homepage/slider7.jpg',
                 link: 'doycare',
-           
-                    overClass: 'mylightgreen',
+
+                overClass: 'mylightgreen',
                 title1: 'Case Study',
             },
             {
-                
-                  img: 'img/homepage/slider6.jpg',
+
+                img: 'img/homepage/slider6.jpg',
                 link: 'portfolio',
-            
-                  overClass: 'myskyblue',
+
+                overClass: 'myskyblue',
                 title1: 'More Work',
             },
 
             {
-               img: 'img/homepage/slider5.jpg',
-                  link: 'portfolio',
-               
-                 overClass: 'mybrown',
+                img: 'img/homepage/slider5.jpg',
+                link: 'portfolio',
+
+                overClass: 'mybrown',
                 title1: 'More Work',
 
             },
@@ -394,7 +394,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
     .controller('footerCtrl', function ($scope, $state, TemplateService, apiService, toastr, NavigationService, $http, $timeout) {
         //    reCAPTCHA
         // vcRecaptchaService
-       
+
         $scope.form = {};
         $scope.sendMail = function (data) {
             $scope.message = "";
@@ -405,8 +405,10 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 NavigationService.apiCallWithData($scope.url, data, function (data) {
                     if (data) {
                         $state.reload();
+                        console.log("data", data);
                         $scope.message = "Thank you for submitting the form";
                         $scope.form = {};
+
 
 
                     }

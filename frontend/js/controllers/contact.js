@@ -75,10 +75,12 @@ myApp.controller('ContactCtrl', function ($scope, $state, toastr, TemplateServic
             // console.log($scope.form);
             $scope.form = {};
             // $scope.form.username.$touched(false);
-            
+
             $scope.url = "Enquirey/mailSends";
             NavigationService.apiCallWithData($scope.url, data, function (data) {
                 if (data) {
+                    console.log("data", data);
+
                     goog_report_conversion = function (url) {
                         goog_snippet_vars();
                         window.google_conversion_format = "3";
