@@ -204,14 +204,17 @@
     }
     span:after {
         content: '';
-        background-image: url("../img/portfolio/next.png");
+        background-image: url("../img/portfolio/prev.png");
         position: absolute;
-        width: 25px;
+        width: 20px;
         height: 64px;
         background-repeat: no-repeat;
         vertical-align: center;
         top: -23px;
         right: 75px;
+        -ms-transform: rotate(180deg); /* IE 9 */
+        -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+         transform: rotate(180deg);
     }
 } //:end
 //golden arch :start
@@ -310,7 +313,7 @@ img.loading {
     }
     span:after {
         content: '';
-        background-image: url("../img/portfolio/arch/10.png");
+        background-image: url("../img/portfolio/arch/9.png");
         position: absolute;
         width: 25px;
         height: 64px;
@@ -318,6 +321,9 @@ img.loading {
         vertical-align: center;
         top: -23px;
         right: 75px;
+        -ms-transform: rotate(180deg); /* IE 9 */
+        -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+        transform: rotate(180deg);
     }
 }
 
@@ -416,7 +422,7 @@ img.loading {
 
 .vachan-next-icon span:after {
     content: '';
-    background-image: url(../img/portfolio/vachan/8.png);
+    background-image: url(../img/portfolio/vachan/12.png);
     position: absolute;
     width: 25px;
     height: 64px;
@@ -424,6 +430,9 @@ img.loading {
     vertical-align: center;
     top: -23px;
     right: 75px;
+     -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
 }
 
 .vachan-cont-padd {

@@ -1239,7 +1239,9 @@ p {
 .bold-font {
     font-family: 'gothamBold';
 }
-
+.weight-bold{
+    font-weight:600;
+}
 .design {
     h1 {
         font-family: 'gothamBold';
@@ -2834,3 +2836,17 @@ input:-webkit-autofill {
 .myhidden-lg {
     display: none;
 }
+//scss for thankyou
+   .thankyou {
+       h2{
+   color: black;
+    margin: 250px 0 0 0;
+    text-align: center;
+   }
+   p{
+           color: black;
+    text-align: center;
+    margin-top: 20px;
+        font-size: 20px;
+   } 
+   }

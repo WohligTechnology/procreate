@@ -68,10 +68,6 @@ myApp.controller('ContactCtrl', function ($scope, $state, toastr, TemplateServic
         if (data && data.email != null) {
             // toastr.success("Your message has been delivered to admin");
             $scope.formComplete = true;
-            $timeout(function () {
-                $scope.formComplete = false;
-                // $scope.message = "Thank you for submitting the form";
-            }, 3500)
             // console.log($scope.form);
             $scope.form = {};
             // $scope.form.username.$touched(false);
@@ -97,7 +93,10 @@ myApp.controller('ContactCtrl', function ($scope, $state, toastr, TemplateServic
                     }
                 }
             });
-
+            var url = $state.href('thankyou', {
+                parameter: "parameter"
+            });
+            window.open(url, "popup","width=900,height=600,left=10,top=150");
         } else {
             console.log("******** inside sendMails *********", data);
             console.log("******** inside sendMail *********", data);

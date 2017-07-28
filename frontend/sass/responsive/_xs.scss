@@ -191,11 +191,11 @@
           display: none;
       }
       .ml {
-          margin-left: 0px;
+          margin-left: -11px;
       }
       .bg-brown p {
           margin: 0px 0px 23px 0px;
-          text-align: center;
+          text-align: left;
           padding-left: 0px;
           padding-bottom: 20px;
       }
@@ -203,6 +203,11 @@
           padding-left: 0px;
           font-size: 14px;
           margin: 20px 0px 10px 0;
+          text-align: left;
+      }
+      .about p{
+          text-align: left;
+          padding: 0 10px;
       }
       .mart30 {
           margin-top: 30px;
@@ -228,6 +233,7 @@
       }
       .bg-blue h4 {
           line-height: 20px;
+          text-align: left;
       }
       .bg-blue .flexslider .flex-direction-nav .flex-prev {
           //  @include transform( rotate(90deg));
@@ -382,6 +388,16 @@
           margin: 0px;
           padding: 5px 25px;
       } // doycare start
+      .padd-trbt{
+              padding: 10px 10px 51px 10px;
+      }
+      .main-banner p{
+          text-align: left;
+          padding: 0 10px;
+      }
+      .portfolio-title{
+          text-align: left;
+      }
       .mar-tr {
           margin-top: 57px;
           margin-right: 3px;
@@ -391,6 +407,16 @@
           padding-top: 56px;
           padding-left: 15px;
           width: 60%;
+      }
+      .doy-care-soap h6{
+          padding-left: 0px;
+      }
+      .doy-care-soap p{
+          padding-left: 0px;
+      }
+      .mob-margin{
+              margin-left: 10px;
+             margin-right: 10px;
       }
       .inno-content-padd {
           padding: 12px 37px 0px 10px;
@@ -413,25 +439,29 @@
           margin-top: 35px;
       }
       .visual-cont-padd {
-          padding: 15px 10px 33px 10px;
+          padding: 15px 0px 33px 0px;
       }
       .marb200 {
           margin-bottom: 80px;
       }
       .next-icon {
-          margin-top: 50px;
+        //   margin-top: 50px;
       }
       .next-icon span {
           //   margin-right: 28px;
           font-size: 14px;
-          margin-left: 90px;
+         margin-right: 40px;
       }
-      .next-icon span:after {
-          top: 31px;
-          right: 35px;
-      }
+     .next-icon span:after {
+    top: -25px;
+    right: 19px;
+    width:15px;
+}
+.previ-icon span:before{
+    width:15px;
+}
       .previ-icon span {
-          margin-left: 90px;
+          margin-left: 40px;
           font-size: 14px;
       }
       .mar-t40 {
@@ -450,7 +480,26 @@
       }
       .about h4 {
           font-size: 20px;
-      } // good start
+          text-align: left;
+      } 
+      .about h3{
+          text-align: left;
+          padding: 0 10px;
+      }
+          // good start
+          .good-bg h3 ,.good-bg h4{
+              text-align: left;
+              padding: 0 10px;
+          }
+          .good-bg p{
+               text-align: left;
+          }
+          .new-brand,.new-brand-para p{
+              padding: 0px 10px;
+          }
+.strategy {
+    margin-bottom: 50px;
+}
       .objective-padd {
           padding: 20px 10px 0 10px;
       }
@@ -467,19 +516,19 @@
           padding: 0px 10px 0 10px;
       } // arch start
       .next-iconarch {
-          margin-top: 50px;
+          margin-top: 0px;
       }
       .next-iconarch span:after {
-          top: 31px;
-          right: 35px;
+           top: -25px;
+    right: 22px;
       }
       .next-iconarch span {
-          margin-left: 90px;
+          margin-right: 40px;
           font-size: 14px;
       }
       .previ-iconarch span {
           font-size: 14px;
-          margin-left: 90px;
+          margin-left: 40px;
       }
       .img-banner-padd {
           padding: 40px 30px;
@@ -507,6 +556,20 @@
       .padd-t230 {
           display: none;
       } //vachan
+.vachan-inside-p {
+    padding: 0 10px;
+}
+.padd-mob-left{
+padding: 0 !important;
+}
+      .vachan-title-first,.vachan-title{
+          text-align: left;
+          padding: 0 10px;
+      }
+        .vachan h5{
+            text-align: left;
+              padding: 0 10px;
+        }
       .inno-content-padd {
           display: block;
       }
@@ -516,23 +579,33 @@
       .padd-b {
           padding-bottom: 30px;
       }
-      .visual-cont-padd {
-          padding: 15px 10px 0px 10px;
-      }
+    //   .visual-cont-padd {
+    //       padding: 15px 0px 0px 0px;
+    //   }
       .objective {
           margin-bottom: 40px;
           margin-top: 40px;
       }
-      .vachan-next-icon {
-          margin-top: 50px;
-          margin-left: 60px;
-      }
+     
       .vachan-previ-icon {
-          margin-left: 60px;
+          margin-left: 45px !important;
       }
+
       .vachan-next-icon span:after {
-          top: 31px;
-      } //contact
+    top: -25px;
+    right: 30px;
+    width:15px;
+}
+.vachan-previ-icon span:before{
+     width:15px;
+}
+.vachan-next-icon span{
+        margin-right: 50px !important;
+}
+       //contact
+       .contact-bg-blue-text p{
+           text-align: left;
+       }
       .contact-bannner {
           background-image: url("../img/contact/7.jpg");
           width: 100%;
@@ -541,4 +614,35 @@
           background-repeat: no-repeat;
           background-position: center top;
       }
-  }
+      .contact-bannner-text{
+              margin-top: 30%;
+      }
+      //golden-arc
+      .golden-arch h3,.mobile-align{
+          text-align: left;
+      }
+      //sport
+      .pdd10 {
+    padding: 10px 10px;
+}
+     .paddmob-0{
+    padding:0
+}
+     .robust h4{
+         text-align: left;
+    padding: 18px 20px;
+     }
+     .robust h2 {
+    font-size: 22px;
+    padding: 20px 20px;
+    text-align: left;
+}
+     .robust h3 {
+    padding: 25px 20px;
+    text-align: left;
+}
+.previ-iconarch span:before,.next-iconarch span:after{
+    width:15px;
+}
+}
+  

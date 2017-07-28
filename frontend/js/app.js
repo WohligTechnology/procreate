@@ -36,7 +36,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             templateUrl: tempateURL,
             controller: 'AboutCtrl'
         })
-
+  .state('thankyou', {
+            url: "/thankyou",
+            templateUrl: tempateURL,
+            controller: 'ThankYouCtrl'
+        })
         // .state('offering', {
         //     url: "/offering",
         //     templateUrl: tempateURL,
