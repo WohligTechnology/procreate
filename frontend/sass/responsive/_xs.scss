@@ -397,7 +397,7 @@
       }
       .main-banner p{
           text-align: left;
-          padding: 0 10px;
+         // padding: 0 5px;
       }
       .portfolio-title{
           text-align: left;
@@ -426,7 +426,7 @@
           padding: 12px 37px 0px 10px;
       }
       .design-cont-padd {
-          padding: 10px 40px 0px 10px;
+          padding: 10px 40px 0px 5px;
       }
       .inno-content-padd {
           padding: 20px 37px 0px 10px;
@@ -434,6 +434,9 @@
       .paddl {
           padding-left: 30px;
           padding-top: 50px;
+      }
+      .padd-mob{
+padding: 0 5px;
       }
       .geness-cont-padd {
           padding-left: 10px;
@@ -493,22 +496,22 @@
           // good start
           .good-bg h3 ,.good-bg h4{
               text-align: left;
-              padding: 0 10px;
+              padding: 0 5px;
           }
           .good-bg p{
                text-align: left;
           }
           .new-brand,.new-brand-para p{
-              padding: 0px 10px;
+              padding: 0px 5px;
           }
 .strategy {
     margin-bottom: 50px;
 }
       .objective-padd {
-          padding: 20px 10px 0 10px;
+          padding: 20px 5px 0 5px;
       }
       .challenge-padd {
-          padding: 0px 10px 0 10px;
+          padding: 0px 5px 0 5px;
       }
       .objective {
           margin-bottom: 10px;
@@ -517,7 +520,7 @@
           margin-top: 0px;
       }
       .strategy-padd {
-          padding: 0px 10px 0 10px;
+          padding: 0px 5px 0 5px !important;
       } // arch start
       .next-iconarch {
           margin-top: 0px;
@@ -538,10 +541,10 @@
           padding: 40px 30px;
       }
       .inno-content-padd {
-          padding: 10px 10px 0px 10px;
+          padding: 10px 5px 0px 5px;
       }
       .design-cont-padd {
-          padding: 0px 10px 0px 10px;
+          padding: 0px 5px 0px 5px !important;
       }
       .img-padd {
           padding: 65px 30px;
@@ -566,13 +569,19 @@
 .padd-mob-left{
 padding: 0 !important;
 }
-      .vachan-title-first,.vachan-title{
+      .vachan-title-first{
           text-align: left;
-          padding: 0 10px;
+          padding: 0 5px;
+      }
+      .new-redesign{
+          padding: 0 5px;
       }
         .vachan h5{
             text-align: left;
-              padding: 0 10px;
+              padding: 0 5px;
+        }
+        .banner-inside-content {
+padding: 0 5px;
         }
       .inno-content-padd {
           display: block;
@@ -627,7 +636,7 @@ padding: 0 !important;
       }
       //sport
       .pdd10 {
-    padding: 10px 10px;
+    padding: 10px 5px;
 }
      .paddmob-0{
     padding:0

@@ -14438,8 +14438,7 @@ img.loading {
   .padd-trbt {
     padding: 10px 10px 51px 10px; }
   .main-banner p {
-    text-align: left;
-    padding: 0 10px; }
+    text-align: left; }
   .portfolio-title {
     text-align: left; }
   .mar-tr {
@@ -14460,12 +14459,14 @@ img.loading {
   .inno-content-padd {
     padding: 12px 37px 0px 10px; }
   .design-cont-padd {
-    padding: 10px 40px 0px 10px; }
+    padding: 10px 40px 0px 5px; }
   .inno-content-padd {
     padding: 20px 37px 0px 10px; }
   .paddl {
     padding-left: 30px;
     padding-top: 50px; }
+  .padd-mob {
+    padding: 0 5px; }
   .geness-cont-padd {
     padding-left: 10px;
     padding-left: 10px; }
@@ -14503,23 +14504,23 @@ img.loading {
     padding: 0 10px; }
   .good-bg h3, .good-bg h4 {
     text-align: left;
-    padding: 0 10px; }
+    padding: 0 5px; }
   .good-bg p {
     text-align: left; }
   .new-brand, .new-brand-para p {
-    padding: 0px 10px; }
+    padding: 0px 5px; }
   .strategy {
     margin-bottom: 50px; }
   .objective-padd {
-    padding: 20px 10px 0 10px; }
+    padding: 20px 5px 0 5px; }
   .challenge-padd {
-    padding: 0px 10px 0 10px; }
+    padding: 0px 5px 0 5px; }
   .objective {
     margin-bottom: 10px; }
   .strategy img {
     margin-top: 0px; }
   .strategy-padd {
-    padding: 0px 10px 0 10px; }
+    padding: 0px 5px 0 5px !important; }
   .next-iconarch {
     margin-top: 0px; }
   .next-iconarch span:after {
@@ -14534,9 +14535,9 @@ img.loading {
   .img-banner-padd {
     padding: 40px 30px; }
   .inno-content-padd {
-    padding: 10px 10px 0px 10px; }
+    padding: 10px 5px 0px 5px; }
   .design-cont-padd {
-    padding: 0px 10px 0px 10px; }
+    padding: 0px 5px 0px 5px !important; }
   .img-padd {
     padding: 65px 30px; }
   .sg-img-padd2 {
@@ -14551,12 +14552,16 @@ img.loading {
     padding: 0 10px; }
   .padd-mob-left {
     padding: 0 !important; }
-  .vachan-title-first, .vachan-title {
+  .vachan-title-first {
     text-align: left;
-    padding: 0 10px; }
+    padding: 0 5px; }
+  .new-redesign {
+    padding: 0 5px; }
   .vachan h5 {
     text-align: left;
-    padding: 0 10px; }
+    padding: 0 5px; }
+  .banner-inside-content {
+    padding: 0 5px; }
   .inno-content-padd {
     display: block; }
   .mart20 {
@@ -14590,7 +14595,7 @@ img.loading {
   .golden-arch h3, .mobile-align {
     text-align: left; }
   .pdd10 {
-    padding: 10px 10px; }
+    padding: 10px 5px; }
   .paddmob-0 {
     padding: 0; }
   .robust h4 {
