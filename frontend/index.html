@@ -8,49 +8,29 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{template.description}}">
-    <meta name="keywords" content="{{template.keywords}}">
+     <meta name="keywords" content="{{template.keywords}}">
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.ico" />
 
-    <title ng-bind="template.title"></title>
+       <title ng-bind="template.title"></title> 
+     
 
-    <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js">
-    </script> 
-        <![endif]-->
-    <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js">
-    </script> <![endif]-->
+    <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <![endif]-->
+    <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <![endif]-->
 </head>
 
 <body>
-    <div class="repeated-item loadedContent" ui-view></div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT-bJH_O9-AA9iJSaFh0QWvD0rSgByY8M">
+    </script>
+    <div class="repeated-item" ui-view></div>
 
-<div class="loaders" style="background:#fff;z-index:99999;text-align: center;position:fixed;top:0;left:0;bottom:0;right:0">
-    <div style="position:relative;height:100vh;">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-7">
-                <div style="position:relative;height:100vh;text-align:right;">
-                    <h2 noloading="true" style="color:#00928d;position:absolute;top:40%;transform:translateY(-50%);width:100%;" class="avenir-medium">
-                        <div><span loading-text></span></div>
-                        <div><span loading-text1></span></div>
-                        <div><span loading-text2></span></div>
-                        <div><span loading-text3></span></div>
-                    </h2>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-5">
-                <div style="position:relative;height:100vh;text-align:right;">
-                    <div class="img-loader" style="position:absolute;top:50%;transform:translateY(-50%);left:00">
-                        <img src="img/loader-pro.png" alt="Procreate" style="width:100%;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-    <link rel="stylesheet" type="text/css" href="css/import.css" />
+    <link rel="stylesheet" type="text/css" href="css/production.css" />
+
+  
+
     <script>
-        var adminurl = "http://wohlig.io:1337/api/";
+        var adminurl = "https://procreatebranding.com/api/";
         var isproduction = true;
         var chintan = function (content) {
             console.log("%c ---------------------------------------", 'background: #222; color: #bada55');
@@ -58,111 +38,28 @@
             console.log("%c ---------------------------------------", 'background: #222; color: #bada55');
         };
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBT-bJH_O9-AA9iJSaFh0QWvD0rSgByY8M">
+    <script src="js/production.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            setTimeout(function () {
+                new WOW().init();
+            }, 3000);
+        });
     </script>
-    
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
-        
-        <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-        
-        <script src="bower_components/flexslider/jquery.flexslider-min.js"></script>
-        
-        <script src="bower_components/wow/dist/wow.min.js"></script>
-        
-        <script src="bower_components/swiper/dist/js/swiper.jquery.js"></script>
-        
-        <script src="bower_components/fancybox/dist/jquery.fancybox.js"></script>
-        
-        <script src="bower_components/smart-app-banner/smart-app-banner.js"></script>
-        
-        <script src="bower_components/moment/min/moment.min.js"></script>
-        
-        <script src="bower_components/typed.js/dist/typed.min.js"></script>
-        
-        <script src="bower_components/angular/angular.js"></script>
-        
-        <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
-        
-        <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
-        
-        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-        
-        <script src="bower_components/angular-flexslider/angular-flexslider.js"></script>
-        
-        <script src="bower_components/angular-translate/angular-translate.js"></script>
-        
-        <script src="bower_components/lodash/lodash.js"></script>
-        
-        <script src="bower_components/angulartics/dist/angulartics.min.js"></script>
-        
-        <script src="bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js"></script>
-        
-        <script src="bower_components/angular-ui-swiper/dist/angular-ui-swiper.js"></script>
-        
-        <script src="bower_components/angular-scroll/angular-scroll.min.js"></script>
-        
-        <script src="bower_components/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
-        
-        <script src="frontend/js/app.js"></script>
-        
-        <script src="frontend/js/languages/language.js"></script>
-        
-        <script src="frontend/js/directives/directive.js"></script>
-        
-        <script src="frontend/js/filters/filter.js"></script>
-        
-        <script src="frontend/js/services/template.js"></script>
-        
-        <script src="frontend/js/factories/navigation.js"></script>
-        
-        <script src="frontend/js/factories/api.js"></script>
-        
-        <script src="frontend/js/controllers/controller.js"></script>
-        
-        <script src="frontend/js/controllers/approach.js"></script>
-        
-        <script src="frontend/js/controllers/portfolio.js"></script>
-        
-        <script src="frontend/js/controllers/good.js"></script>
-        
-        <script src="frontend/js/controllers/arch.js"></script>
-        
-        <script src="frontend/js/controllers/doycare.js"></script>
-        
-        <script src="frontend/js/controllers/offering.js"></script>
-        
-        <script src="frontend/js/controllers/contact.js"></script>
-        
-        <script src="frontend/js/controllers/vachan.js"></script>
-        
-          <script src="frontend/js/controllers/thankyou.js"></script>
-        
-        <script src="frontend/js/controllers/sgsports.js"></script>
-        
-        <script src="frontend/js/controllers/header-controller.js"></script>
-        
-        <script src="frontend/js/controllers/language-controller.js"></script>
-        
-  <!--//loader-->
-  <script>
-      $(document).ready(function () {
-      console.log("Loaded");
-      setTimeout(function(){ 
-        $("body > .loaders").hide(100);
-      $("body > .loadedContent").fadeIn(2000); 
-    }, 10000);
-      
-    });
 
-  </script>
-  <!--//loader end-->
-            <script>
-                $(document).ready(function () {
-                    setTimeout(function () {
-                        new WOW().init();
-                    }, 3000);
-                });
-            </script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102924229-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
 </body>
 
 </html>
