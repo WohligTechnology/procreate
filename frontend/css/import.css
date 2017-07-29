@@ -14250,6 +14250,8 @@ img.loading {
     margin-right: 10px !important; }
   footer .talk {
     padding: 0px; }
+  .mt30-mobile {
+    margin: 10px 6px 0 6px; }
   .first-slider .flexslider .flex-direction-nav .flex-nav-prev a:before {
     width: 18px;
     height: 95px;
@@ -14352,11 +14354,12 @@ img.loading {
   .bg-blue .mar-top-bot {
     margin-left: 5px; }
   .ml-25 {
-    text-align: center; }
+    text-align: center;
+    padding: 0 5px; }
   .image-circles {
     padding-top: 30px; }
   .pdd45 {
-    padding: 20px 0; }
+    padding: 20px 5px !important; }
   .bg-blue .border {
     width: 92%; }
   .fancybox-title-float-wrap {
