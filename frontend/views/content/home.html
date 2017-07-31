@@ -1,427 +1,449 @@
-<section class="first-slider">
-    <flex-slider flex-slide="myslide in inspireImg track by $index" animation="fade" animationloop="true" move="1" slideshow-Speed="3000"
-        pauseOnHover="true" prev-text="" next-text="" animation="slide">
-        <li class="li-color">
-            <a ui-sref="{{myslide.link}}">
-            <img ng-src="{{myslide.img}}" class="posi-rel hidden-xs">
-             <img ng-src="{{myslide.img2}}" class="posi-rel hidden-lg hidden-sm hidden-md">
-          </a>
-        </li>
-    </flex-slider>
-</section>
-<section>
-    <div class="bg-brown">
-        <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 col-sm-5 col-xs-12  ml">
-                        <div class="awesome wow bounceInLeft" data-wow-duration="3s">
-                            <div class="brand-design-logo">
-                                <img src="img/homelogos/logo.png" alt="Procreate" class="img-responsive">
-                            </div>
+<div class="homepage">
+    <!-- LOADER -->
+    <div class="loaders" style="background:#fff;z-index:99999;text-align: center;position:fixed;top:0;left:0;bottom:0;right:0">
+        <div style="position:relative;height:100vh;">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-7">
+                    <div style="position:relative;height:100vh;text-align:right;">
+                        <div class="">
+                            <h2 noloading="true" style="color:#00928d;position:absolute;top:40%;transform:translateY(-50%);width:100%; height: 250px" class="avenir-medium">
+                        <div><span loading-text></span></div>
+                        <div><span loading-text1></span></div>
+                        <div><span loading-text2></span></div>
+                        <div><span loading-text3></span></div>
+                    </h2>
                         </div>
                     </div>
-                    <div class="col-md-1 col-sm-1 col-xs-12  hidden-xs ">
-                        <div class="mt15  wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">
-                            <div class="trans-rotate mar-l25">
-                                <img src="img/homepage/44.png" alt="Procreate" class=" arrow-icon">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-8 col-sm-6 col-xs-12  wow bounceInRight" data-wow-duration="3s">
-                        <div class="bg-brown-p ml">
-                            <p class="mar-t20">We are a Strategic Design company. As Design Specialist, we offer Integrated Design solutions
-                                that cover branding & plays a vital design role. We provide awesome humanised designs!</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-5">
+                    <div style="position:relative;height:100vh;text-align:right;">
+                        <div class="img-loader" style="position:absolute;top:50%;transform:translateY(-50%);left:00">
+                            <img src="img/loader-pro.png" alt="Procreate" style="width:100%;">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-<section class="circle">
-    <div class="container">
-        <div class="image-circles hidden-xs">
-            <img src="img/homepage/circles.png" class="full-width " alt="circles">
-            <div class="text-color pdd45">
-                <div class="w20  wow flipInX" data-wow-duration="4s">
-                    <div class="border-bottom">
-                        <h4 class="color-darkblue fs21">Mainstream <br> Successes</h4>
-                    </div>
-                    <p>Most of our work has found mainstream market success whether it's cluttered or competitive market or
-                        a unique product. we help you jumpstart your brainchild.
-                    </p>
-                </div>
-                <div class="w20  wow flipInX" data-wow-duration="4s">
-                    <div class="border-bottom">
-                        <h4 class="color-lightgreen fs21"> Brand Turnaround <br> Specialists</h4>
-                    </div>
-                    <p>Whether be requirement in brand makeover or new ones, we provide you a quick turnaround and end-to-end
-                        branding solutions that full-fill your needs.
-                    </p>
-                </div>
-                <div class="w20 wow flipInX" data-wow-duration="4s">
-                    <div class="border-bottom">
-                        <h4 class="color-skyblue fs21">Disruption Through Design</h4>
-                    </div>
-                    <p>In this hyper cluttered market we assist companies achieve market disruption through strategic design.When
-                        your competitors zig. we zag! </p>
-                </div>
-                <div class="w20 wow flipInX" data-wow-duration="4s">
-                    <div class="border-bottom">
-                        <h4 class="color-darkgreen fs21">Humanized Approach Brand Design </h4>
-                    </div>
-                    <p>Humans are predictably irrational. so we make our designs go through intuitive emotional and logical
-                        filters. our designs are simple, meaningfull and highly Humanized. </p>
-                </div>
-                <div>
-                    <a ui-sref="approach">Know more  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                </div>
-            </div>
-        </div>
-        <div class="hidden-lg hidden-md hidden-sm">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="image-circles">
-                        <img src="img/homepage/1circle.png" alt="Procreate" class="full-width ">
-                        <div class="text-color pdd45">
-                            <div class="w20  wow flipInX" data-wow-duration="4s">
-                                <div class="border-bottom">
-                                    <h4 class="color-darkblue fs21">Mainstream <br> Successes</h4>
-                                </div>
-                                <p>Most of our work has found mainstream market success whether it's cluttered or competitive
-                                    market or a unique product. we help you jumpstart your brainchild.
-                                </p>
-                            </div>
-                            <div class="w20  wow flipInX" data-wow-duration="4s">
-                                <div class="border-bottom">
-                                    <h4 class="color-lightgreen fs21"> Brand Turnaround <br> Specialists</h4>
-                                </div>
-                                <p>Whether be requirement in brand makeover or new ones, we provide you a quick turnaround and
-                                    end-to-end branding solutions that full-fill your needs.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="">
-                        <img src="img/homepage/2circle.png" alt="Procreate" class="full-width ">
-                        <div class="text-color pdd45">
-                            <div class="w20 wow flipInX" data-wow-duration="4s">
-                                <!--<img src="img/homepage/36.png" alt="" class="circle-img mar-left2 img-responsive">-->
-                                <div class="border-bottom2">
-                                    <h4 class="color-skyblue fs21">Disruption Through Design</h4>
-                                </div>
-                                <p>In this hyper cluttered market we assist companies achieve market disruption through strategic
-                                    design.When your competitors zig. we zag! </p>
-                            </div>
-                            <div class="w20 wow flipInX" data-wow-duration="4s">
-                                <!--<img src="img/homepage/33.png " alt="" class="circle-img mar-left3 img-responsive">-->
-                                <div class="border-bottom2">
-                                    <h4 class="color-darkgreen fs21">Humanized Approach Brand Design </h4>
-                                </div>
-                                <p>Humans are predictably irrational. so we make our designs go through intuitive emotional
-                                    and logical filters. our designs are simple, meaningfull and highly Humanized. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="bg-yellow">
-        <div class="container">
-            <div class="capabilities-cont">
-                <div class="mt30 mt30-mobile ">
-                    <h1>Capabilities</h1>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="capablities-list wow bounceInLeft " data-wow-duration="3s">
-                                <h4 class="">BRANDING</h4>
-                                <h6>CONSUMER / CORPORATE</h6>
-                                <ul class="list-unstyled padd-t ">
-                                    <!--<li>CONSUMER / CORPORATE</li>-->
-                                    <li>Identity Design</li>
-                                    <li>Brand Equity + Vision</li>
-                                    <li>Brand Naming + Voice</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="capablities-list wow bounceInLeft " data-wow-duration="3s">
-                                <h4>PACKAGE DESIGN</h4>
-                                <ul class="list-unstyled">
-                                    <li>Brand Package Design</li>
-                                    <li>Product Line Extensions</li>
-                                    <li>Package Production</li>
-                                    <li>Visual Brand Architecture</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="capablities-list wow bounceInLeft " data-wow-duration="3s">
-                                <h4>RETAIL & ENVIRONMENT</h4>
-                                <ul class="list-unstyled">
-                                    <li>Interior + Exterior Design</li>
-                                    <li>POSM + Signage + Retail Design</li>
-                                    <li>Trade Show Design</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="capablities-list wow bounceInRight " data-wow-duration="3s">
-                                <h4 class="">BRAND STRATEGY</h4>
-                                <ul class="list-unstyled ">
-                                    <li>Brand Idea / Positioning</li>
-                                    <li>Brand Architecture, Foundation</li>
-                                    <li>Brand Portfolio Extension</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="capablities-list wow bounceInRight" data-wow-duration="3s">
-                                <h4>DIGITAL DESIGN</h4>
-                                <ul class="list-unstyled">
-                                    <li>User Experience & UI design </li>
-                                    <li>Digital Content Design</li>
-                                    <li>Mobile Site & App Design</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6 col-xs-12">
-                            <div class="capablities-list wow bounceInRight" data-wow-duration="3s">
-                                <h4>BRAND COMMUNICATION</h4>
-                                <ul class="list-unstyled">
-                                    <li>Brand Collaterals</li>
-                                    <li>Press, Posters</li>
-                                    <li>Danglers, Hoardings</li>
 
-                                    <li>Publication Design</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-sm-12 col-xs-12">
-                            <div>
-                                <a ui-sref="offering">Know more  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="">
-    <div class="showcase  hidden-xs  ">
-        <div class="swiper-container ">
-            <div class="swiper-wrapper ">
-                <li ng-repeat="myslide in inspireImg2 track by $index" class="swiper-slide text-center {{myslide.overClass}}">
+    <!--//loader end-->
+    <!-- LOADER END-->
+    <div class="homepage-section loadedContent">
+        <section class="first-slider">
+            <flex-slider flex-slide="myslide in inspireImg track by $index" animation="fade" animationloop="true" move="1" slideshow-Speed="3000" pauseOnHover="true" prev-text="" next-text="" animation="slide">
+                <li class="li-color">
                     <a ui-sref="{{myslide.link}}">
-                        <figure>
-                            <img ng-src="{{myslide.img}}" class="img-responsive iconBlue" alt="Procreate">
-                            <div class="overlayinggg mycolors">
-                                <h4 class="color-white"> <strong>{{myslide.title1}}</strong></h4>
-                            </div>
-                        </figure>
+                        <img ng-src="{{myslide.img}}" class="posi-rel hidden-xs">
+                        <img ng-src="{{myslide.img2}}" class="posi-rel hidden-lg hidden-sm hidden-md">
                     </a>
                 </li>
-            </div>
-        </div>
-    </div>
-    <div class="container hidden-lg hidden-md hidden-sm">
-        <div class="row">
-            <div class="col-xs-6 padding0">
-                <div>
-                    <figure>
-                        <img src="img/homepage/slider-xs/1.jpg" alt="Procreate" class="img-responsive" ui-sref="good">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-xs-6 padding0">
-                <div>
-                    <figure>
-                        <img src="img/homepage/slider-xs/2.jpg" alt="Procreate" class="img-responsive" ui-sref="vachan">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-xs-6 padding0">
-                <div>
-                    <figure>
-                        <img src="img/homepage/slider-xs/3.jpg" alt="Procreate" class="img-responsive" ui-sref="portfolio">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-xs-6 padding0">
-                <div>
-                    <figure>
-                        <img src="img/homepage/slider-xs/4.jpg" alt="Procreate" class="img-responsive" ui-sref="arch">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-xs-6 padding0">
-                <div>
-                    <figure>
-                        <img src="img/homepage/slider-xs/8.jpg" alt="Procreate" class="img-responsive" ui-sref="sgsports">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-xs-6 padding0">
-                <div>
-                    <figure>
-                        <img src="img/homepage/slider-xs/7.jpg" alt="Procreate" class="img-responsive" ui-sref="doycare">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-xs-6 padding0">
-                <div>
-                    <figure>
-                        <img src="img/homepage/slider-xs/6.jpg" alt="Procreate" class="img-responsive" ui-sref="portfolio">
-                    </figure>
-                </div>
-            </div>
-            <div class="col-xs-6 padding0">
-                <div>
-                    <figure>
-                        <img src="img/homepage/slider-xs/5.jpg" alt="Procreate" class="img-responsive" ui-sref="portfolio">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section>
-    <div class="bg-blue">
-        <div class="container">
-            <div class="row">
-                <div class=" col-md-3 col-sm-3 ">
-                    <div class="mar-t50 ml-25 ">
-                        <h4>WHAT OUR </h4>
-                        <h4> CLIENTS SAY</h4>
-                        <!--<h4 class="fbold">ABOUT US</h4>-->
-                    </div>
-                </div>
-                <div class=" col-md-9 col-sm-9">
-                    <div class="mar-top-bot">
-                        <flex-slider animation="fade" flex-slide="myslide in homeText track by $index" animationLoop="true" slideshow-Speed="3000"
-                            prev-text="" next-text="" max-items="1" item-width="200" item-margin="0" pauseOnHover="true">
-                            <li class="li-color">
-                                <div class="gradient client-say">
-                                    <h3>{{myslide.title1}}</h3>
-                                    <div class="border">
-                                        <div class="circle "></div>
+            </flex-slider>
+        </section>
+        <section>
+            <div class="bg-brown">
+                <div class="container">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-3 col-sm-5 col-xs-12  ml">
+                                <div class="awesome wow bounceInLeft" data-wow-duration="3s">
+                                    <div class="brand-design-logo">
+                                        <img src="img/homelogos/logo.png" alt="Procreate" class="img-responsive">
                                     </div>
-                                    <p class="fs-12">{{myslide.title2}}</p>
                                 </div>
-                            </li>
-                        </flex-slider>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="icon-slider">
-    <div class="relative">
-        <div class="container">
-            <div class="row ">
-                <div class="mar-lt">
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Unilever.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/ITC.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Parle.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Marico.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Signature.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Nerolac.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Hershey's.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Dabur.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Goma.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/8.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/UPL.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/Mapro.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd-sg">
-                            <img src="img/homelogos/4.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/2.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/3.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/6.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd">
-                            <img src="img/homelogos/5.png" alt="Procreate" class="img-responsive">
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-sm-4 col-xs-6">
-                        <div class="icon-padd mar-b">
-                            <img src="img/homelogos/1.png" alt="Procreate" class="img-responsive">
+                            </div>
+                            <div class="col-md-1 col-sm-1 col-xs-12  hidden-xs ">
+                                <div class="mt15  wow fadeIn" data-wow-duration="3s" data-wow-delay="1.5s">
+                                    <div class="trans-rotate mar-l25">
+                                        <img src="img/homepage/44.png" alt="Procreate" class=" arrow-icon">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-sm-6 col-xs-12  wow bounceInRight" data-wow-duration="3s">
+                                <div class="bg-brown-p ml">
+                                    <p class="mar-t20">We are a Strategic Design company. As Design Specialist, we offer Integrated Design solutions that cover branding & plays a vital design role. We provide awesome humanised designs!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="circle">
+            <div class="container">
+                <div class="image-circles hidden-xs">
+                    <img src="img/homepage/circles.png" class="full-width " alt="circles">
+                    <div class="text-color pdd45">
+                        <div class="w20  wow flipInX" data-wow-duration="4s">
+                            <div class="border-bottom">
+                                <h4 class="color-darkblue fs21">Mainstream <br> Successes</h4>
+                            </div>
+                            <p>Most of our work has found mainstream market success whether it's cluttered or competitive market or a unique product. we help you jumpstart your brainchild.
+                            </p>
+                        </div>
+                        <div class="w20  wow flipInX" data-wow-duration="4s">
+                            <div class="border-bottom">
+                                <h4 class="color-lightgreen fs21"> Brand Turnaround <br> Specialists</h4>
+                            </div>
+                            <p>Whether be requirement in brand makeover or new ones, we provide you a quick turnaround and end-to-end branding solutions that full-fill your needs.
+                            </p>
+                        </div>
+                        <div class="w20 wow flipInX" data-wow-duration="4s">
+                            <div class="border-bottom">
+                                <h4 class="color-skyblue fs21">Disruption Through Design</h4>
+                            </div>
+                            <p>In this hyper cluttered market we assist companies achieve market disruption through strategic design.When your competitors zig. we zag! </p>
+                        </div>
+                        <div class="w20 wow flipInX" data-wow-duration="4s">
+                            <div class="border-bottom">
+                                <h4 class="color-darkgreen fs21">Humanized Approach Brand Design </h4>
+                            </div>
+                            <p>Humans are predictably irrational. so we make our designs go through intuitive emotional and logical filters. our designs are simple, meaningfull and highly Humanized. </p>
+                        </div>
+                        <div>
+                            <a ui-sref="approach">Know more  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-lg hidden-md hidden-sm">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="image-circles">
+                                <img src="img/homepage/1circle.png" alt="Procreate" class="full-width ">
+                                <div class="text-color pdd45">
+                                    <div class="w20  wow flipInX" data-wow-duration="4s">
+                                        <div class="border-bottom">
+                                            <h4 class="color-darkblue fs21">Mainstream <br> Successes</h4>
+                                        </div>
+                                        <p>Most of our work has found mainstream market success whether it's cluttered or competitive market or a unique product. we help you jumpstart your brainchild.
+                                        </p>
+                                    </div>
+                                    <div class="w20  wow flipInX" data-wow-duration="4s">
+                                        <div class="border-bottom">
+                                            <h4 class="color-lightgreen fs21"> Brand Turnaround <br> Specialists</h4>
+                                        </div>
+                                        <p>Whether be requirement in brand makeover or new ones, we provide you a quick turnaround and end-to-end branding solutions that full-fill your needs.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="">
+                                <img src="img/homepage/2circle.png" alt="Procreate" class="full-width ">
+                                <div class="text-color pdd45">
+                                    <div class="w20 wow flipInX" data-wow-duration="4s">
+                                        <!--<img src="img/homepage/36.png" alt="" class="circle-img mar-left2 img-responsive">-->
+                                        <div class="border-bottom2">
+                                            <h4 class="color-skyblue fs21">Disruption Through Design</h4>
+                                        </div>
+                                        <p>In this hyper cluttered market we assist companies achieve market disruption through strategic design.When your competitors zig. we zag! </p>
+                                    </div>
+                                    <div class="w20 wow flipInX" data-wow-duration="4s">
+                                        <!--<img src="img/homepage/33.png " alt="" class="circle-img mar-left3 img-responsive">-->
+                                        <div class="border-bottom2">
+                                            <h4 class="color-darkgreen fs21">Humanized Approach Brand Design </h4>
+                                        </div>
+                                        <p>Humans are predictably irrational. so we make our designs go through intuitive emotional and logical filters. our designs are simple, meaningfull and highly Humanized. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="bg-yellow">
+                <div class="container">
+                    <div class="capabilities-cont">
+                        <div class="mt30 mt30-mobile ">
+                            <h1>Capabilities</h1>
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="capablities-list wow bounceInLeft " data-wow-duration="3s">
+                                        <h4 class="">BRANDING</h4>
+                                        <h6>CONSUMER / CORPORATE</h6>
+                                        <ul class="list-unstyled padd-t ">
+                                            <!--<li>CONSUMER / CORPORATE</li>-->
+                                            <li>Identity Design</li>
+                                            <li>Brand Equity + Vision</li>
+                                            <li>Brand Naming + Voice</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="capablities-list wow bounceInLeft " data-wow-duration="3s">
+                                        <h4>PACKAGE DESIGN</h4>
+                                        <ul class="list-unstyled">
+                                            <li>Brand Package Design</li>
+                                            <li>Product Line Extensions</li>
+                                            <li>Package Production</li>
+                                            <li>Visual Brand Architecture</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="capablities-list wow bounceInLeft " data-wow-duration="3s">
+                                        <h4>RETAIL & ENVIRONMENT</h4>
+                                        <ul class="list-unstyled">
+                                            <li>Interior + Exterior Design</li>
+                                            <li>POSM + Signage + Retail Design</li>
+                                            <li>Trade Show Design</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="capablities-list wow bounceInRight " data-wow-duration="3s">
+                                        <h4 class="">BRAND STRATEGY</h4>
+                                        <ul class="list-unstyled ">
+                                            <li>Brand Idea / Positioning</li>
+                                            <li>Brand Architecture, Foundation</li>
+                                            <li>Brand Portfolio Extension</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="capablities-list wow bounceInRight" data-wow-duration="3s">
+                                        <h4>DIGITAL DESIGN</h4>
+                                        <ul class="list-unstyled">
+                                            <li>User Experience & UI design </li>
+                                            <li>Digital Content Design</li>
+                                            <li>Mobile Site & App Design</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="capablities-list wow bounceInRight" data-wow-duration="3s">
+                                        <h4>BRAND COMMUNICATION</h4>
+                                        <ul class="list-unstyled">
+                                            <li>Brand Collaterals</li>
+                                            <li>Press, Posters</li>
+                                            <li>Danglers, Hoardings</li>
+
+                                            <li>Publication Design</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div>
+                                        <a ui-sref="offering">Know more  <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <div class="showcase  hidden-xs  ">
+                <div class="swiper-container ">
+                    <div class="swiper-wrapper ">
+                        <li ng-repeat="myslide in inspireImg2 track by $index" class="swiper-slide text-center {{myslide.overClass}}">
+                            <a ui-sref="{{myslide.link}}">
+                                <figure>
+                                    <img ng-src="{{myslide.img}}" class="img-responsive iconBlue" alt="Procreate">
+                                    <div class="overlayinggg mycolors">
+                                        <h4 class="color-white"> <strong>{{myslide.title1}}</strong></h4>
+                                    </div>
+                                </figure>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+            <div class="container hidden-lg hidden-md hidden-sm">
+                <div class="row">
+                    <div class="col-xs-6 padding0">
+                        <div>
+                            <figure>
+                                <img src="img/homepage/slider-xs/1.jpg" alt="Procreate" class="img-responsive" ui-sref="good">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 padding0">
+                        <div>
+                            <figure>
+                                <img src="img/homepage/slider-xs/2.jpg" alt="Procreate" class="img-responsive" ui-sref="vachan">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 padding0">
+                        <div>
+                            <figure>
+                                <img src="img/homepage/slider-xs/3.jpg" alt="Procreate" class="img-responsive" ui-sref="portfolio">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 padding0">
+                        <div>
+                            <figure>
+                                <img src="img/homepage/slider-xs/4.jpg" alt="Procreate" class="img-responsive" ui-sref="arch">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 padding0">
+                        <div>
+                            <figure>
+                                <img src="img/homepage/slider-xs/8.jpg" alt="Procreate" class="img-responsive" ui-sref="sgsports">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 padding0">
+                        <div>
+                            <figure>
+                                <img src="img/homepage/slider-xs/7.jpg" alt="Procreate" class="img-responsive" ui-sref="doycare">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 padding0">
+                        <div>
+                            <figure>
+                                <img src="img/homepage/slider-xs/6.jpg" alt="Procreate" class="img-responsive" ui-sref="portfolio">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 padding0">
+                        <div>
+                            <figure>
+                                <img src="img/homepage/slider-xs/5.jpg" alt="Procreate" class="img-responsive" ui-sref="portfolio">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="bg-blue">
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-md-3 col-sm-3 ">
+                            <div class="mar-t50 ml-25 ">
+                                <h4>WHAT OUR </h4>
+                                <h4> CLIENTS SAY</h4>
+                                <!--<h4 class="fbold">ABOUT US</h4>-->
+                            </div>
+                        </div>
+                        <div class=" col-md-9 col-sm-9">
+                            <div class="mar-top-bot">
+                                <flex-slider animation="fade" flex-slide="myslide in homeText track by $index" animationLoop="true" slideshow-Speed="3000" prev-text="" next-text="" max-items="1" item-width="200" item-margin="0" pauseOnHover="true">
+                                    <li class="li-color">
+                                        <div class="gradient client-say">
+                                            <h3>{{myslide.title1}}</h3>
+                                            <div class="border">
+                                                <div class="circle "></div>
+                                            </div>
+                                            <p class="fs-12">{{myslide.title2}}</p>
+                                        </div>
+                                    </li>
+                                </flex-slider>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="icon-slider">
+            <div class="relative">
+                <div class="container">
+                    <div class="row ">
+                        <div class="mar-lt">
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Unilever.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/ITC.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Parle.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Marico.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Signature.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Nerolac.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Hershey's.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Dabur.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Goma.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/8.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/UPL.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/Mapro.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd-sg">
+                                    <img src="img/homelogos/4.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/2.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/3.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/6.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd">
+                                    <img src="img/homelogos/5.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-6">
+                                <div class="icon-padd mar-b">
+                                    <img src="img/homelogos/1.png" alt="Procreate" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-</section>
+</div>
