@@ -6,6 +6,9 @@
 
   @media (max-width: $screen-xs-max) {
       // Mobile
+      .no-padd-mob{
+       padding: 0px !important;
+      }
       .loaders {
           h2 {
               font-size: 18px;
@@ -194,7 +197,7 @@
           display: none;
       }
       .ml {
-          margin-left: -11px;
+          margin-left: -15px;
       }
       .bg-brown p {
           margin: 0px 0px 23px 0px;
@@ -272,7 +275,7 @@
           padding-top: 30px;
       }
       .pdd45 {
-          padding: 20px 5px !important;
+          padding: 20px 0px !important;
       }
       .bg-blue .border {
           width: 92%;
@@ -388,12 +391,18 @@
           width: 335px;
           height: 335px;
       }
+      .mb-15{
+              margin-bottom: 18px;
+      }
       .employee-detail {
           margin: 0px;
-          padding: 5px 25px;
+          padding: 5px 5px;
+          h2,h6{
+          padding-left: 10px;
+          }
       } // doycare start
       .padd-trbt{
-              padding: 10px 10px 51px 10px;
+              padding: 10px 0px 51px 0px;
       }
       .main-banner p{
           text-align: left;
@@ -419,8 +428,8 @@
           padding-left: 0px;
       }
       .mob-margin{
-              margin-left: 10px;
-             margin-right: 10px;
+              margin-left: 0px;
+             margin-right: 0px;
       }
       .inno-content-padd {
           padding: 12px 37px 0px 10px;
@@ -436,7 +445,7 @@
           padding-top: 50px;
       }
       .padd-mob{
-padding: 0 5px;
+padding: 0px;
       }
       .geness-cont-padd {
           padding-left: 10px;
@@ -491,27 +500,27 @@ padding: 0 5px;
       } 
       .about h3{
           text-align: left;
-          padding: 0 10px;
+          padding: 0 5px;
       }
           // good start
           .good-bg h3 ,.good-bg h4{
               text-align: left;
-              padding: 0 5px;
+              padding: 0px;
           }
           .good-bg p{
                text-align: left;
           }
           .new-brand,.new-brand-para p{
-              padding: 0px 5px;
+              padding: 0px;
           }
 .strategy {
     margin-bottom: 50px;
 }
       .objective-padd {
-          padding: 20px 5px 0 5px;
+          padding: 20px 0px 0 0px;
       }
       .challenge-padd {
-          padding: 0px 5px 0 5px;
+          padding: 0px;
       }
       .objective {
           margin-bottom: 10px;
@@ -520,7 +529,7 @@ padding: 0 5px;
           margin-top: 0px;
       }
       .strategy-padd {
-          padding: 0px 5px 0 5px !important;
+          padding: 0px !important;
       } // arch start
       .next-iconarch {
           margin-top: 0px;
@@ -544,7 +553,7 @@ padding: 0 5px;
           padding: 10px 5px 0px 5px;
       }
       .design-cont-padd {
-          padding: 0px 5px 0px 5px !important;
+          padding: 0px 0px 0px 0px !important;
       }
       .img-padd {
           padding: 65px 30px;
@@ -571,17 +580,21 @@ padding: 0 !important;
 }
       .vachan-title-first{
           text-align: left;
-          padding: 0 5px;
+          padding: 0px;
       }
       .new-redesign{
-          padding: 0 5px;
+          padding: 0px;
       }
         .vachan h5{
             text-align: left;
-              padding: 0 5px;
+              padding: 0px;
+        }
+        .vachan-padd-trbt{
+             padding: 10px 0px 30px 0px;
+
         }
         .banner-inside-content {
-padding: 0 5px;
+padding: 0px;
         }
       .inno-content-padd {
           display: block;
@@ -636,22 +649,22 @@ padding: 0 5px;
       }
       //sport
       .pdd10 {
-    padding: 10px 5px;
+    padding: 10px 0px;
 }
      .paddmob-0{
     padding:0
 }
      .robust h4{
          text-align: left;
-    padding: 18px 20px;
+    padding: 18px 15px;
      }
      .robust h2 {
     font-size: 22px;
-    padding: 20px 20px;
+    padding: 20px 15px;
     text-align: left;
 }
      .robust h3 {
-    padding: 25px 20px;
+    padding: 25px 15px;
     text-align: left;
 }
 .previ-iconarch span:before,.next-iconarch span:after{
