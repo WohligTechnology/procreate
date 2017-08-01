@@ -15,38 +15,22 @@
     <title ng-bind="template.title"></title>
 
     <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js">
-    </script> 
+    </script>
         <![endif]-->
     <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js">
     </script> <![endif]-->
+
+    <style>
+     @media (max-width: $screen-sm-max){
+       #loaderText{
+         height: 80px;
+       }
+     }
+    </style>
 </head>
 
 <body>
     <div class="repeated-item loadedContent" ui-view></div>
-
-<div class="loaders" style="background:#fff;z-index:99999;text-align: center;position:fixed;top:0;left:0;bottom:0;right:0">
-    <div style="position:relative;height:100vh;">
-        <div class="row">
-            <div class="col-md-6 col-sm-6 col-xs-7">
-                <div style="position:relative;height:100vh;text-align:right;">
-                    <h2 noloading="true" style="color:#00928d;position:absolute;top:40%;transform:translateY(-50%);width:100%;" class="avenir-medium">
-                        <div><span loading-text></span></div>
-                        <div><span loading-text1></span></div>
-                        <div><span loading-text2></span></div>
-                        <div><span loading-text3></span></div>
-                    </h2>
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-6 col-xs-5">
-                <div style="position:relative;height:100vh;text-align:right;">
-                    <div class="img-loader" style="position:absolute;top:50%;transform:translateY(-50%);left:00">
-                        <img src="img/loader-pro.png" alt="Procreate" style="width:100%;">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
     <link rel="stylesheet" type="text/css" href="css/import.css" />
     <script>
@@ -63,19 +47,7 @@
     <% _.each(jsFiles,function(file) {  %>
         <script src="<%= file %>"></script>
         <% }); %>
-  <!--//loader-->
-  <script>
-      $(document).ready(function () {
-      console.log("Loaded");
-      setTimeout(function(){ 
-        $("body > .loaders").hide(100);
-      $("body > .loadedContent").fadeIn(2000); 
-    }, 10000);
-      
-    });
 
-  </script>
-  <!--//loader end-->
             <script>
                 $(document).ready(function () {
                     setTimeout(function () {

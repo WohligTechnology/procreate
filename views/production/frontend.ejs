@@ -12,11 +12,18 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="img/favicon.ico" />
 
-       <title ng-bind="template.title"></title> 
-     
+       <title ng-bind="template.title"></title>
+
 
     <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <![endif]-->
     <!--[if IE]> <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script> <![endif]-->
+    <style>
+     @media (max-width: $screen-sm-max){
+       #loaderText{
+         height: 80px;
+       }
+     }
+    </style>
 </head>
 
 <body>
@@ -27,7 +34,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/production.css" />
 
-  
+
 
     <script>
         var adminurl = "<%= ((typeof adminurl) == " undefined ") ? " " : adminurl  %>";

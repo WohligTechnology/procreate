@@ -16,7 +16,7 @@ myApp.controller('HomeCtrl', function($scope, TemplateService, NavigationService
     //     new WOW().init();
     // }, 3000);
     setTimeout(function() {
-        $(".homepage > .loaders").fadeOut(30);
+        $(".homepage > .loaders").fadeOut(10);
         $(".homepage > .loadedContent").fadeIn(100);
     }, 10000);
 
