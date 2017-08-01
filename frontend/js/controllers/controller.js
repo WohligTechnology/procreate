@@ -12,13 +12,13 @@ myApp.controller('HomeCtrl', function($scope, TemplateService, NavigationService
     $scope.refresh = function() {
         $state.reload();
     };
-    // setTimeout(function(){
-    //     new WOW().init();
-    // }, 3000);
-    // setTimeout(function() {
-    //     $(".homepage > .loaders").fadeOut(10);
-    //     $(".homepage > .loadedContent").fadeIn(100);
-    // }, 10000);
+    setTimeout(function(){
+        new WOW().init();
+    }, 3000);
+    setTimeout(function() {
+        $(".homepage > .loaders").fadeOut(10);
+        $(".homepage > .loadedContent").fadeIn(100);
+    }, 10000);
 
     $scope.$on('$viewContentLoaded', function(event) {
 
