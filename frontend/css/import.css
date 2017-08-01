@@ -14183,6 +14183,7 @@ img.loading {
   .no-padd-mob {
     padding: 0px !important; }
   .loaders h2 {
+    height: 100px !important;
     font-size: 18px; }
   .nav > li {
     text-align: center; }

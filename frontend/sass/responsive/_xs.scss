@@ -11,6 +11,7 @@
       }
       .loaders {
           h2 {
+            height: 100px !important;
               font-size: 18px;
           }
       }
@@ -191,7 +192,7 @@
           text-align: center;
       }
       .trans-rotate {
-          //   @include transform( rotate(90deg)); 
+          //   @include transform( rotate(90deg));
           //   width: 40px;
           //   margin: 0 auto;
           display: none;
@@ -411,7 +412,7 @@
       .portfolio-title{
           text-align: left;
       }
-      
+
       .mar-tr {
           margin-top: 57px;
           margin-right: 3px;
@@ -485,7 +486,7 @@ padding: 0px;
           margin-top: 56px;
       }
       .marin-l78 {
-          //  margin-left: 0px; 
+          //  margin-left: 0px;
           margin: 0 auto;
       }
       .marin-l35 {
@@ -498,7 +499,7 @@ padding: 0px;
       .about h4 {
           font-size: 20px;
           text-align: left;
-      } 
+      }
       .about h3{
           text-align: left;
           padding: 0 5px;
@@ -613,7 +614,7 @@ padding: 0px;
           margin-bottom: 40px;
           margin-top: 40px;
       }
-     
+
       .vachan-previ-icon {
           margin-left: 45px !important;
       }
@@ -672,4 +673,3 @@ padding: 0px;
     width:15px;
 }
 }
-  
